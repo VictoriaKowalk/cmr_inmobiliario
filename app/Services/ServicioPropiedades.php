@@ -19,6 +19,7 @@ class ServicioPropiedades
     public function crearPropiedad(array $datos): Propiedad
     {
         return DB::transaction(function () use ($datos): Propiedad {
+            $datos['codigo_interno'] = $this->generarCodigoInterno();
             $propiedad = Propiedad::query()->create(
                 $this->prepararDatosPropiedad($datos)
             );
@@ -41,6 +42,7 @@ class ServicioPropiedades
         array $datos
     ): Propiedad {
         return DB::transaction(function () use ($propiedad, $datos): Propiedad {
+            $datos['codigo_interno'] = $propiedad->codigo_interno;
             $propiedad->update($this->prepararDatosPropiedad($datos, $propiedad));
 
             $this->sincronizarOperaciones(
@@ -55,6 +57,35 @@ class ServicioPropiedades
             return $propiedad->refresh()
                 ->load(['operaciones', 'tipoPropiedad', 'ubicacion']);
         });
+    }
+
+    private function generarCodigoInterno(): string
+    {
+        $secuencia = DB::table('secuencias')
+            ->where('clave', 'codigo_propiedad')
+            ->lockForUpdate()
+            ->first();
+
+        $mayorExistente = Propiedad::withTrashed()
+            ->where('codigo_interno', 'like', 'K%')
+            ->get(['codigo_interno'])
+            ->map(fn (Propiedad $propiedad) => (int) preg_replace(
+                '/\D/',
+                '',
+                $propiedad->codigo_interno
+            ))
+            ->max() ?? 0;
+
+        $siguiente = max((int) $secuencia->ultimo_numero, $mayorExistente) + 1;
+
+        DB::table('secuencias')
+            ->where('clave', 'codigo_propiedad')
+            ->update([
+                'ultimo_numero' => $siguiente,
+                'updated_at' => now(),
+            ]);
+
+        return 'K'.$siguiente;
     }
 
     public function eliminarPropiedad(Propiedad $propiedad): void

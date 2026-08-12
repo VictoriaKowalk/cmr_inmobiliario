@@ -25,21 +25,51 @@
                class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
     </div>
     <div>
+        <label for="telefono" class="mb-2 block text-sm font-medium">Teléfono</label>
+        <input id="telefono" name="telefono" maxlength="50" value="{{ old('telefono', $usuario?->telefono) }}" placeholder="Ej.: 11 4000-0000" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+    </div>
+    <div>
+        <label for="celular" class="mb-2 block text-sm font-medium">Celular</label>
+        <input id="celular" name="celular" maxlength="50" value="{{ old('celular', $usuario?->celular) }}" placeholder="Ej.: 11 5000-0000" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+    </div>
+    <div class="sm:col-span-2">
+        <label for="direccion" class="mb-2 block text-sm font-medium">Dirección</label>
+        <input id="direccion" name="direccion" maxlength="255" value="{{ old('direccion', $usuario?->direccion) }}" placeholder="Calle, número, localidad" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+    </div>
+    <div>
+        <label for="dni" class="mb-2 block text-sm font-medium">DNI</label>
+        <input id="dni" name="dni" maxlength="20" inputmode="numeric" value="{{ old('dni', $usuario?->dni) }}" placeholder="Ej.: 30.000.000" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+    </div>
+    <div>
+        <label for="fecha_nacimiento" class="mb-2 block text-sm font-medium">Fecha de nacimiento</label>
+        <input id="fecha_nacimiento" name="fecha_nacimiento" type="date" max="{{ now()->toDateString() }}" value="{{ old('fecha_nacimiento', $usuario?->fecha_nacimiento?->toDateString()) }}" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+    </div>
+    <div>
         <label for="contrasenia" class="mb-2 block text-sm font-medium">
             {{ $usuario ? 'Nueva contraseña (opcional)' : 'Contraseña inicial' }}
         </label>
-        <input id="contrasenia" name="contrasenia" type="password"
-               autocomplete="new-password" @required(! $usuario)
-               class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+        <div class="user-password-field">
+            <input id="contrasenia" name="contrasenia" type="password"
+                   autocomplete="new-password" @required(! $usuario) data-password-input
+                   class="h-11 w-full border border-neutral-300 px-3 pr-12 outline-none focus:border-emerald-700">
+            <button type="button" data-password-toggle aria-label="Mostrar contraseña" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+            </button>
+        </div>
         <p class="mt-2 text-xs text-neutral-500">Mínimo 10 caracteres, mayúsculas, minúsculas y números.</p>
     </div>
     <div>
         <label for="contrasenia_confirmation" class="mb-2 block text-sm font-medium">
             Confirmar contraseña
         </label>
-        <input id="contrasenia_confirmation" name="contrasenia_confirmation"
-               type="password" autocomplete="new-password" @required(! $usuario)
-               class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+        <div class="user-password-field">
+            <input id="contrasenia_confirmation" name="contrasenia_confirmation"
+                   type="password" autocomplete="new-password" @required(! $usuario) data-password-input
+                   class="h-11 w-full border border-neutral-300 px-3 pr-12 outline-none focus:border-emerald-700">
+            <button type="button" data-password-toggle aria-label="Mostrar contraseña" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+            </button>
+        </div>
     </div>
 </div>
 

@@ -98,7 +98,7 @@ class PreparacionProduccionTest extends TestCase
 
     private function crearPropiedad(): Propiedad
     {
-        $tipo = TipoPropiedad::query()->create([
+        $tipo = TipoPropiedad::query()->firstOrCreate([
             'nombre' => 'Casa',
             'activo' => true,
         ]);

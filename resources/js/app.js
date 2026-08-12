@@ -1,5 +1,122 @@
 import './bootstrap';
 
+document.querySelectorAll('[data-password-toggle]').forEach((boton) => {
+    const entrada = boton.parentElement?.querySelector('[data-password-input]');
+
+    if (!entrada) return;
+
+    boton.addEventListener('click', () => {
+        const visible = entrada.type === 'text';
+        entrada.type = visible ? 'password' : 'text';
+        boton.setAttribute('aria-pressed', visible ? 'false' : 'true');
+        boton.setAttribute('aria-label', visible ? 'Mostrar contraseña' : 'Ocultar contraseña');
+    });
+});
+
+document.querySelectorAll('[data-company-logo-input]').forEach((entrada) => {
+    const contenedor = entrada.closest('form');
+    const imagen = contenedor.querySelector('[data-company-logo-image]');
+    const fallback = contenedor.querySelector('[data-company-logo-fallback]');
+
+    entrada.addEventListener('change', () => {
+        const archivo = entrada.files?.[0];
+        if (!archivo) return;
+        const url = URL.createObjectURL(archivo);
+        imagen.src = url;
+        imagen.classList.remove('hidden');
+        fallback.classList.add('hidden');
+        imagen.addEventListener('load', () => URL.revokeObjectURL(url), { once: true });
+    });
+});
+
+document.querySelectorAll('[data-user-status-modal]').forEach((modal) => {
+    const formulario = document.querySelector('[data-user-status-form]');
+    const botonAbrir = formulario?.querySelector('[data-user-status-open]');
+    const botonConfirmar = modal.querySelector('[data-user-status-confirm]');
+    const dialogo = modal.querySelector('[role="dialog"]');
+    const cerrar = () => { modal.hidden = true; document.body.classList.remove('overflow-hidden'); botonAbrir?.focus(); };
+    const abrir = () => { modal.hidden = false; document.body.classList.add('overflow-hidden'); dialogo?.focus(); };
+    botonAbrir?.addEventListener('click', abrir);
+    modal.querySelectorAll('[data-user-status-close]').forEach((boton) => boton.addEventListener('click', cerrar));
+    botonConfirmar?.addEventListener('click', () => formulario?.requestSubmit());
+    window.addEventListener('keydown', (evento) => { if (evento.key === 'Escape' && !modal.hidden) cerrar(); });
+});
+
+const modalTipoPropiedad = document.querySelector('[data-property-type-status-modal]');
+
+if (modalTipoPropiedad) {
+    let formularioActivo = null;
+    let botonActivo = null;
+    const dialogo = modalTipoPropiedad.querySelector('[role="dialog"]');
+    const titulo = modalTipoPropiedad.querySelector('[data-property-type-modal-title]');
+    const mensaje = modalTipoPropiedad.querySelector('[data-property-type-modal-message]');
+    const icono = modalTipoPropiedad.querySelector('[data-property-type-modal-icon]');
+    const confirmar = modalTipoPropiedad.querySelector('[data-property-type-status-confirm]');
+    const cerrar = () => {
+        modalTipoPropiedad.hidden = true;
+        document.body.classList.remove('overflow-hidden');
+        botonActivo?.focus();
+    };
+
+    document.querySelectorAll('[data-property-type-status-open]').forEach((boton) => {
+        boton.addEventListener('click', () => {
+            botonActivo = boton;
+            formularioActivo = boton.closest('[data-property-type-status-form]');
+            const activar = boton.dataset.propertyTypeAction === 'activar';
+            const accion = activar ? 'Activar' : 'Desactivar';
+            titulo.textContent = `¿${accion} este tipo de propiedad?`;
+            mensaje.textContent = activar
+                ? `${boton.dataset.propertyTypeName} volverá a estar disponible al cargar propiedades.`
+                : `${boton.dataset.propertyTypeName} dejará de estar disponible para nuevas propiedades.`;
+            confirmar.textContent = `Sí, ${accion.toLowerCase()}`;
+            icono.textContent = activar ? '✓' : '!';
+            icono.classList.toggle('is-success', activar);
+            icono.classList.toggle('is-danger', !activar);
+            confirmar.classList.toggle('is-success', activar);
+            confirmar.classList.toggle('is-danger', !activar);
+            modalTipoPropiedad.hidden = false;
+            document.body.classList.add('overflow-hidden');
+            dialogo?.focus();
+        });
+    });
+    modalTipoPropiedad.querySelectorAll('[data-property-type-status-close]').forEach((boton) => boton.addEventListener('click', cerrar));
+    confirmar.addEventListener('click', () => formularioActivo?.requestSubmit());
+    window.addEventListener('keydown', (evento) => {
+        if (evento.key === 'Escape' && !modalTipoPropiedad.hidden) cerrar();
+    });
+}
+
+const panelAdministrativo = document.querySelector('[data-admin-shell]');
+
+if (panelAdministrativo) {
+    const botonAbrir = panelAdministrativo.querySelector('[data-sidebar-open]');
+    const botonesCerrar = panelAdministrativo.querySelectorAll('[data-sidebar-close]');
+
+    const cerrarMenu = () => {
+        panelAdministrativo.classList.remove('is-sidebar-open');
+        document.body.classList.remove('overflow-hidden');
+        botonAbrir?.setAttribute('aria-expanded', 'false');
+    };
+
+    const abrirMenu = () => {
+        panelAdministrativo.classList.add('is-sidebar-open');
+        document.body.classList.add('overflow-hidden');
+        botonAbrir?.setAttribute('aria-expanded', 'true');
+    };
+
+    botonAbrir?.addEventListener('click', abrirMenu);
+    botonesCerrar.forEach((boton) => boton.addEventListener('click', cerrarMenu));
+    panelAdministrativo.querySelectorAll('.admin-nav__link').forEach((enlace) => {
+        enlace.addEventListener('click', cerrarMenu);
+    });
+    window.addEventListener('keydown', (evento) => {
+        if (evento.key === 'Escape') cerrarMenu();
+    });
+    window.matchMedia('(min-width: 1024px)').addEventListener('change', (evento) => {
+        if (evento.matches) cerrarMenu();
+    });
+}
+
 document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) => {
     const entrada = contenedor.querySelector('[data-autocomplete-entrada]');
     const identificador = contenedor.querySelector('[data-autocomplete-id]');
@@ -70,6 +187,29 @@ document.querySelectorAll('[data-operacion]').forEach((contenedor) => {
 
     casilla.addEventListener('change', actualizar);
     actualizar();
+});
+
+document.querySelectorAll('[data-precio-miles]').forEach((entrada) => {
+    const formatear = () => {
+        const limpio = entrada.value
+            .replace(/\./g, '')
+            .replace(/[^\d,]/g, '');
+        const [enteroCrudo = '', ...decimalesCrudos] = limpio.split(',');
+        const entero = enteroCrudo.replace(/^0+(?=\d)/, '');
+        const decimales = decimalesCrudos.join('').slice(0, 2);
+
+        entrada.value = entero === ''
+            ? ''
+            : Number(entero).toLocaleString('es-AR')
+                + (limpio.includes(',') ? `,${decimales}` : '');
+    };
+
+    entrada.addEventListener('input', formatear);
+
+    if (entrada.value !== '') {
+        entrada.value = entrada.value.replace('.', ',');
+        formatear();
+    }
 });
 
 document.querySelectorAll('[data-selector-imagenes]').forEach((entrada) => {

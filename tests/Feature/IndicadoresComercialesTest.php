@@ -72,20 +72,22 @@ class IndicadoresComercialesTest extends TestCase
             ->assertSee('No hubo consultas asociadas a propiedades');
     }
 
-    public function test_las_metricas_ya_no_se_muestran_en_el_dashboard_general(): void
+    public function test_el_dashboard_general_muestra_un_resumen_comercial(): void
     {
         $administrador = Usuario::factory()->create();
 
         $this->actingAs($administrador)
             ->get(route('administracion.dashboard'))
             ->assertOk()
-            ->assertDontSee('Indicadores del período')
-            ->assertDontSee('Embudo comercial');
+            ->assertSee('Actividad comercial')
+            ->assertSee('Embudo comercial')
+            ->assertSee('Estado del inventario')
+            ->assertSee('Centro de atención');
     }
 
     private function crearPropiedad(): Propiedad
     {
-        $tipo = TipoPropiedad::query()->create(['nombre' => 'Casa', 'activo' => true]);
+        $tipo = TipoPropiedad::query()->firstOrCreate(['nombre' => 'Casa'], ['activo' => true]);
         $ubicacion = Ubicacion::query()->create([
             'pais' => 'Argentina',
             'nombre_completo' => 'Argentina',

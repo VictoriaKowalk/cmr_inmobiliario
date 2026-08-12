@@ -18,6 +18,11 @@ class Usuario extends Authenticatable
         'nombre',
         'apellido',
         'email',
+        'telefono',
+        'celular',
+        'direccion',
+        'dni',
+        'fecha_nacimiento',
         'contrasenia',
         'activo',
         'ultimo_acceso_en',
@@ -34,6 +39,7 @@ class Usuario extends Authenticatable
             'contrasenia' => 'hashed',
             'activo' => 'boolean',
             'ultimo_acceso_en' => 'datetime',
+            'fecha_nacimiento' => 'date',
         ];
     }
 

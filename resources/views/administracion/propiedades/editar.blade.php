@@ -28,7 +28,8 @@
             <div>
                 <h2 class="text-lg font-semibold">Imágenes</h2>
                 <p class="mt-1 text-sm text-neutral-600">
-                    JPG, PNG o WebP. Hasta 20 archivos por carga y 10 MB por imagen.
+                    Podés cargar hasta 20 fotos JPG, PNG o WebP por vez, de hasta
+                    10 MB cada una (200 MB en total).
                 </p>
             </div>
             <p class="text-sm text-neutral-500">{{ $propiedad->imagenes->count() }} imágenes</p>

@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#10121a">
     <title>@yield('titulo', 'Administración') | {{ config('app.name') }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen bg-neutral-100 text-neutral-950 antialiased">
-    <main class="grid min-h-screen lg:grid-cols-[minmax(320px,0.9fr)_minmax(480px,1.1fr)]">
-        <section class="hidden bg-neutral-950 p-12 text-white lg:flex lg:flex-col lg:justify-between">
-            <div class="text-sm font-semibold uppercase tracking-[0.18em] text-emerald-400">
-                {{ config('app.name') }}
+<body class="auth-panel min-h-screen antialiased">
+    <main class="auth-shell">
+        <section class="auth-showcase" aria-label="Presentación del sistema">
+            <div class="auth-brand">
+                <span>HS</span>
+                <div><strong>{{ config('app.name') }}</strong><small>Real Estate CRM</small></div>
             </div>
-            <div class="max-w-md">
-                <p class="mb-5 text-sm font-medium text-neutral-400">Panel de administración</p>
-                <h1 class="text-4xl font-semibold leading-tight">
-                    Propiedades, contactos y operaciones en un solo lugar.
-                </h1>
+
+            <div class="auth-copy">
+                <p>Gestión inmobiliaria inteligente</p>
+                <h1>Todo tu negocio,<br><span>en un solo lugar.</span></h1>
+                <p>Propiedades, oportunidades y visitas organizadas para que tu equipo pueda enfocarse en vender.</p>
             </div>
-            <p class="text-sm text-neutral-500">Acceso exclusivo para personal autorizado.</p>
+
+            <div class="auth-preview" aria-hidden="true">
+                <div class="auth-preview__sidebar"><i></i><i></i><i></i><i></i></div>
+                <div class="auth-preview__content">
+                    <div class="auth-preview__top"><span></span><i></i></div>
+                    <div class="auth-preview__stats"><span><b>24</b><i></i></span><span><b>08</b><i></i></span><span><b>12</b><i></i></span></div>
+                    <div class="auth-preview__chart"><span></span><svg viewBox="0 0 300 85" preserveAspectRatio="none"><polyline points="0,70 30,58 58,65 88,35 115,48 142,22 170,42 200,17 230,36 260,25 300,6"/></svg></div>
+                </div>
+            </div>
+
+            <p class="auth-security"><span>✓</span> Acceso seguro para personal autorizado</p>
         </section>
 
-        <section class="flex items-center justify-center px-5 py-12 sm:px-10">
-            <div class="w-full max-w-md">
+        <section class="auth-form-area">
+            <div class="auth-mobile-brand">
+                <span>HS</span><strong>{{ config('app.name') }}</strong>
+            </div>
+            <div class="auth-form-card">
                 @yield('contenido')
             </div>
+            <p class="auth-footer">Sistema privado de gestión inmobiliaria</p>
         </section>
     </main>
 </body>

@@ -50,13 +50,6 @@ class GuardarPropiedadRequest extends FormRequest
                 ),
             ],
             'titulo' => ['required', 'string', 'max:180'],
-            'codigo_interno' => [
-                'required',
-                'string',
-                'max:50',
-                Rule::unique('propiedades', 'codigo_interno')
-                    ->ignore($propiedad?->id),
-            ],
             'expensas' => ['nullable', 'numeric', 'min:0', 'max:9999999999999.99'],
             'expensas_moneda' => ['nullable', Rule::in($monedas)],
             'descripcion_corta' => ['nullable', 'string', 'max:500'],
@@ -104,6 +97,35 @@ class GuardarPropiedadRequest extends FormRequest
             'operaciones.*.moneda' => ['nullable', Rule::in($monedas)],
             'operaciones.*.precio' => ['nullable', 'numeric', 'min:0'],
             'operaciones.*.estado' => ['required', Rule::in($estados)],
+            'imagenes' => [
+                Rule::excludeIf((bool) $propiedad),
+                'nullable',
+                'array',
+                'max:20',
+            ],
+            'imagenes.*' => [
+                'image',
+                'mimes:jpg,jpeg,png,webp',
+                'max:10240',
+                'dimensions:max_width=8000,max_height=8000',
+            ],
+            'video_titulo' => [
+                Rule::excludeIf((bool) $propiedad),
+                'nullable',
+                'string',
+                'max:150',
+            ],
+            'youtube_url' => [
+                Rule::excludeIf((bool) $propiedad),
+                'nullable',
+                'url',
+                'max:500',
+                function (string $atributo, mixed $valor, \Closure $fallar): void {
+                    if ($valor && ! $this->esUrlYoutubeValida((string) $valor)) {
+                        $fallar('Ingresá una URL válida de YouTube.');
+                    }
+                },
+            ],
         ];
     }
 
@@ -115,10 +137,14 @@ class GuardarPropiedadRequest extends FormRequest
             'ubicacion_id.required' => 'Seleccioná una ubicación desde el buscador.',
             'ubicacion_id.exists' => 'La ubicación seleccionada no está disponible.',
             'titulo.required' => 'Ingresá el título de la propiedad.',
-            'codigo_interno.required' => 'Ingresá el código interno.',
-            'codigo_interno.unique' => 'Ya existe una propiedad con ese código interno.',
             'operaciones.required' => 'Seleccioná al menos una operación.',
             'operaciones.min' => 'Seleccioná al menos una operación.',
+            'imagenes.max' => 'Podés subir hasta 20 imágenes.',
+            'imagenes.*.image' => 'Uno de los archivos no es una imagen válida.',
+            'imagenes.*.mimes' => 'Las imágenes deben ser JPG, PNG o WebP.',
+            'imagenes.*.max' => 'Cada imagen puede pesar hasta 10 MB.',
+            'imagenes.*.dimensions' => 'Cada imagen puede medir como máximo 8000 × 8000 píxeles.',
+            'youtube_url.url' => 'Ingresá una URL válida de YouTube.',
             '*.numeric' => 'Ingresá un valor numérico válido.',
             '*.min' => 'Los valores no pueden ser negativos.',
         ];
@@ -218,7 +244,6 @@ class GuardarPropiedadRequest extends FormRequest
     {
         $camposTexto = [
             'titulo',
-            'codigo_interno',
             'descripcion_corta',
             'descripcion',
             'direccion',
@@ -227,6 +252,8 @@ class GuardarPropiedadRequest extends FormRequest
             'place_id',
             'expensas_moneda',
             'orientacion',
+            'video_titulo',
+            'youtube_url',
         ];
 
         $datos = collect($camposTexto)
@@ -237,6 +264,64 @@ class GuardarPropiedadRequest extends FormRequest
             })
             ->all();
 
-        $this->merge($datos);
+        $operaciones = collect($this->input('operaciones', []))
+            ->map(function (mixed $operacion): mixed {
+                if (! is_array($operacion)) {
+                    return $operacion;
+                }
+
+                $precio = trim((string) ($operacion['precio'] ?? ''));
+
+                if ($precio !== '') {
+                    $operacion['precio'] = str_replace(
+                        ['.', ','],
+                        ['', '.'],
+                        $precio
+                    );
+                }
+
+                return $operacion;
+            })
+            ->all();
+
+        $expensas = trim((string) $this->input('expensas'));
+
+        if ($expensas !== '') {
+            $expensas = str_replace(['.', ','], ['', '.'], $expensas);
+        } else {
+            $expensas = null;
+        }
+
+        $this->merge([
+            ...$datos,
+            'expensas' => $expensas,
+            'operaciones' => $operaciones,
+        ]);
+    }
+
+    private function esUrlYoutubeValida(string $url): bool
+    {
+        $partes = parse_url($url);
+
+        if (! $partes || empty($partes['host'])) {
+            return false;
+        }
+
+        $host = strtolower($partes['host']);
+        $path = trim($partes['path'] ?? '', '/');
+
+        if (in_array($host, ['youtu.be', 'www.youtu.be'], true)) {
+            return $path !== '';
+        }
+
+        if (! in_array($host, ['youtube.com', 'www.youtube.com', 'm.youtube.com'], true)) {
+            return false;
+        }
+
+        parse_str($partes['query'] ?? '', $query);
+
+        return ! empty($query['v'])
+            || str_starts_with($path, 'embed/')
+            || str_starts_with($path, 'shorts/');
     }
 }

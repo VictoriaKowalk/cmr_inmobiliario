@@ -40,11 +40,10 @@
     <h2 class="text-lg font-semibold">Datos principales</h2>
     <div class="mt-5 grid gap-5 sm:grid-cols-2">
         <div>
-            <label for="codigo_interno" class="mb-2 block text-sm font-medium">Código interno</label>
-            <input id="codigo_interno" name="codigo_interno"
-                   value="{{ old('codigo_interno', $propiedad?->codigo_interno) }}"
-                   maxlength="50" required
-                   class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+            <label class="mb-2 block text-sm font-medium">Código interno</label>
+            <div class="flex h-11 items-center border border-neutral-200 bg-neutral-100 px-3 font-semibold text-neutral-700">
+                {{ $propiedad?->codigo_interno ?? 'Se asignará automáticamente al guardar' }}
+            </div>
         </div>
         <div>
             <label for="tipo_propiedad_id" class="mb-2 block text-sm font-medium">Tipo de propiedad</label>
@@ -191,9 +190,12 @@
                     </div>
                     <div>
                         <label class="mb-1 block text-xs font-medium text-neutral-600">Precio</label>
-                        <input type="number" min="0" step="0.01"
+                        <input type="text"
+                               inputmode="decimal"
                                name="operaciones[{{ $indice }}][precio]"
                                value="{{ old("operaciones.$indice.precio", $guardada?->precio) }}"
+                               placeholder="Ej.: 150.000"
+                               data-precio-miles
                                class="h-10 w-full border border-neutral-300 px-3 text-sm">
                     </div>
                     <div>
@@ -280,8 +282,13 @@
                         </option>
                     @endforeach
                 </select>
-                <input id="expensas" name="expensas" type="number" min="0" step="0.01"
+                <input id="expensas"
+                       name="expensas"
+                       type="text"
+                       inputmode="decimal"
                        value="{{ old('expensas', $propiedad?->expensas) }}"
+                       placeholder="Ej.: 250.000"
+                       data-precio-miles
                        class="h-11 w-full border border-neutral-300 px-3">
             </div>
         </div>
@@ -435,13 +442,15 @@
     </div>
 </section>
 
-<div class="flex flex-wrap gap-3">
-    <button type="submit"
-            class="inline-flex h-11 items-center bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800">
-        {{ $textoBoton }}
-    </button>
-    <a href="{{ route('administracion.propiedades.listar') }}"
-       class="inline-flex h-11 items-center px-4 text-sm font-medium text-neutral-600">
-        Cancelar
-    </a>
-</div>
+@if ($mostrarAcciones ?? true)
+    <div class="flex flex-wrap gap-3">
+        <button type="submit"
+                class="inline-flex h-11 items-center bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800">
+            {{ $textoBoton }}
+        </button>
+        <a href="{{ route('administracion.propiedades.listar') }}"
+           class="inline-flex h-11 items-center px-4 text-sm font-medium text-neutral-600">
+            Cancelar
+        </a>
+    </div>
+@endif

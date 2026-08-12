@@ -7,6 +7,8 @@ use App\Models\TipoPropiedad;
 use App\Models\Ubicacion;
 use App\Models\Usuario;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\Storage;
 use Tests\TestCase;
 
 class PropiedadesAdministracionTest extends TestCase
@@ -24,7 +26,7 @@ class PropiedadesAdministracionTest extends TestCase
         parent::setUp();
 
         $this->usuario = Usuario::factory()->create();
-        $this->tipo = TipoPropiedad::query()->create([
+        $this->tipo = TipoPropiedad::query()->firstOrCreate([
             'nombre' => 'Casa',
             'activo' => true,
         ]);
@@ -50,6 +52,79 @@ class PropiedadesAdministracionTest extends TestCase
         );
         $this->assertCount(2, $propiedad->operaciones);
         $this->assertSame('casa-en-venta', $propiedad->slug);
+        $this->assertSame('K1', $propiedad->codigo_interno);
+    }
+
+    public function test_el_codigo_se_genera_en_secuencia_y_no_acepta_el_enviado(): void
+    {
+        $this->actingAs($this->usuario)
+            ->post(route('administracion.propiedades.guardar'), $this->datos([
+                $this->operacion('venta', 'USD', 150000, 'publicada'),
+            ]));
+
+        $datos = $this->datos([
+            $this->operacion('venta', 'USD', 180000, 'publicada'),
+        ]);
+        $datos['titulo'] = 'Segunda casa';
+        $datos['codigo_interno'] = 'CODIGO-MANUAL';
+
+        $this->actingAs($this->usuario)
+            ->post(route('administracion.propiedades.guardar'), $datos)
+            ->assertSessionHasNoErrors();
+
+        $this->assertSame(
+            ['K1', 'K2'],
+            Propiedad::query()->orderBy('id')->pluck('codigo_interno')->all()
+        );
+    }
+
+    public function test_crea_la_propiedad_con_sus_imagenes_y_video_en_un_solo_envio(): void
+    {
+        Storage::fake('public');
+
+        $datos = $this->datos([
+            $this->operacion('venta', 'USD', 150000, 'publicada'),
+        ]);
+        $datos['imagenes'] = [
+            UploadedFile::fake()->image('frente.jpg'),
+            UploadedFile::fake()->image('living.png'),
+        ];
+        $datos['video_titulo'] = 'Recorrido virtual';
+        $datos['youtube_url'] = 'https://www.youtube.com/watch?v=abcdefghijk';
+
+        $respuesta = $this->actingAs($this->usuario)
+            ->post(route('administracion.propiedades.guardar'), $datos);
+
+        $propiedad = Propiedad::query()->sole();
+
+        $respuesta
+            ->assertSessionHasNoErrors()
+            ->assertRedirect(route('administracion.propiedades.editar', $propiedad));
+        $this->assertCount(2, $propiedad->imagenes);
+        $this->assertTrue($propiedad->imagenes()->orderBy('orden')->first()->portada);
+        $this->assertDatabaseHas('videos_propiedad', [
+            'propiedad_id' => $propiedad->id,
+            'titulo' => 'Recorrido virtual',
+            'youtube_id' => 'abcdefghijk',
+        ]);
+
+        foreach ($propiedad->imagenes as $imagen) {
+            Storage::disk('public')->assertExists($imagen->ruta);
+        }
+    }
+
+    public function test_no_crea_la_propiedad_si_el_enlace_no_es_de_youtube(): void
+    {
+        $datos = $this->datos([
+            $this->operacion('venta', 'USD', 150000, 'publicada'),
+        ]);
+        $datos['youtube_url'] = 'https://ejemplo.com/video';
+
+        $this->actingAs($this->usuario)
+            ->post(route('administracion.propiedades.guardar'), $datos)
+            ->assertSessionHasErrors('youtube_url');
+
+        $this->assertDatabaseCount('propiedades', 0);
     }
 
     public function test_no_acepta_tipos_de_operacion_repetidos(): void

@@ -32,6 +32,11 @@ class CierreFuncionalPanelTest extends TestCase
                 'nombre' => 'Victoria',
                 'apellido' => 'Pérez',
                 'email' => 'victoria@example.com',
+                'telefono' => '11 4000-0000',
+                'celular' => '11 5000-0000',
+                'direccion' => 'Av. Libertador 1000',
+                'dni' => '30.000.000',
+                'fecha_nacimiento' => '1990-05-20',
                 'contrasenia' => 'ClaveSegura123',
                 'contrasenia_confirmation' => 'ClaveSegura123',
             ])
@@ -40,7 +45,13 @@ class CierreFuncionalPanelTest extends TestCase
         $this->assertDatabaseHas('usuarios', [
             'email' => 'victoria@example.com',
             'activo' => true,
+            'dni' => '30.000.000',
         ]);
+        $this->assertSame(
+            '1990-05-20',
+            Usuario::query()->where('email', 'victoria@example.com')->sole()
+                ->fecha_nacimiento->toDateString()
+        );
     }
 
     public function test_un_administrador_no_puede_desactivarse_a_si_mismo(): void
@@ -172,7 +183,7 @@ class CierreFuncionalPanelTest extends TestCase
 
     private function crearPropiedad(): array
     {
-        $tipo = TipoPropiedad::query()->create([
+        $tipo = TipoPropiedad::query()->firstOrCreate([
             'nombre' => 'Casa',
             'activo' => true,
         ]);

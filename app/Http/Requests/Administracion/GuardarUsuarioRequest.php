@@ -26,6 +26,11 @@ class GuardarUsuarioRequest extends FormRequest
                 'max:255',
                 Rule::unique('usuarios', 'email')->ignore($usuario?->id),
             ],
+            'telefono' => ['nullable', 'string', 'max:50'],
+            'celular' => ['nullable', 'string', 'max:50'],
+            'direccion' => ['nullable', 'string', 'max:255'],
+            'dni' => ['nullable', 'string', 'max:20', 'regex:/^[0-9.\-]+$/', Rule::unique('usuarios', 'dni')->ignore($usuario?->id)],
+            'fecha_nacimiento' => ['nullable', 'date', 'before_or_equal:today'],
             'contrasenia' => [
                 $usuario ? 'nullable' : 'required',
                 'confirmed',
@@ -36,10 +41,16 @@ class GuardarUsuarioRequest extends FormRequest
 
     protected function prepareForValidation(): void
     {
-        $this->merge([
+        $datos = [
             'nombre' => trim((string) $this->input('nombre')),
             'apellido' => trim((string) $this->input('apellido')) ?: null,
             'email' => mb_strtolower(trim((string) $this->input('email'))),
-        ]);
+        ];
+
+        foreach (['telefono', 'celular', 'direccion', 'dni'] as $campo) {
+            $datos[$campo] = trim((string) $this->input($campo)) ?: null;
+        }
+
+        $this->merge($datos);
     }
 }

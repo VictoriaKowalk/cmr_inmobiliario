@@ -14,11 +14,16 @@ use App\Models\Caracteristica;
 use App\Models\OperacionPropiedad;
 use App\Models\Propiedad;
 use App\Models\TipoPropiedad;
+use App\Services\ServicioImagenesPropiedad;
 use App\Services\ServicioPropiedades;
+use App\Services\ServicioVideosPropiedad;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 use Illuminate\View\View;
+use Throwable;
 
 class PropiedadController extends Controller
 {
@@ -127,9 +132,61 @@ class PropiedadController extends Controller
 
     public function guardar(
         GuardarPropiedadRequest $solicitud,
-        ServicioPropiedades $servicioPropiedades
+        ServicioPropiedades $servicioPropiedades,
+        ServicioImagenesPropiedad $servicioImagenes,
+        ServicioVideosPropiedad $servicioVideos
     ): RedirectResponse {
-        $propiedad = $servicioPropiedades->crearPropiedad($solicitud->validated());
+        $propiedadId = null;
+
+        try {
+            $propiedad = DB::transaction(function () use (
+                $solicitud,
+                $servicioPropiedades,
+                $servicioImagenes,
+                $servicioVideos,
+                &$propiedadId
+            ): Propiedad {
+                $propiedad = $servicioPropiedades->crearPropiedad(
+                    $solicitud->safe()->except([
+                        'imagenes',
+                        'video_titulo',
+                        'youtube_url',
+                    ])
+                );
+                $propiedadId = $propiedad->id;
+
+                if ($solicitud->hasFile('imagenes')) {
+                    $servicioImagenes->guardarImagenes(
+                        $propiedad,
+                        $solicitud->file('imagenes')
+                    );
+                }
+
+                if ($solicitud->filled('youtube_url')) {
+                    $servicioVideos->guardarVideoDesdeYoutube(
+                        $propiedad,
+                        $solicitud->validated('youtube_url'),
+                        $solicitud->validated('video_titulo')
+                    );
+                }
+
+                return $propiedad;
+            });
+        } catch (Throwable $error) {
+            if ($propiedadId) {
+                Storage::disk('public')->deleteDirectory(
+                    "propiedades/{$propiedadId}"
+                );
+            }
+
+            report($error);
+
+            return back()
+                ->withErrors([
+                    'guardado' => 'No se pudo crear la propiedad. Revisá los archivos e intentá nuevamente.',
+                ])
+                ->withInput();
+        }
 
         return redirect()
             ->route('administracion.propiedades.editar', $propiedad)

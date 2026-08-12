@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Administracion;
 
 use App\Enums\EstadoOperacion;
 use App\Enums\EstadoSeguimiento;
+use App\Enums\EstadoVisita;
 use App\Http\Controllers\Controller;
 use App\Models\Consulta;
 use App\Models\OperacionPropiedad;
@@ -13,13 +14,22 @@ use App\Models\Usuario;
 use App\Models\Visita;
 use Carbon\Carbon;
 use Carbon\CarbonPeriod;
+use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\View\View;
 
 class DashboardController extends Controller
 {
-    public function mostrar(): View
+    public function mostrar(Request $request): View
     {
+        $periodo = $request->validate([
+            'desde' => ['nullable', 'date'],
+            'hasta' => ['nullable', 'date', 'after_or_equal:desde'],
+        ]);
+        $desde = Carbon::parse($periodo['desde'] ?? now()->subDays(29)->toDateString())
+            ->startOfDay();
+        $hasta = Carbon::parse($periodo['hasta'] ?? now()->toDateString())
+            ->endOfDay();
         $consultasSinLeer = Consulta::query()
             ->whereNull('leida_en')
             ->count();
@@ -39,7 +49,38 @@ class DashboardController extends Controller
                 ->where('estado', EstadoOperacion::PAUSADA))
             ->count();
 
+        $proximasVisitas = Visita::query()
+            ->with(['propiedad', 'asesor'])
+            ->where('inicio', '>=', now())
+            ->where('estado', '!=', EstadoVisita::CANCELADA->value)
+            ->orderBy('inicio')
+            ->limit(5)
+            ->get();
+
+        $tareasVencidas = Consulta::query()
+            ->whereNotNull('proxima_tarea_en')
+            ->where('proxima_tarea_en', '<', now())
+            ->whereNotIn('estado_seguimiento', [
+                EstadoSeguimiento::GANADA->value,
+                EstadoSeguimiento::PERDIDA->value,
+                EstadoSeguimiento::CERRADA->value,
+            ])
+            ->count() + Tasacion::query()
+            ->whereNotNull('proxima_tarea_en')
+            ->where('proxima_tarea_en', '<', now())
+            ->whereNotIn('estado_seguimiento', [
+                EstadoSeguimiento::GANADA->value,
+                EstadoSeguimiento::PERDIDA->value,
+                EstadoSeguimiento::CERRADA->value,
+            ])
+            ->count();
+
         return view('administracion.dashboard.mostrar', [
+            ...$this->indicadoresComerciales($desde, $hasta),
+            'desde' => $desde,
+            'hasta' => $hasta,
+            'proximasVisitas' => $proximasVisitas,
+            'tareasVencidas' => $tareasVencidas,
             'cantidadPublicadas' => $cantidadPublicadas,
             'cantidadPausadas' => $cantidadPausadas,
             'cantidadDestacadas' => Propiedad::query()->destacadas()->count(),

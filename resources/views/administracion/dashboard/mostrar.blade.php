@@ -3,230 +3,155 @@
 @section('titulo', 'Dashboard')
 
 @section('contenido')
-    <div class="mb-8">
-        <h1 class="text-2xl font-semibold">Dashboard</h1>
-        <p class="mt-1 text-sm text-neutral-600">Resumen general de la inmobiliaria.</p>
+    @php
+        $saludo = now()->hour < 12 ? 'Buenos días' : (now()->hour < 20 ? 'Buenas tardes' : 'Buenas noches');
+        $alertasTotales = $propiedadesPublicadasSinImagen + $propiedadesPublicadasSinPortada
+            + $operacionesPublicadasSinPrecio + $contactosSinLeer + $tareasVencidas;
+        $puntosContactos = $tendenciaDiaria->values()->map(function ($dia, $indice) use ($tendenciaDiaria, $maximoTendencia) {
+            $x = $tendenciaDiaria->count() > 1 ? $indice * 100 / ($tendenciaDiaria->count() - 1) : 50;
+            $y = 92 - ($dia['contactos'] * 76 / $maximoTendencia);
+            return number_format($x, 2, '.', '').','.number_format($y, 2, '.', '');
+        })->implode(' ');
+        $puntosVisitas = $tendenciaDiaria->values()->map(function ($dia, $indice) use ($tendenciaDiaria, $maximoTendencia) {
+            $x = $tendenciaDiaria->count() > 1 ? $indice * 100 / ($tendenciaDiaria->count() - 1) : 50;
+            $y = 92 - ($dia['visitas'] * 76 / $maximoTendencia);
+            return number_format($x, 2, '.', '').','.number_format($y, 2, '.', '');
+        })->implode(' ');
+        $porcentajePublicadas = ($cantidadPublicadas + $cantidadPausadas) > 0
+            ? round($cantidadPublicadas * 100 / ($cantidadPublicadas + $cantidadPausadas)) : 0;
+    @endphp
+
+    <header class="dashboard-heading">
+        <div>
+            <p class="dashboard-eyebrow">Resumen de actividad</p>
+            <h1>{{ $saludo }}, {{ auth()->user()->nombre }}</h1>
+            <p>Esto es lo que está pasando hoy en tu inmobiliaria.</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+            <form method="GET" class="dashboard-period">
+                <label><span>Desde</span><input type="date" name="desde" value="{{ $desde->toDateString() }}"></label>
+                <label><span>Hasta</span><input type="date" name="hasta" value="{{ $hasta->toDateString() }}"></label>
+                <button>Actualizar</button>
+            </form>
+            <a href="{{ route('administracion.propiedades.crear') }}" class="dashboard-primary-action">
+                <span>+</span> Nueva propiedad
+            </a>
+        </div>
+    </header>
+
+    <section class="dashboard-kpis" aria-label="Indicadores principales">
+        <a href="{{ route('administracion.propiedades.listar', ['estado' => 'publicada']) }}" class="dashboard-kpi dashboard-kpi--mint">
+            <span class="dashboard-kpi__icon">⌂</span>
+            <span class="dashboard-kpi__value">{{ $cantidadPublicadas }}</span>
+            <span class="dashboard-kpi__label">Propiedades publicadas</span>
+            <span class="dashboard-kpi__detail">{{ $cantidadDestacadas }} destacadas</span>
+        </a>
+        <a href="{{ route('administracion.contactos.listar', ['lectura' => 'sin_leer']) }}" class="dashboard-kpi dashboard-kpi--blue">
+            <span class="dashboard-kpi__icon">↗</span>
+            <span class="dashboard-kpi__value">{{ $contactosPeriodo }}</span>
+            <span class="dashboard-kpi__label">Contactos recibidos</span>
+            <span class="dashboard-kpi__detail">{{ $contactosSinLeer }} sin leer</span>
+        </a>
+        <a href="{{ route('administracion.visitas.listar') }}" class="dashboard-kpi dashboard-kpi--violet">
+            <span class="dashboard-kpi__icon">◇</span>
+            <span class="dashboard-kpi__value">{{ $visitasPeriodo }}</span>
+            <span class="dashboard-kpi__label">Visitas coordinadas</span>
+            <span class="dashboard-kpi__detail">En el período seleccionado</span>
+        </a>
+        <a href="{{ route('administracion.contactos.listar') }}" class="dashboard-kpi dashboard-kpi--amber">
+            <span class="dashboard-kpi__icon">◎</span>
+            <span class="dashboard-kpi__value">{{ $operacionesGanadas }}</span>
+            <span class="dashboard-kpi__label">Oportunidades ganadas</span>
+            <span class="dashboard-kpi__detail">{{ number_format($conversionVisitaOperacion, 1, ',', '.') }}% desde visita</span>
+        </a>
+    </section>
+
+    <div class="dashboard-grid dashboard-grid--main">
+        <article class="dashboard-card dashboard-activity">
+            <header class="dashboard-card__header">
+                <div><h2>Actividad comercial</h2><p>Contactos y visitas de los últimos {{ $tendenciaDiaria->count() }} días</p></div>
+                <div class="dashboard-legend"><span><i class="is-mint"></i>Contactos</span><span><i class="is-violet"></i>Visitas</span></div>
+            </header>
+            <div class="dashboard-line-chart" role="img" aria-label="Evolución diaria de contactos y visitas">
+                <span class="grid-line" style="top: 16%"></span><span class="grid-line" style="top: 41%"></span><span class="grid-line" style="top: 66%"></span><span class="grid-line" style="top: 92%"></span>
+                <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="areaContactos" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9e6df" stop-opacity=".32"/><stop offset="1" stop-color="#a9e6df" stop-opacity="0"/></linearGradient>
+                    </defs>
+                    <polygon points="0,100 {{ $puntosContactos }} 100,100" fill="url(#areaContactos)"/>
+                    <polyline points="{{ $puntosContactos }}" class="line-contactos"/>
+                    <polyline points="{{ $puntosVisitas }}" class="line-visitas"/>
+                </svg>
+            </div>
+            <footer class="dashboard-chart-axis"><span>{{ $tendenciaDiaria->first()['fecha']->format('d/m') }}</span><span>{{ $tendenciaDiaria->get((int) floor(($tendenciaDiaria->count() - 1) / 2))['fecha']->format('d/m') }}</span><span>{{ $tendenciaDiaria->last()['fecha']->format('d/m') }}</span></footer>
+        </article>
+
+        <article class="dashboard-card">
+            <header class="dashboard-card__header"><div><h2>Embudo comercial</h2><p>Conversión por etapa</p></div><a href="{{ route('administracion.contactos.metricas') }}">Ver métricas</a></header>
+            <div class="dashboard-funnel">
+                @foreach ($embudoComercial as $indice => $fila)
+                    @php $ancho = $fila['cantidad'] ? max(18, round($fila['cantidad'] * 100 / $maximoEmbudo)) : 8; @endphp
+                    <div class="dashboard-funnel__row">
+                        <span>{{ $fila['etapa'] }}</span><strong>{{ $fila['cantidad'] }}</strong>
+                        <i><b style="width: {{ $ancho }}%; --funnel-index: {{ $indice }}"></b></i>
+                    </div>
+                @endforeach
+            </div>
+            <div class="dashboard-conversion"><strong>{{ number_format($conversionConsultaVisita, 1, ',', '.') }}%</strong><span>conversión de contacto a visita</span></div>
+        </article>
     </div>
 
-    <section class="mb-6 border border-neutral-200 bg-white p-5 shadow-sm">
-        <div class="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-                <h2 class="font-semibold">Acciones rápidas</h2>
-                <p class="text-sm text-neutral-600">Atajos para las tareas más frecuentes del panel.</p>
-            </div>
-        </div>
-        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
-            <a href="{{ route('administracion.propiedades.crear') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-emerald-700 bg-emerald-700 px-4 text-center text-sm font-semibold text-white hover:bg-emerald-800">
-                Nueva propiedad
-            </a>
-            <a href="{{ route('administracion.propiedades.listar') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-neutral-300 bg-white px-4 text-center text-sm font-semibold text-neutral-800 hover:border-neutral-500">
-                Ver propiedades
-            </a>
-            <a href="{{ route('administracion.consultas.listar') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-neutral-300 bg-white px-4 text-center text-sm font-semibold text-neutral-800 hover:border-neutral-500">
-                Ver consultas
-            </a>
-            <a href="{{ route('administracion.tasaciones.listar') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-neutral-300 bg-white px-4 text-center text-sm font-semibold text-neutral-800 hover:border-neutral-500">
-                Ver tasaciones
-            </a>
-            <a href="{{ route('administracion.ubicaciones.crear') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-neutral-300 bg-white px-4 text-center text-sm font-semibold text-neutral-800 hover:border-neutral-500">
-                Cargar ubicación
-            </a>
-            <a href="{{ route('administracion.tipos-propiedad.crear') }}"
-               class="inline-flex min-h-11 items-center justify-center border border-neutral-300 bg-white px-4 text-center text-sm font-semibold text-neutral-800 hover:border-neutral-500">
-                Cargar tipo
-            </a>
-        </div>
-    </section>
-
-    <section class="mb-6 border border-neutral-200 bg-white p-5 shadow-sm">
-        <div class="mb-4">
-            <h2 class="font-semibold">Alertas operativas</h2>
-            <p class="text-sm text-neutral-600">Puntos que conviene revisar para mantener la publicación y el seguimiento al día.</p>
-        </div>
-
-        @if (
-            $propiedadesPublicadasSinImagen === 0
-            && $propiedadesPublicadasSinPortada === 0
-            && $operacionesPublicadasSinPrecio === 0
-            && $propiedadesSinOperacionPublicada === 0
-            && $contactosSinLeer === 0
-        )
-            <div class="border border-emerald-100 bg-emerald-50 px-4 py-3 text-sm font-medium text-emerald-900">
-                No hay alertas pendientes.
-            </div>
-        @else
-            <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-6">
-                <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_imagen']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $propiedadesPublicadasSinImagen }}</p>
-                    <p class="mt-1 text-sm font-medium">Publicadas sin imagen</p>
-                    <p class="mt-1 text-xs text-neutral-500">Revisar fichas activas.</p>
-                </a>
-                <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_portada']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $propiedadesPublicadasSinPortada }}</p>
-                    <p class="mt-1 text-sm font-medium">Sin portada</p>
-                    <p class="mt-1 text-xs text-neutral-500">Mejora la ficha pública.</p>
-                </a>
-                <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_precio']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $operacionesPublicadasSinPrecio }}</p>
-                    <p class="mt-1 text-sm font-medium">Operaciones sin precio</p>
-                    <p class="mt-1 text-xs text-neutral-500">Se mostrarán como consultar.</p>
-                </a>
-                <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_operacion_publicada']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $propiedadesSinOperacionPublicada }}</p>
-                    <p class="mt-1 text-sm font-medium">Sin operación publicada</p>
-                    <p class="mt-1 text-xs text-neutral-500">No aparecen en la web.</p>
-                </a>
-                <a href="{{ route('administracion.consultas.listar', ['lectura' => 'sin_leer']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $consultasSinLeer }}</p>
-                    <p class="mt-1 text-sm font-medium">Consultas sin leer</p>
-                    <p class="mt-1 text-xs text-neutral-500">Revisar bandeja.</p>
-                </a>
-                <a href="{{ route('administracion.tasaciones.listar', ['lectura' => 'sin_leer']) }}"
-                   class="block border border-neutral-200 px-4 py-3 transition hover:border-neutral-400 hover:bg-neutral-50">
-                    <p class="text-2xl font-semibold">{{ $tasacionesSinLeer }}</p>
-                    <p class="mt-1 text-sm font-medium">Tasaciones sin leer</p>
-                    <p class="mt-1 text-xs text-neutral-500">Revisar bandeja.</p>
-                </a>
-            </div>
-        @endif
-    </section>
-
-    <section class="grid gap-4 sm:grid-cols-3">
-        <a href="{{ route('administracion.propiedades.listar', ['estado' => 'publicada']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Propiedades publicadas</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $cantidadPublicadas }}</p>
-        </a>
-        <a href="{{ route('administracion.propiedades.listar', ['estado' => 'pausada']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Propiedades pausadas</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $cantidadPausadas }}</p>
-        </a>
-        <a href="{{ route('administracion.propiedades.listar', ['revision' => 'destacadas']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Propiedades destacadas</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $cantidadDestacadas }}</p>
-        </a>
-    </section>
-
-    <section class="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <a href="{{ route('administracion.consultas.listar', ['estado' => 'nueva']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Consultas nuevas</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $consultasNuevas }}</p>
-            <p class="mt-2 text-xs text-neutral-500">{{ $consultasSinLeer }} sin leer</p>
-        </a>
-        <a href="{{ route('administracion.tasaciones.listar', ['estado' => 'nueva']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Tasaciones nuevas</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $tasacionesNuevas }}</p>
-            <p class="mt-2 text-xs text-neutral-500">{{ $tasacionesSinLeer }} sin leer</p>
-        </a>
-        <a href="{{ route('administracion.consultas.listar', ['estado' => 'en_seguimiento']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Consultas en seguimiento</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $consultasEnSeguimiento }}</p>
-            <p class="mt-2 text-xs text-neutral-500">Pendientes comerciales</p>
-        </a>
-        <a href="{{ route('administracion.tasaciones.listar', ['estado' => 'en_seguimiento']) }}"
-           class="block border border-neutral-200 bg-white p-5 shadow-sm transition hover:border-neutral-400 hover:bg-neutral-50">
-            <p class="text-sm text-neutral-600">Tasaciones en seguimiento</p>
-            <p class="mt-3 text-3xl font-semibold">{{ $tasacionesEnSeguimiento }}</p>
-            <p class="mt-2 text-xs text-neutral-500">Pendientes comerciales</p>
-        </a>
-    </section>
-
-    <section class="mt-8 grid gap-6 xl:grid-cols-2">
-        <article class="border border-neutral-200 bg-white shadow-sm">
-            <header class="border-b border-neutral-200 px-5 py-4">
-                <h2 class="font-semibold">Últimas consultas</h2>
-            </header>
-            @forelse ($ultimasConsultas as $consulta)
-                <a href="{{ route('administracion.consultas.mostrar', $consulta) }}"
-                   class="block border-b border-neutral-100 px-5 py-4 hover:bg-neutral-50 last:border-b-0">
-                    <div class="flex items-start justify-between gap-4">
-                        <div class="min-w-0">
-                            <div class="flex flex-wrap items-center gap-2">
-                                <p class="text-sm font-semibold">{{ $consulta->nombre }}</p>
-                                <span class="inline-flex items-center px-2 py-1 text-xs font-semibold ring-1 ring-inset {{ $consulta->estado_seguimiento->clasesBadge() }}">
-                                    {{ $consulta->estado_seguimiento->etiqueta() }}
-                                </span>
-                                @if ($consulta->leida_en === null)
-                                    <span class="bg-white px-2 py-1 text-xs font-semibold text-sky-700 ring-1 ring-inset ring-sky-100">
-                                        Sin leer
-                                    </span>
-                                @endif
-                            </div>
-                            <p class="mt-2 text-sm text-neutral-600">
-                                {{ $consulta->propiedad?->codigo_interno ?? 'Consulta general' }}
-                                @if ($consulta->propiedad)
-                                    · {{ $consulta->propiedad->titulo }}
-                                @endif
-                            </p>
-                            <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-neutral-500">
-                                <span>{{ $consulta->telefono ?: 'Sin teléfono' }}</span>
-                                <span>{{ $consulta->email ?: 'Sin email' }}</span>
-                            </div>
-                        </div>
-                        <span class="shrink-0 text-xs text-neutral-500">
-                            {{ $consulta->created_at->format('d/m/Y H:i') }}
-                        </span>
+    <div class="dashboard-grid dashboard-grid--secondary">
+        <article class="dashboard-card">
+            <header class="dashboard-card__header"><div><h2>Propiedades con más demanda</h2><p>Ranking por consultas recibidas</p></div><a href="{{ route('administracion.propiedades.listar') }}">Ver todas</a></header>
+            <div class="dashboard-ranking">
+                @forelse ($demandaPropiedades as $fila)
+                    <div class="dashboard-ranking__row">
+                        <span class="dashboard-ranking__number">{{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}</span>
+                        <div><strong>{{ $fila['propiedad']?->titulo ?? 'Propiedad eliminada' }}</strong><small>{{ $fila['propiedad']?->codigo_interno ?? 'Sin código' }}</small></div>
+                        <i><b style="width: {{ round($fila['consultas'] * 100 / $maximoDemanda) }}%"></b></i>
+                        <span class="dashboard-ranking__badge">{{ $fila['consultas'] }}</span>
                     </div>
-                </a>
-            @empty
-                <p class="px-5 py-8 text-sm text-neutral-500">Todavía no se recibieron consultas.</p>
-            @endforelse
+                @empty
+                    <div class="dashboard-empty">Todavía no hay consultas asociadas a propiedades.</div>
+                @endforelse
+            </div>
         </article>
 
-        <article class="border border-neutral-200 bg-white shadow-sm">
-            <header class="border-b border-neutral-200 px-5 py-4">
-                <h2 class="font-semibold">Últimas tasaciones</h2>
-            </header>
-            @forelse ($ultimasTasaciones as $tasacion)
-                <a href="{{ route('administracion.tasaciones.mostrar', $tasacion) }}"
-                   class="block border-b border-neutral-100 px-5 py-4 hover:bg-neutral-50 last:border-b-0">
-                    <div class="flex items-start justify-between gap-4">
-                        <div class="min-w-0">
-                            <div class="flex flex-wrap items-center gap-2">
-                                <p class="text-sm font-semibold">{{ $tasacion->nombre }}</p>
-                                <span class="inline-flex items-center px-2 py-1 text-xs font-semibold ring-1 ring-inset {{ $tasacion->estado_seguimiento->clasesBadge() }}">
-                                    {{ $tasacion->estado_seguimiento->etiqueta() }}
-                                </span>
-                                @if ($tasacion->leida_en === null)
-                                    <span class="bg-white px-2 py-1 text-xs font-semibold text-sky-700 ring-1 ring-inset ring-sky-100">
-                                        Sin leer
-                                    </span>
-                                @endif
-                            </div>
-                            <p class="mt-2 text-sm text-neutral-600">
-                                Tasación · {{ $tasacion->tipoPropiedad?->nombre ?? 'Sin tipo indicado' }}
-                            </p>
-                            <p class="mt-1 text-sm text-neutral-600">
-                                {{ $tasacion->ubicacion_texto }}
-                            </p>
-                            <div class="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-neutral-500">
-                                <span>{{ $tasacion->telefono ?: 'Sin teléfono' }}</span>
-                                <span>{{ $tasacion->email ?: 'Sin email' }}</span>
-                            </div>
-                        </div>
-                        <span class="shrink-0 text-xs text-neutral-500">
-                            {{ $tasacion->created_at->format('d/m/Y H:i') }}
-                        </span>
-                    </div>
-                </a>
-            @empty
-                <p class="px-5 py-8 text-sm text-neutral-500">Todavía no se recibieron tasaciones.</p>
-            @endforelse
+        <article class="dashboard-card dashboard-inventory">
+            <header class="dashboard-card__header"><div><h2>Estado del inventario</h2><p>Disponibilidad actual</p></div></header>
+            <div class="dashboard-donut" style="--value: {{ $porcentajePublicadas }}">
+                <div><strong>{{ $porcentajePublicadas }}%</strong><span>publicado</span></div>
+            </div>
+            <div class="dashboard-inventory__legend">
+                <span><i class="is-mint"></i>Publicadas <strong>{{ $cantidadPublicadas }}</strong></span>
+                <span><i class="is-muted"></i>Pausadas <strong>{{ $cantidadPausadas }}</strong></span>
+            </div>
         </article>
+
+        <article class="dashboard-card">
+            <header class="dashboard-card__header"><div><h2>Próximas visitas</h2><p>Agenda inmediata</p></div><a href="{{ route('administracion.visitas.listar') }}">Ver agenda</a></header>
+            <div class="dashboard-visits">
+                @forelse ($proximasVisitas as $visita)
+                    <a href="{{ route('administracion.visitas.mostrar', $visita) }}">
+                        <time><strong>{{ $visita->inicio->format('d') }}</strong><span>{{ mb_strtoupper($visita->inicio->translatedFormat('M')) }}</span></time>
+                        <div><strong>{{ $visita->interesado_nombre }}</strong><small>{{ $visita->propiedad->titulo }} · {{ $visita->inicio->format('H:i') }}</small></div>
+                        <span>›</span>
+                    </a>
+                @empty
+                    <div class="dashboard-empty">No hay visitas próximas coordinadas.</div>
+                @endforelse
+            </div>
+        </article>
+    </div>
+
+    <section class="dashboard-alerts">
+        <header><div><h2>Centro de atención</h2><p>{{ $alertasTotales ? $alertasTotales.' puntos requieren revisión' : 'Todo está al día' }}</p></div></header>
+        <div>
+            <a href="{{ route('administracion.contactos.listar', ['lectura' => 'sin_leer']) }}"><span class="is-blue">{{ $contactosSinLeer }}</span><div><strong>Contactos sin leer</strong><small>Responder nuevas oportunidades</small></div></a>
+            <a href="{{ route('administracion.contactos.listar') }}"><span class="is-amber">{{ $tareasVencidas }}</span><div><strong>Seguimientos vencidos</strong><small>Reprogramar tareas comerciales</small></div></a>
+            <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_imagen']) }}"><span class="is-violet">{{ $propiedadesPublicadasSinImagen }}</span><div><strong>Publicadas sin imagen</strong><small>Completar contenido visual</small></div></a>
+            <a href="{{ route('administracion.propiedades.listar', ['revision' => 'sin_precio']) }}"><span class="is-mint">{{ $operacionesPublicadasSinPrecio }}</span><div><strong>Operaciones sin precio</strong><small>Revisar información comercial</small></div></a>
+        </div>
     </section>
 @endsection

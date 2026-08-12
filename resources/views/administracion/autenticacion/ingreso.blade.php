@@ -3,54 +3,60 @@
 @section('titulo', 'Ingresar')
 
 @section('contenido')
-    <div class="mb-8 lg:hidden">
-        <p class="text-sm font-semibold uppercase text-emerald-700">{{ config('app.name') }}</p>
-    </div>
-
-    <div class="mb-8">
-        <h2 class="text-3xl font-semibold">Ingresar al panel</h2>
-        <p class="mt-2 text-sm text-neutral-600">
-            Usá tus credenciales de administración.
-        </p>
-    </div>
+    <header class="auth-form-heading">
+        <span>Panel administrativo</span>
+        <h2>Bienvenido de nuevo</h2>
+        <p>Ingresá tus credenciales para acceder al CRM.</p>
+    </header>
 
     @if (session('estado'))
-        <div class="mb-5 border-l-4 border-emerald-600 bg-emerald-50 p-4 text-sm text-emerald-900">
-            {{ session('estado') }}
+        <div class="auth-message is-success" role="status">
+            <span>✓</span><p>{{ session('estado') }}</p>
         </div>
     @endif
 
     @if ($errors->any())
-        <div class="mb-5 border-l-4 border-red-600 bg-red-50 p-4 text-sm text-red-900">
-            {{ $errors->first() }}
+        <div class="auth-message is-error" role="alert">
+            <span>!</span><p>{{ $errors->first() }}</p>
         </div>
     @endif
 
-    <form method="POST" action="{{ route('administracion.ingresar') }}" class="space-y-5">
+    <form method="POST" action="{{ route('administracion.ingresar') }}" class="auth-form">
         @csrf
 
-        <div>
-            <label for="email" class="mb-2 block text-sm font-medium">Correo electrónico</label>
-            <input id="email" name="email" type="email" value="{{ old('email') }}" autocomplete="username" required
-                autofocus
-                class="h-12 w-full border border-neutral-300 bg-white px-3 outline-none transition focus:border-emerald-700 focus:ring-2 focus:ring-emerald-100">
+        <div class="auth-field">
+            <label for="email">Correo electrónico</label>
+            <div class="auth-input-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                <input id="email" name="email" type="email" value="{{ old('email') }}"
+                       autocomplete="username" placeholder="nombre@inmobiliaria.com" required autofocus>
+            </div>
         </div>
 
-        <div>
-            <label for="contrasenia" class="mb-2 block text-sm font-medium">Contraseña</label>
-            <input id="contrasenia" name="contrasenia" type="password" autocomplete="current-password" required
-                class="h-12 w-full border border-neutral-300 bg-white px-3 outline-none transition focus:border-emerald-700 focus:ring-2 focus:ring-emerald-100">
+        <div class="auth-field">
+            <label for="contrasenia">Contraseña</label>
+            <div class="auth-input-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+                <input id="contrasenia" name="contrasenia" type="password"
+                       autocomplete="current-password" placeholder="Ingresá tu contraseña" required data-password-input>
+                <button type="button" data-password-toggle aria-label="Mostrar contraseña" aria-pressed="false">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+                </button>
+            </div>
         </div>
 
-        <label class="flex items-center gap-3 text-sm text-neutral-700">
-            <input type="checkbox" name="recordarme" value="1"
-                class="size-4 border-neutral-300 text-emerald-700 focus:ring-emerald-600">
-            Mantener la sesión iniciada
+        <label class="auth-remember">
+            <input type="checkbox" name="recordarme" value="1" @checked(old('recordarme'))>
+            <span>Mantener la sesión iniciada</span>
         </label>
 
-        <button type="submit"
-            class="h-12 w-full bg-emerald-700 px-5 text-sm font-semibold text-white transition hover:bg-emerald-800 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:ring-offset-2">
-            Ingresar
+        <button type="submit" class="auth-submit">
+            Ingresar al panel
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
         </button>
     </form>
+
+    <div class="auth-help">
+        <span></span><p>Si no podés ingresar, contactá al administrador del sistema.</p><span></span>
+    </div>
 @endsection

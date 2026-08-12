@@ -77,7 +77,7 @@ class FormulariosPublicosTest extends TestCase
     private function crearPropiedadConOperacion(
         string $estado
     ): array {
-        $tipo = TipoPropiedad::query()->create([
+        $tipo = TipoPropiedad::query()->firstOrCreate([
             'nombre' => 'Casa',
             'activo' => true,
         ]);

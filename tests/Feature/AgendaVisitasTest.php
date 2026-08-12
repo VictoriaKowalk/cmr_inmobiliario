@@ -97,7 +97,7 @@ class AgendaVisitasTest extends TestCase
     private function datosBase(): array
     {
         $administrador = Usuario::factory()->create();
-        $tipo = TipoPropiedad::query()->create(['nombre' => 'Casa', 'activo' => true]);
+        $tipo = TipoPropiedad::query()->firstOrCreate(['nombre' => 'Casa'], ['activo' => true]);
         $ubicacion = Ubicacion::query()->create([
             'pais' => 'Argentina',
             'nombre_completo' => 'Argentina',

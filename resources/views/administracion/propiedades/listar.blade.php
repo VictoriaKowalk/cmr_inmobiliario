@@ -118,23 +118,24 @@
                                 {{ $propiedad->ubicacion->nombre_completo }}
                             </td>
                             <td class="px-5 py-4">
-                                <div class="flex flex-wrap gap-2">
+                                <div class="property-operations">
                                     @foreach ($propiedad->operaciones as $operacion)
                                         <span @class([
-                                            'px-2 py-1 text-xs font-medium ring-1 ring-inset',
-                                            'bg-emerald-50 text-emerald-800 ring-emerald-100' => $operacion->estado->value === 'publicada',
-                                            'bg-amber-50 text-amber-800 ring-amber-100' => $operacion->estado->value === 'pausada',
-                                            'bg-neutral-100 text-neutral-700 ring-neutral-200' => ! in_array($operacion->estado->value, ['publicada', 'pausada'], true),
+                                            'property-operation-badge',
+                                            'is-published' => $operacion->estado->value === 'publicada',
+                                            'is-paused' => $operacion->estado->value === 'pausada',
+                                            'is-closed' => ! in_array($operacion->estado->value, ['publicada', 'pausada'], true),
                                         ])>
-                                            {{ str_replace('_', ' ', ucfirst($operacion->tipo_operacion->value)) }}
-                                            · {{ ucfirst($operacion->estado->value) }}
+                                            <i aria-hidden="true"></i>
+                                            <span>{{ str_replace('_', ' ', ucfirst($operacion->tipo_operacion->value)) }}</span>
+                                            <small>{{ ucfirst($operacion->estado->value) }}</small>
                                         </span>
                                     @endforeach
                                 </div>
                             </td>
                             <td class="px-5 py-4">
                                 @if ($propiedad->estaDestacada())
-                                    <span class="bg-amber-50 px-2 py-1 text-xs font-semibold text-amber-800">Sí</span>
+                                    <span class="property-featured-badge"><span aria-hidden="true">★</span> Sí</span>
                                 @else
                                     <span class="text-neutral-500">No</span>
                                 @endif

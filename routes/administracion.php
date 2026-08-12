@@ -6,6 +6,7 @@ use App\Http\Controllers\Administracion\ConsultaController;
 use App\Http\Controllers\Administracion\ContactoController;
 use App\Http\Controllers\Administracion\CuentaController;
 use App\Http\Controllers\Administracion\DashboardController;
+use App\Http\Controllers\Administracion\EmpresaController;
 use App\Http\Controllers\Administracion\ImagenPropiedadController;
 use App\Http\Controllers\Administracion\MetricasComercialesController;
 use App\Http\Controllers\Administracion\PropiedadController;
@@ -44,6 +45,11 @@ Route::prefix('administracion')
             'actualizarContrasenia',
         ])->middleware('throttle:6,1')
             ->name('cuenta.actualizar-contrasenia');
+
+        Route::get('/empresa', [EmpresaController::class, 'editar'])
+            ->name('empresa.editar');
+        Route::put('/empresa', [EmpresaController::class, 'actualizar'])
+            ->name('empresa.actualizar');
 
         Route::prefix('consultas')
             ->name('consultas.')
@@ -163,14 +169,6 @@ Route::prefix('administracion')
                     ->name('crear');
                 Route::post('/', [TipoPropiedadController::class, 'guardar'])
                     ->name('guardar');
-                Route::get('/{tipoPropiedad}/editar', [
-                    TipoPropiedadController::class,
-                    'editar',
-                ])->name('editar');
-                Route::put('/{tipoPropiedad}', [
-                    TipoPropiedadController::class,
-                    'actualizar',
-                ])->name('actualizar');
                 Route::patch('/{tipoPropiedad}/estado', [
                     TipoPropiedadController::class,
                     'cambiarEstado',
