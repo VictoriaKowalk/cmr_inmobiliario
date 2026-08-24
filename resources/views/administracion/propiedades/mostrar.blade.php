@@ -341,6 +341,7 @@
                 </div>
             </section>
 
+            @if (auth()->user()->puedeSupervisar())
             <section class="border border-red-200 bg-white p-5">
                 <h2 class="font-semibold text-red-800">Eliminar propiedad</h2>
                 <p class="mt-2 text-sm text-neutral-600">Se podrá restaurar desde el listado de eliminadas.</p>
@@ -352,6 +353,7 @@
                     <button class="text-sm font-semibold text-red-700">Eliminar propiedad</button>
                 </form>
             </section>
+            @endif
         </aside>
     </div>
 @endsection

@@ -79,10 +79,10 @@ class IndicadoresComercialesTest extends TestCase
         $this->actingAs($administrador)
             ->get(route('administracion.dashboard'))
             ->assertOk()
-            ->assertSee('Actividad comercial')
-            ->assertSee('Embudo comercial')
-            ->assertSee('Estado del inventario')
-            ->assertSee('Centro de atención');
+            ->assertSee('Propiedades publicadas')
+            ->assertSee('Contactos sin asignar')
+            ->assertSee('Visitas de hoy')
+            ->assertSee('Próximas visitas');
     }
 
     private function crearPropiedad(): Propiedad

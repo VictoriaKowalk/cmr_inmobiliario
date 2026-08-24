@@ -22,6 +22,8 @@ class ConsultaController extends Controller
 
         $consultas = Consulta::query()
             ->with(['propiedad', 'operacionPropiedad'])
+            ->when($solicitud->user()->esAsesor(), fn ($consulta) => $consulta
+                ->where('responsable_id', $solicitud->user()->id))
             ->when($busqueda !== '', function ($consulta) use ($busqueda) {
                 $consulta->where(function ($subconsulta) use ($busqueda) {
                     $subconsulta
@@ -63,6 +65,7 @@ class ConsultaController extends Controller
 
     public function mostrar(Consulta $consulta): View
     {
+        $this->autorizarAcceso($consulta);
         $consulta->marcarComoLeida();
 
         return view('administracion.consultas.mostrar', [
@@ -74,7 +77,9 @@ class ConsultaController extends Controller
             ]),
             'estadosSeguimiento' => EstadoSeguimiento::cases(),
             'prioridades' => PrioridadOportunidad::cases(),
-            'responsables' => Usuario::query()->where('activo', true)->orderBy('nombre')->get(),
+            'responsables' => auth()->user()->esAsesor()
+                ? Usuario::query()->whereKey(auth()->id())->get()
+                : Usuario::query()->where('activo', true)->orderBy('nombre')->get(),
         ]);
     }
 
@@ -82,8 +87,18 @@ class ConsultaController extends Controller
         ActualizarSeguimientoContactoRequest $solicitud,
         Consulta $consulta
     ): RedirectResponse {
-        $consulta->actualizarOportunidad($solicitud->validated(), $solicitud->user());
+        $this->autorizarAcceso($consulta);
+        $datos = $solicitud->validated();
+        if ($solicitud->user()->esAsesor()) {
+            $datos['responsable_id'] = $solicitud->user()->id;
+        }
+        $consulta->actualizarOportunidad($datos, $solicitud->user());
 
         return back()->with('estado', 'El seguimiento de la consulta se actualizó correctamente.');
+    }
+
+    private function autorizarAcceso(Consulta $consulta): void
+    {
+        abort_if(auth()->user()->esAsesor() && $consulta->responsable_id !== auth()->id(), 403);
     }
 }

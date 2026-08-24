@@ -2,8 +2,8 @@
 @section('titulo', 'Usuarios')
 @section('contenido')
     <header class="users-heading">
-        <div><h1>USUARIOS</h1><p>Creá usuarios, cambiá sus contraseñas.</p></div>
-        <a href="{{ route('administracion.usuarios.crear') }}" class="users-new-button"><span aria-hidden="true">+</span> Nuevo usuario</a>
+        <div><h1>USUARIOS Y EQUIPO</h1><p>Gestioná accesos, roles y contraseñas.</p></div>
+        <div class="flex gap-3"><a href="{{ route('administracion.usuarios.permisos') }}" class="dashboard-secondary-action">Roles y permisos</a><a href="{{ route('administracion.usuarios.crear') }}" class="users-new-button"><span aria-hidden="true">+</span> Nuevo usuario</a></div>
     </header>
 
     @if ($errors->has('usuario'))
@@ -20,17 +20,18 @@
         </form>
         <div class="users-table-wrap">
             <table class="users-table">
-                <thead><tr><th>Nombre</th><th>Email</th><th>Estado</th><th class="text-right">Acciones</th></tr></thead>
+                <thead><tr><th>Nombre</th><th>Email</th><th>Rol</th><th>Estado</th><th class="text-right">Acciones</th></tr></thead>
                 <tbody>
                     @forelse ($usuarios as $usuario)
                         <tr>
                             <td><div class="users-name"><span>{{ mb_strtoupper(mb_substr($usuario->nombre, 0, 1)) }}{{ $usuario->apellido ? mb_strtoupper(mb_substr($usuario->apellido, 0, 1)) : '' }}</span><strong>{{ $usuario->nombreCompleto() }}</strong></div></td>
                             <td class="users-email">{{ $usuario->email }}</td>
+                            <td>{{ $usuario->rol->etiqueta() }}</td>
                             <td><span @class(['users-status', 'is-active' => $usuario->activo, 'is-inactive' => ! $usuario->activo])><i></i>{{ $usuario->activo ? 'Activo' : 'Inactivo' }}</span></td>
                             <td class="text-right"><a href="{{ route('administracion.usuarios.editar', $usuario) }}" class="users-edit-link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 20 4-.8L19 8.2a2.1 2.1 0 0 0-3-3L4.8 16.4 4 20ZM14.5 6.5l3 3"/></svg>Editar</a></td>
                         </tr>
                     @empty
-                        <tr><td colspan="4" class="users-empty">No se encontraron usuarios.</td></tr>
+                        <tr><td colspan="5" class="users-empty">No se encontraron usuarios.</td></tr>
                     @endforelse
                 </tbody>
             </table>

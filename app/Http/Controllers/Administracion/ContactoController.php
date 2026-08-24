@@ -80,6 +80,8 @@ class ContactoController extends Controller
     ): Collection {
         return Consulta::query()
             ->with(['propiedad', 'responsable'])
+            ->when(auth()->user()->esAsesor(), fn ($consulta) => $consulta
+                ->where('responsable_id', auth()->id()))
             ->when($tipo === 'consulta_general', fn ($consulta) => $consulta
                 ->whereNull('propiedad_id'))
             ->when($tipo === 'consulta_propiedad', fn ($consulta) => $consulta
@@ -138,6 +140,8 @@ class ContactoController extends Controller
     ): Collection {
         return Tasacion::query()
             ->with(['tipoPropiedad', 'responsable'])
+            ->when(auth()->user()->esAsesor(), fn ($consulta) => $consulta
+                ->where('responsable_id', auth()->id()))
             ->when($estado !== 'todos', fn ($consulta) => $consulta
                 ->where('estado_seguimiento', $estado))
             ->when($lectura === 'sin_leer', fn ($consulta) => $consulta

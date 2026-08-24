@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests\Administracion;
 
+use App\Enums\RolUsuario;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Password;
@@ -26,6 +27,7 @@ class GuardarUsuarioRequest extends FormRequest
                 'max:255',
                 Rule::unique('usuarios', 'email')->ignore($usuario?->id),
             ],
+            'rol' => ['required', Rule::enum(RolUsuario::class)],
             'telefono' => ['nullable', 'string', 'max:50'],
             'celular' => ['nullable', 'string', 'max:50'],
             'direccion' => ['nullable', 'string', 'max:255'],
@@ -36,6 +38,27 @@ class GuardarUsuarioRequest extends FormRequest
                 'confirmed',
                 Password::min(10)->letters()->mixedCase()->numbers(),
             ],
+        ];
+    }
+
+    public function messages(): array
+    {
+        return [
+            'nombre.required' => 'Ingresá el nombre del usuario.',
+            'email.required' => 'Ingresá el correo electrónico.',
+            'email.email' => 'Ingresá un correo electrónico válido.',
+            'email.unique' => 'Ya existe un usuario con ese correo electrónico.',
+            'rol.required' => 'Seleccioná un rol para el usuario.',
+            'rol.enum' => 'El rol seleccionado no es válido.',
+            'dni.regex' => 'El DNI solo puede contener números, puntos y guiones.',
+            'dni.unique' => 'Ya existe un usuario con ese DNI.',
+            'fecha_nacimiento.before_or_equal' => 'La fecha de nacimiento no puede ser futura.',
+            'contrasenia.required' => 'Ingresá una contraseña inicial.',
+            'contrasenia.confirmed' => 'La confirmación de la contraseña no coincide.',
+            'contrasenia.min' => 'La contraseña debe tener al menos 10 caracteres e incluir mayúsculas, minúsculas y números.',
+            'contrasenia.letters' => 'La contraseña debe tener al menos 10 caracteres e incluir mayúsculas, minúsculas y números.',
+            'contrasenia.mixed' => 'La contraseña debe tener al menos 10 caracteres e incluir mayúsculas, minúsculas y números.',
+            'contrasenia.numbers' => 'La contraseña debe tener al menos 10 caracteres e incluir mayúsculas, minúsculas y números.',
         ];
     }
 

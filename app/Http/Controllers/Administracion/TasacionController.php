@@ -22,6 +22,8 @@ class TasacionController extends Controller
 
         $tasaciones = Tasacion::query()
             ->with('tipoPropiedad')
+            ->when($solicitud->user()->esAsesor(), fn ($consulta) => $consulta
+                ->where('responsable_id', $solicitud->user()->id))
             ->when($busqueda !== '', function ($consulta) use ($busqueda) {
                 $consulta->where(function ($subconsulta) use ($busqueda) {
                     $subconsulta
@@ -62,6 +64,7 @@ class TasacionController extends Controller
 
     public function mostrar(Tasacion $tasacion): View
     {
+        $this->autorizarAcceso($tasacion);
         $tasacion->marcarComoLeida();
 
         return view('administracion.tasaciones.mostrar', [
@@ -72,7 +75,9 @@ class TasacionController extends Controller
             ]),
             'estadosSeguimiento' => EstadoSeguimiento::cases(),
             'prioridades' => PrioridadOportunidad::cases(),
-            'responsables' => Usuario::query()->where('activo', true)->orderBy('nombre')->get(),
+            'responsables' => auth()->user()->esAsesor()
+                ? Usuario::query()->whereKey(auth()->id())->get()
+                : Usuario::query()->where('activo', true)->orderBy('nombre')->get(),
         ]);
     }
 
@@ -80,8 +85,18 @@ class TasacionController extends Controller
         ActualizarSeguimientoContactoRequest $solicitud,
         Tasacion $tasacion
     ): RedirectResponse {
-        $tasacion->actualizarOportunidad($solicitud->validated(), $solicitud->user());
+        $this->autorizarAcceso($tasacion);
+        $datos = $solicitud->validated();
+        if ($solicitud->user()->esAsesor()) {
+            $datos['responsable_id'] = $solicitud->user()->id;
+        }
+        $tasacion->actualizarOportunidad($datos, $solicitud->user());
 
         return back()->with('estado', 'El seguimiento de la tasación se actualizó correctamente.');
+    }
+
+    private function autorizarAcceso(Tasacion $tasacion): void
+    {
+        abort_if(auth()->user()->esAsesor() && $tasacion->responsable_id !== auth()->id(), 403);
     }
 }

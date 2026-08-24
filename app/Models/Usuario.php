@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\RolUsuario;
 use Database\Factories\UsuarioFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -24,6 +25,7 @@ class Usuario extends Authenticatable
         'dni',
         'fecha_nacimiento',
         'contrasenia',
+        'rol',
         'activo',
         'ultimo_acceso_en',
     ];
@@ -37,6 +39,7 @@ class Usuario extends Authenticatable
     {
         return [
             'contrasenia' => 'hashed',
+            'rol' => RolUsuario::class,
             'activo' => 'boolean',
             'ultimo_acceso_en' => 'datetime',
             'fecha_nacimiento' => 'date',
@@ -56,6 +59,26 @@ class Usuario extends Authenticatable
     public function estaActivo(): bool
     {
         return $this->activo;
+    }
+
+    public function esAdministrador(): bool
+    {
+        return $this->rol === RolUsuario::ADMINISTRADOR;
+    }
+
+    public function esSupervisor(): bool
+    {
+        return $this->rol === RolUsuario::SUPERVISOR;
+    }
+
+    public function esAsesor(): bool
+    {
+        return $this->rol === RolUsuario::ASESOR;
+    }
+
+    public function puedeSupervisar(): bool
+    {
+        return $this->esAdministrador() || $this->esSupervisor();
     }
 
     public function nombreCompleto(): string

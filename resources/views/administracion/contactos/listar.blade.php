@@ -21,10 +21,12 @@
            aria-current="page">
             Bandeja
         </a>
+        @if (auth()->user()->puedeSupervisar())
         <a href="{{ route('administracion.contactos.metricas') }}"
            class="border-b-2 border-transparent px-5 py-3 text-sm font-semibold text-neutral-500 hover:text-neutral-900">
             Métricas
         </a>
+        @endif
     </nav>
 
     <form method="GET" class="mb-5 grid gap-3 border border-neutral-200 bg-white p-4 md:grid-cols-2 xl:grid-cols-4">

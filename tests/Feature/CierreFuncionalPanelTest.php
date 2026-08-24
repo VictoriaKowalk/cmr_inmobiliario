@@ -32,6 +32,7 @@ class CierreFuncionalPanelTest extends TestCase
                 'nombre' => 'Victoria',
                 'apellido' => 'Pérez',
                 'email' => 'victoria@example.com',
+                'rol' => 'administrador',
                 'telefono' => '11 4000-0000',
                 'celular' => '11 5000-0000',
                 'direccion' => 'Av. Libertador 1000',

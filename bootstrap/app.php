@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\AgregarCabecerasSeguridad;
+use App\Http\Middleware\RequerirRol;
 use App\Http\Middleware\VerificarUsuarioActivo;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
@@ -21,6 +22,7 @@ return Application::configure(basePath: dirname(__DIR__))
 
         $middleware->alias([
             'usuario.activo' => VerificarUsuarioActivo::class,
+            'rol' => RequerirRol::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

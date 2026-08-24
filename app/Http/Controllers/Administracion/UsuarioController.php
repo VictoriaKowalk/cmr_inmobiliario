@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Administracion;
 
+use App\Enums\RolUsuario;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Administracion\GuardarUsuarioRequest;
 use App\Models\Usuario;
@@ -75,6 +76,14 @@ class UsuarioController extends Controller
             );
         }
 
+        if ($usuario->esAdministrador()
+            && $datos['rol'] !== RolUsuario::ADMINISTRADOR->value
+            && Usuario::query()->where('activo', true)->where('rol', RolUsuario::ADMINISTRADOR)->count() <= 1) {
+            return back()->withErrors([
+                'rol' => 'Debe quedar al menos un administrador activo.',
+            ])->withInput();
+        }
+
         $usuario->update($datos);
 
         return redirect()->route('administracion.usuarios.listar')
@@ -91,7 +100,8 @@ class UsuarioController extends Controller
             ]);
         }
 
-        if ($usuario->activo && Usuario::query()->where('activo', true)->count() <= 1) {
+        if ($usuario->activo && $usuario->esAdministrador()
+            && Usuario::query()->where('activo', true)->where('rol', RolUsuario::ADMINISTRADOR)->count() <= 1) {
             return back()->withErrors([
                 'usuario' => 'Debe quedar al menos un administrador activo.',
             ]);
@@ -102,8 +112,13 @@ class UsuarioController extends Controller
         return back()->with(
             'estado',
             $usuario->activo
-                ? 'El administrador quedó activo.'
-                : 'El administrador quedó inactivo.'
+                ? 'El usuario quedó activo.'
+                : 'El usuario quedó inactivo.'
         );
+    }
+
+    public function mostrarPermisos(): View
+    {
+        return view('administracion.usuarios.permisos');
     }
 }

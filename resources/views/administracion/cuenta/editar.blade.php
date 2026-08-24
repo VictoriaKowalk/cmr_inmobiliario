@@ -16,6 +16,7 @@
     </header>
 
     <section class="company-grid" aria-label="Configuración de la empresa">
+        @if (auth()->user()->esAdministrador())
         <a href="{{ route('administracion.usuarios.listar') }}" class="company-card">
             <span class="company-card__icon"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg></span>
             <div><h2>Administrador de usuario</h2><p>Gestioná tus usuarios y administradores. Podés cambiar las contraseñas.</p></div>
@@ -29,6 +30,7 @@
             <span class="company-card__meta">Editar información</span>
             <span class="company-card__arrow">›</span>
         </a>
+        @endif
 
         <a href="{{ route('administracion.contactos.listar') }}" class="company-card">
             <span class="company-card__icon"><svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/><path d="m3 7 6-4 6 6 6-5"/></svg></span>
@@ -37,6 +39,7 @@
             <span class="company-card__arrow">›</span>
         </a>
 
+        @if (auth()->user()->puedeSupervisar())
         <a href="{{ route('administracion.tipos-propiedad.listar') }}" class="company-card">
             <span class="company-card__icon"><svg viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9Z"/></svg></span>
             <div><h2>Propiedades</h2><p>Configurá con qué tipos de propiedades trabaja tu inmobiliaria.</p></div>
@@ -64,6 +67,7 @@
             <span class="company-card__meta"><strong>{{ $caracteristicasActivas }}</strong> activas</span>
             <span class="company-card__arrow">›</span>
         </a>
+        @endif
 
         <a href="#seguridad" class="company-card">
             <span class="company-card__icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
@@ -72,11 +76,13 @@
             <span class="company-card__arrow">↓</span>
         </a>
 
-        <article class="company-card is-disabled">
+        @if (auth()->user()->esAdministrador())
+        <a href="{{ route('administracion.usuarios.permisos') }}" class="company-card">
             <span class="company-card__icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a6 6 0 0 1 12 0v2M17 11l2 2 4-4M18 5h4"/></svg></span>
-            <div><h2>Permisos</h2><p>Asigná perfiles de administrador o usuario y definí qué puede hacer cada persona dentro del sistema.</p></div>
-            <span class="company-card__soon">Próximamente</span>
-        </article>
+            <div><h2>Roles y permisos</h2><p>Consultá la matriz de permisos para administradores, supervisores y asesores.</p></div>
+            <span class="company-card__meta">Ver matriz</span><span class="company-card__arrow">›</span>
+        </a>
+        @endif
     </section>
 
     <section id="seguridad" class="company-security">

@@ -142,11 +142,13 @@
                                 @else
                                     <span class="text-sm text-neutral-500">Portada actual</span>
                                 @endif
+                                @if (auth()->user()->puedeSupervisar())
                                 <button type="submit"
                                         form="eliminar-imagen-{{ $imagen->id }}"
                                         class="text-sm font-medium text-red-700">
                                     Eliminar
                                 </button>
+                                @endif
                             </div>
                         </article>
                     @endforeach
@@ -164,6 +166,7 @@
                     @csrf
                     @method('PATCH')
                 </form>
+                @if (auth()->user()->puedeSupervisar())
                 <form id="eliminar-imagen-{{ $imagen->id }}"
                       method="POST"
                       action="{{ route('administracion.propiedades.imagenes.eliminar', [$propiedad, $imagen]) }}"
@@ -171,6 +174,7 @@
                     @csrf
                     @method('DELETE')
                 </form>
+                @endif
             @endforeach
         @else
             <p class="mt-6 border border-neutral-200 p-6 text-center text-sm text-neutral-500">
@@ -249,6 +253,7 @@
                                 </p>
                                 <p class="mt-1 text-xs uppercase text-neutral-500">{{ $video->tipo }}</p>
                             </div>
+                            @if (auth()->user()->puedeSupervisar())
                             <form method="POST"
                                   action="{{ route('administracion.propiedades.videos.eliminar', [$propiedad, $video]) }}"
                                   onsubmit="return confirm('¿Eliminar este video?')">
@@ -256,6 +261,7 @@
                                 @method('DELETE')
                                 <button class="text-sm font-medium text-red-700">Eliminar</button>
                             </form>
+                            @endif
                         </div>
                     </article>
                 @endforeach

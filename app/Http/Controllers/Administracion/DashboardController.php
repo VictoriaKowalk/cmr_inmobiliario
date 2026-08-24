@@ -36,6 +36,21 @@ class DashboardController extends Controller
         $tasacionesSinLeer = Tasacion::query()
             ->whereNull('leida_en')
             ->count();
+        $contactosSinAsignar = Consulta::query()
+            ->whereNull('responsable_id')
+            ->whereNotIn('estado_seguimiento', [
+                EstadoSeguimiento::GANADA->value,
+                EstadoSeguimiento::PERDIDA->value,
+                EstadoSeguimiento::CERRADA->value,
+            ])
+            ->count() + Tasacion::query()
+            ->whereNull('responsable_id')
+            ->whereNotIn('estado_seguimiento', [
+                EstadoSeguimiento::GANADA->value,
+                EstadoSeguimiento::PERDIDA->value,
+                EstadoSeguimiento::CERRADA->value,
+            ])
+            ->count();
 
         $cantidadPublicadas = Propiedad::query()
             ->whereHas('operaciones', fn ($consulta) => $consulta
@@ -56,6 +71,10 @@ class DashboardController extends Controller
             ->orderBy('inicio')
             ->limit(5)
             ->get();
+        $visitasHoy = Visita::query()
+            ->whereBetween('inicio', [now()->startOfDay(), now()->endOfDay()])
+            ->where('estado', '!=', EstadoVisita::CANCELADA->value)
+            ->count();
 
         $tareasVencidas = Consulta::query()
             ->whereNotNull('proxima_tarea_en')
@@ -80,6 +99,7 @@ class DashboardController extends Controller
             'desde' => $desde,
             'hasta' => $hasta,
             'proximasVisitas' => $proximasVisitas,
+            'visitasHoy' => $visitasHoy,
             'tareasVencidas' => $tareasVencidas,
             'cantidadPublicadas' => $cantidadPublicadas,
             'cantidadPausadas' => $cantidadPausadas,
@@ -99,6 +119,7 @@ class DashboardController extends Controller
             'consultasSinLeer' => $consultasSinLeer,
             'tasacionesSinLeer' => $tasacionesSinLeer,
             'contactosSinLeer' => $consultasSinLeer + $tasacionesSinLeer,
+            'contactosSinAsignar' => $contactosSinAsignar,
             'propiedadesPublicadasSinImagen' => Propiedad::query()
                 ->publicadas()
                 ->whereDoesntHave('imagenes')

@@ -47,8 +47,10 @@ Route::prefix('administracion')
             ->name('cuenta.actualizar-contrasenia');
 
         Route::get('/empresa', [EmpresaController::class, 'editar'])
+            ->middleware('rol:administrador')
             ->name('empresa.editar');
         Route::put('/empresa', [EmpresaController::class, 'actualizar'])
+            ->middleware('rol:administrador')
             ->name('empresa.actualizar');
 
         Route::prefix('consultas')
@@ -69,7 +71,7 @@ Route::prefix('administracion')
         Route::get('/contactos/metricas', [
             MetricasComercialesController::class,
             'mostrarMetricas',
-        ])->name('contactos.metricas');
+        ])->middleware('rol:administrador,supervisor')->name('contactos.metricas');
 
         Route::prefix('visitas')->name('visitas.')->group(function (): void {
             Route::get('/', [VisitaController::class, 'listar'])->name('listar');
@@ -129,11 +131,11 @@ Route::prefix('administracion')
                 Route::delete('/{propiedad}', [
                     PropiedadController::class,
                     'eliminar',
-                ])->name('eliminar');
+                ])->middleware('rol:administrador,supervisor')->name('eliminar');
                 Route::patch('/{propiedad}/restaurar', [
                     PropiedadController::class,
                     'restaurar',
-                ])->name('restaurar');
+                ])->middleware('rol:administrador,supervisor')->name('restaurar');
                 Route::post('/{propiedad}/imagenes', [
                     ImagenPropiedadController::class,
                     'guardar',
@@ -149,7 +151,7 @@ Route::prefix('administracion')
                 Route::delete('/{propiedad}/imagenes/{imagen}', [
                     ImagenPropiedadController::class,
                     'eliminar',
-                ])->name('imagenes.eliminar');
+                ])->middleware('rol:administrador,supervisor')->name('imagenes.eliminar');
                 Route::post('/{propiedad}/videos', [
                     VideoPropiedadController::class,
                     'guardar',
@@ -157,11 +159,12 @@ Route::prefix('administracion')
                 Route::delete('/{propiedad}/videos/{video}', [
                     VideoPropiedadController::class,
                     'eliminar',
-                ])->name('videos.eliminar');
+                ])->middleware('rol:administrador,supervisor')->name('videos.eliminar');
             });
 
         Route::prefix('tipos-propiedad')
             ->name('tipos-propiedad.')
+            ->middleware('rol:administrador,supervisor')
             ->group(function (): void {
                 Route::get('/', [TipoPropiedadController::class, 'listar'])
                     ->name('listar');
@@ -177,6 +180,7 @@ Route::prefix('administracion')
 
         Route::prefix('ubicaciones')
             ->name('ubicaciones.')
+            ->middleware('rol:administrador,supervisor')
             ->group(function (): void {
                 Route::get('/', [UbicacionController::class, 'listar'])
                     ->name('listar');
@@ -202,6 +206,7 @@ Route::prefix('administracion')
 
         Route::prefix('caracteristicas')
             ->name('caracteristicas.')
+            ->middleware('rol:administrador,supervisor')
             ->group(function (): void {
                 Route::get('/', [CaracteristicaController::class, 'listar'])
                     ->name('listar');
@@ -225,7 +230,10 @@ Route::prefix('administracion')
 
         Route::prefix('usuarios')
             ->name('usuarios.')
+            ->middleware('rol:administrador')
             ->group(function (): void {
+                Route::get('/permisos', [UsuarioController::class, 'mostrarPermisos'])
+                    ->name('permisos');
                 Route::get('/', [UsuarioController::class, 'listar'])
                     ->name('listar');
                 Route::get('/crear', [UsuarioController::class, 'crear'])

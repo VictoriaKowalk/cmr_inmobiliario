@@ -142,7 +142,7 @@
                             </td>
                             <td class="px-5 py-4">
                                 <div class="flex justify-end gap-3">
-                                    @if ($propiedad->trashed())
+                                    @if ($propiedad->trashed() && auth()->user()->puedeSupervisar())
                                         <form method="POST" action="{{ route('administracion.propiedades.restaurar', $propiedad->id) }}">
                                             @csrf
                                             @method('PATCH')

@@ -24,6 +24,15 @@
                autocomplete="off"
                class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
     </div>
+    <div class="sm:col-span-2">
+        <label for="rol" class="mb-2 block text-sm font-medium">Rol</label>
+        <select id="rol" name="rol" required class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
+            @foreach (\App\Enums\RolUsuario::cases() as $rol)
+                <option value="{{ $rol->value }}" @selected(old('rol', $usuario?->rol?->value ?? 'asesor') === $rol->value)>{{ $rol->etiqueta() }}</option>
+            @endforeach
+        </select>
+        <p class="mt-2 text-xs text-neutral-500">Los permisos de cada rol se pueden consultar en la matriz de roles y permisos.</p>
+    </div>
     <div>
         <label for="telefono" class="mb-2 block text-sm font-medium">Teléfono</label>
         <input id="telefono" name="telefono" maxlength="50" value="{{ old('telefono', $usuario?->telefono) }}" placeholder="Ej.: 11 4000-0000" class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">

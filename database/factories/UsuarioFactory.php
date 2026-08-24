@@ -21,6 +21,7 @@ class UsuarioFactory extends Factory
             'apellido' => fake()->lastName(),
             'email' => fake()->unique()->safeEmail(),
             'contrasenia' => static::$contrasenia ??= Hash::make('contrasenia'),
+            'rol' => 'administrador',
             'activo' => true,
             'recordar_token' => Str::random(10),
         ];

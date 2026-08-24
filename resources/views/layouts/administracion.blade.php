@@ -28,12 +28,15 @@
             ['Oportunidades', 'administracion.contactos.listar', ['administracion.contactos.*', 'administracion.consultas.*', 'administracion.tasaciones.*'], 'contactos'],
             ['Agenda', 'administracion.visitas.listar', 'administracion.visitas.*', 'visitas'],
         ];
-        $navegacionConfiguracion = [
-            ['Tipos de propiedad', 'administracion.tipos-propiedad.listar', 'administracion.tipos-propiedad.*', 'tipos'],
-            ['Ubicaciones', 'administracion.ubicaciones.listar', 'administracion.ubicaciones.*', 'ubicaciones'],
-            ['Características', 'administracion.caracteristicas.listar', 'administracion.caracteristicas.*', 'caracteristicas'],
-            ['Mi empresa', 'administracion.cuenta.editar', ['administracion.cuenta.*', 'administracion.empresa.*'], 'cuenta'],
-        ];
+        $navegacionConfiguracion = [];
+        if (auth()->user()->puedeSupervisar()) {
+            $navegacionConfiguracion = [
+                ['Tipos de propiedad', 'administracion.tipos-propiedad.listar', 'administracion.tipos-propiedad.*', 'tipos'],
+                ['Ubicaciones', 'administracion.ubicaciones.listar', 'administracion.ubicaciones.*', 'ubicaciones'],
+                ['Características', 'administracion.caracteristicas.listar', 'administracion.caracteristicas.*', 'caracteristicas'],
+            ];
+        }
+        $navegacionConfiguracion[] = ['Mi empresa', 'administracion.cuenta.editar', ['administracion.cuenta.*', 'administracion.empresa.*', 'administracion.usuarios.*'], 'cuenta'];
     @endphp
 
     <div class="admin-shell" data-admin-shell>
@@ -42,12 +45,8 @@
         <aside class="admin-sidebar" data-sidebar>
             <div class="admin-brand">
                 <a href="{{ route('administracion.dashboard') }}" class="admin-brand__mark" aria-label="Ir al dashboard">
-                    @if ($empresaPanel?->logoUrl())<img src="{{ $empresaPanel->logoUrl() }}" alt="">@else{{ $empresaPanel?->iniciales() ?: 'HS' }}@endif
+                    @if ($empresaPanel?->logoUrl())<img src="{{ $empresaPanel->logoUrl() }}" alt="Logo de {{ $empresaPanel->nombre_comercial }}">@else{{ $empresaPanel?->iniciales() ?: 'HS' }}@endif
                 </a>
-                <div class="min-w-0">
-                    <p class="truncate text-sm font-bold text-white">{{ $empresaPanel?->nombre_comercial ?: config('app.name') }}</p>
-                    <p class="mt-0.5 text-[10px] font-semibold uppercase tracking-[0.22em] text-teal-300">Real Estate CRM</p>
-                </div>
                 <button type="button" class="admin-icon-button ml-auto lg:hidden" data-sidebar-close aria-label="Cerrar menú">
                     <svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
                 </button>
@@ -77,7 +76,7 @@
                 <span class="admin-avatar">{{ mb_strtoupper(mb_substr(auth()->user()->nombre, 0, 1)) }}{{ auth()->user()->apellido ? mb_strtoupper(mb_substr(auth()->user()->apellido, 0, 1)) : '' }}</span>
                 <div class="min-w-0 flex-1">
                     <p class="truncate text-sm font-semibold text-white">{{ auth()->user()->nombreCompleto() }}</p>
-                    <p class="truncate text-xs text-slate-400">Administrador</p>
+                    <p class="truncate text-xs text-slate-400">{{ auth()->user()->rol->etiqueta() }}</p>
                 </div>
                 <form method="POST" action="{{ route('administracion.salir') }}">
                     @csrf

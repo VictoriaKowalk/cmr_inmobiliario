@@ -32,6 +32,8 @@ class VisitaController extends Controller
         $visitas = Visita::query()
             ->with(['propiedad', 'asesor'])
             ->whereBetween('inicio', [$desde, $hasta])
+            ->when($request->user()->esAsesor(), fn ($query) => $query
+                ->where('asesor_id', $request->user()->id))
             ->when($asesorId, fn ($query) => $query->where('asesor_id', $asesorId))
             ->when($estado !== 'todos', fn ($query) => $query->where('estado', $estado))
             ->orderBy('inicio')
@@ -57,6 +59,10 @@ class VisitaController extends Controller
         $tasacion = $request->integer('tasacion')
             ? Tasacion::query()->find($request->integer('tasacion'))
             : null;
+        if ($request->user()->esAsesor()) {
+            abort_if($consulta && $consulta->responsable_id !== $request->user()->id, 403);
+            abort_if($tasacion && $tasacion->responsable_id !== $request->user()->id, 403);
+        }
 
         return view('administracion.visitas.crear', [
             'consulta' => $consulta,
@@ -70,7 +76,15 @@ class VisitaController extends Controller
     public function guardar(GuardarVisitaRequest $request): RedirectResponse
     {
         $datos = $request->validated();
+        if ($request->user()->esAsesor()) {
+            $datos['asesor_id'] = $request->user()->id;
+        }
         $oportunidad = $this->obtenerOportunidad($datos);
+        abort_if(
+            $request->user()->esAsesor() && $oportunidad
+                && $oportunidad->responsable_id !== $request->user()->id,
+            403
+        );
         unset($datos['consulta_id'], $datos['tasacion_id']);
         $datos['fin'] = $datos['fin'] ?? Carbon::parse($datos['inicio'])->addHour();
         $this->validarConflictos($datos);
@@ -96,6 +110,8 @@ class VisitaController extends Controller
 
     public function mostrar(Visita $visita): View
     {
+        $this->autorizarAcceso($visita);
+
         return view('administracion.visitas.mostrar', [
             'visita' => $visita->load(['propiedad', 'asesor', 'oportunidad', 'historial.usuario']),
             'resultadosVisita' => ResultadoVisita::cases(),
@@ -104,6 +120,7 @@ class VisitaController extends Controller
 
     public function cambiarEstado(Request $request, Visita $visita): RedirectResponse
     {
+        $this->autorizarAcceso($visita);
         $datos = $request->validate([
             'estado' => ['required', Rule::enum(EstadoVisita::class)],
             'motivo_cancelacion' => [
@@ -128,6 +145,7 @@ class VisitaController extends Controller
         RegistrarResultadoVisitaRequest $request,
         Visita $visita
     ): RedirectResponse {
+        $this->autorizarAcceso($visita);
         $visita->update([
             ...$request->validated(),
             'estado' => EstadoVisita::REALIZADA,
@@ -195,6 +213,13 @@ class VisitaController extends Controller
 
     private function responsables()
     {
-        return Usuario::query()->where('activo', true)->orderBy('nombre')->get();
+        return auth()->user()->esAsesor()
+            ? Usuario::query()->whereKey(auth()->id())->get()
+            : Usuario::query()->where('activo', true)->orderBy('nombre')->get();
+    }
+
+    private function autorizarAcceso(Visita $visita): void
+    {
+        abort_if(auth()->user()->esAsesor() && $visita->asesor_id !== auth()->id(), 403);
     }
 }
