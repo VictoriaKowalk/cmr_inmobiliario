@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Pinar Del Tigre",
+  "id": 25683,
+  "name": "Pinar Del Tigre",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Pinar Del Tigre",
+  "state": null,
+  "weight": 14,
+  "zip_code": null
+}

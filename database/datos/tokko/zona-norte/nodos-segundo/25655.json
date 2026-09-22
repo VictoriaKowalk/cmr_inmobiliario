@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | Las Palmas",
+  "id": 25655,
+  "name": "Las Palmas",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | Las Palmas",
+  "state": null,
+  "weight": 108,
+  "zip_code": null
+}

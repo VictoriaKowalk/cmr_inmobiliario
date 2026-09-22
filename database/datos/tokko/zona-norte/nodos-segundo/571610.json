@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | El Portal de Belén",
+  "id": 571610,
+  "name": "El Portal de Belén",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | El Portal de Belén",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

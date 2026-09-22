@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Tigre Chico",
+  "id": 25709,
+  "name": "Tigre Chico",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Tigre Chico",
+  "state": null,
+  "weight": 13,
+  "zip_code": null
+}

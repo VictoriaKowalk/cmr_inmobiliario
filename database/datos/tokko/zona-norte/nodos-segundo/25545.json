@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-San Isidro",
+  "id": 25545,
+  "name": "Las Lomas-San Isidro",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-San Isidro",
+  "state": null,
+  "weight": 590,
+  "zip_code": null
+}

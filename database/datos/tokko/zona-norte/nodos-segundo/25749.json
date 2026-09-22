@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | L.Camelo",
+  "id": 25749,
+  "name": "L.Camelo",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | L.Camelo",
+  "state": null,
+  "weight": 37,
+  "zip_code": null
+}

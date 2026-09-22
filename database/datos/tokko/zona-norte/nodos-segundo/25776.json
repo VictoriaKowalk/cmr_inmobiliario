@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Capitan",
+  "id": 25776,
+  "name": "Capitan",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Capitan",
+  "state": null,
+  "weight": 119,
+  "zip_code": null
+}

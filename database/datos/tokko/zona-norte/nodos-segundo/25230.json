@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Las Brisas",
+  "id": 25230,
+  "name": "Las Brisas",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Las Brisas",
+  "state": null,
+  "weight": 78,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | 9 de Julio",
+  "id": 82449,
+  "name": "9 de Julio",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | 9 de Julio",
+  "state": null,
+  "weight": 16,
+  "zip_code": null
+}

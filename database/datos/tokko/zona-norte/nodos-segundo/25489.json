@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | La Posta",
+  "id": 25489,
+  "name": "La Posta",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | La Posta",
+  "state": null,
+  "weight": 45,
+  "zip_code": null
+}

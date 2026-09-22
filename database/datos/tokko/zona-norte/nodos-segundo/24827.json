@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Aranzazu",
+  "id": 24827,
+  "name": "Aranzazu",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Aranzazu",
+  "state": null,
+  "weight": 122,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Jose Clemente Paz | 9 De Julio (Jose C.Paz)",
+  "id": 25044,
+  "name": "9 De Julio (Jose C.Paz)",
+  "parent_division": "/api/v1/location/25043/",
+  "short_location": "Jose Clemente Paz | Jose Clemente Paz | 9 De Julio (Jose C.Paz)",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

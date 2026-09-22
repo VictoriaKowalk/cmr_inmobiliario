@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 505135,
+            "name": "El Descanso",
+            "resource_uri": "\/api\/v1\/location\/505135\/"
+        },
+        {
+            "id": 571450,
+            "name": "Barrio Nueva Zelaya 2",
+            "resource_uri": "\/api\/v1\/location\/571450\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Zelaya",
+    "id": 25435,
+    "name": "Zelaya",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Zelaya",
+    "state": null,
+    "weight": 164,
+    "zip_code": null
+}

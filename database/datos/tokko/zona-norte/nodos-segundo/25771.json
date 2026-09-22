@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Arroyon",
+  "id": 25771,
+  "name": "Arroyon",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Arroyon",
+  "state": null,
+  "weight": 33,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar Plaza",
+    "id": 51977,
+    "name": "Beccar Plaza",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Beccar Plaza",
+    "state": null,
+    "weight": 120,
+    "zip_code": null
+}

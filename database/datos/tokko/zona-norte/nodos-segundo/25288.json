@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Rocios Del Pilar",
+  "id": 25288,
+  "name": "Rocios Del Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Rocios Del Pilar",
+  "state": null,
+  "weight": 20,
+  "zip_code": null
+}

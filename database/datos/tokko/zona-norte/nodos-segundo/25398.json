@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Lima",
+  "id": 25398,
+  "name": "Lima",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Lima",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

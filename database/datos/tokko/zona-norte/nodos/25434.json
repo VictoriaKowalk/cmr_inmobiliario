@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Verde",
+    "id": 25434,
+    "name": "Villa Verde",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Villa Verde",
+    "state": null,
+    "weight": 0,
+    "zip_code": null
+}

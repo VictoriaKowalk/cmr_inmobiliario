@@ -1,0 +1,82 @@
+{
+    "divisions": [
+        {
+            "id": 25648,
+            "name": "La Colina",
+            "resource_uri": "\/api\/v1\/location\/25648\/"
+        },
+        {
+            "id": 25652,
+            "name": "Lagos Del Norte",
+            "resource_uri": "\/api\/v1\/location\/25652\/"
+        },
+        {
+            "id": 25729,
+            "name": "Aviacion",
+            "resource_uri": "\/api\/v1\/location\/25729\/"
+        },
+        {
+            "id": 25730,
+            "name": "Baires",
+            "resource_uri": "\/api\/v1\/location\/25730\/"
+        },
+        {
+            "id": 25731,
+            "name": "Balbastro",
+            "resource_uri": "\/api\/v1\/location\/25731\/"
+        },
+        {
+            "id": 25732,
+            "name": "Bancalari",
+            "resource_uri": "\/api\/v1\/location\/25732\/"
+        },
+        {
+            "id": 25733,
+            "name": "Gutierrez",
+            "resource_uri": "\/api\/v1\/location\/25733\/"
+        },
+        {
+            "id": 25734,
+            "name": "Hindu Club",
+            "resource_uri": "\/api\/v1\/location\/25734\/"
+        },
+        {
+            "id": 25735,
+            "name": "Ibanez",
+            "resource_uri": "\/api\/v1\/location\/25735\/"
+        },
+        {
+            "id": 25736,
+            "name": "La Arboleda",
+            "resource_uri": "\/api\/v1\/location\/25736\/"
+        },
+        {
+            "id": 25737,
+            "name": "Los Molinos",
+            "resource_uri": "\/api\/v1\/location\/25737\/"
+        },
+        {
+            "id": 25738,
+            "name": "Triangulo",
+            "resource_uri": "\/api\/v1\/location\/25738\/"
+        },
+        {
+            "id": 25739,
+            "name": "V.Montes",
+            "resource_uri": "\/api\/v1\/location\/25739\/"
+        },
+        {
+            "id": 254233,
+            "name": "San Fermín",
+            "resource_uri": "\/api\/v1\/location\/254233\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato",
+    "id": 25728,
+    "name": "Don Torcuato",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Don Torcuato",
+    "state": null,
+    "weight": 1555,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Pinazo",
+  "id": 25336,
+  "name": "Pinazo",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Pinazo",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

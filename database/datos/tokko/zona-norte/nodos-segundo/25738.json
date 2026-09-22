@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Triangulo",
+  "id": 25738,
+  "name": "Triangulo",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Triangulo",
+  "state": null,
+  "weight": 26,
+  "zip_code": null
+}

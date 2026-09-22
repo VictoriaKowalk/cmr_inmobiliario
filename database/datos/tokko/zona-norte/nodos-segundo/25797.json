@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Canal Ortiz",
+  "id": 25797,
+  "name": "Canal Ortiz",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Canal Ortiz",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

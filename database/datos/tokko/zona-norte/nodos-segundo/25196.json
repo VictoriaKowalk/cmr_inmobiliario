@@ -1,0 +1,27 @@
+{
+  "divisions": [
+    {
+      "id": 254720,
+      "name": "Los Tilos",
+      "resource_uri": "/api/v1/location/254720/"
+    },
+    {
+      "id": 254721,
+      "name": "Los Robles",
+      "resource_uri": "/api/v1/location/254721/"
+    },
+    {
+      "id": 254722,
+      "name": "Los Arces",
+      "resource_uri": "/api/v1/location/254722/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | La cañada de Pilar",
+  "id": 25196,
+  "name": "La cañada de Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | La cañada de Pilar",
+  "state": null,
+  "weight": 1688,
+  "zip_code": null
+}

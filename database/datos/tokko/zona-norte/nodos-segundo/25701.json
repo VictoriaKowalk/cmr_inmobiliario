@@ -1,0 +1,17 @@
+{
+  "divisions": [
+    {
+      "id": 51321,
+      "name": "Santa Maria Park",
+      "resource_uri": "/api/v1/location/51321/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Santa Maria De Tigre",
+  "id": 25701,
+  "name": "Santa Maria De Tigre",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Santa Maria De Tigre",
+  "state": null,
+  "weight": 2771,
+  "zip_code": null
+}

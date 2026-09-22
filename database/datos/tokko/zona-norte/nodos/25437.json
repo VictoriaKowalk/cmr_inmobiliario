@@ -1,0 +1,87 @@
+{
+    "divisions": [
+        {
+            "id": 25438,
+            "name": "Bahia Del Sol",
+            "resource_uri": "\/api\/v1\/location\/25438\/"
+        },
+        {
+            "id": 25439,
+            "name": "El Trebol",
+            "resource_uri": "\/api\/v1\/location\/25439\/"
+        },
+        {
+            "id": 25440,
+            "name": "Greenlands",
+            "resource_uri": "\/api\/v1\/location\/25440\/"
+        },
+        {
+            "id": 25441,
+            "name": "La Chacra",
+            "resource_uri": "\/api\/v1\/location\/25441\/"
+        },
+        {
+            "id": 25442,
+            "name": "La Damasia",
+            "resource_uri": "\/api\/v1\/location\/25442\/"
+        },
+        {
+            "id": 25443,
+            "name": "Las Victorias",
+            "resource_uri": "\/api\/v1\/location\/25443\/"
+        },
+        {
+            "id": 25444,
+            "name": "Marina Canestrari",
+            "resource_uri": "\/api\/v1\/location\/25444\/"
+        },
+        {
+            "id": 25445,
+            "name": "Marina Del Sol",
+            "resource_uri": "\/api\/v1\/location\/25445\/"
+        },
+        {
+            "id": 25446,
+            "name": "Punta Chica Village",
+            "resource_uri": "\/api\/v1\/location\/25446\/"
+        },
+        {
+            "id": 25447,
+            "name": "Rincon Del Arca",
+            "resource_uri": "\/api\/v1\/location\/25447\/"
+        },
+        {
+            "id": 25448,
+            "name": "Santa Clara",
+            "resource_uri": "\/api\/v1\/location\/25448\/"
+        },
+        {
+            "id": 25449,
+            "name": "Terrazas del Sol",
+            "resource_uri": "\/api\/v1\/location\/25449\/"
+        },
+        {
+            "id": 25450,
+            "name": "Tres Horquetas",
+            "resource_uri": "\/api\/v1\/location\/25450\/"
+        },
+        {
+            "id": 25473,
+            "name": "Ayres Chico",
+            "resource_uri": "\/api\/v1\/location\/25473\/"
+        },
+        {
+            "id": 239431,
+            "name": "Los Fresnos",
+            "resource_uri": "\/api\/v1\/location\/239431\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries\/B.Cerrado (San Fernando)",
+    "id": 25437,
+    "name": "Countries\/B.Cerrado (San Fernando)",
+    "parent_division": "\/api\/v1\/location\/25436\/",
+    "short_location": "G.B.A. Zona Norte | San Fernando | Countries\/B.Cerrado (San Fernando)",
+    "state": null,
+    "weight": 253,
+    "zip_code": null
+}

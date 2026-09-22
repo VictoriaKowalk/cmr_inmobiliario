@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez Chico",
+    "id": 52010,
+    "name": "Benavidez Chico",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Benavidez Chico",
+    "state": null,
+    "weight": 3,
+    "zip_code": null
+}

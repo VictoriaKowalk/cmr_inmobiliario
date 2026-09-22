@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Lagoon Pilar",
+  "id": 81340,
+  "name": "Lagoon Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Lagoon Pilar",
+  "state": null,
+  "weight": 1514,
+  "zip_code": null
+}

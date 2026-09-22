@@ -1,0 +1,287 @@
+{
+    "divisions": [
+        {
+            "id": 25374,
+            "name": "2 Rutas",
+            "resource_uri": "\/api\/v1\/location\/25374\/"
+        },
+        {
+            "id": 25375,
+            "name": "A.A.P.",
+            "resource_uri": "\/api\/v1\/location\/25375\/"
+        },
+        {
+            "id": 25376,
+            "name": "Agustoni",
+            "resource_uri": "\/api\/v1\/location\/25376\/"
+        },
+        {
+            "id": 25377,
+            "name": "Altos Del Norte",
+            "resource_uri": "\/api\/v1\/location\/25377\/"
+        },
+        {
+            "id": 25378,
+            "name": "Amancay (Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25378\/"
+        },
+        {
+            "id": 25379,
+            "name": "Arbor Acres",
+            "resource_uri": "\/api\/v1\/location\/25379\/"
+        },
+        {
+            "id": 25380,
+            "name": "Arricau",
+            "resource_uri": "\/api\/v1\/location\/25380\/"
+        },
+        {
+            "id": 25381,
+            "name": "Bonanza",
+            "resource_uri": "\/api\/v1\/location\/25381\/"
+        },
+        {
+            "id": 25382,
+            "name": "Carabassa",
+            "resource_uri": "\/api\/v1\/location\/25382\/"
+        },
+        {
+            "id": 25383,
+            "name": "Castiglione",
+            "resource_uri": "\/api\/v1\/location\/25383\/"
+        },
+        {
+            "id": 25384,
+            "name": "Don Alejo",
+            "resource_uri": "\/api\/v1\/location\/25384\/"
+        },
+        {
+            "id": 25385,
+            "name": "El Bosque",
+            "resource_uri": "\/api\/v1\/location\/25385\/"
+        },
+        {
+            "id": 25386,
+            "name": "El Dorado (ruta 28)",
+            "resource_uri": "\/api\/v1\/location\/25386\/"
+        },
+        {
+            "id": 25387,
+            "name": "El Manantial",
+            "resource_uri": "\/api\/v1\/location\/25387\/"
+        },
+        {
+            "id": 25388,
+            "name": "Fara",
+            "resource_uri": "\/api\/v1\/location\/25388\/"
+        },
+        {
+            "id": 25389,
+            "name": "Km. 61",
+            "resource_uri": "\/api\/v1\/location\/25389\/"
+        },
+        {
+            "id": 25390,
+            "name": "La Bonita",
+            "resource_uri": "\/api\/v1\/location\/25390\/"
+        },
+        {
+            "id": 25391,
+            "name": "La Comercial",
+            "resource_uri": "\/api\/v1\/location\/25391\/"
+        },
+        {
+            "id": 25392,
+            "name": "La Esmeralda (Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25392\/"
+        },
+        {
+            "id": 25393,
+            "name": "La Lomita",
+            "resource_uri": "\/api\/v1\/location\/25393\/"
+        },
+        {
+            "id": 25394,
+            "name": "La Otilla",
+            "resource_uri": "\/api\/v1\/location\/25394\/"
+        },
+        {
+            "id": 25395,
+            "name": "La Terraza",
+            "resource_uri": "\/api\/v1\/location\/25395\/"
+        },
+        {
+            "id": 25396,
+            "name": "La Victoria (Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25396\/"
+        },
+        {
+            "id": 25397,
+            "name": "Las Quebradas",
+            "resource_uri": "\/api\/v1\/location\/25397\/"
+        },
+        {
+            "id": 25398,
+            "name": "Lima",
+            "resource_uri": "\/api\/v1\/location\/25398\/"
+        },
+        {
+            "id": 25399,
+            "name": "Los Grillos",
+            "resource_uri": "\/api\/v1\/location\/25399\/"
+        },
+        {
+            "id": 25400,
+            "name": "Los Vascos",
+            "resource_uri": "\/api\/v1\/location\/25400\/"
+        },
+        {
+            "id": 25401,
+            "name": "Pellegrini",
+            "resource_uri": "\/api\/v1\/location\/25401\/"
+        },
+        {
+            "id": 25402,
+            "name": "Peruzzotti",
+            "resource_uri": "\/api\/v1\/location\/25402\/"
+        },
+        {
+            "id": 25403,
+            "name": "Pilar Centro",
+            "resource_uri": "\/api\/v1\/location\/25403\/"
+        },
+        {
+            "id": 25404,
+            "name": "Pilarica",
+            "resource_uri": "\/api\/v1\/location\/25404\/"
+        },
+        {
+            "id": 25405,
+            "name": "Rio Lujan",
+            "resource_uri": "\/api\/v1\/location\/25405\/"
+        },
+        {
+            "id": 25406,
+            "name": "Rob.Del Monarca(Pil)",
+            "resource_uri": "\/api\/v1\/location\/25406\/"
+        },
+        {
+            "id": 25407,
+            "name": "Ruta 28",
+            "resource_uri": "\/api\/v1\/location\/25407\/"
+        },
+        {
+            "id": 25408,
+            "name": "San Alejo",
+            "resource_uri": "\/api\/v1\/location\/25408\/"
+        },
+        {
+            "id": 25409,
+            "name": "Santa Maria (Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25409\/"
+        },
+        {
+            "id": 25410,
+            "name": "Tropiano (Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25410\/"
+        },
+        {
+            "id": 25411,
+            "name": "Va. Buide",
+            "resource_uri": "\/api\/v1\/location\/25411\/"
+        },
+        {
+            "id": 25412,
+            "name": "Va. Panamericana",
+            "resource_uri": "\/api\/v1\/location\/25412\/"
+        },
+        {
+            "id": 25413,
+            "name": "Va. Verde",
+            "resource_uri": "\/api\/v1\/location\/25413\/"
+        },
+        {
+            "id": 25414,
+            "name": "Va.Astolfi",
+            "resource_uri": "\/api\/v1\/location\/25414\/"
+        },
+        {
+            "id": 25415,
+            "name": "Va.Blanca",
+            "resource_uri": "\/api\/v1\/location\/25415\/"
+        },
+        {
+            "id": 25416,
+            "name": "Barrio Vte Lopez ( Pilar)",
+            "resource_uri": "\/api\/v1\/location\/25416\/"
+        },
+        {
+            "id": 25417,
+            "name": "Villa Alpina I",
+            "resource_uri": "\/api\/v1\/location\/25417\/"
+        },
+        {
+            "id": 25418,
+            "name": "Villa Alpina Ii",
+            "resource_uri": "\/api\/v1\/location\/25418\/"
+        },
+        {
+            "id": 25419,
+            "name": "Villa Morra I",
+            "resource_uri": "\/api\/v1\/location\/25419\/"
+        },
+        {
+            "id": 25420,
+            "name": "Villa Morra II",
+            "resource_uri": "\/api\/v1\/location\/25420\/"
+        },
+        {
+            "id": 254256,
+            "name": "Villa Vento",
+            "resource_uri": "\/api\/v1\/location\/254256\/"
+        },
+        {
+            "id": 254529,
+            "name": "Legend Residences",
+            "resource_uri": "\/api\/v1\/location\/254529\/"
+        },
+        {
+            "id": 255666,
+            "name": "Luz del Pilar",
+            "resource_uri": "\/api\/v1\/location\/255666\/"
+        },
+        {
+            "id": 256397,
+            "name": "La Calesa",
+            "resource_uri": "\/api\/v1\/location\/256397\/"
+        },
+        {
+            "id": 256398,
+            "name": "La Diligencia",
+            "resource_uri": "\/api\/v1\/location\/256398\/"
+        },
+        {
+            "id": 256437,
+            "name": "Estancia La Mansa",
+            "resource_uri": "\/api\/v1\/location\/256437\/"
+        },
+        {
+            "id": 256521,
+            "name": "Altos de la Cañada",
+            "resource_uri": "\/api\/v1\/location\/256521\/"
+        },
+        {
+            "id": 571620,
+            "name": "El Cruce de Pilar",
+            "resource_uri": "\/api\/v1\/location\/571620\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar",
+    "id": 25373,
+    "name": "Pilar",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Pilar",
+    "state": null,
+    "weight": 7983,
+    "zip_code": null
+}

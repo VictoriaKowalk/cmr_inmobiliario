@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Condominio La Esquina",
+  "id": 240854,
+  "name": "Condominio La Esquina",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Condominio La Esquina",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

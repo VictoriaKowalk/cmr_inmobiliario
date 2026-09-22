@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Canal 4",
+  "id": 82434,
+  "name": "Canal 4",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Canal 4",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

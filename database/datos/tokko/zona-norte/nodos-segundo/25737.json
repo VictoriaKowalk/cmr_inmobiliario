@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Los Molinos",
+  "id": 25737,
+  "name": "Los Molinos",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Los Molinos",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

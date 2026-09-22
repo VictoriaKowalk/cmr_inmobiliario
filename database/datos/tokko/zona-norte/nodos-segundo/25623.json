@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Altamira",
+  "id": 25623,
+  "name": "Altamira",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Altamira",
+  "state": null,
+  "weight": 489,
+  "zip_code": "B1624"
+}

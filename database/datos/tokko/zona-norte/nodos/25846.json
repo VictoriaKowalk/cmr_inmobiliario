@@ -1,0 +1,32 @@
+{
+    "divisions": [
+        {
+            "id": 25847,
+            "name": "V.Lopez-Qta.Presid.",
+            "resource_uri": "\/api\/v1\/location\/25847\/"
+        },
+        {
+            "id": 25848,
+            "name": "V.Lopez-Vias\/Maipu",
+            "resource_uri": "\/api\/v1\/location\/25848\/"
+        },
+        {
+            "id": 25849,
+            "name": "V.Lopez-Vias\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25849\/"
+        },
+        {
+            "id": 102420,
+            "name": "V.Lopez-Maipu\/ Río",
+            "resource_uri": "\/api\/v1\/location\/102420\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Barrio Vicente López",
+    "id": 25846,
+    "name": "Barrio Vicente López",
+    "parent_division": "\/api\/v1\/location\/25818\/",
+    "short_location": "G.B.A. Zona Norte | Vicente López | Barrio Vicente López",
+    "state": null,
+    "weight": 8640,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Pajarito",
+  "id": 25799,
+  "name": "Pajarito",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Pajarito",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

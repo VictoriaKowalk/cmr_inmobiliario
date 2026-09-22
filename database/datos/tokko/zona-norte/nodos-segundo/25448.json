@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Santa Clara",
+  "id": 25448,
+  "name": "Santa Clara",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Santa Clara",
+  "state": null,
+  "weight": 63,
+  "zip_code": null
+}

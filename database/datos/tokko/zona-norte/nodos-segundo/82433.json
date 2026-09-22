@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Canal 3",
+  "id": 82433,
+  "name": "Canal 3",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Canal 3",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

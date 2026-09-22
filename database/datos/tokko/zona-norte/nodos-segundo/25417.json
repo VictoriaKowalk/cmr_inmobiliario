@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Villa Alpina I",
+  "id": 25417,
+  "name": "Villa Alpina I",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Villa Alpina I",
+  "state": null,
+  "weight": 10,
+  "zip_code": null
+}

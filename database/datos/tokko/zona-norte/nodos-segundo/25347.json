@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Zona Roch",
+  "id": 25347,
+  "name": "Zona Roch",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Zona Roch",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

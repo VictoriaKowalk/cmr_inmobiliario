@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | La Angélica",
+  "id": 25193,
+  "name": "La Angélica",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | La Angélica",
+  "state": null,
+  "weight": 140,
+  "zip_code": null
+}

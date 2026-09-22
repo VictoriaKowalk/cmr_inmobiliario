@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Santa Maria",
+  "id": 25700,
+  "name": "Santa Maria",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Santa Maria",
+  "state": null,
+  "weight": 52,
+  "zip_code": null
+}

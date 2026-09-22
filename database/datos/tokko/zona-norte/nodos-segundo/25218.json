@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | La Pradera I",
+  "id": 25218,
+  "name": "La Pradera I",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | La Pradera I",
+  "state": null,
+  "weight": 644,
+  "zip_code": null
+}

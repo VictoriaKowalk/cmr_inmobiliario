@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Res.Del Norte",
+  "id": 25120,
+  "name": "Res.Del Norte",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Res.Del Norte",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | La Laguna",
+  "id": 25651,
+  "name": "La Laguna",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | La Laguna",
+  "state": null,
+  "weight": 199,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Loma Verde | San Sebastian",
+  "id": 253322,
+  "name": "San Sebastian",
+  "parent_division": "/api/v1/location/24958/",
+  "short_location": "Escobar | Loma Verde | San Sebastian",
+  "state": null,
+  "weight": 2917,
+  "zip_code": ""
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | Club Bamboo",
+  "id": 210557,
+  "name": "Club Bamboo",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | Club Bamboo",
+  "state": null,
+  "weight": 101,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Santa Paula",
+  "id": 25366,
+  "name": "Santa Paula",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Santa Paula",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

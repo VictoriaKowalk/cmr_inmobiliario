@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Arricau",
+  "id": 25380,
+  "name": "Arricau",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Arricau",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

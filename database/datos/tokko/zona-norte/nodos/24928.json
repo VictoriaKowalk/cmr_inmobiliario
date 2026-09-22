@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 24929,
+            "name": "Garin-Centro",
+            "resource_uri": "\/api\/v1\/location\/24929\/"
+        },
+        {
+            "id": 24930,
+            "name": "Garin-El Triangulo",
+            "resource_uri": "\/api\/v1\/location\/24930\/"
+        },
+        {
+            "id": 24931,
+            "name": "Garin-V.Angelica",
+            "resource_uri": "\/api\/v1\/location\/24931\/"
+        },
+        {
+            "id": 254016,
+            "name": "Vivo Tortuguitas",
+            "resource_uri": "\/api\/v1\/location\/254016\/"
+        },
+        {
+            "id": 256456,
+            "name": "Vivant Tortugas Norte",
+            "resource_uri": "\/api\/v1\/location\/256456\/"
+        },
+        {
+            "id": 256572,
+            "name": "DECS Tortugas",
+            "resource_uri": "\/api\/v1\/location\/256572\/"
+        },
+        {
+            "id": 569452,
+            "name": "La Elisa",
+            "resource_uri": "\/api\/v1\/location\/569452\/"
+        },
+        {
+            "id": 570793,
+            "name": "Tortugas Woods",
+            "resource_uri": "\/api\/v1\/location\/570793\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Garin",
+    "id": 24928,
+    "name": "Garin",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Garin",
+    "state": null,
+    "weight": 1052,
+    "zip_code": ""
+}

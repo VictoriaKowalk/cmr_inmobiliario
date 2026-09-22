@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Office Park Plaza",
+  "id": 256023,
+  "name": "Office Park Plaza",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Office Park Plaza",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

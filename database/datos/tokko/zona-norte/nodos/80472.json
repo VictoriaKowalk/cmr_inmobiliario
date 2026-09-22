@@ -1,0 +1,72 @@
+{
+    "divisions": [
+        {
+            "id": 25537,
+            "name": "Las Lomas-Beccar",
+            "resource_uri": "\/api\/v1\/location\/25537\/"
+        },
+        {
+            "id": 25538,
+            "name": "Las Lomas-Golf",
+            "resource_uri": "\/api\/v1\/location\/25538\/"
+        },
+        {
+            "id": 25539,
+            "name": "Las Lomas-Hipod.\/Panam.",
+            "resource_uri": "\/api\/v1\/location\/25539\/"
+        },
+        {
+            "id": 25540,
+            "name": "Las Lomas-Hoechst\/Standar",
+            "resource_uri": "\/api\/v1\/location\/25540\/"
+        },
+        {
+            "id": 25541,
+            "name": "Las Lomas-Horqueta",
+            "resource_uri": "\/api\/v1\/location\/25541\/"
+        },
+        {
+            "id": 25542,
+            "name": "Las Lomas-Jockey",
+            "resource_uri": "\/api\/v1\/location\/25542\/"
+        },
+        {
+            "id": 25543,
+            "name": "Las Lomas-La Merced",
+            "resource_uri": "\/api\/v1\/location\/25543\/"
+        },
+        {
+            "id": 25544,
+            "name": "Las Lomas-La Merced\/Golf",
+            "resource_uri": "\/api\/v1\/location\/25544\/"
+        },
+        {
+            "id": 25545,
+            "name": "Las Lomas-San Isidro",
+            "resource_uri": "\/api\/v1\/location\/25545\/"
+        },
+        {
+            "id": 25546,
+            "name": "Las Lomas-Santa Rita",
+            "resource_uri": "\/api\/v1\/location\/25546\/"
+        },
+        {
+            "id": 25547,
+            "name": "Las Lomas-Schoenstatt",
+            "resource_uri": "\/api\/v1\/location\/25547\/"
+        },
+        {
+            "id": 51818,
+            "name": "Las Lomas-Malvinas",
+            "resource_uri": "\/api\/v1\/location\/51818\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro",
+    "id": 80472,
+    "name": "Las Lomas de San Isidro",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro",
+    "state": null,
+    "weight": 1930,
+    "zip_code": null
+}

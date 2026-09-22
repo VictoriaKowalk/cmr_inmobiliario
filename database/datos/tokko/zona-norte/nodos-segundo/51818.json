@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-Malvinas",
+  "id": 51818,
+  "name": "Las Lomas-Malvinas",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-Malvinas",
+  "state": null,
+  "weight": 19,
+  "zip_code": null
+}

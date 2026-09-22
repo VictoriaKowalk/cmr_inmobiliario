@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | El Cortijo",
+  "id": 25090,
+  "name": "El Cortijo",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | El Cortijo",
+  "state": null,
+  "weight": 23,
+  "zip_code": null
+}

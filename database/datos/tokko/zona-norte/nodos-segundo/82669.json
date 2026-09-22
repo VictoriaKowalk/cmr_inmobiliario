@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | Villa Marina II",
+  "id": 82669,
+  "name": "Villa Marina II",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | Villa Marina II",
+  "state": null,
+  "weight": 12,
+  "zip_code": null
+}

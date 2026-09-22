@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25838,
+            "name": "Olivos-Golf",
+            "resource_uri": "\/api\/v1\/location\/25838\/"
+        },
+        {
+            "id": 25839,
+            "name": "Olivos-Maipu\/Uzal",
+            "resource_uri": "\/api\/v1\/location\/25839\/"
+        },
+        {
+            "id": 25840,
+            "name": "Olivos-Qta.Presid.",
+            "resource_uri": "\/api\/v1\/location\/25840\/"
+        },
+        {
+            "id": 25841,
+            "name": "Olivos-Roche",
+            "resource_uri": "\/api\/v1\/location\/25841\/"
+        },
+        {
+            "id": 25842,
+            "name": "Olivos-Rugby",
+            "resource_uri": "\/api\/v1\/location\/25842\/"
+        },
+        {
+            "id": 25843,
+            "name": "Olivos-Uzal\/Panam.",
+            "resource_uri": "\/api\/v1\/location\/25843\/"
+        },
+        {
+            "id": 25844,
+            "name": "Olivos-Vias\/Maipu",
+            "resource_uri": "\/api\/v1\/location\/25844\/"
+        },
+        {
+            "id": 25845,
+            "name": "Olivos-Vias\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25845\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Olivos",
+    "id": 25836,
+    "name": "Olivos",
+    "parent_division": "\/api\/v1\/location\/25818\/",
+    "short_location": "G.B.A. Zona Norte | Vicente López | Olivos",
+    "state": null,
+    "weight": 17753,
+    "zip_code": null
+}

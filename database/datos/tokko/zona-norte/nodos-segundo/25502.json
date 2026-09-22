@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Rey Moro",
+  "id": 25502,
+  "name": "Rey Moro",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Rey Moro",
+  "state": null,
+  "weight": 12,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro | S.Isi.-Libert./Lasalle",
+  "id": 25551,
+  "name": "S.Isi.-Libert./Lasalle",
+  "parent_division": "/api/v1/location/25536/",
+  "short_location": "San Isidro | San Isidro | S.Isi.-Libert./Lasalle",
+  "state": null,
+  "weight": 112,
+  "zip_code": null
+}

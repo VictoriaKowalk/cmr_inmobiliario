@@ -1,0 +1,17 @@
+{
+    "divisions": [
+        {
+            "id": 25582,
+            "name": "Obligado",
+            "resource_uri": "\/api\/v1\/location\/25582\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Muñiz",
+    "id": 25581,
+    "name": "Muñiz",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | Muñiz",
+    "state": null,
+    "weight": 1614,
+    "zip_code": null
+}

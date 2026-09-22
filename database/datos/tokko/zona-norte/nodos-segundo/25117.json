@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Pque Alvear Iii",
+  "id": 25117,
+  "name": "Pque Alvear Iii",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Pque Alvear Iii",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

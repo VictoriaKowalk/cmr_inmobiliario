@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | Villa Magdalena (L.Polv.)",
+  "id": 25100,
+  "name": "Villa Magdalena (L.Polv.)",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | Villa Magdalena (L.Polv.)",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

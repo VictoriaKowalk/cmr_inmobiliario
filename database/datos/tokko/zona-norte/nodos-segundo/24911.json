@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Fiesta De La Flor",
+  "id": 24911,
+  "name": "Fiesta De La Flor",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Fiesta De La Flor",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

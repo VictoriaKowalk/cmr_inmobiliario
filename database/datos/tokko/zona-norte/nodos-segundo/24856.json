@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | La Celina",
+  "id": 24856,
+  "name": "La Celina",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | La Celina",
+  "state": null,
+  "weight": 121,
+  "zip_code": null
+}

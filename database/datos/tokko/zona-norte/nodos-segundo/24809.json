@@ -1,0 +1,127 @@
+{
+  "divisions": [
+    {
+      "id": 25687,
+      "name": "San Andres",
+      "resource_uri": "/api/v1/location/25687/"
+    },
+    {
+      "id": 51259,
+      "name": "San Isidro Labrador",
+      "resource_uri": "/api/v1/location/51259/"
+    },
+    {
+      "id": 51260,
+      "name": "San Rafael",
+      "resource_uri": "/api/v1/location/51260/"
+    },
+    {
+      "id": 51261,
+      "name": "San Gabriel",
+      "resource_uri": "/api/v1/location/51261/"
+    },
+    {
+      "id": 51262,
+      "name": "San Francisco",
+      "resource_uri": "/api/v1/location/51262/"
+    },
+    {
+      "id": 51263,
+      "name": "Santa Catalina",
+      "resource_uri": "/api/v1/location/51263/"
+    },
+    {
+      "id": 51264,
+      "name": "San Marco",
+      "resource_uri": "/api/v1/location/51264/"
+    },
+    {
+      "id": 51265,
+      "name": "San Benito",
+      "resource_uri": "/api/v1/location/51265/"
+    },
+    {
+      "id": 51266,
+      "name": "Santa Clara",
+      "resource_uri": "/api/v1/location/51266/"
+    },
+    {
+      "id": 51267,
+      "name": "Santa Teresa",
+      "resource_uri": "/api/v1/location/51267/"
+    },
+    {
+      "id": 51268,
+      "name": "San Agustin",
+      "resource_uri": "/api/v1/location/51268/"
+    },
+    {
+      "id": 51269,
+      "name": "San Juan",
+      "resource_uri": "/api/v1/location/51269/"
+    },
+    {
+      "id": 51329,
+      "name": "Vila Terra",
+      "resource_uri": "/api/v1/location/51329/"
+    },
+    {
+      "id": 51831,
+      "name": "Santa Ana",
+      "resource_uri": "/api/v1/location/51831/"
+    },
+    {
+      "id": 55602,
+      "name": "Laguna Grande",
+      "resource_uri": "/api/v1/location/55602/"
+    },
+    {
+      "id": 55920,
+      "name": "Vila Vela",
+      "resource_uri": "/api/v1/location/55920/"
+    },
+    {
+      "id": 80473,
+      "name": "Casas de San Patricio",
+      "resource_uri": "/api/v1/location/80473/"
+    },
+    {
+      "id": 80475,
+      "name": "Casas de Santa Ana",
+      "resource_uri": "/api/v1/location/80475/"
+    },
+    {
+      "id": 80476,
+      "name": "Casas de Santa Maria",
+      "resource_uri": "/api/v1/location/80476/"
+    },
+    {
+      "id": 82671,
+      "name": "Bahia",
+      "resource_uri": "/api/v1/location/82671/"
+    },
+    {
+      "id": 82672,
+      "name": "Canal Barrio Nautico",
+      "resource_uri": "/api/v1/location/82672/"
+    },
+    {
+      "id": 82677,
+      "name": "San Pedro",
+      "resource_uri": "/api/v1/location/82677/"
+    },
+    {
+      "id": 210560,
+      "name": "El Canal",
+      "resource_uri": "/api/v1/location/210560/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva",
+  "id": 24809,
+  "name": "Villanueva",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Villanueva",
+  "state": null,
+  "weight": 1758,
+  "zip_code": null
+}

@@ -1,0 +1,197 @@
+{
+    "divisions": [
+        {
+            "id": 25316,
+            "name": "De Vicenzo Chico",
+            "resource_uri": "\/api\/v1\/location\/25316\/"
+        },
+        {
+            "id": 25317,
+            "name": "De Vicenzo Grande",
+            "resource_uri": "\/api\/v1\/location\/25317\/"
+        },
+        {
+            "id": 25318,
+            "name": "El Faro",
+            "resource_uri": "\/api\/v1\/location\/25318\/"
+        },
+        {
+            "id": 25319,
+            "name": "El Ombu",
+            "resource_uri": "\/api\/v1\/location\/25319\/"
+        },
+        {
+            "id": 25320,
+            "name": "El Pinar",
+            "resource_uri": "\/api\/v1\/location\/25320\/"
+        },
+        {
+            "id": 25321,
+            "name": "El Remanso",
+            "resource_uri": "\/api\/v1\/location\/25321\/"
+        },
+        {
+            "id": 25322,
+            "name": "El Rocio",
+            "resource_uri": "\/api\/v1\/location\/25322\/"
+        },
+        {
+            "id": 25323,
+            "name": "El Trebol",
+            "resource_uri": "\/api\/v1\/location\/25323\/"
+        },
+        {
+            "id": 25324,
+            "name": "El Trebolar",
+            "resource_uri": "\/api\/v1\/location\/25324\/"
+        },
+        {
+            "id": 25325,
+            "name": "Falcon",
+            "resource_uri": "\/api\/v1\/location\/25325\/"
+        },
+        {
+            "id": 25326,
+            "name": "H.Park",
+            "resource_uri": "\/api\/v1\/location\/25326\/"
+        },
+        {
+            "id": 25327,
+            "name": "L.Cachorros",
+            "resource_uri": "\/api\/v1\/location\/25327\/"
+        },
+        {
+            "id": 25328,
+            "name": "La Loma",
+            "resource_uri": "\/api\/v1\/location\/25328\/"
+        },
+        {
+            "id": 25329,
+            "name": "Los Tilos (Del Viso)",
+            "resource_uri": "\/api\/v1\/location\/25329\/"
+        },
+        {
+            "id": 25330,
+            "name": "Martin Fierro",
+            "resource_uri": "\/api\/v1\/location\/25330\/"
+        },
+        {
+            "id": 25331,
+            "name": "Maryvon",
+            "resource_uri": "\/api\/v1\/location\/25331\/"
+        },
+        {
+            "id": 25332,
+            "name": "Montecarlo",
+            "resource_uri": "\/api\/v1\/location\/25332\/"
+        },
+        {
+            "id": 25333,
+            "name": "P.Pero",
+            "resource_uri": "\/api\/v1\/location\/25333\/"
+        },
+        {
+            "id": 25334,
+            "name": "Parque Udaondo",
+            "resource_uri": "\/api\/v1\/location\/25334\/"
+        },
+        {
+            "id": 25335,
+            "name": "Pinares",
+            "resource_uri": "\/api\/v1\/location\/25335\/"
+        },
+        {
+            "id": 25336,
+            "name": "Pinazo",
+            "resource_uri": "\/api\/v1\/location\/25336\/"
+        },
+        {
+            "id": 25337,
+            "name": "R.Vieja",
+            "resource_uri": "\/api\/v1\/location\/25337\/"
+        },
+        {
+            "id": 25338,
+            "name": "S.D.Norte",
+            "resource_uri": "\/api\/v1\/location\/25338\/"
+        },
+        {
+            "id": 25339,
+            "name": "V.D.Carmen",
+            "resource_uri": "\/api\/v1\/location\/25339\/"
+        },
+        {
+            "id": 25340,
+            "name": "V.Florencia",
+            "resource_uri": "\/api\/v1\/location\/25340\/"
+        },
+        {
+            "id": 25341,
+            "name": "V.Lahr",
+            "resource_uri": "\/api\/v1\/location\/25341\/"
+        },
+        {
+            "id": 25342,
+            "name": "V.Laura",
+            "resource_uri": "\/api\/v1\/location\/25342\/"
+        },
+        {
+            "id": 25343,
+            "name": "Zona F.A.V.A",
+            "resource_uri": "\/api\/v1\/location\/25343\/"
+        },
+        {
+            "id": 25344,
+            "name": "Zona Hospital",
+            "resource_uri": "\/api\/v1\/location\/25344\/"
+        },
+        {
+            "id": 25345,
+            "name": "Zona Koch",
+            "resource_uri": "\/api\/v1\/location\/25345\/"
+        },
+        {
+            "id": 25346,
+            "name": "Zona Parque Pero",
+            "resource_uri": "\/api\/v1\/location\/25346\/"
+        },
+        {
+            "id": 25347,
+            "name": "Zona Roch",
+            "resource_uri": "\/api\/v1\/location\/25347\/"
+        },
+        {
+            "id": 55967,
+            "name": "Las Beatrices",
+            "resource_uri": "\/api\/v1\/location\/55967\/"
+        },
+        {
+            "id": 240367,
+            "name": "Campus Vista",
+            "resource_uri": "\/api\/v1\/location\/240367\/"
+        },
+        {
+            "id": 255919,
+            "name": "Aldeana Pilar",
+            "resource_uri": "\/api\/v1\/location\/255919\/"
+        },
+        {
+            "id": 256200,
+            "name": "Ovejitas Pilar",
+            "resource_uri": "\/api\/v1\/location\/256200\/"
+        },
+        {
+            "id": 256375,
+            "name": "Oliden Joven",
+            "resource_uri": "\/api\/v1\/location\/256375\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso",
+    "id": 25315,
+    "name": "Del Viso",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Del Viso",
+    "state": null,
+    "weight": 1775,
+    "zip_code": null
+}

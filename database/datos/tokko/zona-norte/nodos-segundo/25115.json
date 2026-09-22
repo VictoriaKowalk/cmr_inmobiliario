@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | P.Alvear",
+  "id": 25115,
+  "name": "P.Alvear",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | P.Alvear",
+  "state": null,
+  "weight": 30,
+  "zip_code": null
+}

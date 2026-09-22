@@ -1,0 +1,82 @@
+{
+    "divisions": [
+        {
+            "id": 25635,
+            "name": "El Atardecer",
+            "resource_uri": "\/api\/v1\/location\/25635\/"
+        },
+        {
+            "id": 25637,
+            "name": "El Jacaranda",
+            "resource_uri": "\/api\/v1\/location\/25637\/"
+        },
+        {
+            "id": 25651,
+            "name": "La Laguna",
+            "resource_uri": "\/api\/v1\/location\/25651\/"
+        },
+        {
+            "id": 25655,
+            "name": "Las Palmas",
+            "resource_uri": "\/api\/v1\/location\/25655\/"
+        },
+        {
+            "id": 25658,
+            "name": "Los Alamos (Tigre)",
+            "resource_uri": "\/api\/v1\/location\/25658\/"
+        },
+        {
+            "id": 25659,
+            "name": "Los Ceibos",
+            "resource_uri": "\/api\/v1\/location\/25659\/"
+        },
+        {
+            "id": 25661,
+            "name": "Los Ombues",
+            "resource_uri": "\/api\/v1\/location\/25661\/"
+        },
+        {
+            "id": 25662,
+            "name": "Marinas Golf",
+            "resource_uri": "\/api\/v1\/location\/25662\/"
+        },
+        {
+            "id": 25664,
+            "name": "Milberg Town",
+            "resource_uri": "\/api\/v1\/location\/25664\/"
+        },
+        {
+            "id": 253281,
+            "name": "Remeros Beach",
+            "resource_uri": "\/api\/v1\/location\/253281\/"
+        },
+        {
+            "id": 254032,
+            "name": "Green Oak",
+            "resource_uri": "\/api\/v1\/location\/254032\/"
+        },
+        {
+            "id": 254074,
+            "name": "Jardines de Milberg",
+            "resource_uri": "\/api\/v1\/location\/254074\/"
+        },
+        {
+            "id": 254173,
+            "name": "Palmas Plaza",
+            "resource_uri": "\/api\/v1\/location\/254173\/"
+        },
+        {
+            "id": 571411,
+            "name": "Delta Center",
+            "resource_uri": "\/api\/v1\/location\/571411\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg",
+    "id": 80474,
+    "name": "Rincon de Milberg",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Rincon de Milberg",
+    "state": null,
+    "weight": 1313,
+    "zip_code": ""
+}

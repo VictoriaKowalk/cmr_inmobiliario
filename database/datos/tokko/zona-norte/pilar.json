@@ -1,0 +1,587 @@
+{
+  "divisions": [
+    {
+      "id": 25128,
+      "name": "Countries/B.Cerrado (Pilar)",
+      "resource_uri": "/api/v1/location/25128/"
+    },
+    {
+      "id": 25313,
+      "name": "Almirante Irizar",
+      "resource_uri": "/api/v1/location/25313/"
+    },
+    {
+      "id": 25314,
+      "name": "Barrio San Alejo",
+      "resource_uri": "/api/v1/location/25314/"
+    },
+    {
+      "id": 25315,
+      "name": "Del Viso",
+      "resource_uri": "/api/v1/location/25315/"
+    },
+    {
+      "id": 25348,
+      "name": "Empalme",
+      "resource_uri": "/api/v1/location/25348/"
+    },
+    {
+      "id": 25349,
+      "name": "Establecimiento San Miguel",
+      "resource_uri": "/api/v1/location/25349/"
+    },
+    {
+      "id": 25350,
+      "name": "Fátima Estacion Empalme",
+      "resource_uri": "/api/v1/location/25350/"
+    },
+    {
+      "id": 25355,
+      "name": "Kilometro 45",
+      "resource_uri": "/api/v1/location/25355/"
+    },
+    {
+      "id": 25356,
+      "name": "Kilometro 61",
+      "resource_uri": "/api/v1/location/25356/"
+    },
+    {
+      "id": 25357,
+      "name": "Manuel Alberti",
+      "resource_uri": "/api/v1/location/25357/"
+    },
+    {
+      "id": 25360,
+      "name": "La Lonja",
+      "resource_uri": "/api/v1/location/25360/"
+    },
+    {
+      "id": 25369,
+      "name": "Manzanares",
+      "resource_uri": "/api/v1/location/25369/"
+    },
+    {
+      "id": 25372,
+      "name": "Manzone",
+      "resource_uri": "/api/v1/location/25372/"
+    },
+    {
+      "id": 25373,
+      "name": "Pilar",
+      "resource_uri": "/api/v1/location/25373/"
+    },
+    {
+      "id": 25421,
+      "name": "Presidente Derqui",
+      "resource_uri": "/api/v1/location/25421/"
+    },
+    {
+      "id": 25426,
+      "name": "Toro",
+      "resource_uri": "/api/v1/location/25426/"
+    },
+    {
+      "id": 25427,
+      "name": "Villa Agueda",
+      "resource_uri": "/api/v1/location/25427/"
+    },
+    {
+      "id": 25428,
+      "name": "Villa Astolfi",
+      "resource_uri": "/api/v1/location/25428/"
+    },
+    {
+      "id": 25429,
+      "name": "Villa Buide",
+      "resource_uri": "/api/v1/location/25429/"
+    },
+    {
+      "id": 25430,
+      "name": "Villa Rosa",
+      "resource_uri": "/api/v1/location/25430/"
+    },
+    {
+      "id": 25433,
+      "name": "Villa Santa Maria",
+      "resource_uri": "/api/v1/location/25433/"
+    },
+    {
+      "id": 25434,
+      "name": "Villa Verde",
+      "resource_uri": "/api/v1/location/25434/"
+    },
+    {
+      "id": 25435,
+      "name": "Zelaya",
+      "resource_uri": "/api/v1/location/25435/"
+    },
+    {
+      "id": 51399,
+      "name": "Parque Industrial Pilar",
+      "resource_uri": "/api/v1/location/51399/"
+    },
+    {
+      "id": 51402,
+      "name": "Tortuguitas",
+      "resource_uri": "/api/v1/location/51402/"
+    },
+    {
+      "id": 51897,
+      "name": "Altos del Golf Aranjuez",
+      "resource_uri": "/api/v1/location/51897/"
+    },
+    {
+      "id": 51898,
+      "name": "Altos del Pilar",
+      "resource_uri": "/api/v1/location/51898/"
+    },
+    {
+      "id": 51899,
+      "name": "Arcos del Pilar",
+      "resource_uri": "/api/v1/location/51899/"
+    },
+    {
+      "id": 51900,
+      "name": "Armenia",
+      "resource_uri": "/api/v1/location/51900/"
+    },
+    {
+      "id": 51901,
+      "name": "Atlético Pilar",
+      "resource_uri": "/api/v1/location/51901/"
+    },
+    {
+      "id": 51902,
+      "name": "Barrio San Antonio",
+      "resource_uri": "/api/v1/location/51902/"
+    },
+    {
+      "id": 51903,
+      "name": "Casas del Bosque",
+      "resource_uri": "/api/v1/location/51903/"
+    },
+    {
+      "id": 51904,
+      "name": "Club de Campo Larena - Los Quinchos",
+      "resource_uri": "/api/v1/location/51904/"
+    },
+    {
+      "id": 51905,
+      "name": "Cumbre de Rosas",
+      "resource_uri": "/api/v1/location/51905/"
+    },
+    {
+      "id": 51906,
+      "name": "De Las Quintas",
+      "resource_uri": "/api/v1/location/51906/"
+    },
+    {
+      "id": 51907,
+      "name": "El Boulevard",
+      "resource_uri": "/api/v1/location/51907/"
+    },
+    {
+      "id": 51908,
+      "name": "El Lucero",
+      "resource_uri": "/api/v1/location/51908/"
+    },
+    {
+      "id": 51909,
+      "name": "El Portillo",
+      "resource_uri": "/api/v1/location/51909/"
+    },
+    {
+      "id": 51910,
+      "name": "El Recodo",
+      "resource_uri": "/api/v1/location/51910/"
+    },
+    {
+      "id": 51911,
+      "name": "Farm House",
+      "resource_uri": "/api/v1/location/51911/"
+    },
+    {
+      "id": 51912,
+      "name": "Freixas",
+      "resource_uri": "/api/v1/location/51912/"
+    },
+    {
+      "id": 51913,
+      "name": "La Arboleda",
+      "resource_uri": "/api/v1/location/51913/"
+    },
+    {
+      "id": 51914,
+      "name": "La Buena Vista",
+      "resource_uri": "/api/v1/location/51914/"
+    },
+    {
+      "id": 51915,
+      "name": "La Esperanza",
+      "resource_uri": "/api/v1/location/51915/"
+    },
+    {
+      "id": 51916,
+      "name": "La Paz y El Rec. (Est. de Pilar)",
+      "resource_uri": "/api/v1/location/51916/"
+    },
+    {
+      "id": 51917,
+      "name": "La Pionera (Est. de Pilar)",
+      "resource_uri": "/api/v1/location/51917/"
+    },
+    {
+      "id": 51918,
+      "name": "La Rivera",
+      "resource_uri": "/api/v1/location/51918/"
+    },
+    {
+      "id": 51919,
+      "name": "Las Acacias",
+      "resource_uri": "/api/v1/location/51919/"
+    },
+    {
+      "id": 51920,
+      "name": "Las Bresias",
+      "resource_uri": "/api/v1/location/51920/"
+    },
+    {
+      "id": 51921,
+      "name": "Las Campanillas",
+      "resource_uri": "/api/v1/location/51921/"
+    },
+    {
+      "id": 51922,
+      "name": "Las Marías Club de Polo",
+      "resource_uri": "/api/v1/location/51922/"
+    },
+    {
+      "id": 51923,
+      "name": "Las Recovas",
+      "resource_uri": "/api/v1/location/51923/"
+    },
+    {
+      "id": 51924,
+      "name": "Las Secoyas",
+      "resource_uri": "/api/v1/location/51924/"
+    },
+    {
+      "id": 51925,
+      "name": "Little Ranch",
+      "resource_uri": "/api/v1/location/51925/"
+    },
+    {
+      "id": 51926,
+      "name": "Lomas de Pilar",
+      "resource_uri": "/api/v1/location/51926/"
+    },
+    {
+      "id": 51927,
+      "name": "Los Cerrillos",
+      "resource_uri": "/api/v1/location/51927/"
+    },
+    {
+      "id": 51928,
+      "name": "Los Cuatro Ombúes",
+      "resource_uri": "/api/v1/location/51928/"
+    },
+    {
+      "id": 51929,
+      "name": "Los Eucaliptus",
+      "resource_uri": "/api/v1/location/51929/"
+    },
+    {
+      "id": 51930,
+      "name": "Los Laureles",
+      "resource_uri": "/api/v1/location/51930/"
+    },
+    {
+      "id": 51931,
+      "name": "Los Leños",
+      "resource_uri": "/api/v1/location/51931/"
+    },
+    {
+      "id": 51932,
+      "name": "Los Palenques",
+      "resource_uri": "/api/v1/location/51932/"
+    },
+    {
+      "id": 51933,
+      "name": "Los Senderos",
+      "resource_uri": "/api/v1/location/51933/"
+    },
+    {
+      "id": 51934,
+      "name": "Los Tacos",
+      "resource_uri": "/api/v1/location/51934/"
+    },
+    {
+      "id": 51935,
+      "name": "Maquinaval",
+      "resource_uri": "/api/v1/location/51935/"
+    },
+    {
+      "id": 51936,
+      "name": "Maquinista F. Savio Oeste",
+      "resource_uri": "/api/v1/location/51936/"
+    },
+    {
+      "id": 51937,
+      "name": "Marinas del Pilar",
+      "resource_uri": "/api/v1/location/51937/"
+    },
+    {
+      "id": 51938,
+      "name": "Matices",
+      "resource_uri": "/api/v1/location/51938/"
+    },
+    {
+      "id": 51939,
+      "name": "Nano",
+      "resource_uri": "/api/v1/location/51939/"
+    },
+    {
+      "id": 51940,
+      "name": "Palmares de Pilar",
+      "resource_uri": "/api/v1/location/51940/"
+    },
+    {
+      "id": 51941,
+      "name": "Pebbel Beach",
+      "resource_uri": "/api/v1/location/51941/"
+    },
+    {
+      "id": 51942,
+      "name": "Pevero",
+      "resource_uri": "/api/v1/location/51942/"
+    },
+    {
+      "id": 51943,
+      "name": "Premium Pilar",
+      "resource_uri": "/api/v1/location/51943/"
+    },
+    {
+      "id": 51944,
+      "name": "Retiro del Pilar",
+      "resource_uri": "/api/v1/location/51944/"
+    },
+    {
+      "id": 51945,
+      "name": "Rincón de Morra IV",
+      "resource_uri": "/api/v1/location/51945/"
+    },
+    {
+      "id": 51946,
+      "name": "Rincón de Morra V",
+      "resource_uri": "/api/v1/location/51946/"
+    },
+    {
+      "id": 51947,
+      "name": "San Gerónimo",
+      "resource_uri": "/api/v1/location/51947/"
+    },
+    {
+      "id": 51948,
+      "name": "San Joaquín",
+      "resource_uri": "/api/v1/location/51948/"
+    },
+    {
+      "id": 51949,
+      "name": "Santa Maria del Pilar",
+      "resource_uri": "/api/v1/location/51949/"
+    },
+    {
+      "id": 51950,
+      "name": "Santa Teresa",
+      "resource_uri": "/api/v1/location/51950/"
+    },
+    {
+      "id": 51951,
+      "name": "Sociedad Hebraica",
+      "resource_uri": "/api/v1/location/51951/"
+    },
+    {
+      "id": 51952,
+      "name": "Solares del Norte",
+      "resource_uri": "/api/v1/location/51952/"
+    },
+    {
+      "id": 51953,
+      "name": "Solares del Pilar",
+      "resource_uri": "/api/v1/location/51953/"
+    },
+    {
+      "id": 51954,
+      "name": "Sonnen Landvilla",
+      "resource_uri": "/api/v1/location/51954/"
+    },
+    {
+      "id": 51955,
+      "name": "St. Mathews Village",
+      "resource_uri": "/api/v1/location/51955/"
+    },
+    {
+      "id": 51956,
+      "name": "Stradivarius",
+      "resource_uri": "/api/v1/location/51956/"
+    },
+    {
+      "id": 51957,
+      "name": "Taxodium",
+      "resource_uri": "/api/v1/location/51957/"
+    },
+    {
+      "id": 51958,
+      "name": "Terrazas del Lago",
+      "resource_uri": "/api/v1/location/51958/"
+    },
+    {
+      "id": 51959,
+      "name": "Uka-Land",
+      "resource_uri": "/api/v1/location/51959/"
+    },
+    {
+      "id": 51960,
+      "name": "Village Country Club",
+      "resource_uri": "/api/v1/location/51960/"
+    },
+    {
+      "id": 80744,
+      "name": "Boulevard del Sol",
+      "resource_uri": "/api/v1/location/80744/"
+    },
+    {
+      "id": 82261,
+      "name": "Vohe",
+      "resource_uri": "/api/v1/location/82261/"
+    },
+    {
+      "id": 82269,
+      "name": "Pilar Garden",
+      "resource_uri": "/api/v1/location/82269/"
+    },
+    {
+      "id": 82270,
+      "name": "Office Park Norte",
+      "resource_uri": "/api/v1/location/82270/"
+    },
+    {
+      "id": 82271,
+      "name": "La Merecida",
+      "resource_uri": "/api/v1/location/82271/"
+    },
+    {
+      "id": 82272,
+      "name": "HI 42.5",
+      "resource_uri": "/api/v1/location/82272/"
+    },
+    {
+      "id": 82273,
+      "name": "Campo Chico",
+      "resource_uri": "/api/v1/location/82273/"
+    },
+    {
+      "id": 82691,
+      "name": "Chacras del ocho",
+      "resource_uri": "/api/v1/location/82691/"
+    },
+    {
+      "id": 102132,
+      "name": "Green Soul",
+      "resource_uri": "/api/v1/location/102132/"
+    },
+    {
+      "id": 102531,
+      "name": "Eco Aldea",
+      "resource_uri": "/api/v1/location/102531/"
+    },
+    {
+      "id": 239355,
+      "name": "Las Pircas",
+      "resource_uri": "/api/v1/location/239355/"
+    },
+    {
+      "id": 240349,
+      "name": "Green Village",
+      "resource_uri": "/api/v1/location/240349/"
+    },
+    {
+      "id": 240352,
+      "name": "Tortugas III Quinta la Jimena Barrio Cerrado",
+      "resource_uri": "/api/v1/location/240352/"
+    },
+    {
+      "id": 240360,
+      "name": "La Magdalena",
+      "resource_uri": "/api/v1/location/240360/"
+    },
+    {
+      "id": 240361,
+      "name": "Tortugas I y II",
+      "resource_uri": "/api/v1/location/240361/"
+    },
+    {
+      "id": 253323,
+      "name": "Jardines de Saravi",
+      "resource_uri": "/api/v1/location/253323/"
+    },
+    {
+      "id": 253324,
+      "name": "Aromas de Saravi",
+      "resource_uri": "/api/v1/location/253324/"
+    },
+    {
+      "id": 253325,
+      "name": "Robles del Monarca",
+      "resource_uri": "/api/v1/location/253325/"
+    },
+    {
+      "id": 253326,
+      "name": "La Nazarena",
+      "resource_uri": "/api/v1/location/253326/"
+    },
+    {
+      "id": 253415,
+      "name": "Liquidambar",
+      "resource_uri": "/api/v1/location/253415/"
+    },
+    {
+      "id": 253666,
+      "name": "Condominio Traum",
+      "resource_uri": "/api/v1/location/253666/"
+    },
+    {
+      "id": 253992,
+      "name": "Pueblo Caamaño",
+      "resource_uri": "/api/v1/location/253992/"
+    },
+    {
+      "id": 256468,
+      "name": "Las Cañitas",
+      "resource_uri": "/api/v1/location/256468/"
+    },
+    {
+      "id": 571412,
+      "name": "Barrio El Cruce",
+      "resource_uri": "/api/v1/location/571412/"
+    },
+    {
+      "id": 571413,
+      "name": "Metz Village",
+      "resource_uri": "/api/v1/location/571413/"
+    },
+    {
+      "id": 571417,
+      "name": "Art Gallery",
+      "resource_uri": "/api/v1/location/571417/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar ",
+  "id": 25127,
+  "name": "Pilar",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Pilar ",
+  "state": "/api/v1/state/147/",
+  "weight": 8074,
+  "zip_code": null
+}

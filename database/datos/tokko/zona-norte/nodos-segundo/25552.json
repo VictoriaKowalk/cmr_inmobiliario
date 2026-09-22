@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro | S.Isi.-Vias/Libert.",
+  "id": 25552,
+  "name": "S.Isi.-Vias/Libert.",
+  "parent_division": "/api/v1/location/25536/",
+  "short_location": "San Isidro | San Isidro | S.Isi.-Vias/Libert.",
+  "state": null,
+  "weight": 261,
+  "zip_code": null
+}

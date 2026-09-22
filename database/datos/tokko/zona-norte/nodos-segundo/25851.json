@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Villa Martelli | V.Martelli-B.Parque",
+  "id": 25851,
+  "name": "V.Martelli-B.Parque",
+  "parent_division": "/api/v1/location/25850/",
+  "short_location": "Vicente López | Villa Martelli | V.Martelli-B.Parque",
+  "state": null,
+  "weight": 157,
+  "zip_code": null
+}

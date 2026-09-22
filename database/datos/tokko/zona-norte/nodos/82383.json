@@ -1,0 +1,42 @@
+{
+    "divisions": [
+        {
+            "id": 82411,
+            "name": "Parana De Las Palmas Escobar",
+            "resource_uri": "\/api\/v1\/location\/82411\/"
+        },
+        {
+            "id": 82412,
+            "name": "Correntino",
+            "resource_uri": "\/api\/v1\/location\/82412\/"
+        },
+        {
+            "id": 82413,
+            "name": "Leber",
+            "resource_uri": "\/api\/v1\/location\/82413\/"
+        },
+        {
+            "id": 82414,
+            "name": "Canal Arias Escobar",
+            "resource_uri": "\/api\/v1\/location\/82414\/"
+        },
+        {
+            "id": 82415,
+            "name": "Lujan",
+            "resource_uri": "\/api\/v1\/location\/82415\/"
+        },
+        {
+            "id": 82416,
+            "name": "Las Rosas",
+            "resource_uri": "\/api\/v1\/location\/82416\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Zona Delta Escobar",
+    "id": 82383,
+    "name": "Zona Delta Escobar",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Zona Delta Escobar",
+    "state": null,
+    "weight": 6,
+    "zip_code": null
+}

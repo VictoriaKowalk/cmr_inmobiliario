@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Parana Las Palmas",
+  "id": 24918,
+  "name": "Parana Las Palmas",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Parana Las Palmas",
+  "state": null,
+  "weight": 10,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | San Ignacio",
+  "id": 254727,
+  "name": "San Ignacio",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | San Ignacio",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

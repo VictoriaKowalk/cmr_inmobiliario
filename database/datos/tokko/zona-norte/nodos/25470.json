@@ -1,0 +1,242 @@
+{
+    "divisions": [
+        {
+            "id": 25471,
+            "name": "Altos De La Horqueta",
+            "resource_uri": "\/api\/v1\/location\/25471\/"
+        },
+        {
+            "id": 25472,
+            "name": "Altos De La Merced",
+            "resource_uri": "\/api\/v1\/location\/25472\/"
+        },
+        {
+            "id": 25474,
+            "name": "Barrancas S.Isidro",
+            "resource_uri": "\/api\/v1\/location\/25474\/"
+        },
+        {
+            "id": 25475,
+            "name": "Boating Club",
+            "resource_uri": "\/api\/v1\/location\/25475\/"
+        },
+        {
+            "id": 25476,
+            "name": "Camino Real",
+            "resource_uri": "\/api\/v1\/location\/25476\/"
+        },
+        {
+            "id": 25477,
+            "name": "Casas De La Ribera I",
+            "resource_uri": "\/api\/v1\/location\/25477\/"
+        },
+        {
+            "id": 25478,
+            "name": "Casas De La Ribera Ii",
+            "resource_uri": "\/api\/v1\/location\/25478\/"
+        },
+        {
+            "id": 25479,
+            "name": "Casas Del Puerto (S.Isidro)",
+            "resource_uri": "\/api\/v1\/location\/25479\/"
+        },
+        {
+            "id": 25480,
+            "name": "El Portal",
+            "resource_uri": "\/api\/v1\/location\/25480\/"
+        },
+        {
+            "id": 25481,
+            "name": "El Solar de San Isid",
+            "resource_uri": "\/api\/v1\/location\/25481\/"
+        },
+        {
+            "id": 25482,
+            "name": "El Triangulo",
+            "resource_uri": "\/api\/v1\/location\/25482\/"
+        },
+        {
+            "id": 25483,
+            "name": "Green Lanas",
+            "resource_uri": "\/api\/v1\/location\/25483\/"
+        },
+        {
+            "id": 25484,
+            "name": "Jardines De San Isidro",
+            "resource_uri": "\/api\/v1\/location\/25484\/"
+        },
+        {
+            "id": 25485,
+            "name": "La Candelaria (San Isidro)",
+            "resource_uri": "\/api\/v1\/location\/25485\/"
+        },
+        {
+            "id": 25486,
+            "name": "La Colina de la Horqueta",
+            "resource_uri": "\/api\/v1\/location\/25486\/"
+        },
+        {
+            "id": 25487,
+            "name": "La Embajada",
+            "resource_uri": "\/api\/v1\/location\/25487\/"
+        },
+        {
+            "id": 25488,
+            "name": "La Merced",
+            "resource_uri": "\/api\/v1\/location\/25488\/"
+        },
+        {
+            "id": 25489,
+            "name": "La Posta",
+            "resource_uri": "\/api\/v1\/location\/25489\/"
+        },
+        {
+            "id": 25490,
+            "name": "La Rotonda",
+            "resource_uri": "\/api\/v1\/location\/25490\/"
+        },
+        {
+            "id": 25491,
+            "name": "Las Barrancas",
+            "resource_uri": "\/api\/v1\/location\/25491\/"
+        },
+        {
+            "id": 25492,
+            "name": "Las Brujas",
+            "resource_uri": "\/api\/v1\/location\/25492\/"
+        },
+        {
+            "id": 25493,
+            "name": "Las Casuarinas (San Isidro)",
+            "resource_uri": "\/api\/v1\/location\/25493\/"
+        },
+        {
+            "id": 25494,
+            "name": "Las Marias",
+            "resource_uri": "\/api\/v1\/location\/25494\/"
+        },
+        {
+            "id": 25495,
+            "name": "Los Aromos",
+            "resource_uri": "\/api\/v1\/location\/25495\/"
+        },
+        {
+            "id": 25496,
+            "name": "Los Eucaliptos (S.Isidro)",
+            "resource_uri": "\/api\/v1\/location\/25496\/"
+        },
+        {
+            "id": 25497,
+            "name": "Los Faroles",
+            "resource_uri": "\/api\/v1\/location\/25497\/"
+        },
+        {
+            "id": 25498,
+            "name": "Los Robles",
+            "resource_uri": "\/api\/v1\/location\/25498\/"
+        },
+        {
+            "id": 25499,
+            "name": "Nuevas Casuarinas",
+            "resource_uri": "\/api\/v1\/location\/25499\/"
+        },
+        {
+            "id": 25500,
+            "name": "Quince Robles",
+            "resource_uri": "\/api\/v1\/location\/25500\/"
+        },
+        {
+            "id": 25501,
+            "name": "Quinta De Atalaya",
+            "resource_uri": "\/api\/v1\/location\/25501\/"
+        },
+        {
+            "id": 25502,
+            "name": "Rey Moro",
+            "resource_uri": "\/api\/v1\/location\/25502\/"
+        },
+        {
+            "id": 25503,
+            "name": "San Isidro Catedral",
+            "resource_uri": "\/api\/v1\/location\/25503\/"
+        },
+        {
+            "id": 25504,
+            "name": "San Isidro Chico",
+            "resource_uri": "\/api\/v1\/location\/25504\/"
+        },
+        {
+            "id": 25505,
+            "name": "San Isidro Joven",
+            "resource_uri": "\/api\/v1\/location\/25505\/"
+        },
+        {
+            "id": 25507,
+            "name": "San Jose",
+            "resource_uri": "\/api\/v1\/location\/25507\/"
+        },
+        {
+            "id": 25508,
+            "name": "San Juan",
+            "resource_uri": "\/api\/v1\/location\/25508\/"
+        },
+        {
+            "id": 25509,
+            "name": "Talar De Martinez",
+            "resource_uri": "\/api\/v1\/location\/25509\/"
+        },
+        {
+            "id": 25510,
+            "name": "Village Las Lomas",
+            "resource_uri": "\/api\/v1\/location\/25510\/"
+        },
+        {
+            "id": 51424,
+            "name": "La Claridad",
+            "resource_uri": "\/api\/v1\/location\/51424\/"
+        },
+        {
+            "id": 51425,
+            "name": "San Isidro Labrador",
+            "resource_uri": "\/api\/v1\/location\/51425\/"
+        },
+        {
+            "id": 80507,
+            "name": "Virasoro Village",
+            "resource_uri": "\/api\/v1\/location\/80507\/"
+        },
+        {
+            "id": 102426,
+            "name": "Eucalis La Horqueta",
+            "resource_uri": "\/api\/v1\/location\/102426\/"
+        },
+        {
+            "id": 254498,
+            "name": "Finca Pueyrredón",
+            "resource_uri": "\/api\/v1\/location\/254498\/"
+        },
+        {
+            "id": 254499,
+            "name": "Finca Sarmiento",
+            "resource_uri": "\/api\/v1\/location\/254499\/"
+        },
+        {
+            "id": 254500,
+            "name": "Martinez Chico",
+            "resource_uri": "\/api\/v1\/location\/254500\/"
+        },
+        {
+            "id": 256206,
+            "name": "La Clementina",
+            "resource_uri": "\/api\/v1\/location\/256206\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries\/B.Cerrado (San Isidro)",
+    "id": 25470,
+    "name": "Countries\/B.Cerrado (San Isidro)",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Countries\/B.Cerrado (San Isidro)",
+    "state": null,
+    "weight": 442,
+    "zip_code": null
+}

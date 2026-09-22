@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Olivos | Olivos-Qta.Presid.",
+  "id": 25840,
+  "name": "Olivos-Qta.Presid.",
+  "parent_division": "/api/v1/location/25836/",
+  "short_location": "Vicente López | Olivos | Olivos-Qta.Presid.",
+  "state": null,
+  "weight": 425,
+  "zip_code": null
+}

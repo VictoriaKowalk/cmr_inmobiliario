@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Mart.-Santa Fe/Fleming",
+  "id": 25533,
+  "name": "Mart.-Santa Fe/Fleming",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Mart.-Santa Fe/Fleming",
+  "state": null,
+  "weight": 1669,
+  "zip_code": null
+}

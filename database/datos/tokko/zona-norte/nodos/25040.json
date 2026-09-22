@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 25041,
+            "name": "Barrio Parque Pero",
+            "resource_uri": "\/api\/v1\/location\/25041\/"
+        },
+        {
+            "id": 25042,
+            "name": "Golf Club Argentino",
+            "resource_uri": "\/api\/v1\/location\/25042\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Countries\/B.Cerrado (Jose C Paz)",
+    "id": 25040,
+    "name": "Countries\/B.Cerrado (Jose C Paz)",
+    "parent_division": "\/api\/v1\/location\/25039\/",
+    "short_location": "G.B.A. Zona Norte | Jose Clemente Paz | Countries\/B.Cerrado (Jose C Paz)",
+    "state": null,
+    "weight": 4,
+    "zip_code": null
+}

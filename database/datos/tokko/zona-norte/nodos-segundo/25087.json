@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Grand Bourg | V.Yapeyu",
+  "id": 25087,
+  "name": "V.Yapeyu",
+  "parent_division": "/api/v1/location/25083/",
+  "short_location": "Malvinas Argentinas | Grand Bourg | V.Yapeyu",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

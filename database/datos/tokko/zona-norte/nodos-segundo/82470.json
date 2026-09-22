@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Rama Negra Chico",
+  "id": 82470,
+  "name": "Rama Negra Chico",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Rama Negra Chico",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Altos Del Golf",
+  "id": 25135,
+  "name": "Altos Del Golf",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Altos Del Golf",
+  "state": null,
+  "weight": 61,
+  "zip_code": null
+}

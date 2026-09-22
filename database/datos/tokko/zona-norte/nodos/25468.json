@@ -1,0 +1,207 @@
+{
+    "divisions": [
+        {
+            "id": 82417,
+            "name": "Aguaje del Durazno",
+            "resource_uri": "\/api\/v1\/location\/82417\/"
+        },
+        {
+            "id": 82418,
+            "name": "Arroyo Largo",
+            "resource_uri": "\/api\/v1\/location\/82418\/"
+        },
+        {
+            "id": 82419,
+            "name": "Arroyo Grande",
+            "resource_uri": "\/api\/v1\/location\/82419\/"
+        },
+        {
+            "id": 82420,
+            "name": "Cruz del Sauce",
+            "resource_uri": "\/api\/v1\/location\/82420\/"
+        },
+        {
+            "id": 82421,
+            "name": "Canal Arana",
+            "resource_uri": "\/api\/v1\/location\/82421\/"
+        },
+        {
+            "id": 82422,
+            "name": "Canelones",
+            "resource_uri": "\/api\/v1\/location\/82422\/"
+        },
+        {
+            "id": 82423,
+            "name": "Chana",
+            "resource_uri": "\/api\/v1\/location\/82423\/"
+        },
+        {
+            "id": 82424,
+            "name": "Chanacito",
+            "resource_uri": "\/api\/v1\/location\/82424\/"
+        },
+        {
+            "id": 82425,
+            "name": "Diablo",
+            "resource_uri": "\/api\/v1\/location\/82425\/"
+        },
+        {
+            "id": 82426,
+            "name": "Canal La Serna",
+            "resource_uri": "\/api\/v1\/location\/82426\/"
+        },
+        {
+            "id": 82427,
+            "name": "Estudiantes",
+            "resource_uri": "\/api\/v1\/location\/82427\/"
+        },
+        {
+            "id": 82428,
+            "name": "Estudiantito",
+            "resource_uri": "\/api\/v1\/location\/82428\/"
+        },
+        {
+            "id": 82429,
+            "name": "Fredes",
+            "resource_uri": "\/api\/v1\/location\/82429\/"
+        },
+        {
+            "id": 82430,
+            "name": "Duraznito",
+            "resource_uri": "\/api\/v1\/location\/82430\/"
+        },
+        {
+            "id": 82431,
+            "name": "Caracoles",
+            "resource_uri": "\/api\/v1\/location\/82431\/"
+        },
+        {
+            "id": 82432,
+            "name": "Canal 2",
+            "resource_uri": "\/api\/v1\/location\/82432\/"
+        },
+        {
+            "id": 82433,
+            "name": "Canal 3",
+            "resource_uri": "\/api\/v1\/location\/82433\/"
+        },
+        {
+            "id": 82434,
+            "name": "Canal 4",
+            "resource_uri": "\/api\/v1\/location\/82434\/"
+        },
+        {
+            "id": 82435,
+            "name": "Canal 5 ",
+            "resource_uri": "\/api\/v1\/location\/82435\/"
+        },
+        {
+            "id": 82436,
+            "name": "Capitancito",
+            "resource_uri": "\/api\/v1\/location\/82436\/"
+        },
+        {
+            "id": 82437,
+            "name": "Durazno",
+            "resource_uri": "\/api\/v1\/location\/82437\/"
+        },
+        {
+            "id": 82438,
+            "name": "Diablo",
+            "resource_uri": "\/api\/v1\/location\/82438\/"
+        },
+        {
+            "id": 82439,
+            "name": "Sandor Mikler",
+            "resource_uri": "\/api\/v1\/location\/82439\/"
+        },
+        {
+            "id": 82440,
+            "name": "Tuyupare",
+            "resource_uri": "\/api\/v1\/location\/82440\/"
+        },
+        {
+            "id": 82441,
+            "name": "Paicarabicito",
+            "resource_uri": "\/api\/v1\/location\/82441\/"
+        },
+        {
+            "id": 82442,
+            "name": "Mendez Grande",
+            "resource_uri": "\/api\/v1\/location\/82442\/"
+        },
+        {
+            "id": 82443,
+            "name": "Laguna del Barca Grande",
+            "resource_uri": "\/api\/v1\/location\/82443\/"
+        },
+        {
+            "id": 82444,
+            "name": "Naranjo",
+            "resource_uri": "\/api\/v1\/location\/82444\/"
+        },
+        {
+            "id": 82445,
+            "name": "Parana Guazu",
+            "resource_uri": "\/api\/v1\/location\/82445\/"
+        },
+        {
+            "id": 82446,
+            "name": "Parana De Las Palmas S. Fernando",
+            "resource_uri": "\/api\/v1\/location\/82446\/"
+        },
+        {
+            "id": 82447,
+            "name": "Guazucito",
+            "resource_uri": "\/api\/v1\/location\/82447\/"
+        },
+        {
+            "id": 82448,
+            "name": "Las Cañas",
+            "resource_uri": "\/api\/v1\/location\/82448\/"
+        },
+        {
+            "id": 82550,
+            "name": "Felicaria",
+            "resource_uri": "\/api\/v1\/location\/82550\/"
+        },
+        {
+            "id": 82551,
+            "name": "Barca Grande",
+            "resource_uri": "\/api\/v1\/location\/82551\/"
+        },
+        {
+            "id": 82568,
+            "name": "Canal Alem Al Guazu",
+            "resource_uri": "\/api\/v1\/location\/82568\/"
+        },
+        {
+            "id": 82569,
+            "name": "Paicarabí",
+            "resource_uri": "\/api\/v1\/location\/82569\/"
+        },
+        {
+            "id": 82570,
+            "name": "Paraná Miní",
+            "resource_uri": "\/api\/v1\/location\/82570\/"
+        },
+        {
+            "id": 82613,
+            "name": "Carabelas Grande",
+            "resource_uri": "\/api\/v1\/location\/82613\/"
+        },
+        {
+            "id": 82668,
+            "name": "Arroyo Carpincho",
+            "resource_uri": "\/api\/v1\/location\/82668\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando",
+    "id": 25468,
+    "name": "Zona Delta San Fernando",
+    "parent_division": "\/api\/v1\/location\/25436\/",
+    "short_location": "G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando",
+    "state": null,
+    "weight": 103,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | La Lucila | La Lucila-Libert./Rio",
+  "id": 25830,
+  "name": "La Lucila-Libert./Rio",
+  "parent_division": "/api/v1/location/25829/",
+  "short_location": "Vicente López | La Lucila | La Lucila-Libert./Rio",
+  "state": null,
+  "weight": 553,
+  "zip_code": null
+}

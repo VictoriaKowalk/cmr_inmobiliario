@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Chacra Alcalá",
+    "id": 52007,
+    "name": "Chacra Alcalá",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | Chacra Alcalá",
+    "state": null,
+    "weight": 10,
+    "zip_code": null
+}

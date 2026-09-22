@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Hindu Club",
+  "id": 25734,
+  "name": "Hindu Club",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Hindu Club",
+  "state": null,
+  "weight": 52,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | El Pinar",
+  "id": 25320,
+  "name": "El Pinar",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | El Pinar",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

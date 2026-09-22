@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida-B.Roca",
+  "id": 25824,
+  "name": "Florida-B.Roca",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida-B.Roca",
+  "state": null,
+  "weight": 29,
+  "zip_code": null
+}

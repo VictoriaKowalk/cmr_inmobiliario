@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Terrazas Del Pilar",
+  "id": 25304,
+  "name": "Terrazas Del Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Terrazas Del Pilar",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

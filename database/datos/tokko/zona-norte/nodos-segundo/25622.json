@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Albanueva",
+  "id": 25622,
+  "name": "Albanueva",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Albanueva",
+  "state": null,
+  "weight": 1925,
+  "zip_code": null
+}

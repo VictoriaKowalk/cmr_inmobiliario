@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Garin | Garin-Centro",
+  "id": 24929,
+  "name": "Garin-Centro",
+  "parent_division": "/api/v1/location/24928/",
+  "short_location": "Escobar | Garin | Garin-Centro",
+  "state": null,
+  "weight": 109,
+  "zip_code": null
+}

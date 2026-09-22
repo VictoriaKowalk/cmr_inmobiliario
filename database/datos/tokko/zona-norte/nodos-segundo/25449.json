@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Terrazas del Sol",
+  "id": 25449,
+  "name": "Terrazas del Sol",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Terrazas del Sol",
+  "state": null,
+  "weight": 38,
+  "zip_code": null
+}

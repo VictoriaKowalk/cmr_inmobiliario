@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-Hoechst/Standar",
+  "id": 25540,
+  "name": "Las Lomas-Hoechst/Standar",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-Hoechst/Standar",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

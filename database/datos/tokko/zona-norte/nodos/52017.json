@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | La Habana",
+    "id": 52017,
+    "name": "La Habana",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | La Habana",
+    "state": null,
+    "weight": 0,
+    "zip_code": null
+}

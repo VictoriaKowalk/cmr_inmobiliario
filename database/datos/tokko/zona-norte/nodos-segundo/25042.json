@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Countries/B.Cerrado (Jose C Paz) | Golf Club Argentino",
+  "id": 25042,
+  "name": "Golf Club Argentino",
+  "parent_division": "/api/v1/location/25040/",
+  "short_location": "Jose Clemente Paz | Countries/B.Cerrado (Jose C Paz) | Golf Club Argentino",
+  "state": null,
+  "weight": 121,
+  "zip_code": null
+}

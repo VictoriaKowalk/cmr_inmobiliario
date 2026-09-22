@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | Acacias Blancas",
+  "id": 24934,
+  "name": "Acacias Blancas",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | Acacias Blancas",
+  "state": null,
+  "weight": 103,
+  "zip_code": null
+}

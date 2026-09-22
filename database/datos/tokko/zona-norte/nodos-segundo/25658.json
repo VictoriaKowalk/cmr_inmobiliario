@@ -1,0 +1,17 @@
+{
+  "divisions": [
+    {
+      "id": 85602,
+      "name": "Casas de Santa Maria",
+      "resource_uri": "/api/v1/location/85602/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | Los Alamos (Tigre)",
+  "id": 25658,
+  "name": "Los Alamos (Tigre)",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | Los Alamos (Tigre)",
+  "state": null,
+  "weight": 255,
+  "zip_code": null
+}

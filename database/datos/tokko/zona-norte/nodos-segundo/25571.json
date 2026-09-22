@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Countries/B.Cerrado (San Miguel) | Macabi",
+  "id": 25571,
+  "name": "Macabi",
+  "parent_division": "/api/v1/location/25561/",
+  "short_location": "San Miguel | Countries/B.Cerrado (San Miguel) | Macabi",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

@@ -1,0 +1,147 @@
+{
+    "divisions": [
+        {
+            "id": 24933,
+            "name": "A.Vista",
+            "resource_uri": "\/api\/v1\/location\/24933\/"
+        },
+        {
+            "id": 24934,
+            "name": "Acacias Blancas",
+            "resource_uri": "\/api\/v1\/location\/24934\/"
+        },
+        {
+            "id": 24935,
+            "name": "Bo.Los Tres",
+            "resource_uri": "\/api\/v1\/location\/24935\/"
+        },
+        {
+            "id": 24936,
+            "name": "Centro",
+            "resource_uri": "\/api\/v1\/location\/24936\/"
+        },
+        {
+            "id": 24937,
+            "name": "El Curvon",
+            "resource_uri": "\/api\/v1\/location\/24937\/"
+        },
+        {
+            "id": 24938,
+            "name": "El Jabali",
+            "resource_uri": "\/api\/v1\/location\/24938\/"
+        },
+        {
+            "id": 24939,
+            "name": "El Recreo",
+            "resource_uri": "\/api\/v1\/location\/24939\/"
+        },
+        {
+            "id": 24940,
+            "name": "Fair Ways",
+            "resource_uri": "\/api\/v1\/location\/24940\/"
+        },
+        {
+            "id": 24941,
+            "name": "Green Hills",
+            "resource_uri": "\/api\/v1\/location\/24941\/"
+        },
+        {
+            "id": 24942,
+            "name": "L.Horneros",
+            "resource_uri": "\/api\/v1\/location\/24942\/"
+        },
+        {
+            "id": 24943,
+            "name": "L.Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/24943\/"
+        },
+        {
+            "id": 24944,
+            "name": "L.Ñanduces",
+            "resource_uri": "\/api\/v1\/location\/24944\/"
+        },
+        {
+            "id": 24945,
+            "name": "Los Naranjos",
+            "resource_uri": "\/api\/v1\/location\/24945\/"
+        },
+        {
+            "id": 24947,
+            "name": "La Graciela",
+            "resource_uri": "\/api\/v1\/location\/24947\/"
+        },
+        {
+            "id": 24948,
+            "name": "La Pista",
+            "resource_uri": "\/api\/v1\/location\/24948\/"
+        },
+        {
+            "id": 24949,
+            "name": "Lambare",
+            "resource_uri": "\/api\/v1\/location\/24949\/"
+        },
+        {
+            "id": 24950,
+            "name": "Las Glorias",
+            "resource_uri": "\/api\/v1\/location\/24950\/"
+        },
+        {
+            "id": 24951,
+            "name": "Plan V.E.A.",
+            "resource_uri": "\/api\/v1\/location\/24951\/"
+        },
+        {
+            "id": 24952,
+            "name": "San Juan (Maschwitz)",
+            "resource_uri": "\/api\/v1\/location\/24952\/"
+        },
+        {
+            "id": 24953,
+            "name": "San Lorenzo",
+            "resource_uri": "\/api\/v1\/location\/24953\/"
+        },
+        {
+            "id": 24954,
+            "name": "San Miguel (Maschwitz)",
+            "resource_uri": "\/api\/v1\/location\/24954\/"
+        },
+        {
+            "id": 24955,
+            "name": "Zelaya",
+            "resource_uri": "\/api\/v1\/location\/24955\/"
+        },
+        {
+            "id": 24956,
+            "name": "Zelaya",
+            "resource_uri": "\/api\/v1\/location\/24956\/"
+        },
+        {
+            "id": 51406,
+            "name": "Ayres de Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/51406\/"
+        },
+        {
+            "id": 51407,
+            "name": "Club Pigeon",
+            "resource_uri": "\/api\/v1\/location\/51407\/"
+        },
+        {
+            "id": 254077,
+            "name": "Altos de Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/254077\/"
+        },
+        {
+            "id": 254172,
+            "name": "Green Style",
+            "resource_uri": "\/api\/v1\/location\/254172\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz",
+    "id": 24932,
+    "name": "Ingeniero Maschwitz",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz",
+    "state": null,
+    "weight": 3919,
+    "zip_code": null
+}

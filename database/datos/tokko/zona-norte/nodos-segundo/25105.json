@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | El Chelito",
+  "id": 25105,
+  "name": "El Chelito",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | El Chelito",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Nautico Escobar",
+  "id": 24869,
+  "name": "Nautico Escobar",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Nautico Escobar",
+  "state": null,
+  "weight": 157,
+  "zip_code": null
+}

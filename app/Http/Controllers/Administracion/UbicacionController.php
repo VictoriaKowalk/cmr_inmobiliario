@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Administracion;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Administracion\GuardarUbicacionRequest;
+use App\Models\ReglaTipoUbicacion;
+use App\Models\TipoUbicacion;
 use App\Models\Ubicacion;
 use App\Services\ServicioUbicaciones;
 use Illuminate\Http\JsonResponse;
@@ -16,128 +18,180 @@ class UbicacionController extends Controller
     public function listar(Request $solicitud): View
     {
         $busqueda = trim((string) $solicitud->query('buscar'));
-        $estado = $solicitud->query('estado', 'todas');
+        $estado = $solicitud->query('estado', 'activas');
+        $padre = $solicitud->filled('padre') ? Ubicacion::query()->with('padre', 'tipoUbicacion')->findOrFail($solicitud->integer('padre')) : null;
+        $ubicaciones = Ubicacion::query()->with('tipoUbicacion')->withCount('hijos')
+            ->when($busqueda !== '', fn ($q) => $q->where(fn ($s) => $s->where('nombre_completo', 'like', "%{$busqueda}%")->orWhere('nombre', 'like', "%{$busqueda}%")))
+            ->when($busqueda === '', fn ($q) => $q->where('ubicacion_padre_id', $padre?->id))
+            ->when($estado === 'activas', fn ($q) => $q->where('activa', true))
+            ->when($estado === 'inactivas', fn ($q) => $q->where('activa', false))
+            ->orderBy('nombre')->paginate(30)->withQueryString();
 
-        $ubicaciones = Ubicacion::query()
-            ->when(
-                $busqueda !== '',
-                fn ($consulta) => $consulta
-                    ->where('nombre_completo', 'like', "%{$busqueda}%")
-            )
-            ->when(
-                $estado === 'activas',
-                fn ($consulta) => $consulta->where('activa', true)
-            )
-            ->when(
-                $estado === 'inactivas',
-                fn ($consulta) => $consulta->where('activa', false)
-            )
-            ->orderBy('nombre_completo')
-            ->paginate(15)
-            ->withQueryString();
-
-        return view('administracion.ubicaciones.listar', [
-            'ubicaciones' => $ubicaciones,
-            'busqueda' => $busqueda,
-            'estado' => $estado,
-        ]);
+        return view('administracion.ubicaciones.listar', compact('ubicaciones', 'busqueda', 'estado', 'padre'));
     }
 
-    public function crear(): View
+    public function crear(Request $solicitud): View
     {
-        return view(
-            'administracion.ubicaciones.crear',
-            $this->sugerenciasFormulario()
-        );
+        $padre = $solicitud->filled('padre') ? Ubicacion::query()->with('tipoUbicacion')->findOrFail($solicitud->integer('padre')) : null;
+        return view('administracion.ubicaciones.crear', ['padre' => $padre, 'tiposUbicacion' => $this->tiposPermitidos($padre)]);
     }
 
-    public function guardar(
-        GuardarUbicacionRequest $solicitud,
-        ServicioUbicaciones $servicioUbicaciones
-    ): RedirectResponse {
-        $servicioUbicaciones->crearUbicacion($solicitud->validated());
-
-        return redirect()
-            ->route('administracion.ubicaciones.listar')
-            ->with('estado', 'La ubicación se creó correctamente.');
+    public function guardar(GuardarUbicacionRequest $solicitud, ServicioUbicaciones $servicio): RedirectResponse
+    {
+        $ubicacion = $servicio->crearNodo($solicitud->validated());
+        return redirect()->route('administracion.ubicaciones.listar', ['padre' => $ubicacion->ubicacion_padre_id])->with('estado', 'La ubicación se creó correctamente.');
     }
 
     public function editar(Ubicacion $ubicacion): View
     {
-        return view('administracion.ubicaciones.editar', [
-            'ubicacion' => $ubicacion,
-            ...$this->sugerenciasFormulario(),
-        ]);
+        return view('administracion.ubicaciones.editar', ['ubicacion' => $ubicacion->load('padre', 'tipoUbicacion')]);
     }
 
-    public function actualizar(
-        GuardarUbicacionRequest $solicitud,
-        Ubicacion $ubicacion,
-        ServicioUbicaciones $servicioUbicaciones
-    ): RedirectResponse {
-        $servicioUbicaciones->actualizarUbicacion(
-            $ubicacion,
-            $solicitud->validated()
-        );
-
-        return redirect()
-            ->route('administracion.ubicaciones.listar')
-            ->with('estado', 'La ubicación se actualizó correctamente.');
+    public function actualizar(GuardarUbicacionRequest $solicitud, Ubicacion $ubicacion, ServicioUbicaciones $servicio): RedirectResponse
+    {
+        $servicio->actualizarNodo($ubicacion, $solicitud->validated('nombre'));
+        return redirect()->route('administracion.ubicaciones.listar', ['padre' => $ubicacion->ubicacion_padre_id])->with('estado', 'La ubicación se actualizó correctamente.');
     }
 
     public function cambiarEstado(Ubicacion $ubicacion): RedirectResponse
     {
-        $ubicacion->update([
-            'activa' => ! $ubicacion->activa,
-        ]);
-
-        $mensaje = $ubicacion->activa
-            ? 'La ubicación quedó activa.'
-            : 'La ubicación quedó inactiva.';
-
-        return back()->with('estado', $mensaje);
+        $ubicacion->update(['activa' => ! $ubicacion->activa]);
+        return back()->with('estado', $ubicacion->activa ? 'La ubicación quedó activa.' : 'La ubicación quedó inactiva.');
     }
 
     public function buscar(Request $solicitud): JsonResponse
     {
         $texto = trim((string) $solicitud->query('buscar'));
-
         if (mb_strlen($texto) < 2) {
             return response()->json([]);
         }
 
-        $ubicaciones = Ubicacion::query()
+        $coincidencias = Ubicacion::query()
+            ->with(['tipoUbicacion:id,codigo,nombre', 'padre:id,nombre,nombre_normalizado'])
             ->where('activa', true)
-            ->where('nombre_completo', 'like', "%{$texto}%")
+            ->where(fn ($q) => $q->where('nombre_completo', 'like', "%{$texto}%")->orWhere('nombre', 'like', "%{$texto}%"))
             ->orderBy('nombre_completo')
-            ->limit(10)
-            ->get(['id', 'nombre_completo']);
+            ->limit(50)
+            ->get(['id', 'ubicacion_padre_id', 'tipo_ubicacion_id', 'nombre', 'nombre_normalizado', 'nombre_completo']);
 
-        return response()->json($ubicaciones);
+        $ubicacionesComerciales = $coincidencias->filter(
+            fn (Ubicacion $ubicacion) => in_array(
+                $ubicacion->tipoUbicacion?->codigo,
+                ['zona_comercial', 'localidad', 'barrio', 'subbarrio'],
+                true
+            )
+        );
+
+        $visibles = $ubicacionesComerciales->isNotEmpty()
+            ? $ubicacionesComerciales
+            : $coincidencias
+                ->groupBy(fn (Ubicacion $ubicacion) => $this->claveAdministrativa($ubicacion))
+                ->map(fn ($grupo) => $grupo
+                    ->sortBy(fn (Ubicacion $ubicacion) => $this->prioridadAdministrativa($ubicacion))
+                    ->first())
+                ->values();
+
+        return response()->json($visibles
+            ->map(fn (Ubicacion $ubicacion) => [
+                'id' => $ubicacion->id,
+                'nombre' => $ubicacion->nombre,
+                'nombre_completo' => $ubicacion->nombre_completo,
+                'nombre_mostrado' => $this->nombreParaSelector($ubicacion),
+                'ruta_mostrada' => $this->rutaParaSelector($ubicacion),
+                'ruta_completa_mostrada' => $this->rutaCompletaParaSelector($ubicacion),
+            ])
+            ->sortBy('nombre_mostrado')
+            ->take(10)
+            ->values());
     }
 
-    private function sugerenciasFormulario(): array
+    private function nombreParaSelector(Ubicacion $ubicacion): string
     {
-        $campos = [
-            'pais',
-            'zona',
-            'localidad',
-            'categoria_barrio',
-            'barrio_principal',
-            'barrio',
-        ];
+        $esLocalidadCabecera = $ubicacion->tipoUbicacion?->codigo === 'localidad'
+            && $ubicacion->padre?->nombre_normalizado === $ubicacion->nombre_normalizado;
 
-        return [
-            'sugerenciasUbicacion' => collect($campos)->mapWithKeys(
-                fn (string $campo) => [
-                    $campo => Ubicacion::query()
-                        ->whereNotNull($campo)
-                        ->where($campo, '!=', '')
-                        ->distinct()
-                        ->orderBy($campo)
-                        ->pluck($campo),
-                ]
-            ),
-        ];
+        return $esLocalidadCabecera ? "{$ubicacion->nombre} (Centro)" : $ubicacion->nombre;
+    }
+
+    private function rutaParaSelector(Ubicacion $ubicacion): string
+    {
+        $partes = collect(explode('|', $ubicacion->nombre_completo))
+            ->map(fn (string $parte) => trim($parte))
+            ->filter()
+            ->values();
+
+        if (mb_strtolower((string) $partes->first()) === 'argentina') {
+            $partes->shift();
+        }
+
+        if ($partes->last() === $ubicacion->nombre) {
+            $partes->pop();
+        }
+
+        $partes = $partes
+            ->map(fn (string $parte) => $this->simplificarParteDeRuta($parte));
+
+        if ($partes->contains(fn (string $parte) => str_contains(mb_strtolower($parte), 'zona'))) {
+            $partes = $partes->reject(fn (string $parte) => mb_strtolower($parte) === 'buenos aires');
+        }
+
+        return $partes
+            ->reduce(function ($ruta, string $parte) {
+                if ($ruta->last() !== $parte) {
+                    $ruta->push($parte);
+                }
+
+                return $ruta;
+            }, collect())
+            ->implode(' | ');
+    }
+
+    private function simplificarParteDeRuta(string $parte): string
+    {
+        return preg_replace(
+            '/^(Partido|Municipio|Departamento) de /iu',
+            '',
+            $parte
+        ) ?: $parte;
+    }
+
+    private function rutaCompletaParaSelector(Ubicacion $ubicacion): string
+    {
+        $partes = collect(explode('|', $ubicacion->nombre_completo))
+            ->map(fn (string $parte) => trim($parte))
+            ->filter()
+            ->values();
+
+        if ($partes->last() === $ubicacion->nombre) {
+            $partes->pop();
+        }
+
+        $partes->push($this->nombreParaSelector($ubicacion));
+
+        return $partes->implode(' | ');
+    }
+
+    private function claveAdministrativa(Ubicacion $ubicacion): string
+    {
+        return mb_strtolower($this->rutaParaSelector($ubicacion).'|'.$ubicacion->nombre);
+    }
+
+    private function prioridadAdministrativa(Ubicacion $ubicacion): int
+    {
+        return match ($ubicacion->tipoUbicacion?->codigo) {
+            'municipio' => 1,
+            'partido' => 2,
+            'departamento' => 3,
+            'comuna' => 4,
+            default => 5,
+        };
+    }
+
+    private function tiposPermitidos(?Ubicacion $padre)
+    {
+        if (! $padre) return TipoUbicacion::query()->where('codigo', 'pais')->get();
+        return TipoUbicacion::query()->where('activo', true)->whereIn('id', ReglaTipoUbicacion::query()
+            ->where('tipo_ubicacion_padre_id', $padre->tipo_ubicacion_id)->where('activa', true)->pluck('tipo_ubicacion_hijo_id'))
+            ->orderBy('orden')->get();
     }
 }

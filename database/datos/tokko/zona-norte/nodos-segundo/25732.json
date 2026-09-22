@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Bancalari",
+  "id": 25732,
+  "name": "Bancalari",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Bancalari",
+  "state": null,
+  "weight": 187,
+  "zip_code": null
+}

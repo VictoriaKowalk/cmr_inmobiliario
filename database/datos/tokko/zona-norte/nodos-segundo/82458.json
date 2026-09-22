@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Casilda",
+  "id": 82458,
+  "name": "Casilda",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Casilda",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Boating Club",
+  "id": 25475,
+  "name": "Boating Club",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Boating Club",
+  "state": null,
+  "weight": 192,
+  "zip_code": null
+}

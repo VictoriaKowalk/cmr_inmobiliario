@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Doradito",
+  "id": 82459,
+  "name": "Doradito",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Doradito",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

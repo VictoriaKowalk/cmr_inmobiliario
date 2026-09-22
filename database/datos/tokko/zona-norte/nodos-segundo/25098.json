@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | Mariano Moreno",
+  "id": 25098,
+  "name": "Mariano Moreno",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | Mariano Moreno",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

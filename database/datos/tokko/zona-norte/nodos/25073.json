@@ -1,0 +1,62 @@
+{
+    "divisions": [
+        {
+            "id": 25074,
+            "name": "Cuba Country V. De Mayo",
+            "resource_uri": "\/api\/v1\/location\/25074\/"
+        },
+        {
+            "id": 25075,
+            "name": "Las Magnolias",
+            "resource_uri": "\/api\/v1\/location\/25075\/"
+        },
+        {
+            "id": 25076,
+            "name": "Los Abedules",
+            "resource_uri": "\/api\/v1\/location\/25076\/"
+        },
+        {
+            "id": 25077,
+            "name": "Los Olivares",
+            "resource_uri": "\/api\/v1\/location\/25077\/"
+        },
+        {
+            "id": 25078,
+            "name": "Olivos Golf Club",
+            "resource_uri": "\/api\/v1\/location\/25078\/"
+        },
+        {
+            "id": 25079,
+            "name": "San Carlos C.C",
+            "resource_uri": "\/api\/v1\/location\/25079\/"
+        },
+        {
+            "id": 25080,
+            "name": "San Jorge Village",
+            "resource_uri": "\/api\/v1\/location\/25080\/"
+        },
+        {
+            "id": 25081,
+            "name": "Santa Maria De Los Olivos",
+            "resource_uri": "\/api\/v1\/location\/25081\/"
+        },
+        {
+            "id": 25082,
+            "name": "Touring",
+            "resource_uri": "\/api\/v1\/location\/25082\/"
+        },
+        {
+            "id": 51835,
+            "name": "ZOI",
+            "resource_uri": "\/api\/v1\/location\/51835\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Countries\/B.Cerrado (Malvinas)",
+    "id": 25073,
+    "name": "Countries\/B.Cerrado (Malvinas)",
+    "parent_division": "\/api\/v1\/location\/25072\/",
+    "short_location": "G.B.A. Zona Norte | Malvinas Argentinas | Countries\/B.Cerrado (Malvinas)",
+    "state": null,
+    "weight": 13,
+    "zip_code": null
+}

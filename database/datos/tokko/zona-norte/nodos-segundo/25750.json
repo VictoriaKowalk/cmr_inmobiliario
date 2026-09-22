@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | L.Tunas",
+  "id": 25750,
+  "name": "L.Tunas",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | L.Tunas",
+  "state": null,
+  "weight": 21,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Pellegrini",
+  "id": 25401,
+  "name": "Pellegrini",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Pellegrini",
+  "state": null,
+  "weight": 20,
+  "zip_code": null
+}

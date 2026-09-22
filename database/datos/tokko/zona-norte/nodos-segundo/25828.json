@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida Oeste",
+  "id": 25828,
+  "name": "Florida Oeste",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida Oeste",
+  "state": null,
+  "weight": 1588,
+  "zip_code": null
+}

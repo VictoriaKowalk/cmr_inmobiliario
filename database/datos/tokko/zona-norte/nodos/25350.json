@@ -1,0 +1,37 @@
+{
+    "divisions": [
+        {
+            "id": 25351,
+            "name": "Amancay (Fatima)",
+            "resource_uri": "\/api\/v1\/location\/25351\/"
+        },
+        {
+            "id": 25352,
+            "name": "Chevallier",
+            "resource_uri": "\/api\/v1\/location\/25352\/"
+        },
+        {
+            "id": 25353,
+            "name": "Km.61",
+            "resource_uri": "\/api\/v1\/location\/25353\/"
+        },
+        {
+            "id": 25354,
+            "name": "La Montonera",
+            "resource_uri": "\/api\/v1\/location\/25354\/"
+        },
+        {
+            "id": 51836,
+            "name": "Parque Industrial Pilar",
+            "resource_uri": "\/api\/v1\/location\/51836\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Fátima Estacion Empalme",
+    "id": 25350,
+    "name": "Fátima Estacion Empalme",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Fátima Estacion Empalme",
+    "state": null,
+    "weight": 50,
+    "zip_code": null
+}

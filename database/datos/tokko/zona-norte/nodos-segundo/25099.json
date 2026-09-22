@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | Parque El Cruce",
+  "id": 25099,
+  "name": "Parque El Cruce",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | Parque El Cruce",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

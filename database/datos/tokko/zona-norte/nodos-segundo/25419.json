@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Villa Morra I",
+  "id": 25419,
+  "name": "Villa Morra I",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Villa Morra I",
+  "state": null,
+  "weight": 69,
+  "zip_code": null
+}

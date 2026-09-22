@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Gutierrez",
+  "id": 82463,
+  "name": "Gutierrez",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Gutierrez",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

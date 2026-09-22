@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Joven",
+  "id": 25505,
+  "name": "San Isidro Joven",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Joven",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

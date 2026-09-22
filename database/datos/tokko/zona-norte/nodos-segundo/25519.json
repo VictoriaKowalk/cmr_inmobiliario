@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Parque Aguirre",
+  "id": 25519,
+  "name": "Parque Aguirre",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Parque Aguirre",
+  "state": null,
+  "weight": 27,
+  "zip_code": null
+}

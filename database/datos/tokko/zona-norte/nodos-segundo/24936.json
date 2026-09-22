@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | Centro",
+  "id": 24936,
+  "name": "Centro",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | Centro",
+  "state": null,
+  "weight": 265,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Libert./Rio",
+  "id": 25454,
+  "name": "S.Fer.-Libert./Rio",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Libert./Rio",
+  "state": null,
+  "weight": 332,
+  "zip_code": null
+}

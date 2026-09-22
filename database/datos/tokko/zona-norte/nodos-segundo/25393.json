@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | La Lomita",
+  "id": 25393,
+  "name": "La Lomita",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | La Lomita",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

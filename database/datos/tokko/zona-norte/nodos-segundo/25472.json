@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Altos De La Merced",
+  "id": 25472,
+  "name": "Altos De La Merced",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Altos De La Merced",
+  "state": null,
+  "weight": 30,
+  "zip_code": null
+}

@@ -1,0 +1,222 @@
+{
+  "divisions": [
+    {
+      "id": 25621,
+      "name": "Countries/B.Cerrado (Tigre)",
+      "resource_uri": "/api/v1/location/25621/"
+    },
+    {
+      "id": 25717,
+      "name": "Benavidez",
+      "resource_uri": "/api/v1/location/25717/"
+    },
+    {
+      "id": 25727,
+      "name": "Dique Lujan",
+      "resource_uri": "/api/v1/location/25727/"
+    },
+    {
+      "id": 25728,
+      "name": "Don Torcuato",
+      "resource_uri": "/api/v1/location/25728/"
+    },
+    {
+      "id": 25740,
+      "name": "El Talar",
+      "resource_uri": "/api/v1/location/25740/"
+    },
+    {
+      "id": 25741,
+      "name": "General Pacheco",
+      "resource_uri": "/api/v1/location/25741/"
+    },
+    {
+      "id": 25753,
+      "name": "Isla Martin Garcia",
+      "resource_uri": "/api/v1/location/25753/"
+    },
+    {
+      "id": 25755,
+      "name": "Ricardo Rojas",
+      "resource_uri": "/api/v1/location/25755/"
+    },
+    {
+      "id": 25757,
+      "name": "Tigre",
+      "resource_uri": "/api/v1/location/25757/"
+    },
+    {
+      "id": 25764,
+      "name": "Villa La Ñata",
+      "resource_uri": "/api/v1/location/25764/"
+    },
+    {
+      "id": 25765,
+      "name": "Troncos Del Talar",
+      "resource_uri": "/api/v1/location/25765/"
+    },
+    {
+      "id": 25766,
+      "name": "Zona Delta Tigre",
+      "resource_uri": "/api/v1/location/25766/"
+    },
+    {
+      "id": 52010,
+      "name": "Benavidez Chico",
+      "resource_uri": "/api/v1/location/52010/"
+    },
+    {
+      "id": 52011,
+      "name": "Boating House",
+      "resource_uri": "/api/v1/location/52011/"
+    },
+    {
+      "id": 52012,
+      "name": "Canal del Este",
+      "resource_uri": "/api/v1/location/52012/"
+    },
+    {
+      "id": 52013,
+      "name": "Casas del Sol",
+      "resource_uri": "/api/v1/location/52013/"
+    },
+    {
+      "id": 52014,
+      "name": "Chingolo",
+      "resource_uri": "/api/v1/location/52014/"
+    },
+    {
+      "id": 52015,
+      "name": "Delta Chico",
+      "resource_uri": "/api/v1/location/52015/"
+    },
+    {
+      "id": 52016,
+      "name": "El Ceibo",
+      "resource_uri": "/api/v1/location/52016/"
+    },
+    {
+      "id": 52017,
+      "name": "La Habana",
+      "resource_uri": "/api/v1/location/52017/"
+    },
+    {
+      "id": 52018,
+      "name": "Los Chingolos",
+      "resource_uri": "/api/v1/location/52018/"
+    },
+    {
+      "id": 52025,
+      "name": "Nordelta Metro Marinas",
+      "resource_uri": "/api/v1/location/52025/"
+    },
+    {
+      "id": 52029,
+      "name": "Nordelta Vista Bahía",
+      "resource_uri": "/api/v1/location/52029/"
+    },
+    {
+      "id": 52030,
+      "name": "Nuevo Milberg",
+      "resource_uri": "/api/v1/location/52030/"
+    },
+    {
+      "id": 52031,
+      "name": "Náutico Delta Chico",
+      "resource_uri": "/api/v1/location/52031/"
+    },
+    {
+      "id": 52032,
+      "name": "Palmas de la Bahía",
+      "resource_uri": "/api/v1/location/52032/"
+    },
+    {
+      "id": 52033,
+      "name": "Riverside Towers",
+      "resource_uri": "/api/v1/location/52033/"
+    },
+    {
+      "id": 52034,
+      "name": "San Ignacio",
+      "resource_uri": "/api/v1/location/52034/"
+    },
+    {
+      "id": 52036,
+      "name": "Santa Agustina",
+      "resource_uri": "/api/v1/location/52036/"
+    },
+    {
+      "id": 52037,
+      "name": "Santa Clara VIP",
+      "resource_uri": "/api/v1/location/52037/"
+    },
+    {
+      "id": 52038,
+      "name": "Santa Lucía",
+      "resource_uri": "/api/v1/location/52038/"
+    },
+    {
+      "id": 52039,
+      "name": "Santa Silvia",
+      "resource_uri": "/api/v1/location/52039/"
+    },
+    {
+      "id": 52040,
+      "name": "Solares de Tigre",
+      "resource_uri": "/api/v1/location/52040/"
+    },
+    {
+      "id": 52041,
+      "name": "Terrazas de la Reconquista",
+      "resource_uri": "/api/v1/location/52041/"
+    },
+    {
+      "id": 52042,
+      "name": "Torres de Tigre",
+      "resource_uri": "/api/v1/location/52042/"
+    },
+    {
+      "id": 52043,
+      "name": "Villa Los Remeros",
+      "resource_uri": "/api/v1/location/52043/"
+    },
+    {
+      "id": 80474,
+      "name": "Rincon de Milberg",
+      "resource_uri": "/api/v1/location/80474/"
+    },
+    {
+      "id": 82675,
+      "name": "Puerto del Lago Vistas",
+      "resource_uri": "/api/v1/location/82675/"
+    },
+    {
+      "id": 240202,
+      "name": "Venice Tigre",
+      "resource_uri": "/api/v1/location/240202/"
+    },
+    {
+      "id": 253319,
+      "name": "San Francisco",
+      "resource_uri": "/api/v1/location/253319/"
+    },
+    {
+      "id": 254143,
+      "name": "Terrazas al Río",
+      "resource_uri": "/api/v1/location/254143/"
+    },
+    {
+      "id": 569523,
+      "name": "Balcones de Tigre",
+      "resource_uri": "/api/v1/location/569523/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre ",
+  "id": 25620,
+  "name": "Tigre",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Tigre ",
+  "state": "/api/v1/state/147/",
+  "weight": 6329,
+  "zip_code": ""
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Pinares",
+  "id": 25335,
+  "name": "Pinares",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Pinares",
+  "state": null,
+  "weight": 42,
+  "zip_code": null
+}

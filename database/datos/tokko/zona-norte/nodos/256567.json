@@ -1,0 +1,17 @@
+{
+    "divisions": [
+        {
+            "id": 256568,
+            "name": "El Paso",
+            "resource_uri": "\/api\/v1\/location\/256568\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Del Viso",
+    "id": 256567,
+    "name": "Del Viso",
+    "parent_division": "\/api\/v1\/location\/25039\/",
+    "short_location": "G.B.A. Zona Norte | Jose Clemente Paz | Del Viso",
+    "state": null,
+    "weight": 0,
+    "zip_code": ""
+}

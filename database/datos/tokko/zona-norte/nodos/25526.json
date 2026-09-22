@@ -1,0 +1,37 @@
+{
+    "divisions": [
+        {
+            "id": 25527,
+            "name": "Boul.-B.Hipico",
+            "resource_uri": "\/api\/v1\/location\/25527\/"
+        },
+        {
+            "id": 25528,
+            "name": "Boul.-B.Malvinas",
+            "resource_uri": "\/api\/v1\/location\/25528\/"
+        },
+        {
+            "id": 253658,
+            "name": "Barrio cerrado Los Patricios",
+            "resource_uri": "\/api\/v1\/location\/253658\/"
+        },
+        {
+            "id": 254020,
+            "name": "Santa Rita",
+            "resource_uri": "\/api\/v1\/location\/254020\/"
+        },
+        {
+            "id": 254477,
+            "name": "Palmera Campus",
+            "resource_uri": "\/api\/v1\/location\/254477\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Boulogne Sur Mer",
+    "id": 25526,
+    "name": "Boulogne Sur Mer",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Boulogne Sur Mer",
+    "state": null,
+    "weight": 1751,
+    "zip_code": null
+}

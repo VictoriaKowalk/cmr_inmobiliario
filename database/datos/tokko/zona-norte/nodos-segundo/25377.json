@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Altos Del Norte",
+  "id": 25377,
+  "name": "Altos Del Norte",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Altos Del Norte",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

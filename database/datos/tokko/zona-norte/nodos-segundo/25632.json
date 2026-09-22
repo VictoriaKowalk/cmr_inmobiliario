@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Boat Center",
+  "id": 25632,
+  "name": "Boat Center",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Boat Center",
+  "state": null,
+  "weight": 338,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Champagnat",
+  "id": 25158,
+  "name": "Champagnat",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Champagnat",
+  "state": null,
+  "weight": 67,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Nortes del Pilar",
+  "id": 597734,
+  "name": "Nortes del Pilar",
+  "parent_division": "/api/v1/location/25369/",
+  "short_location": "Pilar | Manzanares | Nortes del Pilar",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

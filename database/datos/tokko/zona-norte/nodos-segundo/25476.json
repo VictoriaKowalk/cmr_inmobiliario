@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Camino Real",
+  "id": 25476,
+  "name": "Camino Real",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Camino Real",
+  "state": null,
+  "weight": 310,
+  "zip_code": null
+}

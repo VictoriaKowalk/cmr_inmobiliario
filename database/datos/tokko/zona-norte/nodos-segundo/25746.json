@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | El Talar",
+  "id": 25746,
+  "name": "El Talar",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | El Talar",
+  "state": null,
+  "weight": 136,
+  "zip_code": null
+}

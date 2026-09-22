@@ -1,0 +1,27 @@
+{
+    "divisions": [
+        {
+            "id": 25462,
+            "name": "Vict.-B.Centro",
+            "resource_uri": "\/api\/v1\/location\/25462\/"
+        },
+        {
+            "id": 25463,
+            "name": "Vict.-B.Fate",
+            "resource_uri": "\/api\/v1\/location\/25463\/"
+        },
+        {
+            "id": 25464,
+            "name": "Vict.-B.Mejoral",
+            "resource_uri": "\/api\/v1\/location\/25464\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Victoria",
+    "id": 25461,
+    "name": "Victoria",
+    "parent_division": "\/api\/v1\/location\/25436\/",
+    "short_location": "G.B.A. Zona Norte | San Fernando | Victoria",
+    "state": null,
+    "weight": 2653,
+    "zip_code": null
+}

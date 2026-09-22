@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Los Palitos",
+  "id": 25361,
+  "name": "Los Palitos",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Los Palitos",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

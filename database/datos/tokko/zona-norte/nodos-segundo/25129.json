@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Alto del Molino",
+  "id": 25129,
+  "name": "Alto del Molino",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Alto del Molino",
+  "state": null,
+  "weight": 273,
+  "zip_code": null
+}

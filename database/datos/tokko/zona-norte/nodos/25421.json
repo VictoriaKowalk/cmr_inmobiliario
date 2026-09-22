@@ -1,0 +1,42 @@
+{
+    "divisions": [
+        {
+            "id": 25422,
+            "name": "Km.50",
+            "resource_uri": "\/api\/v1\/location\/25422\/"
+        },
+        {
+            "id": 25423,
+            "name": "La Alborada",
+            "resource_uri": "\/api\/v1\/location\/25423\/"
+        },
+        {
+            "id": 25424,
+            "name": "La Esmeralda (Derqui)",
+            "resource_uri": "\/api\/v1\/location\/25424\/"
+        },
+        {
+            "id": 25425,
+            "name": "Monterrey",
+            "resource_uri": "\/api\/v1\/location\/25425\/"
+        },
+        {
+            "id": 82160,
+            "name": "San Pablo",
+            "resource_uri": "\/api\/v1\/location\/82160\/"
+        },
+        {
+            "id": 254928,
+            "name": "San Pablo Chico",
+            "resource_uri": "\/api\/v1\/location\/254928\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Presidente Derqui",
+    "id": 25421,
+    "name": "Presidente Derqui",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Presidente Derqui",
+    "state": null,
+    "weight": 368,
+    "zip_code": null
+}

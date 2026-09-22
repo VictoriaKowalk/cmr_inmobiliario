@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Sol Y Verde",
+  "id": 25123,
+  "name": "Sol Y Verde",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Sol Y Verde",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

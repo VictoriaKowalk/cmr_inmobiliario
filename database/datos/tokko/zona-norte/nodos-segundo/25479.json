@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Casas Del Puerto (S.Isidro)",
+  "id": 25479,
+  "name": "Casas Del Puerto (S.Isidro)",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Casas Del Puerto (S.Isidro)",
+  "state": null,
+  "weight": 29,
+  "zip_code": null
+}

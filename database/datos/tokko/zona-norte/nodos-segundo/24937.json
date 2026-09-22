@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | El Curvon",
+  "id": 24937,
+  "name": "El Curvon",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | El Curvon",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

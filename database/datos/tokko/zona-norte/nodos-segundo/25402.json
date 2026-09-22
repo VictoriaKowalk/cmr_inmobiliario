@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Peruzzotti",
+  "id": 25402,
+  "name": "Peruzzotti",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Peruzzotti",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

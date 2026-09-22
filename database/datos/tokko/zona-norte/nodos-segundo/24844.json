@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | El Portillo",
+  "id": 24844,
+  "name": "El Portillo",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | El Portillo",
+  "state": null,
+  "weight": 61,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Chingolo",
+    "id": 52014,
+    "name": "Chingolo",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Chingolo",
+    "state": null,
+    "weight": 6,
+    "zip_code": null
+}

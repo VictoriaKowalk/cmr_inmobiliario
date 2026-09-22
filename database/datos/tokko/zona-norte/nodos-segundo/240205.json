@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | El Palmar",
+  "id": 240205,
+  "name": "El Palmar",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | El Palmar",
+  "state": null,
+  "weight": 16,
+  "zip_code": null
+}

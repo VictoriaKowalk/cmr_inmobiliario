@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Canal 6",
+  "id": 25775,
+  "name": "Canal 6",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Canal 6",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | El Canton - Golf",
+  "id": 24837,
+  "name": "El Canton - Golf",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | El Canton - Golf",
+  "state": null,
+  "weight": 1225,
+  "zip_code": null
+}

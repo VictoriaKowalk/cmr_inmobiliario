@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Harmony Pilar",
+  "id": 240817,
+  "name": "Harmony Pilar",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Harmony Pilar",
+  "state": null,
+  "weight": 17,
+  "zip_code": null
+}

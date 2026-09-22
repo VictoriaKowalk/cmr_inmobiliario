@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Va. Panamericana",
+  "id": 25412,
+  "name": "Va. Panamericana",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Va. Panamericana",
+  "state": null,
+  "weight": 20,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre | B.Carupa",
+  "id": 25758,
+  "name": "B.Carupa",
+  "parent_division": "/api/v1/location/25757/",
+  "short_location": "Tigre | Tigre | B.Carupa",
+  "state": null,
+  "weight": 15,
+  "zip_code": null
+}

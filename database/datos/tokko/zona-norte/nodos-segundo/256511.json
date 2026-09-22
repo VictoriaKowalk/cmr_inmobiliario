@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | La Reserva",
+  "id": 256511,
+  "name": "La Reserva",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | La Reserva",
+  "state": null,
+  "weight": 0,
+  "zip_code": ""
+}

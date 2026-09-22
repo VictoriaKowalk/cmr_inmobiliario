@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Weekend",
+    "id": 51868,
+    "name": "Weekend",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Weekend",
+    "state": null,
+    "weight": 6,
+    "zip_code": null
+}

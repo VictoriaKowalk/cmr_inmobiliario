@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Amancay (Pilar)",
+  "id": 25378,
+  "name": "Amancay (Pilar)",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Amancay (Pilar)",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

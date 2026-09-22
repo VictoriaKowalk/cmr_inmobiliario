@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Pilares",
+  "id": 25248,
+  "name": "Los Pilares",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Pilares",
+  "state": null,
+  "weight": 641,
+  "zip_code": null
+}

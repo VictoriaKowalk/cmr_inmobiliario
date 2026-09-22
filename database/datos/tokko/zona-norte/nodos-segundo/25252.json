@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Senderos I",
+  "id": 25252,
+  "name": "Los Senderos I",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Senderos I",
+  "state": null,
+  "weight": 320,
+  "zip_code": null
+}

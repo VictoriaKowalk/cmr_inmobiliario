@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Buenos Aires Village",
+    "id": 52006,
+    "name": "Buenos Aires Village",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | Buenos Aires Village",
+    "state": null,
+    "weight": 33,
+    "zip_code": null
+}

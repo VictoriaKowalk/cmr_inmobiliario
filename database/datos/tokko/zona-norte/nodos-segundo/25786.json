@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Dorado",
+  "id": 25786,
+  "name": "Dorado",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Dorado",
+  "state": null,
+  "weight": 28,
+  "zip_code": null
+}

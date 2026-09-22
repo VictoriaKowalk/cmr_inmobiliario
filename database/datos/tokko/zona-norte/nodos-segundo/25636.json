@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | El Encuentro",
+  "id": 25636,
+  "name": "El Encuentro",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | El Encuentro",
+  "state": null,
+  "weight": 1836,
+  "zip_code": null
+}

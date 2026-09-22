@@ -1,0 +1,357 @@
+{
+    "divisions": [
+        {
+            "id": 24822,
+            "name": "Acacias Blancas",
+            "resource_uri": "\/api\/v1\/location\/24822\/"
+        },
+        {
+            "id": 24823,
+            "name": "Alamo Alto",
+            "resource_uri": "\/api\/v1\/location\/24823\/"
+        },
+        {
+            "id": 24824,
+            "name": "Altos De Don Segundo",
+            "resource_uri": "\/api\/v1\/location\/24824\/"
+        },
+        {
+            "id": 24825,
+            "name": "Altos de Pacheco",
+            "resource_uri": "\/api\/v1\/location\/24825\/"
+        },
+        {
+            "id": 24826,
+            "name": "Aranjuez",
+            "resource_uri": "\/api\/v1\/location\/24826\/"
+        },
+        {
+            "id": 24827,
+            "name": "Aranzazu",
+            "resource_uri": "\/api\/v1\/location\/24827\/"
+        },
+        {
+            "id": 24828,
+            "name": "Barrio Parque Matheu",
+            "resource_uri": "\/api\/v1\/location\/24828\/"
+        },
+        {
+            "id": 24829,
+            "name": "Bosque Chico",
+            "resource_uri": "\/api\/v1\/location\/24829\/"
+        },
+        {
+            "id": 24830,
+            "name": "C.C.Manuel Belgrano",
+            "resource_uri": "\/api\/v1\/location\/24830\/"
+        },
+        {
+            "id": 24831,
+            "name": "C.U.B.E",
+            "resource_uri": "\/api\/v1\/location\/24831\/"
+        },
+        {
+            "id": 24832,
+            "name": "Campo Chico",
+            "resource_uri": "\/api\/v1\/location\/24832\/"
+        },
+        {
+            "id": 24833,
+            "name": "Condominio Tortugas",
+            "resource_uri": "\/api\/v1\/location\/24833\/"
+        },
+        {
+            "id": 24834,
+            "name": "El Aike",
+            "resource_uri": "\/api\/v1\/location\/24834\/"
+        },
+        {
+            "id": 24835,
+            "name": "El Aromo",
+            "resource_uri": "\/api\/v1\/location\/24835\/"
+        },
+        {
+            "id": 24836,
+            "name": "El Canton",
+            "resource_uri": "\/api\/v1\/location\/24836\/"
+        },
+        {
+            "id": 24837,
+            "name": "El Canton - Golf",
+            "resource_uri": "\/api\/v1\/location\/24837\/"
+        },
+        {
+            "id": 24838,
+            "name": "El Canton - Islas",
+            "resource_uri": "\/api\/v1\/location\/24838\/"
+        },
+        {
+            "id": 24839,
+            "name": "El Canton - Norte",
+            "resource_uri": "\/api\/v1\/location\/24839\/"
+        },
+        {
+            "id": 24840,
+            "name": "El Canton - Puerto",
+            "resource_uri": "\/api\/v1\/location\/24840\/"
+        },
+        {
+            "id": 24841,
+            "name": "El Cazal",
+            "resource_uri": "\/api\/v1\/location\/24841\/"
+        },
+        {
+            "id": 24843,
+            "name": "El Lucero",
+            "resource_uri": "\/api\/v1\/location\/24843\/"
+        },
+        {
+            "id": 24844,
+            "name": "El Portillo",
+            "resource_uri": "\/api\/v1\/location\/24844\/"
+        },
+        {
+            "id": 24845,
+            "name": "El Recodo",
+            "resource_uri": "\/api\/v1\/location\/24845\/"
+        },
+        {
+            "id": 24846,
+            "name": "El Viejo Aromo",
+            "resource_uri": "\/api\/v1\/location\/24846\/"
+        },
+        {
+            "id": 24847,
+            "name": "Fincas De Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/24847\/"
+        },
+        {
+            "id": 24848,
+            "name": "Fincas Del Lago",
+            "resource_uri": "\/api\/v1\/location\/24848\/"
+        },
+        {
+            "id": 24849,
+            "name": "Haras Santa Maria",
+            "resource_uri": "\/api\/v1\/location\/24849\/"
+        },
+        {
+            "id": 24850,
+            "name": "Jardin Nautico De Escobar",
+            "resource_uri": "\/api\/v1\/location\/24850\/"
+        },
+        {
+            "id": 24851,
+            "name": "Jardines de Escobar",
+            "resource_uri": "\/api\/v1\/location\/24851\/"
+        },
+        {
+            "id": 24852,
+            "name": "La Aldea",
+            "resource_uri": "\/api\/v1\/location\/24852\/"
+        },
+        {
+            "id": 24853,
+            "name": "La Arboleda (Escobar)",
+            "resource_uri": "\/api\/v1\/location\/24853\/"
+        },
+        {
+            "id": 24854,
+            "name": "La Barra Village",
+            "resource_uri": "\/api\/v1\/location\/24854\/"
+        },
+        {
+            "id": 24855,
+            "name": "La Candelaria",
+            "resource_uri": "\/api\/v1\/location\/24855\/"
+        },
+        {
+            "id": 24856,
+            "name": "La Celina",
+            "resource_uri": "\/api\/v1\/location\/24856\/"
+        },
+        {
+            "id": 24857,
+            "name": "Loma Verde",
+            "resource_uri": "\/api\/v1\/location\/24857\/"
+        },
+        {
+            "id": 24858,
+            "name": "Los Angeles Village",
+            "resource_uri": "\/api\/v1\/location\/24858\/"
+        },
+        {
+            "id": 24859,
+            "name": "Los Caracoles",
+            "resource_uri": "\/api\/v1\/location\/24859\/"
+        },
+        {
+            "id": 24860,
+            "name": "Los Horneros",
+            "resource_uri": "\/api\/v1\/location\/24860\/"
+        },
+        {
+            "id": 24861,
+            "name": "Los Laureles",
+            "resource_uri": "\/api\/v1\/location\/24861\/"
+        },
+        {
+            "id": 24862,
+            "name": "Los Nogales",
+            "resource_uri": "\/api\/v1\/location\/24862\/"
+        },
+        {
+            "id": 24863,
+            "name": "Los Robles De Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/24863\/"
+        },
+        {
+            "id": 24864,
+            "name": "Los Tacos",
+            "resource_uri": "\/api\/v1\/location\/24864\/"
+        },
+        {
+            "id": 24865,
+            "name": "Maschwitz Club",
+            "resource_uri": "\/api\/v1\/location\/24865\/"
+        },
+        {
+            "id": 24866,
+            "name": "Maschwitz Privado",
+            "resource_uri": "\/api\/v1\/location\/24866\/"
+        },
+        {
+            "id": 24867,
+            "name": "Maschwitz Village",
+            "resource_uri": "\/api\/v1\/location\/24867\/"
+        },
+        {
+            "id": 24868,
+            "name": "Miraflores",
+            "resource_uri": "\/api\/v1\/location\/24868\/"
+        },
+        {
+            "id": 24869,
+            "name": "Nautico Escobar",
+            "resource_uri": "\/api\/v1\/location\/24869\/"
+        },
+        {
+            "id": 24870,
+            "name": "Palmer's Cottage",
+            "resource_uri": "\/api\/v1\/location\/24870\/"
+        },
+        {
+            "id": 24871,
+            "name": "Puertos del Lago",
+            "resource_uri": "\/api\/v1\/location\/24871\/"
+        },
+        {
+            "id": 24875,
+            "name": "Punta Parana C.Nauti",
+            "resource_uri": "\/api\/v1\/location\/24875\/"
+        },
+        {
+            "id": 24876,
+            "name": "Rincon De Maschwitz",
+            "resource_uri": "\/api\/v1\/location\/24876\/"
+        },
+        {
+            "id": 24877,
+            "name": "River Oaks",
+            "resource_uri": "\/api\/v1\/location\/24877\/"
+        },
+        {
+            "id": 24878,
+            "name": "San Antonio",
+            "resource_uri": "\/api\/v1\/location\/24878\/"
+        },
+        {
+            "id": 24879,
+            "name": "San Lucas",
+            "resource_uri": "\/api\/v1\/location\/24879\/"
+        },
+        {
+            "id": 24880,
+            "name": "San Matias",
+            "resource_uri": "\/api\/v1\/location\/24880\/"
+        },
+        {
+            "id": 24882,
+            "name": "Santa Isabel",
+            "resource_uri": "\/api\/v1\/location\/24882\/"
+        },
+        {
+            "id": 24883,
+            "name": "Santa Maria",
+            "resource_uri": "\/api\/v1\/location\/24883\/"
+        },
+        {
+            "id": 24884,
+            "name": "Septiembre",
+            "resource_uri": "\/api\/v1\/location\/24884\/"
+        },
+        {
+            "id": 24885,
+            "name": "Terrazas De Yrigoyen",
+            "resource_uri": "\/api\/v1\/location\/24885\/"
+        },
+        {
+            "id": 24886,
+            "name": "Tortugas Norte",
+            "resource_uri": "\/api\/v1\/location\/24886\/"
+        },
+        {
+            "id": 24887,
+            "name": "Villa Olivos",
+            "resource_uri": "\/api\/v1\/location\/24887\/"
+        },
+        {
+            "id": 24888,
+            "name": "Week End",
+            "resource_uri": "\/api\/v1\/location\/24888\/"
+        },
+        {
+            "id": 51273,
+            "name": "El Naudir",
+            "resource_uri": "\/api\/v1\/location\/51273\/"
+        },
+        {
+            "id": 51318,
+            "name": "Vila Marina",
+            "resource_uri": "\/api\/v1\/location\/51318\/"
+        },
+        {
+            "id": 51404,
+            "name": "Condominio Civis",
+            "resource_uri": "\/api\/v1\/location\/51404\/"
+        },
+        {
+            "id": 51405,
+            "name": "San Ignacio",
+            "resource_uri": "\/api\/v1\/location\/51405\/"
+        },
+        {
+            "id": 80499,
+            "name": "Cuatro Estaciones",
+            "resource_uri": "\/api\/v1\/location\/80499\/"
+        },
+        {
+            "id": 80746,
+            "name": "Santa Isabel II",
+            "resource_uri": "\/api\/v1\/location\/80746\/"
+        },
+        {
+            "id": 570297,
+            "name": "Country Mi Campo",
+            "resource_uri": "\/api\/v1\/location\/570297\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries\/B.Cerrado (Escobar)",
+    "id": 24821,
+    "name": "Countries\/B.Cerrado (Escobar)",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Countries\/B.Cerrado (Escobar)",
+    "state": null,
+    "weight": 495,
+    "zip_code": ""
+}

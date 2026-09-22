@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Esperita",
+  "id": 25788,
+  "name": "Esperita",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Esperita",
+  "state": null,
+  "weight": 19,
+  "zip_code": null
+}

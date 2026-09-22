@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | El Cruce de Pilar",
+  "id": 571620,
+  "name": "El Cruce de Pilar",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | El Cruce de Pilar",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

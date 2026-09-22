@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Loma Verde",
+  "id": 24857,
+  "name": "Loma Verde",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Loma Verde",
+  "state": null,
+  "weight": 95,
+  "zip_code": null
+}

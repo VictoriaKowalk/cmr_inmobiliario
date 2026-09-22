@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-La Merced/Golf",
+  "id": 25544,
+  "name": "Las Lomas-La Merced/Golf",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-La Merced/Golf",
+  "state": null,
+  "weight": 12,
+  "zip_code": null
+}

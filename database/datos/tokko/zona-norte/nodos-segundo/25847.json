@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Barrio Vicente López | V.Lopez-Qta.Presid.",
+  "id": 25847,
+  "name": "V.Lopez-Qta.Presid.",
+  "parent_division": "/api/v1/location/25846/",
+  "short_location": "Vicente López | Barrio Vicente López | V.Lopez-Qta.Presid.",
+  "state": null,
+  "weight": 259,
+  "zip_code": null
+}

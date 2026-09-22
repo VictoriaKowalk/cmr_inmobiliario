@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Estancias del Río",
+  "id": 255272,
+  "name": "Estancias del Río",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Estancias del Río",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

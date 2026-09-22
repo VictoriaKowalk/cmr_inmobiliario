@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Villa Vento",
+  "id": 254256,
+  "name": "Villa Vento",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Villa Vento",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

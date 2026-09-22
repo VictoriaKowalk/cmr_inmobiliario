@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Club De Campo Pueyrredon",
+  "id": 25159,
+  "name": "Club De Campo Pueyrredon",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Club De Campo Pueyrredon",
+  "state": null,
+  "weight": 345,
+  "zip_code": null
+}

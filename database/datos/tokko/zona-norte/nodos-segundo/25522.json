@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Beccar Boating",
+  "id": 25522,
+  "name": "Beccar Boating",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Beccar Boating",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | El Solar de San Isid",
+  "id": 25481,
+  "name": "El Solar de San Isid",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | El Solar de San Isid",
+  "state": null,
+  "weight": 91,
+  "zip_code": null
+}

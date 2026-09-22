@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Ovejitas",
+  "id": 255477,
+  "name": "Ovejitas",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Ovejitas",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

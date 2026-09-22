@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Punta Chica Village",
+  "id": 25446,
+  "name": "Punta Chica Village",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Punta Chica Village",
+  "state": null,
+  "weight": 144,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Los Cedros",
+  "id": 25601,
+  "name": "Los Cedros",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Los Cedros",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

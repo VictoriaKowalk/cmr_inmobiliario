@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Los Cardos",
+  "id": 102530,
+  "name": "Los Cardos",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Los Cardos",
+  "state": null,
+  "weight": 13,
+  "zip_code": null
+}

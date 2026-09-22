@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | Los Eucaliptus (L.Polv.)",
+  "id": 25097,
+  "name": "Los Eucaliptus (L.Polv.)",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | Los Eucaliptus (L.Polv.)",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

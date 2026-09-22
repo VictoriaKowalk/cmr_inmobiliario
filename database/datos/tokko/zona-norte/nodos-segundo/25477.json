@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Casas De La Ribera I",
+  "id": 25477,
+  "name": "Casas De La Ribera I",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Casas De La Ribera I",
+  "state": null,
+  "weight": 16,
+  "zip_code": null
+}

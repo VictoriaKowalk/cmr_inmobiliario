@@ -1,0 +1,127 @@
+{
+  "divisions": [
+    {
+      "id": 25437,
+      "name": "Countries/B.Cerrado (San Fernando)",
+      "resource_uri": "/api/v1/location/25437/"
+    },
+    {
+      "id": 25451,
+      "name": "San Fernando",
+      "resource_uri": "/api/v1/location/25451/"
+    },
+    {
+      "id": 25452,
+      "name": "Punta Chica",
+      "resource_uri": "/api/v1/location/25452/"
+    },
+    {
+      "id": 25461,
+      "name": "Victoria",
+      "resource_uri": "/api/v1/location/25461/"
+    },
+    {
+      "id": 25465,
+      "name": "Virreyes",
+      "resource_uri": "/api/v1/location/25465/"
+    },
+    {
+      "id": 25468,
+      "name": "Zona Delta San Fernando",
+      "resource_uri": "/api/v1/location/25468/"
+    },
+    {
+      "id": 51961,
+      "name": "Altos de San Fernando",
+      "resource_uri": "/api/v1/location/51961/"
+    },
+    {
+      "id": 51962,
+      "name": "Barrancas de Victoria",
+      "resource_uri": "/api/v1/location/51962/"
+    },
+    {
+      "id": 51963,
+      "name": "Barrio Parque El Talar",
+      "resource_uri": "/api/v1/location/51963/"
+    },
+    {
+      "id": 51964,
+      "name": "Buen Puerto",
+      "resource_uri": "/api/v1/location/51964/"
+    },
+    {
+      "id": 51965,
+      "name": "Buenavista",
+      "resource_uri": "/api/v1/location/51965/"
+    },
+    {
+      "id": 51966,
+      "name": "Complejo Habitacional San Fernando",
+      "resource_uri": "/api/v1/location/51966/"
+    },
+    {
+      "id": 51967,
+      "name": "Duplex del Sol",
+      "resource_uri": "/api/v1/location/51967/"
+    },
+    {
+      "id": 51968,
+      "name": "Infico",
+      "resource_uri": "/api/v1/location/51968/"
+    },
+    {
+      "id": 51969,
+      "name": "Los Sauces",
+      "resource_uri": "/api/v1/location/51969/"
+    },
+    {
+      "id": 51970,
+      "name": "Marina del Norte",
+      "resource_uri": "/api/v1/location/51970/"
+    },
+    {
+      "id": 51971,
+      "name": "Marinas del Sol",
+      "resource_uri": "/api/v1/location/51971/"
+    },
+    {
+      "id": 51972,
+      "name": "Windbells",
+      "resource_uri": "/api/v1/location/51972/"
+    },
+    {
+      "id": 81254,
+      "name": "La Horqueta",
+      "resource_uri": "/api/v1/location/81254/"
+    },
+    {
+      "id": 81336,
+      "name": "Quartier",
+      "resource_uri": "/api/v1/location/81336/"
+    },
+    {
+      "id": 81337,
+      "name": "Santa Catalina",
+      "resource_uri": "/api/v1/location/81337/"
+    },
+    {
+      "id": 81338,
+      "name": "Arboris La Horqueta",
+      "resource_uri": "/api/v1/location/81338/"
+    },
+    {
+      "id": 569665,
+      "name": "Islas",
+      "resource_uri": "/api/v1/location/569665/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando ",
+  "id": 25436,
+  "name": "San Fernando",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | San Fernando ",
+  "state": "/api/v1/state/147/",
+  "weight": 3233,
+  "zip_code": ""
+}

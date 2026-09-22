@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Parque Udaondo",
+  "id": 25334,
+  "name": "Parque Udaondo",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Parque Udaondo",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

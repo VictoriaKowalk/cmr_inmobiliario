@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Beccar-Vias/Libert.",
+  "id": 25524,
+  "name": "Beccar-Vias/Libert.",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Beccar-Vias/Libert.",
+  "state": null,
+  "weight": 272,
+  "zip_code": null
+}

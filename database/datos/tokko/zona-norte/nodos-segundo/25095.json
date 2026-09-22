@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | La Pradera",
+  "id": 25095,
+  "name": "La Pradera",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | La Pradera",
+  "state": null,
+  "weight": 9,
+  "zip_code": null
+}

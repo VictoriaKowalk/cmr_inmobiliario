@@ -1,0 +1,42 @@
+{
+  "divisions": [
+    {
+      "id": 25370,
+      "name": "Estacion",
+      "resource_uri": "/api/v1/location/25370/"
+    },
+    {
+      "id": 25371,
+      "name": "La Ranita",
+      "resource_uri": "/api/v1/location/25371/"
+    },
+    {
+      "id": 81963,
+      "name": "Santa Clara",
+      "resource_uri": "/api/v1/location/81963/"
+    },
+    {
+      "id": 102381,
+      "name": "Barrio El Aljibe",
+      "resource_uri": "/api/v1/location/102381/"
+    },
+    {
+      "id": 240326,
+      "name": "Barrio Cerrado San Francisco",
+      "resource_uri": "/api/v1/location/240326/"
+    },
+    {
+      "id": 253295,
+      "name": "Club de Campo San Francisco",
+      "resource_uri": "/api/v1/location/253295/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares)",
+  "id": 253293,
+  "name": "Countries/B.Cerrado (Manzanares)",
+  "parent_division": "/api/v1/location/25369/",
+  "short_location": "Pilar | Manzanares | Countries/B.Cerrado (Manzanares)",
+  "state": null,
+  "weight": 21,
+  "zip_code": null
+}

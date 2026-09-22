@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | La Doma",
+  "id": 25432,
+  "name": "La Doma",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | La Doma",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

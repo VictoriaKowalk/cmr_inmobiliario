@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Toledo",
+  "id": 25814,
+  "name": "Toledo",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Toledo",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

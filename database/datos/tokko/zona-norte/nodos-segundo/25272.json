@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Petrel Village",
+  "id": 25272,
+  "name": "Petrel Village",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Petrel Village",
+  "state": null,
+  "weight": 9,
+  "zip_code": null
+}

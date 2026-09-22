@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Carupa",
+  "id": 25453,
+  "name": "S.Fer.-Carupa",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Carupa",
+  "state": null,
+  "weight": 56,
+  "zip_code": null
+}

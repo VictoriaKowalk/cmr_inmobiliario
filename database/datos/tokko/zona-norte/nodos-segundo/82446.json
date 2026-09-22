@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Parana De Las Palmas S. Fernando",
+  "id": 82446,
+  "name": "Parana De Las Palmas S. Fernando",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Parana De Las Palmas S. Fernando",
+  "state": null,
+  "weight": 25,
+  "zip_code": null
+}

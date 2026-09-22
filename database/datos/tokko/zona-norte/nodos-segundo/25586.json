@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Centro (S.Mig.)",
+  "id": 25586,
+  "name": "Centro (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Centro (S.Mig.)",
+  "state": null,
+  "weight": 591,
+  "zip_code": null
+}

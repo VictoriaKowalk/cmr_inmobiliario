@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre | Los Robles",
+  "id": 51274,
+  "name": "Los Robles",
+  "parent_division": "/api/v1/location/25757/",
+  "short_location": "Tigre | Tigre | Los Robles",
+  "state": null,
+  "weight": 15,
+  "zip_code": null
+}

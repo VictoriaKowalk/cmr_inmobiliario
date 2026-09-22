@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Mart.-B.Aleman",
+  "id": 25530,
+  "name": "Mart.-B.Aleman",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Mart.-B.Aleman",
+  "state": null,
+  "weight": 142,
+  "zip_code": null
+}

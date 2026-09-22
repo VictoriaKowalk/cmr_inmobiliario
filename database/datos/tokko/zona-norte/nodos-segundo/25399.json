@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Los Grillos",
+  "id": 25399,
+  "name": "Los Grillos",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Los Grillos",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

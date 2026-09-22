@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Pacheco Norte",
+  "id": 25751,
+  "name": "Pacheco Norte",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | Pacheco Norte",
+  "state": null,
+  "weight": 41,
+  "zip_code": null
+}

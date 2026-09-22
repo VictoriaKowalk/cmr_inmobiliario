@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Barrio Vte Lopez ( Pilar)",
+  "id": 25416,
+  "name": "Barrio Vte Lopez ( Pilar)",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Barrio Vte Lopez ( Pilar)",
+  "state": null,
+  "weight": 7,
+  "zip_code": null
+}

@@ -1,0 +1,868 @@
+{
+  "meta": {
+    "total_count": 123
+  },
+  "objects": [
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta",
+      "id": 25666,
+      "name": "Nordelta",
+      "resource_uri": "/api/v1/location/25666/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Castaños",
+      "id": 51851,
+      "name": "Los Castaños",
+      "resource_uri": "/api/v1/location/51851/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Las Tipas",
+      "id": 51257,
+      "name": "Las Tipas",
+      "resource_uri": "/api/v1/location/51257/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Castores",
+      "id": 25670,
+      "name": "Los Castores",
+      "resource_uri": "/api/v1/location/25670/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Lagos",
+      "id": 25676,
+      "name": "Los Lagos",
+      "resource_uri": "/api/v1/location/25676/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Golf",
+      "id": 25669,
+      "name": "El Golf",
+      "resource_uri": "/api/v1/location/25669/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Alisos",
+      "id": 25675,
+      "name": "Los Alisos",
+      "resource_uri": "/api/v1/location/25675/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo",
+      "id": 25679,
+      "name": "Portezuelo",
+      "resource_uri": "/api/v1/location/25679/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar",
+      "id": 51254,
+      "name": "El Palmar",
+      "resource_uri": "/api/v1/location/51254/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Yoo Nordelta",
+      "id": 51315,
+      "name": "Yoo Nordelta",
+      "resource_uri": "/api/v1/location/51315/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Virazon",
+      "id": 56036,
+      "name": "Virazon",
+      "resource_uri": "/api/v1/location/56036/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Yacht",
+      "id": 51252,
+      "name": "El Yacht",
+      "resource_uri": "/api/v1/location/51252/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido",
+      "id": 51291,
+      "name": "Puerto Escondido",
+      "resource_uri": "/api/v1/location/51291/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande",
+      "id": 51300,
+      "name": "Bahia Grande",
+      "resource_uri": "/api/v1/location/51300/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | La Isla",
+      "id": 25673,
+      "name": "La Isla",
+      "resource_uri": "/api/v1/location/25673/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Lagos del Golf",
+      "id": 51317,
+      "name": "Lagos del Golf",
+      "resource_uri": "/api/v1/location/51317/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Sauces",
+      "id": 25677,
+      "name": "Los Sauces",
+      "resource_uri": "/api/v1/location/25677/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Miradores de la Bahia",
+      "id": 51308,
+      "name": "Miradores de la Bahia",
+      "resource_uri": "/api/v1/location/51308/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Sendero",
+      "id": 51296,
+      "name": "Sendero",
+      "resource_uri": "/api/v1/location/51296/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Cabos del Lago",
+      "id": 25668,
+      "name": "Cabos del Lago",
+      "resource_uri": "/api/v1/location/25668/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | La Alameda",
+      "id": 25672,
+      "name": "La Alameda",
+      "resource_uri": "/api/v1/location/25672/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Las Glorietas",
+      "id": 25671,
+      "name": "Las Glorietas",
+      "resource_uri": "/api/v1/location/25671/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Castaños | Las Piedras ",
+      "id": 82373,
+      "name": "Las Piedras ",
+      "resource_uri": "/api/v1/location/82373/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Barrancas del Lago",
+      "id": 25667,
+      "name": "Barrancas del Lago",
+      "resource_uri": "/api/v1/location/25667/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | Puerta Norte",
+      "id": 51287,
+      "name": "Puerta Norte",
+      "resource_uri": "/api/v1/location/51287/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Sendero | Lago del Sendero",
+      "id": 51299,
+      "name": "Lago del Sendero",
+      "resource_uri": "/api/v1/location/51299/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Canal",
+      "id": 51256,
+      "name": "Islas del Canal",
+      "resource_uri": "/api/v1/location/51256/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal",
+      "id": 51255,
+      "name": "El Portal",
+      "resource_uri": "/api/v1/location/51255/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | Antares",
+      "id": 51290,
+      "name": "Antares",
+      "resource_uri": "/api/v1/location/51290/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Quartier",
+      "id": 51276,
+      "name": "Quartier",
+      "resource_uri": "/api/v1/location/51276/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Carpinchos",
+      "id": 82618,
+      "name": "Carpinchos",
+      "resource_uri": "/api/v1/location/82618/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Las Caletas",
+      "id": 25674,
+      "name": "Las Caletas",
+      "resource_uri": "/api/v1/location/25674/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf | Qbay Golf",
+      "id": 80393,
+      "name": "Qbay Golf",
+      "resource_uri": "/api/v1/location/80393/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Wyndham Condominios",
+      "id": 81914,
+      "name": "Wyndham Condominios",
+      "resource_uri": "/api/v1/location/81914/",
+      "type": "Área"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | North Coral Plaza",
+      "id": 51289,
+      "name": "North Coral Plaza",
+      "resource_uri": "/api/v1/location/51289/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Nordelta Vista Bahía",
+      "id": 52029,
+      "name": "Nordelta Vista Bahía",
+      "resource_uri": "/api/v1/location/52029/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Terrazas de la Bahia I",
+      "id": 51303,
+      "name": "Terrazas de la Bahia I",
+      "resource_uri": "/api/v1/location/51303/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Plaza Portezuelo",
+      "id": 51310,
+      "name": "Plaza Portezuelo",
+      "resource_uri": "/api/v1/location/51310/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia | Paseo de la Bahia - Studios II",
+      "id": 51302,
+      "name": "Paseo de la Bahia - Studios II",
+      "resource_uri": "/api/v1/location/51302/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | Vientos del Delta",
+      "id": 51288,
+      "name": "Vientos del Delta",
+      "resource_uri": "/api/v1/location/51288/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Homes III",
+      "id": 51279,
+      "name": "Homes III",
+      "resource_uri": "/api/v1/location/51279/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Praia",
+      "id": 51312,
+      "name": "Praia",
+      "resource_uri": "/api/v1/location/51312/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Golf | El Golf",
+      "id": 51333,
+      "name": "El Golf",
+      "resource_uri": "/api/v1/location/51333/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo",
+      "id": 51313,
+      "name": "Marinas del Portezuelo",
+      "resource_uri": "/api/v1/location/51313/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Flumine",
+      "id": 81416,
+      "name": "Flumine",
+      "resource_uri": "/api/v1/location/81416/",
+      "type": "Área"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Homes II",
+      "id": 51278,
+      "name": "Homes II",
+      "resource_uri": "/api/v1/location/51278/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Castaños | La Balconada",
+      "id": 82374,
+      "name": "La Balconada",
+      "resource_uri": "/api/v1/location/82374/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Marinas del Canal",
+      "id": 51309,
+      "name": "Marinas del Canal",
+      "resource_uri": "/api/v1/location/51309/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Lago Escondido",
+      "id": 51253,
+      "name": "Lago Escondido",
+      "resource_uri": "/api/v1/location/51253/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Zaduh",
+      "id": 51292,
+      "name": "Zaduh",
+      "resource_uri": "/api/v1/location/51292/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf | La Mansa",
+      "id": 51849,
+      "name": "La Mansa",
+      "resource_uri": "/api/v1/location/51849/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | El Reflejo",
+      "id": 51307,
+      "name": "El Reflejo",
+      "resource_uri": "/api/v1/location/51307/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Delta 8",
+      "id": 56033,
+      "name": "Delta 8",
+      "resource_uri": "/api/v1/location/56033/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Chateau del Palmar",
+      "id": 51281,
+      "name": "Chateau del Palmar",
+      "resource_uri": "/api/v1/location/51281/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf | Acqua",
+      "id": 55991,
+      "name": "Acqua",
+      "resource_uri": "/api/v1/location/55991/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Posadas Nordelta",
+      "id": 51283,
+      "name": "Posadas Nordelta",
+      "resource_uri": "/api/v1/location/51283/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Zerena",
+      "id": 51282,
+      "name": "Zerena",
+      "resource_uri": "/api/v1/location/51282/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Rivera",
+      "id": 52028,
+      "name": "Rivera",
+      "resource_uri": "/api/v1/location/52028/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia | Paseo de la Bahia - Studios I",
+      "id": 51301,
+      "name": "Paseo de la Bahia - Studios I",
+      "resource_uri": "/api/v1/location/51301/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Wyndham Hotel",
+      "id": 51304,
+      "name": "Wyndham Hotel",
+      "resource_uri": "/api/v1/location/51304/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Espigon 13",
+      "id": 51294,
+      "name": "Espigon 13",
+      "resource_uri": "/api/v1/location/51294/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Insignia Nordelta",
+      "id": 51280,
+      "name": "Insignia Nordelta",
+      "resource_uri": "/api/v1/location/51280/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Vista Bahia",
+      "id": 51306,
+      "name": "Vista Bahia",
+      "resource_uri": "/api/v1/location/51306/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo | Albatros",
+      "id": 52020,
+      "name": "Albatros",
+      "resource_uri": "/api/v1/location/52020/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Condominios de la Bahia",
+      "id": 51324,
+      "name": "Condominios de la Bahia",
+      "resource_uri": "/api/v1/location/51324/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Estudio de la Bahia",
+      "id": 81423,
+      "name": "Estudio de la Bahia",
+      "resource_uri": "/api/v1/location/81423/",
+      "type": "Área"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Canal | Acqua Rio",
+      "id": 80737,
+      "name": "Acqua Rio",
+      "resource_uri": "/api/v1/location/80737/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Infinity Residences",
+      "id": 51284,
+      "name": "Infinity Residences",
+      "resource_uri": "/api/v1/location/51284/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Sendero | Panorama",
+      "id": 51297,
+      "name": "Panorama",
+      "resource_uri": "/api/v1/location/51297/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Jardines del Palmar",
+      "id": 253280,
+      "name": "Jardines del Palmar",
+      "resource_uri": "/api/v1/location/253280/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | El Faro",
+      "id": 51314,
+      "name": "El Faro",
+      "resource_uri": "/api/v1/location/51314/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Sendero | Casas del Sendero",
+      "id": 51298,
+      "name": "Casas del Sendero",
+      "resource_uri": "/api/v1/location/51298/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Terrazas de la Bahia II",
+      "id": 51320,
+      "name": "Terrazas de la Bahia II",
+      "resource_uri": "/api/v1/location/51320/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Plaza del Sendero",
+      "id": 55997,
+      "name": "Plaza del Sendero",
+      "resource_uri": "/api/v1/location/55997/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf | Enyoi",
+      "id": 51332,
+      "name": "Enyoi",
+      "resource_uri": "/api/v1/location/51332/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo | Petrel",
+      "id": 52027,
+      "name": "Petrel",
+      "resource_uri": "/api/v1/location/52027/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Hanami park",
+      "id": 82372,
+      "name": "Hanami park",
+      "resource_uri": "/api/v1/location/82372/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Quarzo",
+      "id": 239360,
+      "name": "Quarzo",
+      "resource_uri": "/api/v1/location/239360/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Wyndham Hotel | Loft Intercontinental",
+      "id": 51305,
+      "name": "Loft Intercontinental",
+      "resource_uri": "/api/v1/location/51305/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar | Del Lago Condominium",
+      "id": 51285,
+      "name": "Del Lago Condominium",
+      "resource_uri": "/api/v1/location/51285/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Solares del Portezuelo",
+      "id": 82378,
+      "name": "Solares del Portezuelo",
+      "resource_uri": "/api/v1/location/82378/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Espigon 12",
+      "id": 80785,
+      "name": "Espigon 12",
+      "resource_uri": "/api/v1/location/80785/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf",
+      "id": 81403,
+      "name": "Islas del Golf",
+      "resource_uri": "/api/v1/location/81403/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Centro Comercial",
+      "id": 82107,
+      "name": "Centro Comercial",
+      "resource_uri": "/api/v1/location/82107/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia",
+      "id": 52026,
+      "name": "Nordelta Paseo de la Bahia",
+      "resource_uri": "/api/v1/location/52026/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Qbay Rio",
+      "id": 51295,
+      "name": "Qbay Rio",
+      "resource_uri": "/api/v1/location/51295/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | Quartier Nordelta",
+      "id": 51286,
+      "name": "Quartier Nordelta",
+      "resource_uri": "/api/v1/location/51286/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta-Gc.Nordelta",
+      "id": 51441,
+      "name": "Nordelta-Gc.Nordelta",
+      "resource_uri": "/api/v1/location/51441/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Yacht  | Marinas del Yacht",
+      "id": 51495,
+      "name": "Marinas del Yacht",
+      "resource_uri": "/api/v1/location/51495/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Boulevard Portezuelo",
+      "id": 51322,
+      "name": "Boulevard Portezuelo",
+      "resource_uri": "/api/v1/location/51322/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Wyndham Hotel | Condominios Intercontinental",
+      "id": 55600,
+      "name": "Condominios Intercontinental",
+      "resource_uri": "/api/v1/location/55600/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Golf | Golf Club",
+      "id": 52023,
+      "name": "Golf Club",
+      "resource_uri": "/api/v1/location/52023/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Tilos",
+      "id": 81913,
+      "name": "Los Tilos",
+      "resource_uri": "/api/v1/location/81913/",
+      "type": "Área"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Canal | Ribera",
+      "id": 80738,
+      "name": "Ribera",
+      "resource_uri": "/api/v1/location/80738/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia | Estudios del Intercontinental",
+      "id": 55601,
+      "name": "Estudios del Intercontinental",
+      "resource_uri": "/api/v1/location/55601/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portobello",
+      "id": 55960,
+      "name": "Portobello",
+      "resource_uri": "/api/v1/location/55960/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Solares del Portezuelo",
+      "id": 51311,
+      "name": "Solares del Portezuelo",
+      "resource_uri": "/api/v1/location/51311/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Homes I",
+      "id": 51323,
+      "name": "Homes I",
+      "resource_uri": "/api/v1/location/51323/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo | Martín Pescador",
+      "id": 52024,
+      "name": "Martín Pescador",
+      "resource_uri": "/api/v1/location/52024/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | The Kiri",
+      "id": 82690,
+      "name": "The Kiri",
+      "resource_uri": "/api/v1/location/82690/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal | Chateau Del Portal",
+      "id": 51826,
+      "name": "Chateau Del Portal",
+      "resource_uri": "/api/v1/location/51826/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo | Bigua",
+      "id": 52021,
+      "name": "Bigua",
+      "resource_uri": "/api/v1/location/52021/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Vilago ",
+      "id": 253675,
+      "name": "Vilago ",
+      "resource_uri": "/api/v1/location/253675/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Nordelta Metro Marinas",
+      "id": 52025,
+      "name": "Nordelta Metro Marinas",
+      "resource_uri": "/api/v1/location/52025/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Marinas del Portezuelo | Cormoran",
+      "id": 52022,
+      "name": "Cormoran",
+      "resource_uri": "/api/v1/location/52022/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Casas del Sol",
+      "id": 51325,
+      "name": "Casas del Sol",
+      "resource_uri": "/api/v1/location/51325/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Ribera",
+      "id": 51326,
+      "name": "Ribera",
+      "resource_uri": "/api/v1/location/51326/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Bahia Grande Amarras",
+      "id": 51328,
+      "name": "Bahia Grande Amarras",
+      "resource_uri": "/api/v1/location/51328/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo | Casas del Lago",
+      "id": 55990,
+      "name": "Casas del Lago",
+      "resource_uri": "/api/v1/location/55990/",
+      "type": "Localidad/Partido"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido | Blue Nordelta",
+      "id": 51293,
+      "name": "Blue Nordelta",
+      "resource_uri": "/api/v1/location/51293/",
+      "type": "Localidad"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Qbay Yacht",
+      "id": 253993,
+      "name": "Qbay Yacht",
+      "resource_uri": "/api/v1/location/253993/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Aqua Golf",
+      "id": 254013,
+      "name": "Aqua Golf",
+      "resource_uri": "/api/v1/location/254013/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Marinas del Este",
+      "id": 254029,
+      "name": "Marinas del Este",
+      "resource_uri": "/api/v1/location/254029/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Puentes",
+      "id": 254030,
+      "name": "Los Puentes",
+      "resource_uri": "/api/v1/location/254030/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Loft del Sendero",
+      "id": 254031,
+      "name": "Loft del Sendero",
+      "resource_uri": "/api/v1/location/254031/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Oceana Nordelta",
+      "id": 254071,
+      "name": "Oceana Nordelta",
+      "resource_uri": "/api/v1/location/254071/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Skyroof",
+      "id": 256137,
+      "name": "Skyroof",
+      "resource_uri": "/api/v1/location/256137/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande | Lofts de la Bahía",
+      "id": 505133,
+      "name": "Lofts de la Bahía",
+      "resource_uri": "/api/v1/location/505133/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Casuarinas",
+      "id": 505136,
+      "name": "Casuarinas",
+      "resource_uri": "/api/v1/location/505136/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Silvestre",
+      "id": 569450,
+      "name": "Silvestre",
+      "resource_uri": "/api/v1/location/569450/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Gaviotas",
+      "id": 570480,
+      "name": "Gaviotas",
+      "resource_uri": "/api/v1/location/570480/",
+      "type": "Barrio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Quara",
+      "id": 570772,
+      "name": "Quara",
+      "resource_uri": "/api/v1/location/570772/",
+      "type": "Condominio"
+    },
+    {
+      "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Torres Zafiro",
+      "id": 570773,
+      "name": "Torres Zafiro",
+      "resource_uri": "/api/v1/location/570773/",
+      "type": "Condominio"
+    }
+  ]
+}

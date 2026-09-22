@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | A.A.P.",
+  "id": 25375,
+  "name": "A.A.P.",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | A.A.P.",
+  "state": null,
+  "weight": 6,
+  "zip_code": null
+}

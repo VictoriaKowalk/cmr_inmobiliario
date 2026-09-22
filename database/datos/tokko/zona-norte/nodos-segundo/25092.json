@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | El Perejil",
+  "id": 25092,
+  "name": "El Perejil",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | El Perejil",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

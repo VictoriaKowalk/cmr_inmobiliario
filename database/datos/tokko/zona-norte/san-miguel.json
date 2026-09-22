@@ -1,0 +1,57 @@
+{
+  "divisions": [
+    {
+      "id": 25561,
+      "name": "Countries/B.Cerrado (San Miguel)",
+      "resource_uri": "/api/v1/location/25561/"
+    },
+    {
+      "id": 25575,
+      "name": "Bella Vista",
+      "resource_uri": "/api/v1/location/25575/"
+    },
+    {
+      "id": 25580,
+      "name": "Campo De Mayo",
+      "resource_uri": "/api/v1/location/25580/"
+    },
+    {
+      "id": 25581,
+      "name": "Muñiz",
+      "resource_uri": "/api/v1/location/25581/"
+    },
+    {
+      "id": 25583,
+      "name": "San Miguel",
+      "resource_uri": "/api/v1/location/25583/"
+    },
+    {
+      "id": 52005,
+      "name": "Apart Club San Pedro",
+      "resource_uri": "/api/v1/location/52005/"
+    },
+    {
+      "id": 52006,
+      "name": "Buenos Aires Village",
+      "resource_uri": "/api/v1/location/52006/"
+    },
+    {
+      "id": 52007,
+      "name": "Chacra Alcalá",
+      "resource_uri": "/api/v1/location/52007/"
+    },
+    {
+      "id": 52008,
+      "name": "San Ambrosio",
+      "resource_uri": "/api/v1/location/52008/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel ",
+  "id": 25560,
+  "name": "San Miguel",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | San Miguel ",
+  "state": "/api/v1/state/147/",
+  "weight": 3125,
+  "zip_code": null
+}

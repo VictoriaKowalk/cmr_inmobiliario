@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | La Lucila | La Lucila-Vias/Libert.",
+  "id": 25831,
+  "name": "La Lucila-Vias/Libert.",
+  "parent_division": "/api/v1/location/25829/",
+  "short_location": "Vicente López | La Lucila | La Lucila-Vias/Libert.",
+  "state": null,
+  "weight": 401,
+  "zip_code": null
+}

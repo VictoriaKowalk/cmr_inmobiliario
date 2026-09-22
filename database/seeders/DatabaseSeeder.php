@@ -17,6 +17,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             TiposPropiedadSeeder::class,
             UbicacionesSeeder::class,
+            UbicacionesTokkoNordeltaSeeder::class,
+            UbicacionesTokkoZonaNorteSeeder::class,
             CaracteristicasSeeder::class,
             UsuarioAdministradorSeeder::class,
             ContactosDemoSeeder::class,

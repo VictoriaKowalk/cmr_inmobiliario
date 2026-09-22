@@ -1,0 +1,97 @@
+{
+    "divisions": [
+        {
+            "id": 24946,
+            "name": "La Bota",
+            "resource_uri": "\/api\/v1\/location\/24946\/"
+        },
+        {
+            "id": 25718,
+            "name": "Altos De Benavidez",
+            "resource_uri": "\/api\/v1\/location\/25718\/"
+        },
+        {
+            "id": 25719,
+            "name": "B.Elarco",
+            "resource_uri": "\/api\/v1\/location\/25719\/"
+        },
+        {
+            "id": 25720,
+            "name": "B.Ojo De Agua",
+            "resource_uri": "\/api\/v1\/location\/25720\/"
+        },
+        {
+            "id": 25721,
+            "name": "Barrio El Arco",
+            "resource_uri": "\/api\/v1\/location\/25721\/"
+        },
+        {
+            "id": 25722,
+            "name": "Barrio El Progreso",
+            "resource_uri": "\/api\/v1\/location\/25722\/"
+        },
+        {
+            "id": 25723,
+            "name": "El Prado",
+            "resource_uri": "\/api\/v1\/location\/25723\/"
+        },
+        {
+            "id": 25724,
+            "name": "La Arboleda",
+            "resource_uri": "\/api\/v1\/location\/25724\/"
+        },
+        {
+            "id": 25725,
+            "name": "Las Malvinas",
+            "resource_uri": "\/api\/v1\/location\/25725\/"
+        },
+        {
+            "id": 25726,
+            "name": "Parque Saju",
+            "resource_uri": "\/api\/v1\/location\/25726\/"
+        },
+        {
+            "id": 81401,
+            "name": "Vila Marina I",
+            "resource_uri": "\/api\/v1\/location\/81401\/"
+        },
+        {
+            "id": 82669,
+            "name": "Villa Marina II",
+            "resource_uri": "\/api\/v1\/location\/82669\/"
+        },
+        {
+            "id": 210539,
+            "name": "El Rey Jesus",
+            "resource_uri": "\/api\/v1\/location\/210539\/"
+        },
+        {
+            "id": 254234,
+            "name": "Santa Ana Joven",
+            "resource_uri": "\/api\/v1\/location\/254234\/"
+        },
+        {
+            "id": 254727,
+            "name": "San Ignacio",
+            "resource_uri": "\/api\/v1\/location\/254727\/"
+        },
+        {
+            "id": 256511,
+            "name": "La Reserva",
+            "resource_uri": "\/api\/v1\/location\/256511\/"
+        },
+        {
+            "id": 256532,
+            "name": "Ayres Haus Benavidez",
+            "resource_uri": "\/api\/v1\/location\/256532\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez",
+    "id": 25717,
+    "name": "Benavidez",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Benavidez",
+    "state": null,
+    "weight": 3150,
+    "zip_code": ""
+}

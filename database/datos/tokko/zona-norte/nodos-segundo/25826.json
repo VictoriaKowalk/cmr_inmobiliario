@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida-J.B.Justo",
+  "id": 25826,
+  "name": "Florida-J.B.Justo",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida-J.B.Justo",
+  "state": null,
+  "weight": 27,
+  "zip_code": null
+}

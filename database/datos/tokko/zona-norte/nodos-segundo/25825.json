@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida-Cetrangolo",
+  "id": 25825,
+  "name": "Florida-Cetrangolo",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida-Cetrangolo",
+  "state": null,
+  "weight": 22,
+  "zip_code": null
+}

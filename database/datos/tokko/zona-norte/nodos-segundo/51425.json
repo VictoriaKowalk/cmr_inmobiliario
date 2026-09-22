@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Labrador",
+  "id": 51425,
+  "name": "San Isidro Labrador",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Labrador",
+  "state": null,
+  "weight": 72,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Virreyes | Virr.-Oeste",
+  "id": 25467,
+  "name": "Virr.-Oeste",
+  "parent_division": "/api/v1/location/25465/",
+  "short_location": "San Fernando | Virreyes | Virr.-Oeste",
+  "state": null,
+  "weight": 66,
+  "zip_code": null
+}

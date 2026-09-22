@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Talar Chico",
+  "id": 25706,
+  "name": "Talar Chico",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Talar Chico",
+  "state": null,
+  "weight": 138,
+  "zip_code": null
+}

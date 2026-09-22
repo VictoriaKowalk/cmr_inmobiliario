@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Sabalos",
+  "id": 82473,
+  "name": "Sabalos",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Sabalos",
+  "state": null,
+  "weight": 40,
+  "zip_code": null
+}

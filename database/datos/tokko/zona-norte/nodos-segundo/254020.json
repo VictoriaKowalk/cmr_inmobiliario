@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Boulogne | Santa Rita",
+  "id": 254020,
+  "name": "Santa Rita",
+  "parent_division": "/api/v1/location/25526/",
+  "short_location": "San Isidro | Boulogne | Santa Rita",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

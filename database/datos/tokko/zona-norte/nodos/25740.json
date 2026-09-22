@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | El Talar",
+    "id": 25740,
+    "name": "El Talar",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | El Talar",
+    "state": null,
+    "weight": 1264,
+    "zip_code": null
+}

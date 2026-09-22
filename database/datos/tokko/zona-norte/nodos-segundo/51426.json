@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro | Arboris",
+  "id": 51426,
+  "name": "Arboris",
+  "parent_division": "/api/v1/location/25536/",
+  "short_location": "San Isidro | San Isidro | Arboris",
+  "state": null,
+  "weight": 40,
+  "zip_code": null
+}

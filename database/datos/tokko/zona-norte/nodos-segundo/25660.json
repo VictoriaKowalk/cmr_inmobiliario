@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Los Olmos",
+  "id": 25660,
+  "name": "Los Olmos",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Los Olmos",
+  "state": null,
+  "weight": 49,
+  "zip_code": null
+}

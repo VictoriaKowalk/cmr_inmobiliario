@@ -1,0 +1,17 @@
+{
+  "divisions": [
+    {
+      "id": 102527,
+      "name": "Barrio La Berlina",
+      "resource_uri": "/api/v1/location/102527/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilara",
+  "id": 51422,
+  "name": "Pilara",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Pilara",
+  "state": null,
+  "weight": 2350,
+  "zip_code": null
+}

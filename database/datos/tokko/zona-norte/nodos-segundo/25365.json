@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Robles Del Monarca",
+  "id": 25365,
+  "name": "Robles Del Monarca",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Robles Del Monarca",
+  "state": null,
+  "weight": 57,
+  "zip_code": null
+}

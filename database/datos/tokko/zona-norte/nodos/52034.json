@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | San Ignacio",
+    "id": 52034,
+    "name": "San Ignacio",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | San Ignacio",
+    "state": null,
+    "weight": 7,
+    "zip_code": null
+}

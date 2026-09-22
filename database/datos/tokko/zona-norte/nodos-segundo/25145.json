@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Brujas",
+  "id": 25145,
+  "name": "Brujas",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Brujas",
+  "state": null,
+  "weight": 24,
+  "zip_code": null
+}

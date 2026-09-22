@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Los Nogales",
+  "id": 24862,
+  "name": "Los Nogales",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Los Nogales",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

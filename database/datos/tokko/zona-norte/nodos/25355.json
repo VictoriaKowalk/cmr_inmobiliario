@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Kilometro 45",
+    "id": 25355,
+    "name": "Kilometro 45",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Kilometro 45",
+    "state": null,
+    "weight": 61,
+    "zip_code": null
+}

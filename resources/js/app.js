@@ -122,6 +122,11 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
     const identificador = contenedor.querySelector('[data-autocomplete-id]');
     const resultados = contenedor.querySelector('[data-autocomplete-resultados]');
     const url = contenedor.dataset.url;
+    const urlCrear = contenedor.dataset.urlCrear;
+    const ayuda = contenedor.querySelector('[data-autocomplete-ayuda]');
+    const enlaceNuevaUbicacion = contenedor.querySelector('[data-autocomplete-nueva-ubicacion]');
+    const seleccion = contenedor.querySelector('[data-autocomplete-seleccion]');
+    const rutaSeleccionada = contenedor.querySelector('[data-autocomplete-ruta]');
     let temporizador;
 
     const cerrarResultados = () => {
@@ -129,8 +134,53 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
         resultados.classList.add('hidden');
     };
 
-    entrada.addEventListener('input', () => {
+    const limpiarSeleccion = () => {
         identificador.value = '';
+
+        if (enlaceNuevaUbicacion) {
+            enlaceNuevaUbicacion.classList.add('hidden');
+            enlaceNuevaUbicacion.removeAttribute('href');
+            enlaceNuevaUbicacion.textContent = '';
+        }
+
+        if (ayuda) {
+            ayuda.textContent = 'Buscá por barrio, subbarrio, localidad o zona y elegí la coincidencia correcta.';
+        }
+
+        if (seleccion) {
+            seleccion.classList.add('hidden');
+        }
+
+        if (rutaSeleccionada) {
+            rutaSeleccionada.textContent = '';
+        }
+    };
+
+    const mostrarSeleccion = (ubicacion) => {
+        entrada.value = ubicacion.nombre_mostrado;
+        entrada.dataset.rutaCompleta = ubicacion.nombre_completo;
+        identificador.value = ubicacion.id;
+        cerrarResultados();
+
+        if (ayuda) {
+            ayuda.textContent = 'La propiedad quedará vinculada a esta ubicación comercial.';
+        }
+
+        if (seleccion && rutaSeleccionada) {
+            rutaSeleccionada.textContent = ubicacion.ruta_completa_mostrada;
+            seleccion.classList.remove('hidden');
+        }
+
+        if (enlaceNuevaUbicacion && urlCrear) {
+            enlaceNuevaUbicacion.href = `${urlCrear}?padre=${encodeURIComponent(ubicacion.id)}`;
+            enlaceNuevaUbicacion.textContent = `Agregar una ubicación dentro de ${ubicacion.nombre}`;
+            enlaceNuevaUbicacion.classList.remove('hidden');
+        }
+    };
+
+    entrada.addEventListener('input', () => {
+        limpiarSeleccion();
+        delete entrada.dataset.rutaCompleta;
         clearTimeout(temporizador);
         const texto = entrada.value.trim();
 
@@ -155,13 +205,17 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
 
             ubicaciones.forEach((ubicacion) => {
                 const boton = document.createElement('button');
+                const nombre = document.createElement('span');
+                const ruta = document.createElement('span');
                 boton.type = 'button';
-                boton.className = 'block w-full border-b border-neutral-100 px-3 py-3 text-left text-sm hover:bg-neutral-50 last:border-b-0';
-                boton.textContent = ubicacion.nombre_completo;
+                boton.className = 'block w-full border-b border-neutral-100 px-3 py-3 text-left hover:bg-neutral-50 last:border-b-0';
+                nombre.className = 'block text-sm font-medium text-neutral-900';
+                nombre.textContent = ubicacion.nombre_mostrado;
+                ruta.className = 'mt-1 block text-sm text-neutral-600';
+                ruta.textContent = ubicacion.ruta_mostrada;
+                boton.append(nombre, ruta);
                 boton.addEventListener('click', () => {
-                    entrada.value = ubicacion.nombre_completo;
-                    identificador.value = ubicacion.id;
-                    cerrarResultados();
+                    mostrarSeleccion(ubicacion);
                 });
                 resultados.appendChild(boton);
             });
@@ -568,7 +622,9 @@ document.querySelectorAll('[data-geocodificacion]').forEach(async (contenedor) =
             );
 
             const normalizarUbicacionParaBusqueda = () => {
-                const textoUbicacion = entradaUbicacion?.value?.trim() || '';
+                const textoUbicacion = entradaUbicacion?.dataset.rutaCompleta
+                    || entradaUbicacion?.value?.trim()
+                    || '';
 
                 return textoUbicacion
                     .split('|')

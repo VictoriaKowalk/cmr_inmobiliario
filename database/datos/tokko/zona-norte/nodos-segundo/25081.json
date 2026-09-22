@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Santa Maria De Los Olivos",
+  "id": 25081,
+  "name": "Santa Maria De Los Olivos",
+  "parent_division": "/api/v1/location/25073/",
+  "short_location": "Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Santa Maria De Los Olivos",
+  "state": null,
+  "weight": 824,
+  "zip_code": null
+}

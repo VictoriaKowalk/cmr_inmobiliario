@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Golf Club Argentino",
+  "id": 25184,
+  "name": "Golf Club Argentino",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Golf Club Argentino",
+  "state": null,
+  "weight": 18,
+  "zip_code": null
+}

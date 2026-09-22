@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Tropiano (Pilar)",
+  "id": 25410,
+  "name": "Tropiano (Pilar)",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Tropiano (Pilar)",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

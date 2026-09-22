@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro | S.Isidro Alto",
+  "id": 25554,
+  "name": "S.Isidro Alto",
+  "parent_division": "/api/v1/location/25536/",
+  "short_location": "San Isidro | San Isidro | S.Isidro Alto",
+  "state": null,
+  "weight": 109,
+  "zip_code": null
+}

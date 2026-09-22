@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | San Jorge",
+  "id": 25809,
+  "name": "San Jorge",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | San Jorge",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

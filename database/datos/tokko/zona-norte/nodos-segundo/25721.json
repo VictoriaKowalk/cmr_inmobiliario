@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | Barrio El Arco",
+  "id": 25721,
+  "name": "Barrio El Arco",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | Barrio El Arco",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

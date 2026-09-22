@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Los Miradores 2",
+  "id": 102529,
+  "name": "Los Miradores 2",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Los Miradores 2",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

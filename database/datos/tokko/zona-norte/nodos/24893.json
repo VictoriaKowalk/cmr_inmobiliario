@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Barrio Parque Lambare",
+    "id": 24893,
+    "name": "Barrio Parque Lambare",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Barrio Parque Lambare",
+    "state": null,
+    "weight": 5,
+    "zip_code": null
+}

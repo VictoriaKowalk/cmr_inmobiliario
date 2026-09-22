@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida-B.Platense",
+  "id": 25823,
+  "name": "Florida-B.Platense",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida-B.Platense",
+  "state": null,
+  "weight": 53,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Santa Silvina",
+  "id": 25294,
+  "name": "Santa Silvina",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Santa Silvina",
+  "state": null,
+  "weight": 74,
+  "zip_code": null
+}

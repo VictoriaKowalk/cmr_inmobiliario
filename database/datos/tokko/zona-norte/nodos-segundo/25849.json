@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Barrio Vicente López | V.Lopez-Vias/Rio",
+  "id": 25849,
+  "name": "V.Lopez-Vias/Rio",
+  "parent_division": "/api/v1/location/25846/",
+  "short_location": "Vicente López | Barrio Vicente López | V.Lopez-Vias/Rio",
+  "state": null,
+  "weight": 745,
+  "zip_code": null
+}

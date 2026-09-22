@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | B.Elarco",
+  "id": 25719,
+  "name": "B.Elarco",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | B.Elarco",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

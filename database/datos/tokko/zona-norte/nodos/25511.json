@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25512,
+            "name": "Acas.-B.Parque Aguirre",
+            "resource_uri": "\/api\/v1\/location\/25512\/"
+        },
+        {
+            "id": 25513,
+            "name": "Acas.-El Cano\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25513\/"
+        },
+        {
+            "id": 25514,
+            "name": "Acas.-Fleming\/Panam.",
+            "resource_uri": "\/api\/v1\/location\/25514\/"
+        },
+        {
+            "id": 25515,
+            "name": "Acas.-Libert.\/Solis",
+            "resource_uri": "\/api\/v1\/location\/25515\/"
+        },
+        {
+            "id": 25516,
+            "name": "Acas.-Santa Fe\/Fleming",
+            "resource_uri": "\/api\/v1\/location\/25516\/"
+        },
+        {
+            "id": 25517,
+            "name": "Acas.-Vias\/Libert.",
+            "resource_uri": "\/api\/v1\/location\/25517\/"
+        },
+        {
+            "id": 25518,
+            "name": "Acas.-Vias\/Santa Fe",
+            "resource_uri": "\/api\/v1\/location\/25518\/"
+        },
+        {
+            "id": 25519,
+            "name": "Parque Aguirre",
+            "resource_uri": "\/api\/v1\/location\/25519\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso",
+    "id": 25511,
+    "name": "Acassuso",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Acassuso",
+    "state": null,
+    "weight": 3813,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Santa Teresa",
+    "id": 51950,
+    "name": "Santa Teresa",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Santa Teresa",
+    "state": null,
+    "weight": 2,
+    "zip_code": null
+}

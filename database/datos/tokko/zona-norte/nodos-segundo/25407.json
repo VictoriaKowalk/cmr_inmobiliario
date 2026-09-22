@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Ruta 28",
+  "id": 25407,
+  "name": "Ruta 28",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Ruta 28",
+  "state": null,
+  "weight": 13,
+  "zip_code": null
+}

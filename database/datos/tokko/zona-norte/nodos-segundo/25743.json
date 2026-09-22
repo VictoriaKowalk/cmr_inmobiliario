@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | B.Horizonte",
+  "id": 25743,
+  "name": "B.Horizonte",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | B.Horizonte",
+  "state": null,
+  "weight": 46,
+  "zip_code": null
+}

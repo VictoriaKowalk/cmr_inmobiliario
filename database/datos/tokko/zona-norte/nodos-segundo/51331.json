@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Central Nuevo Tigre",
+  "id": 51331,
+  "name": "Central Nuevo Tigre",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Central Nuevo Tigre",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

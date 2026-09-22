@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Los Pinos (S.Mig.)",
+  "id": 25605,
+  "name": "Los Pinos (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Los Pinos (S.Mig.)",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

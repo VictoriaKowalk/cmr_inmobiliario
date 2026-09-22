@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-La Merced",
+  "id": 25543,
+  "name": "Las Lomas-La Merced",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-La Merced",
+  "state": null,
+  "weight": 424,
+  "zip_code": null
+}

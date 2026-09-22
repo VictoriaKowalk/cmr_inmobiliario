@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Quinta De Atalaya",
+  "id": 25501,
+  "name": "Quinta De Atalaya",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Quinta De Atalaya",
+  "state": null,
+  "weight": 9,
+  "zip_code": null
+}

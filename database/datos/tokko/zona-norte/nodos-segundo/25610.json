@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Parque La Gloria",
+  "id": 25610,
+  "name": "Parque La Gloria",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Parque La Gloria",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

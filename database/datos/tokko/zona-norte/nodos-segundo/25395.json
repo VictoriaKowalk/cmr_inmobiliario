@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | La Terraza",
+  "id": 25395,
+  "name": "La Terraza",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | La Terraza",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

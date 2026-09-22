@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Paranacito",
+  "id": 25803,
+  "name": "Paranacito",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Paranacito",
+  "state": null,
+  "weight": 7,
+  "zip_code": null
+}

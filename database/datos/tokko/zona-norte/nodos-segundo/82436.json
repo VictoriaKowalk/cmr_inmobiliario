@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Capitancito",
+  "id": 82436,
+  "name": "Capitancito",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Capitancito",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

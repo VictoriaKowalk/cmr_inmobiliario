@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | La Buena Vista",
+    "id": 51914,
+    "name": "La Buena Vista",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | La Buena Vista",
+    "state": null,
+    "weight": 4,
+    "zip_code": null
+}

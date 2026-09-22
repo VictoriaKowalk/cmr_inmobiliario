@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Haras Pino Solo",
+  "id": 25190,
+  "name": "Haras Pino Solo",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Haras Pino Solo",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

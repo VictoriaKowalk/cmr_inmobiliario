@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Tortugas C.C",
+  "id": 25305,
+  "name": "Tortugas C.C",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Tortugas C.C",
+  "state": null,
+  "weight": 678,
+  "zip_code": null
+}

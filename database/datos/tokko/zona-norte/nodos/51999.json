@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro Central",
+    "id": 51999,
+    "name": "San Isidro Central",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | San Isidro Central",
+    "state": null,
+    "weight": 299,
+    "zip_code": null
+}

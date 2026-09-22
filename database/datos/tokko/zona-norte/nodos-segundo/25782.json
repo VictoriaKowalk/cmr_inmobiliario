@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Cruz del Gambado",
+  "id": 25782,
+  "name": "Cruz del Gambado",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Cruz del Gambado",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

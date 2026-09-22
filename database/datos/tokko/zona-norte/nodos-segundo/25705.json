@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Solares Del Talar",
+  "id": 25705,
+  "name": "Solares Del Talar",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Solares Del Talar",
+  "state": null,
+  "weight": 484,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Marina Canestrari",
+  "id": 25444,
+  "name": "Marina Canestrari",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Marina Canestrari",
+  "state": null,
+  "weight": 28,
+  "zip_code": null
+}

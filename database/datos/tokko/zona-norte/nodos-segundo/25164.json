@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | El Alazan",
+  "id": 25164,
+  "name": "El Alazan",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | El Alazan",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

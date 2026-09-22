@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Countries/B.Cerrado (V. Lopez) | Horizons",
+  "id": 51430,
+  "name": "Horizons",
+  "parent_division": "/api/v1/location/51429/",
+  "short_location": "Vicente López | Countries/B.Cerrado (V. Lopez) | Horizons",
+  "state": null,
+  "weight": 103,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Garin | La Elisa",
+  "id": 569452,
+  "name": "La Elisa",
+  "parent_division": "/api/v1/location/24928/",
+  "short_location": "Escobar | Garin | La Elisa",
+  "state": null,
+  "weight": 0,
+  "zip_code": ""
+}

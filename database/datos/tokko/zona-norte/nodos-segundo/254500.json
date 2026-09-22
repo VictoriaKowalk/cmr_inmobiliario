@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Martinez Chico",
+  "id": 254500,
+  "name": "Martinez Chico",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Martinez Chico",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

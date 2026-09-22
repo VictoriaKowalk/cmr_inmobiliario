@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Venice Tigre",
+    "id": 240202,
+    "name": "Venice Tigre",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Venice Tigre",
+    "state": null,
+    "weight": 102,
+    "zip_code": null
+}

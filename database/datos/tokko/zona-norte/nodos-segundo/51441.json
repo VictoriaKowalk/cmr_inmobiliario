@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta-Gc.Nordelta",
+  "id": 51441,
+  "name": "Nordelta-Gc.Nordelta",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Nordelta-Gc.Nordelta",
+  "state": null,
+  "weight": 76,
+  "zip_code": null
+}

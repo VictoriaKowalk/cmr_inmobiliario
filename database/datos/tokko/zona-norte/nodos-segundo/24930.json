@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Garin | Garin-El Triangulo",
+  "id": 24930,
+  "name": "Garin-El Triangulo",
+  "parent_division": "/api/v1/location/24928/",
+  "short_location": "Escobar | Garin | Garin-El Triangulo",
+  "state": null,
+  "weight": 50,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Parque Industrial Pilar",
+    "id": 51399,
+    "name": "Parque Industrial Pilar",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Parque Industrial Pilar",
+    "state": null,
+    "weight": 255,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | La Lonja | Solar Azul",
+  "id": 102310,
+  "name": "Solar Azul",
+  "parent_division": "/api/v1/location/25360/",
+  "short_location": "Pilar | La Lonja | Solar Azul",
+  "state": null,
+  "weight": 16,
+  "zip_code": null
+}

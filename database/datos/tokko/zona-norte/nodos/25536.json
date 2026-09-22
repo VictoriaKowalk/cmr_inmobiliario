@@ -1,0 +1,67 @@
+{
+    "divisions": [
+        {
+            "id": 25548,
+            "name": "S.Isi.-Barrio Carreras",
+            "resource_uri": "\/api\/v1\/location\/25548\/"
+        },
+        {
+            "id": 25549,
+            "name": "S.Isi.-Centro",
+            "resource_uri": "\/api\/v1\/location\/25549\/"
+        },
+        {
+            "id": 25550,
+            "name": "S.Isi.-Lasalle\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25550\/"
+        },
+        {
+            "id": 25551,
+            "name": "S.Isi.-Libert.\/Lasalle",
+            "resource_uri": "\/api\/v1\/location\/25551\/"
+        },
+        {
+            "id": 25552,
+            "name": "S.Isi.-Vias\/Libert.",
+            "resource_uri": "\/api\/v1\/location\/25552\/"
+        },
+        {
+            "id": 25553,
+            "name": "S.Isi.-Vias\/Rolon",
+            "resource_uri": "\/api\/v1\/location\/25553\/"
+        },
+        {
+            "id": 25554,
+            "name": "S.Isidro Alto",
+            "resource_uri": "\/api\/v1\/location\/25554\/"
+        },
+        {
+            "id": 25555,
+            "name": "S.Isidro Chico",
+            "resource_uri": "\/api\/v1\/location\/25555\/"
+        },
+        {
+            "id": 51426,
+            "name": "Arboris",
+            "resource_uri": "\/api\/v1\/location\/51426\/"
+        },
+        {
+            "id": 51850,
+            "name": "Santa Paula",
+            "resource_uri": "\/api\/v1\/location\/51850\/"
+        },
+        {
+            "id": 210543,
+            "name": "Prana San Isidro",
+            "resource_uri": "\/api\/v1\/location\/210543\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro",
+    "id": 25536,
+    "name": "San Isidro",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | San Isidro",
+    "state": null,
+    "weight": 6086,
+    "zip_code": null
+}

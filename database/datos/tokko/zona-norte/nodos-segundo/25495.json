@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Los Aromos",
+  "id": 25495,
+  "name": "Los Aromos",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Los Aromos",
+  "state": null,
+  "weight": 23,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | La Emilia",
+  "id": 25205,
+  "name": "La Emilia",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | La Emilia",
+  "state": null,
+  "weight": 89,
+  "zip_code": null
+}

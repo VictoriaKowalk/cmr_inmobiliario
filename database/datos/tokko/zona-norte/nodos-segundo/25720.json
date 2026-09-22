@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | B.Ojo De Agua",
+  "id": 25720,
+  "name": "B.Ojo De Agua",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | B.Ojo De Agua",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

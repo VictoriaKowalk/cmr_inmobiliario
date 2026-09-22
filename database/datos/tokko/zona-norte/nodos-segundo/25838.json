@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Olivos | Olivos-Golf",
+  "id": 25838,
+  "name": "Olivos-Golf",
+  "parent_division": "/api/v1/location/25836/",
+  "short_location": "Vicente López | Olivos | Olivos-Golf",
+  "state": null,
+  "weight": 178,
+  "zip_code": null
+}

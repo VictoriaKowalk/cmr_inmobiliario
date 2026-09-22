@@ -1,0 +1,27 @@
+{
+    "divisions": [
+        {
+            "id": 25557,
+            "name": "V.Ade.-B.Arca",
+            "resource_uri": "\/api\/v1\/location\/25557\/"
+        },
+        {
+            "id": 25558,
+            "name": "V.Ade.-B.Orbis",
+            "resource_uri": "\/api\/v1\/location\/25558\/"
+        },
+        {
+            "id": 25559,
+            "name": "V.Ade.-P.Cisneros",
+            "resource_uri": "\/api\/v1\/location\/25559\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Villa Adelina",
+    "id": 25556,
+    "name": "Villa Adelina",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Villa Adelina",
+    "state": null,
+    "weight": 2459,
+    "zip_code": null
+}

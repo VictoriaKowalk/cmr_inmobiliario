@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | C.C.Manuel Belgrano",
+  "id": 24830,
+  "name": "C.C.Manuel Belgrano",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | C.C.Manuel Belgrano",
+  "state": null,
+  "weight": 70,
+  "zip_code": null
+}

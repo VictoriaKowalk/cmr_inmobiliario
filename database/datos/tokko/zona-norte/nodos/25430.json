@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25431,
+            "name": "La Cumbre De La Rosa",
+            "resource_uri": "\/api\/v1\/location\/25431\/"
+        },
+        {
+            "id": 25432,
+            "name": "La Doma",
+            "resource_uri": "\/api\/v1\/location\/25432\/"
+        },
+        {
+            "id": 82158,
+            "name": "Vohe",
+            "resource_uri": "\/api\/v1\/location\/82158\/"
+        },
+        {
+            "id": 210557,
+            "name": "Club Bamboo",
+            "resource_uri": "\/api\/v1\/location\/210557\/"
+        },
+        {
+            "id": 239718,
+            "name": "Altos de Campo Grande",
+            "resource_uri": "\/api\/v1\/location\/239718\/"
+        },
+        {
+            "id": 253995,
+            "name": "La Fernanda",
+            "resource_uri": "\/api\/v1\/location\/253995\/"
+        },
+        {
+            "id": 571452,
+            "name": "Paseo Quinquela",
+            "resource_uri": "\/api\/v1\/location\/571452\/"
+        },
+        {
+            "id": 571457,
+            "name": "El Overo 2",
+            "resource_uri": "\/api\/v1\/location\/571457\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa",
+    "id": 25430,
+    "name": "Villa Rosa",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Villa Rosa",
+    "state": null,
+    "weight": 1038,
+    "zip_code": null
+}

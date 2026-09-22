@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Abra Vieja",
+  "id": 82451,
+  "name": "Abra Vieja",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Abra Vieja",
+  "state": null,
+  "weight": 35,
+  "zip_code": null
+}

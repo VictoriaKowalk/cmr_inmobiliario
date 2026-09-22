@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Las Victorias",
+  "id": 25443,
+  "name": "Las Victorias",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Las Victorias",
+  "state": null,
+  "weight": 149,
+  "zip_code": null
+}

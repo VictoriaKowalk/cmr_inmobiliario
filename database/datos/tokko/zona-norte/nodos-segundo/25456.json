@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Sta.Clara",
+  "id": 25456,
+  "name": "S.Fer.-Sta.Clara",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Sta.Clara",
+  "state": null,
+  "weight": 6,
+  "zip_code": null
+}

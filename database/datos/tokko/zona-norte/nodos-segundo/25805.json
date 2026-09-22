@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Lujan",
+  "id": 25805,
+  "name": "Lujan",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Lujan",
+  "state": null,
+  "weight": 60,
+  "zip_code": null
+}

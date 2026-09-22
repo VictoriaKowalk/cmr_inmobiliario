@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Troncos",
+  "id": 25256,
+  "name": "Los Troncos",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Troncos",
+  "state": null,
+  "weight": 46,
+  "zip_code": null
+}

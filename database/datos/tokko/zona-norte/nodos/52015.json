@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Delta Chico",
+    "id": 52015,
+    "name": "Delta Chico",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Delta Chico",
+    "state": null,
+    "weight": 4,
+    "zip_code": null
+}

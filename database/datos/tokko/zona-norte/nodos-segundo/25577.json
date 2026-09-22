@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Bella Vista | El Sol",
+  "id": 25577,
+  "name": "El Sol",
+  "parent_division": "/api/v1/location/25575/",
+  "short_location": "San Miguel | Bella Vista | El Sol",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

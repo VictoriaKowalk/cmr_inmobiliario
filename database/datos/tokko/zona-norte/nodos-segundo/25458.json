@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Vias/Centro",
+  "id": 25458,
+  "name": "S.Fer.-Vias/Centro",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Vias/Centro",
+  "state": null,
+  "weight": 1779,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Ayres Vila",
+  "id": 240217,
+  "name": "Ayres Vila",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Ayres Vila",
+  "state": null,
+  "weight": 193,
+  "zip_code": null
+}

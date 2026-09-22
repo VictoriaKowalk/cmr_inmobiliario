@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | La Arboleda",
+  "id": 25724,
+  "name": "La Arboleda",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | La Arboleda",
+  "state": null,
+  "weight": 12,
+  "zip_code": null
+}

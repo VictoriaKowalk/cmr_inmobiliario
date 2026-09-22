@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Aviacion",
+  "id": 25729,
+  "name": "Aviacion",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Aviacion",
+  "state": null,
+  "weight": 40,
+  "zip_code": null
+}

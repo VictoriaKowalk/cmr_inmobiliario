@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 253293,
+            "name": "Countries\/B.Cerrado (Manzanares)",
+            "resource_uri": "\/api\/v1\/location\/253293\/"
+        },
+        {
+            "id": 597734,
+            "name": "Nortes del Pilar",
+            "resource_uri": "\/api\/v1\/location\/597734\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares",
+    "id": 25369,
+    "name": "Manzanares",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Manzanares",
+    "state": null,
+    "weight": 289,
+    "zip_code": null
+}

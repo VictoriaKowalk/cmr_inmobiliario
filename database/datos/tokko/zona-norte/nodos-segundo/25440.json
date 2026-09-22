@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Greenlands",
+  "id": 25440,
+  "name": "Greenlands",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Greenlands",
+  "state": null,
+  "weight": 67,
+  "zip_code": null
+}

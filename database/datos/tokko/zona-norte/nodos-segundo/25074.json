@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Cuba Country V. De Mayo",
+  "id": 25074,
+  "name": "Cuba Country V. De Mayo",
+  "parent_division": "/api/v1/location/25073/",
+  "short_location": "Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Cuba Country V. De Mayo",
+  "state": null,
+  "weight": 13,
+  "zip_code": null
+}

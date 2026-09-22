@@ -1,0 +1,257 @@
+{
+  "divisions": [
+    {
+      "id": 25667,
+      "name": "Barrancas del Lago",
+      "resource_uri": "/api/v1/location/25667/"
+    },
+    {
+      "id": 25668,
+      "name": "Cabos del Lago",
+      "resource_uri": "/api/v1/location/25668/"
+    },
+    {
+      "id": 25669,
+      "name": "El Golf",
+      "resource_uri": "/api/v1/location/25669/"
+    },
+    {
+      "id": 25670,
+      "name": "Los Castores",
+      "resource_uri": "/api/v1/location/25670/"
+    },
+    {
+      "id": 25671,
+      "name": "Las Glorietas",
+      "resource_uri": "/api/v1/location/25671/"
+    },
+    {
+      "id": 25672,
+      "name": "La Alameda",
+      "resource_uri": "/api/v1/location/25672/"
+    },
+    {
+      "id": 25673,
+      "name": "La Isla",
+      "resource_uri": "/api/v1/location/25673/"
+    },
+    {
+      "id": 25674,
+      "name": "Las Caletas",
+      "resource_uri": "/api/v1/location/25674/"
+    },
+    {
+      "id": 25675,
+      "name": "Los Alisos",
+      "resource_uri": "/api/v1/location/25675/"
+    },
+    {
+      "id": 25676,
+      "name": "Los Lagos",
+      "resource_uri": "/api/v1/location/25676/"
+    },
+    {
+      "id": 25677,
+      "name": "Los Sauces",
+      "resource_uri": "/api/v1/location/25677/"
+    },
+    {
+      "id": 25679,
+      "name": "Portezuelo",
+      "resource_uri": "/api/v1/location/25679/"
+    },
+    {
+      "id": 51252,
+      "name": "El Yacht",
+      "resource_uri": "/api/v1/location/51252/"
+    },
+    {
+      "id": 51253,
+      "name": "Lago Escondido",
+      "resource_uri": "/api/v1/location/51253/"
+    },
+    {
+      "id": 51254,
+      "name": "El Palmar",
+      "resource_uri": "/api/v1/location/51254/"
+    },
+    {
+      "id": 51255,
+      "name": "El Portal",
+      "resource_uri": "/api/v1/location/51255/"
+    },
+    {
+      "id": 51256,
+      "name": "Islas del Canal",
+      "resource_uri": "/api/v1/location/51256/"
+    },
+    {
+      "id": 51257,
+      "name": "Las Tipas",
+      "resource_uri": "/api/v1/location/51257/"
+    },
+    {
+      "id": 51276,
+      "name": "Quartier",
+      "resource_uri": "/api/v1/location/51276/"
+    },
+    {
+      "id": 51291,
+      "name": "Puerto Escondido",
+      "resource_uri": "/api/v1/location/51291/"
+    },
+    {
+      "id": 51296,
+      "name": "Sendero",
+      "resource_uri": "/api/v1/location/51296/"
+    },
+    {
+      "id": 51300,
+      "name": "Bahia Grande",
+      "resource_uri": "/api/v1/location/51300/"
+    },
+    {
+      "id": 51315,
+      "name": "Yoo Nordelta",
+      "resource_uri": "/api/v1/location/51315/"
+    },
+    {
+      "id": 51317,
+      "name": "Lagos del Golf",
+      "resource_uri": "/api/v1/location/51317/"
+    },
+    {
+      "id": 51851,
+      "name": "Los Castaños",
+      "resource_uri": "/api/v1/location/51851/"
+    },
+    {
+      "id": 52026,
+      "name": "Nordelta Paseo de la Bahia",
+      "resource_uri": "/api/v1/location/52026/"
+    },
+    {
+      "id": 52028,
+      "name": "Rivera",
+      "resource_uri": "/api/v1/location/52028/"
+    },
+    {
+      "id": 55960,
+      "name": "Portobello",
+      "resource_uri": "/api/v1/location/55960/"
+    },
+    {
+      "id": 55997,
+      "name": "Plaza del Sendero",
+      "resource_uri": "/api/v1/location/55997/"
+    },
+    {
+      "id": 56036,
+      "name": "Virazon",
+      "resource_uri": "/api/v1/location/56036/"
+    },
+    {
+      "id": 81403,
+      "name": "Islas del Golf",
+      "resource_uri": "/api/v1/location/81403/"
+    },
+    {
+      "id": 81416,
+      "name": "Flumine",
+      "resource_uri": "/api/v1/location/81416/"
+    },
+    {
+      "id": 81913,
+      "name": "Los Tilos",
+      "resource_uri": "/api/v1/location/81913/"
+    },
+    {
+      "id": 82107,
+      "name": "Centro Comercial",
+      "resource_uri": "/api/v1/location/82107/"
+    },
+    {
+      "id": 82378,
+      "name": "Solares del Portezuelo",
+      "resource_uri": "/api/v1/location/82378/"
+    },
+    {
+      "id": 82618,
+      "name": "Carpinchos",
+      "resource_uri": "/api/v1/location/82618/"
+    },
+    {
+      "id": 239360,
+      "name": "Quarzo",
+      "resource_uri": "/api/v1/location/239360/"
+    },
+    {
+      "id": 253993,
+      "name": "Qbay Yacht",
+      "resource_uri": "/api/v1/location/253993/"
+    },
+    {
+      "id": 254013,
+      "name": "Aqua Golf",
+      "resource_uri": "/api/v1/location/254013/"
+    },
+    {
+      "id": 254029,
+      "name": "Marinas del Este",
+      "resource_uri": "/api/v1/location/254029/"
+    },
+    {
+      "id": 254030,
+      "name": "Los Puentes",
+      "resource_uri": "/api/v1/location/254030/"
+    },
+    {
+      "id": 254031,
+      "name": "Loft del Sendero",
+      "resource_uri": "/api/v1/location/254031/"
+    },
+    {
+      "id": 254071,
+      "name": "Oceana Nordelta",
+      "resource_uri": "/api/v1/location/254071/"
+    },
+    {
+      "id": 256137,
+      "name": "Skyroof",
+      "resource_uri": "/api/v1/location/256137/"
+    },
+    {
+      "id": 505136,
+      "name": "Casuarinas",
+      "resource_uri": "/api/v1/location/505136/"
+    },
+    {
+      "id": 569450,
+      "name": "Silvestre",
+      "resource_uri": "/api/v1/location/569450/"
+    },
+    {
+      "id": 570480,
+      "name": "Gaviotas",
+      "resource_uri": "/api/v1/location/570480/"
+    },
+    {
+      "id": 570772,
+      "name": "Quara",
+      "resource_uri": "/api/v1/location/570772/"
+    },
+    {
+      "id": 570773,
+      "name": "Torres Zafiro",
+      "resource_uri": "/api/v1/location/570773/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta",
+  "id": 25666,
+  "name": "Nordelta",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Nordelta",
+  "state": null,
+  "weight": 20999,
+  "zip_code": ""
+}

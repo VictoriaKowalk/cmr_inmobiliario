@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Capitan Viejo",
+  "id": 82478,
+  "name": "Capitan Viejo",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Capitan Viejo",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

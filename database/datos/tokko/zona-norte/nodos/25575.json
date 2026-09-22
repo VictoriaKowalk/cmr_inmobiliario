@@ -1,0 +1,42 @@
+{
+    "divisions": [
+        {
+            "id": 25576,
+            "name": "Calabaza",
+            "resource_uri": "\/api\/v1\/location\/25576\/"
+        },
+        {
+            "id": 25577,
+            "name": "El Sol",
+            "resource_uri": "\/api\/v1\/location\/25577\/"
+        },
+        {
+            "id": 25578,
+            "name": "Lomas De Mirlo",
+            "resource_uri": "\/api\/v1\/location\/25578\/"
+        },
+        {
+            "id": 25579,
+            "name": "Los Berros",
+            "resource_uri": "\/api\/v1\/location\/25579\/"
+        },
+        {
+            "id": 255907,
+            "name": "Village Plaza",
+            "resource_uri": "\/api\/v1\/location\/255907\/"
+        },
+        {
+            "id": 571271,
+            "name": "Buenos Aires Golf Club",
+            "resource_uri": "\/api\/v1\/location\/571271\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Bella Vista",
+    "id": 25575,
+    "name": "Bella Vista",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | Bella Vista",
+    "state": null,
+    "weight": 2300,
+    "zip_code": ""
+}

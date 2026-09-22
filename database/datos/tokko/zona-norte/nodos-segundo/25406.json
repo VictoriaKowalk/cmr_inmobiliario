@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Rob.Del Monarca(Pil)",
+  "id": 25406,
+  "name": "Rob.Del Monarca(Pil)",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Rob.Del Monarca(Pil)",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

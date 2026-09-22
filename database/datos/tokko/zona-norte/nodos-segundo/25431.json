@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | La Cumbre De La Rosa",
+  "id": 25431,
+  "name": "La Cumbre De La Rosa",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | La Cumbre De La Rosa",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

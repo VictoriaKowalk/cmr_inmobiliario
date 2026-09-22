@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Jardines de Escobar",
+  "id": 24851,
+  "name": "Jardines de Escobar",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Jardines de Escobar",
+  "state": null,
+  "weight": 101,
+  "zip_code": null
+}

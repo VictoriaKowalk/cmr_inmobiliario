@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Canal del Este",
+    "id": 52012,
+    "name": "Canal del Este",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Canal del Este",
+    "state": null,
+    "weight": 11,
+    "zip_code": null
+}

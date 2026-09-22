@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Villa Olivos",
+  "id": 24887,
+  "name": "Villa Olivos",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Villa Olivos",
+  "state": null,
+  "weight": 351,
+  "zip_code": null
+}

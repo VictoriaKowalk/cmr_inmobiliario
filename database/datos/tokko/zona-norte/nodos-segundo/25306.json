@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Tortugas Chico",
+  "id": 25306,
+  "name": "Tortugas Chico",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Tortugas Chico",
+  "state": null,
+  "weight": 96,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | Vohe",
+  "id": 82158,
+  "name": "Vohe",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | Vohe",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

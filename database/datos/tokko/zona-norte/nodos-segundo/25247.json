@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Mirasoles",
+  "id": 25247,
+  "name": "Los Mirasoles",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Mirasoles",
+  "state": null,
+  "weight": 17,
+  "zip_code": null
+}

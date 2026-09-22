@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Rio Lujan",
+  "id": 25405,
+  "name": "Rio Lujan",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Rio Lujan",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

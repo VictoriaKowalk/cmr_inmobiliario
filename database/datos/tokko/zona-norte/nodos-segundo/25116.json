@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Pech",
+  "id": 25116,
+  "name": "Pech",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Pech",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

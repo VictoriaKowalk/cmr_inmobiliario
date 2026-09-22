@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | El Jaguel (L.Polv.)",
+  "id": 25091,
+  "name": "El Jaguel (L.Polv.)",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | El Jaguel (L.Polv.)",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

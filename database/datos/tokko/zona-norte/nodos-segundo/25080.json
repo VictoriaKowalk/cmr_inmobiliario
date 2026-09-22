@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | San Jorge Village",
+  "id": 25080,
+  "name": "San Jorge Village",
+  "parent_division": "/api/v1/location/25073/",
+  "short_location": "Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | San Jorge Village",
+  "state": null,
+  "weight": 554,
+  "zip_code": null
+}

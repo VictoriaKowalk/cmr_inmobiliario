@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Stone",
+  "id": 24925,
+  "name": "Stone",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Stone",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

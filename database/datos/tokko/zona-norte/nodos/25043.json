@@ -1,0 +1,152 @@
+{
+    "divisions": [
+        {
+            "id": 25044,
+            "name": "9 De Julio (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25044\/"
+        },
+        {
+            "id": 25045,
+            "name": "Alberdi",
+            "resource_uri": "\/api\/v1\/location\/25045\/"
+        },
+        {
+            "id": 25046,
+            "name": "Altos De J.C.Paz",
+            "resource_uri": "\/api\/v1\/location\/25046\/"
+        },
+        {
+            "id": 25047,
+            "name": "El Ombu (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25047\/"
+        },
+        {
+            "id": 25048,
+            "name": "Frino",
+            "resource_uri": "\/api\/v1\/location\/25048\/"
+        },
+        {
+            "id": 25049,
+            "name": "Infico (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25049\/"
+        },
+        {
+            "id": 25050,
+            "name": "Irusta",
+            "resource_uri": "\/api\/v1\/location\/25050\/"
+        },
+        {
+            "id": 25051,
+            "name": "La Base",
+            "resource_uri": "\/api\/v1\/location\/25051\/"
+        },
+        {
+            "id": 25052,
+            "name": "La Cautiva (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25052\/"
+        },
+        {
+            "id": 25053,
+            "name": "La Pilarica (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25053\/"
+        },
+        {
+            "id": 25054,
+            "name": "Las Heras",
+            "resource_uri": "\/api\/v1\/location\/25054\/"
+        },
+        {
+            "id": 25055,
+            "name": "Mirador De Altube",
+            "resource_uri": "\/api\/v1\/location\/25055\/"
+        },
+        {
+            "id": 25056,
+            "name": "Parque Abascal",
+            "resource_uri": "\/api\/v1\/location\/25056\/"
+        },
+        {
+            "id": 25057,
+            "name": "Parque Jardin (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25057\/"
+        },
+        {
+            "id": 25058,
+            "name": "Piñeiro",
+            "resource_uri": "\/api\/v1\/location\/25058\/"
+        },
+        {
+            "id": 25059,
+            "name": "Primavera",
+            "resource_uri": "\/api\/v1\/location\/25059\/"
+        },
+        {
+            "id": 25060,
+            "name": "Rinc. De Tortuguitas",
+            "resource_uri": "\/api\/v1\/location\/25060\/"
+        },
+        {
+            "id": 25061,
+            "name": "San Adolfo",
+            "resource_uri": "\/api\/v1\/location\/25061\/"
+        },
+        {
+            "id": 25062,
+            "name": "San Atilio (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25062\/"
+        },
+        {
+            "id": 25063,
+            "name": "San Gabriel",
+            "resource_uri": "\/api\/v1\/location\/25063\/"
+        },
+        {
+            "id": 25064,
+            "name": "Santa Paula (Jose C. Paz)",
+            "resource_uri": "\/api\/v1\/location\/25064\/"
+        },
+        {
+            "id": 25065,
+            "name": "Santa Rita (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25065\/"
+        },
+        {
+            "id": 25066,
+            "name": "Sarmiento (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25066\/"
+        },
+        {
+            "id": 25067,
+            "name": "Sol Y Verde (Jose C.Paz)",
+            "resource_uri": "\/api\/v1\/location\/25067\/"
+        },
+        {
+            "id": 25068,
+            "name": "V.Altube",
+            "resource_uri": "\/api\/v1\/location\/25068\/"
+        },
+        {
+            "id": 25069,
+            "name": "Villa Germano",
+            "resource_uri": "\/api\/v1\/location\/25069\/"
+        },
+        {
+            "id": 25070,
+            "name": "Villa Hermosa",
+            "resource_uri": "\/api\/v1\/location\/25070\/"
+        },
+        {
+            "id": 25071,
+            "name": "Villa Iglesias",
+            "resource_uri": "\/api\/v1\/location\/25071\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Jose Clemente Paz",
+    "id": 25043,
+    "name": "Jose Clemente Paz",
+    "parent_division": "\/api\/v1\/location\/25039\/",
+    "short_location": "G.B.A. Zona Norte | Jose Clemente Paz | Jose Clemente Paz",
+    "state": null,
+    "weight": 711,
+    "zip_code": null
+}

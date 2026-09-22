@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Barrio Parque El Rocío",
+  "id": 254702,
+  "name": "Barrio Parque El Rocío",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Barrio Parque El Rocío",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

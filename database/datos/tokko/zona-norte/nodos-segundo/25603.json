@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Los Nogales (S.Mig.)",
+  "id": 25603,
+  "name": "Los Nogales (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Los Nogales (S.Mig.)",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

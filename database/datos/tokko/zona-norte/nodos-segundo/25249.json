@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Potrillos",
+  "id": 25249,
+  "name": "Los Potrillos",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Potrillos",
+  "state": null,
+  "weight": 95,
+  "zip_code": null
+}

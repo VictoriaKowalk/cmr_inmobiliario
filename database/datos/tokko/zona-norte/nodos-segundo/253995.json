@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | La Fernanda",
+  "id": 253995,
+  "name": "La Fernanda",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | La Fernanda",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Barca Grande",
+  "id": 82551,
+  "name": "Barca Grande",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Barca Grande",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

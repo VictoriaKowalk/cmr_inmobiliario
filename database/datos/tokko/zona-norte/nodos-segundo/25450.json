@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Tres Horquetas",
+  "id": 25450,
+  "name": "Tres Horquetas",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Tres Horquetas",
+  "state": null,
+  "weight": 47,
+  "zip_code": null
+}

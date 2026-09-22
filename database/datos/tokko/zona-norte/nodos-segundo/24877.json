@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | River Oaks",
+  "id": 24877,
+  "name": "River Oaks",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | River Oaks",
+  "state": null,
+  "weight": 101,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | San Lucas",
+  "id": 24879,
+  "name": "San Lucas",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | San Lucas",
+  "state": null,
+  "weight": 110,
+  "zip_code": null
+}

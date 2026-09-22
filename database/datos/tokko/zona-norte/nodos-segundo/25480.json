@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | El Portal",
+  "id": 25480,
+  "name": "El Portal",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | El Portal",
+  "state": null,
+  "weight": 110,
+  "zip_code": null
+}

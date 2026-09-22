@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Village",
+  "id": 25124,
+  "name": "Village",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Village",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

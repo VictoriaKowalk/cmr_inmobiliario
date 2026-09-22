@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | La Candelaria (San Isidro)",
+  "id": 25485,
+  "name": "La Candelaria (San Isidro)",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | La Candelaria (San Isidro)",
+  "state": null,
+  "weight": 23,
+  "zip_code": null
+}

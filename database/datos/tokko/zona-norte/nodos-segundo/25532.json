@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Mart.-Libert./Rio",
+  "id": 25532,
+  "name": "Mart.-Libert./Rio",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Mart.-Libert./Rio",
+  "state": null,
+  "weight": 517,
+  "zip_code": null
+}

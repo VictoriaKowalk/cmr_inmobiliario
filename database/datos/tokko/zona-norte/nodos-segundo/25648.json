@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | La Colina",
+  "id": 25648,
+  "name": "La Colina",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | La Colina",
+  "state": null,
+  "weight": 187,
+  "zip_code": null
+}

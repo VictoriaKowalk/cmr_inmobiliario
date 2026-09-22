@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | L.Estrellas",
+  "id": 25108,
+  "name": "L.Estrellas",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | L.Estrellas",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

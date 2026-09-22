@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | Las Malvinas",
+  "id": 25725,
+  "name": "Las Malvinas",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | Las Malvinas",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

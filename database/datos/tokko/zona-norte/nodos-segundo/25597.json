@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | La Guarida",
+  "id": 25597,
+  "name": "La Guarida",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | La Guarida",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

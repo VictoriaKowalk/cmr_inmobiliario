@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Constantini",
+  "id": 25588,
+  "name": "Constantini",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Constantini",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

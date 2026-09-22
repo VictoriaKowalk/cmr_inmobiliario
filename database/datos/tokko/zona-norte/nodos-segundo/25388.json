@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Fara",
+  "id": 25388,
+  "name": "Fara",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Fara",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

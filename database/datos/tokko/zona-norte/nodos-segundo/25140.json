@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Barrio Parque Del Viso",
+  "id": 25140,
+  "name": "Barrio Parque Del Viso",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Barrio Parque Del Viso",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

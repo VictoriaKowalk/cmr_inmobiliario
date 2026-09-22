@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Casablanca",
+  "id": 25150,
+  "name": "Casablanca",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Casablanca",
+  "state": null,
+  "weight": 14,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | La Tregua",
+  "id": 25112,
+  "name": "La Tregua",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | La Tregua",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

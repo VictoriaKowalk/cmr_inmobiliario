@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | L.Cachorros",
+  "id": 25327,
+  "name": "L.Cachorros",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | L.Cachorros",
+  "state": null,
+  "weight": 35,
+  "zip_code": null
+}

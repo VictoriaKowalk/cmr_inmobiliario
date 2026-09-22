@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro Plaza",
+    "id": 52001,
+    "name": "San Isidro Plaza",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | San Isidro Plaza",
+    "state": null,
+    "weight": 5,
+    "zip_code": null
+}

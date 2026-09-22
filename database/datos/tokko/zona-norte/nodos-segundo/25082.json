@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Touring",
+  "id": 25082,
+  "name": "Touring",
+  "parent_division": "/api/v1/location/25073/",
+  "short_location": "Malvinas Argentinas | Countries/B.Cerrado (Malvinas) | Touring",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

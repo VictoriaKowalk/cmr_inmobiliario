@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | La Estrella",
+  "id": 25596,
+  "name": "La Estrella",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | La Estrella",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Nuevas Casuarinas",
+  "id": 25499,
+  "name": "Nuevas Casuarinas",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Nuevas Casuarinas",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Presidente Derqui | Km.50",
+  "id": 25422,
+  "name": "Km.50",
+  "parent_division": "/api/v1/location/25421/",
+  "short_location": "Pilar | Presidente Derqui | Km.50",
+  "state": null,
+  "weight": 39,
+  "zip_code": null
+}

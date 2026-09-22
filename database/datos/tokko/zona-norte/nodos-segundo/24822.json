@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Acacias Blancas",
+  "id": 24822,
+  "name": "Acacias Blancas",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Acacias Blancas",
+  "state": null,
+  "weight": 414,
+  "zip_code": null
+}

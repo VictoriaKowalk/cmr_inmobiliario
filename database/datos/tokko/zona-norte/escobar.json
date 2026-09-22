@@ -1,0 +1,182 @@
+{
+  "divisions": [
+    {
+      "id": 24821,
+      "name": "Countries/B.Cerrado (Escobar)",
+      "resource_uri": "/api/v1/location/24821/"
+    },
+    {
+      "id": 24842,
+      "name": "Barrio Privado El Ensueño",
+      "resource_uri": "/api/v1/location/24842/"
+    },
+    {
+      "id": 24889,
+      "name": "Arroyo Canelon",
+      "resource_uri": "/api/v1/location/24889/"
+    },
+    {
+      "id": 24890,
+      "name": "Arroyo Las Rosas",
+      "resource_uri": "/api/v1/location/24890/"
+    },
+    {
+      "id": 24891,
+      "name": "Barrio El Cazador",
+      "resource_uri": "/api/v1/location/24891/"
+    },
+    {
+      "id": 24892,
+      "name": "Barrio Garin Norte",
+      "resource_uri": "/api/v1/location/24892/"
+    },
+    {
+      "id": 24893,
+      "name": "Barrio Parque Lambare",
+      "resource_uri": "/api/v1/location/24893/"
+    },
+    {
+      "id": 24894,
+      "name": "Belen De Escobar",
+      "resource_uri": "/api/v1/location/24894/"
+    },
+    {
+      "id": 24927,
+      "name": "Campomar Viñedo",
+      "resource_uri": "/api/v1/location/24927/"
+    },
+    {
+      "id": 24928,
+      "name": "Garin",
+      "resource_uri": "/api/v1/location/24928/"
+    },
+    {
+      "id": 24932,
+      "name": "Ingeniero Maschwitz",
+      "resource_uri": "/api/v1/location/24932/"
+    },
+    {
+      "id": 24957,
+      "name": "La Gracielita",
+      "resource_uri": "/api/v1/location/24957/"
+    },
+    {
+      "id": 24958,
+      "name": "Loma Verde",
+      "resource_uri": "/api/v1/location/24958/"
+    },
+    {
+      "id": 24959,
+      "name": "Maquinista F Savio",
+      "resource_uri": "/api/v1/location/24959/"
+    },
+    {
+      "id": 24962,
+      "name": "Matheu",
+      "resource_uri": "/api/v1/location/24962/"
+    },
+    {
+      "id": 24963,
+      "name": "Puerto De Escobar",
+      "resource_uri": "/api/v1/location/24963/"
+    },
+    {
+      "id": 24964,
+      "name": "Punta De Canal",
+      "resource_uri": "/api/v1/location/24964/"
+    },
+    {
+      "id": 24965,
+      "name": "Villa La Chechela",
+      "resource_uri": "/api/v1/location/24965/"
+    },
+    {
+      "id": 24966,
+      "name": "Villa Vallier",
+      "resource_uri": "/api/v1/location/24966/"
+    },
+    {
+      "id": 51858,
+      "name": "Chacras del Cazador",
+      "resource_uri": "/api/v1/location/51858/"
+    },
+    {
+      "id": 51859,
+      "name": "Cube",
+      "resource_uri": "/api/v1/location/51859/"
+    },
+    {
+      "id": 51860,
+      "name": "El Pequeño Aromo",
+      "resource_uri": "/api/v1/location/51860/"
+    },
+    {
+      "id": 51861,
+      "name": "Marinas Maschwitz",
+      "resource_uri": "/api/v1/location/51861/"
+    },
+    {
+      "id": 51862,
+      "name": "Parque Alta Vista",
+      "resource_uri": "/api/v1/location/51862/"
+    },
+    {
+      "id": 51863,
+      "name": "Puerto Paraná",
+      "resource_uri": "/api/v1/location/51863/"
+    },
+    {
+      "id": 51866,
+      "name": "San Andres",
+      "resource_uri": "/api/v1/location/51866/"
+    },
+    {
+      "id": 51867,
+      "name": "San Matías Altos de  Maschwitz",
+      "resource_uri": "/api/v1/location/51867/"
+    },
+    {
+      "id": 51868,
+      "name": "Weekend",
+      "resource_uri": "/api/v1/location/51868/"
+    },
+    {
+      "id": 51869,
+      "name": "Ynca Huasi",
+      "resource_uri": "/api/v1/location/51869/"
+    },
+    {
+      "id": 80743,
+      "name": "Amarras de Escobar",
+      "resource_uri": "/api/v1/location/80743/"
+    },
+    {
+      "id": 82303,
+      "name": "Los Arenales ",
+      "resource_uri": "/api/v1/location/82303/"
+    },
+    {
+      "id": 82304,
+      "name": "Benavidez Greens ",
+      "resource_uri": "/api/v1/location/82304/"
+    },
+    {
+      "id": 82305,
+      "name": "Los Aromos ",
+      "resource_uri": "/api/v1/location/82305/"
+    },
+    {
+      "id": 82383,
+      "name": "Zona Delta Escobar",
+      "resource_uri": "/api/v1/location/82383/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar ",
+  "id": 24820,
+  "name": "Escobar",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Escobar ",
+  "state": "/api/v1/state/147/",
+  "weight": 3317,
+  "zip_code": null
+}

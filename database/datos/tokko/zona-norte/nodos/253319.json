@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | San Francisco",
+    "id": 253319,
+    "name": "San Francisco",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | San Francisco",
+    "state": null,
+    "weight": 80,
+    "zip_code": ""
+}

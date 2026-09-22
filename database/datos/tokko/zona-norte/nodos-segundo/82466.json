@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Las Casas",
+  "id": 82466,
+  "name": "Las Casas",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Las Casas",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

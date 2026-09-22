@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | La Querencia",
+  "id": 25111,
+  "name": "La Querencia",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | La Querencia",
+  "state": null,
+  "weight": 8,
+  "zip_code": null
+}

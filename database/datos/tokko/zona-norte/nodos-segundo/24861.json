@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Los Laureles",
+  "id": 24861,
+  "name": "Los Laureles",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Los Laureles",
+  "state": null,
+  "weight": 153,
+  "zip_code": null
+}

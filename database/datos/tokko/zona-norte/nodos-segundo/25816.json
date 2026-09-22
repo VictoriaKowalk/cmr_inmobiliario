@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Tres Sargentos",
+  "id": 25816,
+  "name": "Tres Sargentos",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Tres Sargentos",
+  "state": null,
+  "weight": 34,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Pasionaria Martínez",
+  "id": 81402,
+  "name": "Pasionaria Martínez",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Pasionaria Martínez",
+  "state": null,
+  "weight": 161,
+  "zip_code": null
+}

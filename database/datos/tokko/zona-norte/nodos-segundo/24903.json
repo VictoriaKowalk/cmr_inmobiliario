@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | El Candil",
+  "id": 24903,
+  "name": "El Candil",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | El Candil",
+  "state": null,
+  "weight": 9,
+  "zip_code": null
+}

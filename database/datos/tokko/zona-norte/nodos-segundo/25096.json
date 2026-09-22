@@ -1,0 +1,17 @@
+{
+  "divisions": [
+    {
+      "id": 102309,
+      "name": "Harmony",
+      "resource_uri": "/api/v1/location/102309/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | Las Amapolas",
+  "id": 25096,
+  "name": "Las Amapolas",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | Las Amapolas",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

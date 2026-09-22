@@ -1,0 +1,72 @@
+{
+    "divisions": [
+        {
+            "id": 25742,
+            "name": "B.El Zorzal",
+            "resource_uri": "\/api\/v1\/location\/25742\/"
+        },
+        {
+            "id": 25743,
+            "name": "B.Horizonte",
+            "resource_uri": "\/api\/v1\/location\/25743\/"
+        },
+        {
+            "id": 25744,
+            "name": "El Casco (Pacheco)",
+            "resource_uri": "\/api\/v1\/location\/25744\/"
+        },
+        {
+            "id": 25745,
+            "name": "El Ombu (Pacheco)",
+            "resource_uri": "\/api\/v1\/location\/25745\/"
+        },
+        {
+            "id": 25746,
+            "name": "El Talar",
+            "resource_uri": "\/api\/v1\/location\/25746\/"
+        },
+        {
+            "id": 25747,
+            "name": "Enrique Delfino",
+            "resource_uri": "\/api\/v1\/location\/25747\/"
+        },
+        {
+            "id": 25748,
+            "name": "Ferrini",
+            "resource_uri": "\/api\/v1\/location\/25748\/"
+        },
+        {
+            "id": 25749,
+            "name": "L.Camelo",
+            "resource_uri": "\/api\/v1\/location\/25749\/"
+        },
+        {
+            "id": 25750,
+            "name": "L.Tunas",
+            "resource_uri": "\/api\/v1\/location\/25750\/"
+        },
+        {
+            "id": 25751,
+            "name": "Pacheco Norte",
+            "resource_uri": "\/api\/v1\/location\/25751\/"
+        },
+        {
+            "id": 25752,
+            "name": "Pacheco Sur",
+            "resource_uri": "\/api\/v1\/location\/25752\/"
+        },
+        {
+            "id": 253343,
+            "name": "Countries\/B. Cerrado (General Pacheco)",
+            "resource_uri": "\/api\/v1\/location\/253343\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco",
+    "id": 25741,
+    "name": "General Pacheco",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | General Pacheco",
+    "state": null,
+    "weight": 3300,
+    "zip_code": null
+}

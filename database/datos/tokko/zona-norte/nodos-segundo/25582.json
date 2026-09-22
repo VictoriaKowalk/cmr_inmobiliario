@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Muñiz | Obligado",
+  "id": 25582,
+  "name": "Obligado",
+  "parent_division": "/api/v1/location/25581/",
+  "short_location": "San Miguel | Muñiz | Obligado",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

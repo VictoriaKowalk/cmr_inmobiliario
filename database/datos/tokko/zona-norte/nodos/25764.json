@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Villa La Ñata",
+    "id": 25764,
+    "name": "Villa La Ñata",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Villa La Ñata",
+    "state": null,
+    "weight": 155,
+    "zip_code": null
+}

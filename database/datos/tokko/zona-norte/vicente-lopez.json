@@ -1,0 +1,77 @@
+{
+  "divisions": [
+    {
+      "id": 25819,
+      "name": "Carapachay",
+      "resource_uri": "/api/v1/location/25819/"
+    },
+    {
+      "id": 25820,
+      "name": "Florida",
+      "resource_uri": "/api/v1/location/25820/"
+    },
+    {
+      "id": 25829,
+      "name": "La Lucila",
+      "resource_uri": "/api/v1/location/25829/"
+    },
+    {
+      "id": 25833,
+      "name": "Munro",
+      "resource_uri": "/api/v1/location/25833/"
+    },
+    {
+      "id": 25836,
+      "name": "Olivos",
+      "resource_uri": "/api/v1/location/25836/"
+    },
+    {
+      "id": 25846,
+      "name": "Barrio Vicente López",
+      "resource_uri": "/api/v1/location/25846/"
+    },
+    {
+      "id": 25850,
+      "name": "Villa Martelli",
+      "resource_uri": "/api/v1/location/25850/"
+    },
+    {
+      "id": 51429,
+      "name": "Countries/B.Cerrado (V. Lopez)",
+      "resource_uri": "/api/v1/location/51429/"
+    },
+    {
+      "id": 52044,
+      "name": "Lomas de Florida",
+      "resource_uri": "/api/v1/location/52044/"
+    },
+    {
+      "id": 52045,
+      "name": "Solares de Olivos",
+      "resource_uri": "/api/v1/location/52045/"
+    },
+    {
+      "id": 52046,
+      "name": "Talar de Florida",
+      "resource_uri": "/api/v1/location/52046/"
+    },
+    {
+      "id": 85604,
+      "name": "Villa Adelina",
+      "resource_uri": "/api/v1/location/85604/"
+    },
+    {
+      "id": 102458,
+      "name": "Libertador al Río",
+      "resource_uri": "/api/v1/location/102458/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López ",
+  "id": 25818,
+  "name": "Vicente López",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Vicente López ",
+  "state": "/api/v1/state/147/",
+  "weight": 4191,
+  "zip_code": null
+}

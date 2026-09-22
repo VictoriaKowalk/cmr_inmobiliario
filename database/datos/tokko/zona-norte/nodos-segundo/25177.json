@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | El Tejar",
+  "id": 25177,
+  "name": "El Tejar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | El Tejar",
+  "state": null,
+  "weight": 32,
+  "zip_code": null
+}

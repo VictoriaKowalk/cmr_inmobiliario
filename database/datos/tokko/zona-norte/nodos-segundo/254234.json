@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Benavidez | Santa Ana Joven",
+  "id": 254234,
+  "name": "Santa Ana Joven",
+  "parent_division": "/api/v1/location/25717/",
+  "short_location": "Tigre | Benavidez | Santa Ana Joven",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

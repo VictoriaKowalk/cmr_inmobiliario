@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Cuba (Fatima)",
+  "id": 25162,
+  "name": "Cuba (Fatima)",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Cuba (Fatima)",
+  "state": null,
+  "weight": 147,
+  "zip_code": null
+}

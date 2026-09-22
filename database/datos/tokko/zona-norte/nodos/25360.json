@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 102310,
+            "name": "Solar Azul",
+            "resource_uri": "\/api\/v1\/location\/102310\/"
+        },
+        {
+            "id": 254630,
+            "name": "Distrito Zug",
+            "resource_uri": "\/api\/v1\/location\/254630\/"
+        },
+        {
+            "id": 255665,
+            "name": "Kyomu Pilar",
+            "resource_uri": "\/api\/v1\/location\/255665\/"
+        },
+        {
+            "id": 256132,
+            "name": "Chic Village",
+            "resource_uri": "\/api\/v1\/location\/256132\/"
+        },
+        {
+            "id": 256140,
+            "name": "Villa Candelaria",
+            "resource_uri": "\/api\/v1\/location\/256140\/"
+        },
+        {
+            "id": 569444,
+            "name": "Luciérnagas Pilar",
+            "resource_uri": "\/api\/v1\/location\/569444\/"
+        },
+        {
+            "id": 569602,
+            "name": "Almahue",
+            "resource_uri": "\/api\/v1\/location\/569602\/"
+        },
+        {
+            "id": 570901,
+            "name": "Le Bois Lofts & Residences",
+            "resource_uri": "\/api\/v1\/location\/570901\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | La Lonja",
+    "id": 25360,
+    "name": "La Lonja",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | La Lonja",
+    "state": null,
+    "weight": 75,
+    "zip_code": ""
+}

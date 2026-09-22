@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Santa Marina",
+  "id": 25702,
+  "name": "Santa Marina",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Santa Marina",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

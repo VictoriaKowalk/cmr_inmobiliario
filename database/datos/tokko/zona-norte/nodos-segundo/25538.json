@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-Golf",
+  "id": 25538,
+  "name": "Las Lomas-Golf",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-Golf",
+  "state": null,
+  "weight": 290,
+  "zip_code": null
+}

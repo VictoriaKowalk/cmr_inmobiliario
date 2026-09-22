@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Victoria | Vict.-B.Centro",
+  "id": 25462,
+  "name": "Vict.-B.Centro",
+  "parent_division": "/api/v1/location/25461/",
+  "short_location": "San Fernando | Victoria | Vict.-B.Centro",
+  "state": null,
+  "weight": 359,
+  "zip_code": null
+}

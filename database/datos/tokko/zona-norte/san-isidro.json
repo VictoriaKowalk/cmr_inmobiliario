@@ -1,0 +1,222 @@
+{
+  "divisions": [
+    {
+      "id": 25470,
+      "name": "Countries/B.Cerrado (San Isidro)",
+      "resource_uri": "/api/v1/location/25470/"
+    },
+    {
+      "id": 25511,
+      "name": "Acassuso",
+      "resource_uri": "/api/v1/location/25511/"
+    },
+    {
+      "id": 25520,
+      "name": "Beccar",
+      "resource_uri": "/api/v1/location/25520/"
+    },
+    {
+      "id": 25526,
+      "name": "Boulogne Sur Mer",
+      "resource_uri": "/api/v1/location/25526/"
+    },
+    {
+      "id": 25529,
+      "name": "Martinez",
+      "resource_uri": "/api/v1/location/25529/"
+    },
+    {
+      "id": 25536,
+      "name": "San Isidro",
+      "resource_uri": "/api/v1/location/25536/"
+    },
+    {
+      "id": 25556,
+      "name": "Villa Adelina",
+      "resource_uri": "/api/v1/location/25556/"
+    },
+    {
+      "id": 51973,
+      "name": "Ayres de San Isidro",
+      "resource_uri": "/api/v1/location/51973/"
+    },
+    {
+      "id": 51974,
+      "name": "Barrancas al Río",
+      "resource_uri": "/api/v1/location/51974/"
+    },
+    {
+      "id": 51975,
+      "name": "Barrancas de San Isidro",
+      "resource_uri": "/api/v1/location/51975/"
+    },
+    {
+      "id": 51976,
+      "name": "Beccar Central",
+      "resource_uri": "/api/v1/location/51976/"
+    },
+    {
+      "id": 51977,
+      "name": "Beccar Plaza",
+      "resource_uri": "/api/v1/location/51977/"
+    },
+    {
+      "id": 51979,
+      "name": "Carlos Tejedor",
+      "resource_uri": "/api/v1/location/51979/"
+    },
+    {
+      "id": 51980,
+      "name": "Espacio Lomas",
+      "resource_uri": "/api/v1/location/51980/"
+    },
+    {
+      "id": 51981,
+      "name": "Gascón y Beiró",
+      "resource_uri": "/api/v1/location/51981/"
+    },
+    {
+      "id": 51982,
+      "name": "Greenlands",
+      "resource_uri": "/api/v1/location/51982/"
+    },
+    {
+      "id": 51983,
+      "name": "Haras de Alvear",
+      "resource_uri": "/api/v1/location/51983/"
+    },
+    {
+      "id": 51984,
+      "name": "Horqueta Chica",
+      "resource_uri": "/api/v1/location/51984/"
+    },
+    {
+      "id": 51985,
+      "name": "Jardines Beccar",
+      "resource_uri": "/api/v1/location/51985/"
+    },
+    {
+      "id": 51986,
+      "name": "Jockey Chico",
+      "resource_uri": "/api/v1/location/51986/"
+    },
+    {
+      "id": 51987,
+      "name": "La Alameda 2",
+      "resource_uri": "/api/v1/location/51987/"
+    },
+    {
+      "id": 51988,
+      "name": "La Arboleda",
+      "resource_uri": "/api/v1/location/51988/"
+    },
+    {
+      "id": 51989,
+      "name": "La Claridad",
+      "resource_uri": "/api/v1/location/51989/"
+    },
+    {
+      "id": 51990,
+      "name": "La Esquina",
+      "resource_uri": "/api/v1/location/51990/"
+    },
+    {
+      "id": 51991,
+      "name": "La Loma",
+      "resource_uri": "/api/v1/location/51991/"
+    },
+    {
+      "id": 51992,
+      "name": "Las Casas Village",
+      "resource_uri": "/api/v1/location/51992/"
+    },
+    {
+      "id": 51993,
+      "name": "Las Terrazas",
+      "resource_uri": "/api/v1/location/51993/"
+    },
+    {
+      "id": 51994,
+      "name": "Los Cipreses",
+      "resource_uri": "/api/v1/location/51994/"
+    },
+    {
+      "id": 51995,
+      "name": "Los Eucaliptus",
+      "resource_uri": "/api/v1/location/51995/"
+    },
+    {
+      "id": 51996,
+      "name": "Los Tilos",
+      "resource_uri": "/api/v1/location/51996/"
+    },
+    {
+      "id": 51998,
+      "name": "San Benito (La Horqueta)",
+      "resource_uri": "/api/v1/location/51998/"
+    },
+    {
+      "id": 51999,
+      "name": "San Isidro Central",
+      "resource_uri": "/api/v1/location/51999/"
+    },
+    {
+      "id": 52000,
+      "name": "San Isidro Loft",
+      "resource_uri": "/api/v1/location/52000/"
+    },
+    {
+      "id": 52001,
+      "name": "San Isidro Plaza",
+      "resource_uri": "/api/v1/location/52001/"
+    },
+    {
+      "id": 52002,
+      "name": "Solares de San Isidro",
+      "resource_uri": "/api/v1/location/52002/"
+    },
+    {
+      "id": 52003,
+      "name": "Terrazas del Sol",
+      "resource_uri": "/api/v1/location/52003/"
+    },
+    {
+      "id": 52004,
+      "name": "Washington",
+      "resource_uri": "/api/v1/location/52004/"
+    },
+    {
+      "id": 80472,
+      "name": "Las Lomas de San Isidro",
+      "resource_uri": "/api/v1/location/80472/"
+    },
+    {
+      "id": 80745,
+      "name": "Santa Clara",
+      "resource_uri": "/api/v1/location/80745/"
+    },
+    {
+      "id": 84718,
+      "name": "Quartier Lomas de la Horqueta",
+      "resource_uri": "/api/v1/location/84718/"
+    },
+    {
+      "id": 210561,
+      "name": "La Horqueta",
+      "resource_uri": "/api/v1/location/210561/"
+    },
+    {
+      "id": 210571,
+      "name": "Arboris Las Lomas",
+      "resource_uri": "/api/v1/location/210571/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro ",
+  "id": 25469,
+  "name": "San Isidro",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | San Isidro ",
+  "state": "/api/v1/state/147/",
+  "weight": 7140,
+  "zip_code": null
+}

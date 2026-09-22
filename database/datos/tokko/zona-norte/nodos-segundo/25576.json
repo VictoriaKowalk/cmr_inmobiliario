@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Bella Vista | Calabaza",
+  "id": 25576,
+  "name": "Calabaza",
+  "parent_division": "/api/v1/location/25575/",
+  "short_location": "San Miguel | Bella Vista | Calabaza",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Los Abedules",
+  "id": 25113,
+  "name": "Los Abedules",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Los Abedules",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

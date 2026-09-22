@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-Hipod./Panam.",
+  "id": 25539,
+  "name": "Las Lomas-Hipod./Panam.",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-Hipod./Panam.",
+  "state": null,
+  "weight": 64,
+  "zip_code": null
+}

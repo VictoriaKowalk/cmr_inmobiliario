@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Fátima Estacion Empalme | La Montonera",
+  "id": 25354,
+  "name": "La Montonera",
+  "parent_division": "/api/v1/location/25350/",
+  "short_location": "Pilar | Fátima Estacion Empalme | La Montonera",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

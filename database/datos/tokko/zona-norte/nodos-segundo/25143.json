@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Boca Raton",
+  "id": 25143,
+  "name": "Boca Raton",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Boca Raton",
+  "state": null,
+  "weight": 225,
+  "zip_code": null
+}

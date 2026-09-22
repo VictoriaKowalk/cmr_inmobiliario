@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Ferrini",
+  "id": 25748,
+  "name": "Ferrini",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | Ferrini",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

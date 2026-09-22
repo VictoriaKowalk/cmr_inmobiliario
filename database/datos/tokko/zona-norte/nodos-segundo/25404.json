@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Pilarica",
+  "id": 25404,
+  "name": "Pilarica",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Pilarica",
+  "state": null,
+  "weight": 111,
+  "zip_code": null
+}

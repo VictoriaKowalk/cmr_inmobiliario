@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Acas.-Vias/Libert.",
+  "id": 25517,
+  "name": "Acas.-Vias/Libert.",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Acas.-Vias/Libert.",
+  "state": null,
+  "weight": 234,
+  "zip_code": null
+}

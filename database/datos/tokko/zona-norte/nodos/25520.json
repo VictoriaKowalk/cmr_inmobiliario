@@ -1,0 +1,67 @@
+{
+    "divisions": [
+        {
+            "id": 25521,
+            "name": "Beccar Alto",
+            "resource_uri": "\/api\/v1\/location\/25521\/"
+        },
+        {
+            "id": 25522,
+            "name": "Beccar Boating",
+            "resource_uri": "\/api\/v1\/location\/25522\/"
+        },
+        {
+            "id": 25523,
+            "name": "Beccar-Libert.\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25523\/"
+        },
+        {
+            "id": 25524,
+            "name": "Beccar-Vias\/Libert.",
+            "resource_uri": "\/api\/v1\/location\/25524\/"
+        },
+        {
+            "id": 25525,
+            "name": "Beccar-Vias\/Rolon",
+            "resource_uri": "\/api\/v1\/location\/25525\/"
+        },
+        {
+            "id": 102528,
+            "name": "Los Miradores 1",
+            "resource_uri": "\/api\/v1\/location\/102528\/"
+        },
+        {
+            "id": 102529,
+            "name": "Los Miradores 2",
+            "resource_uri": "\/api\/v1\/location\/102529\/"
+        },
+        {
+            "id": 102530,
+            "name": "Los Cardos",
+            "resource_uri": "\/api\/v1\/location\/102530\/"
+        },
+        {
+            "id": 255472,
+            "name": "Complejo Sucre San Isidro",
+            "resource_uri": "\/api\/v1\/location\/255472\/"
+        },
+        {
+            "id": 255477,
+            "name": "Ovejitas",
+            "resource_uri": "\/api\/v1\/location\/255477\/"
+        },
+        {
+            "id": 570958,
+            "name": "Barrio Parque Náutico Boating Club",
+            "resource_uri": "\/api\/v1\/location\/570958\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar",
+    "id": 25520,
+    "name": "Beccar",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Beccar",
+    "state": null,
+    "weight": 4245,
+    "zip_code": ""
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | San Alfonso",
+  "id": 25613,
+  "name": "San Alfonso",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | San Alfonso",
+  "state": null,
+  "weight": 45,
+  "zip_code": null
+}

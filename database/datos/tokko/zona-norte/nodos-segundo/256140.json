@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | La Lonja | Villa Candelaria",
+  "id": 256140,
+  "name": "Villa Candelaria",
+  "parent_division": "/api/v1/location/25360/",
+  "short_location": "Pilar | La Lonja | Villa Candelaria",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

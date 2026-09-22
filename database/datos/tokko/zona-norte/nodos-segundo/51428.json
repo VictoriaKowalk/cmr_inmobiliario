@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Vila Marina II",
+  "id": 51428,
+  "name": "Vila Marina II",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Vila Marina II",
+  "state": null,
+  "weight": 126,
+  "zip_code": null
+}

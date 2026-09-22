@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | San Carlos",
+  "id": 82479,
+  "name": "San Carlos",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | San Carlos",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

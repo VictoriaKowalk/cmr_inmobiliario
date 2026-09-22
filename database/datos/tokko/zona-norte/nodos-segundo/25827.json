@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida | Florida-Padilla",
+  "id": 25827,
+  "name": "Florida-Padilla",
+  "parent_division": "/api/v1/location/25820/",
+  "short_location": "Vicente López | Florida | Florida-Padilla",
+  "state": null,
+  "weight": 53,
+  "zip_code": null
+}

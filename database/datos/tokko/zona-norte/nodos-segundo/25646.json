@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Isla Santa Monica",
+  "id": 25646,
+  "name": "Isla Santa Monica",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Isla Santa Monica",
+  "state": null,
+  "weight": 105,
+  "zip_code": null
+}

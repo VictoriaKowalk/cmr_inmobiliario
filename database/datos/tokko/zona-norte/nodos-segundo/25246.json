@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Los Lagartos",
+  "id": 25246,
+  "name": "Los Lagartos",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Los Lagartos",
+  "state": null,
+  "weight": 856,
+  "zip_code": null
+}

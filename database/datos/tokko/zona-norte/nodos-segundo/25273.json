@@ -1,0 +1,77 @@
+{
+  "divisions": [
+    {
+      "id": 81251,
+      "name": "Santa Guadalupe",
+      "resource_uri": "/api/v1/location/81251/"
+    },
+    {
+      "id": 81252,
+      "name": "San Eduardo",
+      "resource_uri": "/api/v1/location/81252/"
+    },
+    {
+      "id": 82101,
+      "name": "Santa Emilia",
+      "resource_uri": "/api/v1/location/82101/"
+    },
+    {
+      "id": 82262,
+      "name": "Santa Lucia",
+      "resource_uri": "/api/v1/location/82262/"
+    },
+    {
+      "id": 82263,
+      "name": "Santa Elena ",
+      "resource_uri": "/api/v1/location/82263/"
+    },
+    {
+      "id": 82264,
+      "name": "San Ramon",
+      "resource_uri": "/api/v1/location/82264/"
+    },
+    {
+      "id": 82265,
+      "name": "San Ramiro ",
+      "resource_uri": "/api/v1/location/82265/"
+    },
+    {
+      "id": 82266,
+      "name": "San Alfonso ",
+      "resource_uri": "/api/v1/location/82266/"
+    },
+    {
+      "id": 82267,
+      "name": "Los Jazmines",
+      "resource_uri": "/api/v1/location/82267/"
+    },
+    {
+      "id": 82268,
+      "name": "Casas del Este",
+      "resource_uri": "/api/v1/location/82268/"
+    },
+    {
+      "id": 239435,
+      "name": "Santa Elisa",
+      "resource_uri": "/api/v1/location/239435/"
+    },
+    {
+      "id": 239436,
+      "name": "Eidico Casas",
+      "resource_uri": "/api/v1/location/239436/"
+    },
+    {
+      "id": 254170,
+      "name": "Santa Sofía",
+      "resource_uri": "/api/v1/location/254170/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este",
+  "id": 25273,
+  "name": "Pilar Del Este",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este",
+  "state": null,
+  "weight": 2391,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Acas.-Fleming/Panam.",
+  "id": 25514,
+  "name": "Acas.-Fleming/Panam.",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Acas.-Fleming/Panam.",
+  "state": null,
+  "weight": 25,
+  "zip_code": null
+}

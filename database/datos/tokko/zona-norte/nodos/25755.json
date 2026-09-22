@@ -1,0 +1,17 @@
+{
+    "divisions": [
+        {
+            "id": 253328,
+            "name": "López Camelo ",
+            "resource_uri": "\/api\/v1\/location\/253328\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Ricardo Rojas",
+    "id": 25755,
+    "name": "Ricardo Rojas",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Ricardo Rojas",
+    "state": null,
+    "weight": 465,
+    "zip_code": null
+}

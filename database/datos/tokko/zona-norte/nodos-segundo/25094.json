@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | L.Nogales",
+  "id": 25094,
+  "name": "L.Nogales",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | L.Nogales",
+  "state": null,
+  "weight": 7,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Tigre Joven",
+  "id": 25710,
+  "name": "Tigre Joven",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Tigre Joven",
+  "state": null,
+  "weight": 31,
+  "zip_code": null
+}

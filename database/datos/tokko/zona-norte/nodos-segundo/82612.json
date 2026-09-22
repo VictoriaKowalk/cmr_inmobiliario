@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Alvear de Benavidez",
+  "id": 82612,
+  "name": "Alvear de Benavidez",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Alvear de Benavidez",
+  "state": null,
+  "weight": 116,
+  "zip_code": null
+}

@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25453,
+            "name": "S.Fer.-Carupa",
+            "resource_uri": "\/api\/v1\/location\/25453\/"
+        },
+        {
+            "id": 25454,
+            "name": "S.Fer.-Libert.\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25454\/"
+        },
+        {
+            "id": 25455,
+            "name": "S.Fer.-Oeste",
+            "resource_uri": "\/api\/v1\/location\/25455\/"
+        },
+        {
+            "id": 25456,
+            "name": "S.Fer.-Sta.Clara",
+            "resource_uri": "\/api\/v1\/location\/25456\/"
+        },
+        {
+            "id": 25457,
+            "name": "S.Fer.-V.Federal",
+            "resource_uri": "\/api\/v1\/location\/25457\/"
+        },
+        {
+            "id": 25458,
+            "name": "S.Fer.-Vias\/Centro",
+            "resource_uri": "\/api\/v1\/location\/25458\/"
+        },
+        {
+            "id": 25459,
+            "name": "S.Fer.-Vias\/Libert.",
+            "resource_uri": "\/api\/v1\/location\/25459\/"
+        },
+        {
+            "id": 25460,
+            "name": "S.Fer.-Vias\/Panam",
+            "resource_uri": "\/api\/v1\/location\/25460\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando",
+    "id": 25451,
+    "name": "San Fernando",
+    "parent_division": "\/api\/v1\/location\/25436\/",
+    "short_location": "G.B.A. Zona Norte | San Fernando | San Fernando",
+    "state": null,
+    "weight": 2820,
+    "zip_code": null
+}

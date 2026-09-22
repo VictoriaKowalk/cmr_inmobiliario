@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Pablo Nogues",
+    "id": 25101,
+    "name": "Pablo Nogues",
+    "parent_division": "\/api\/v1\/location\/25072\/",
+    "short_location": "G.B.A. Zona Norte | Malvinas Argentinas | Pablo Nogues",
+    "state": null,
+    "weight": 344,
+    "zip_code": null
+}

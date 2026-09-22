@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Countries/B.Cerrado (San Miguel) | El Lago",
+  "id": 25564,
+  "name": "El Lago",
+  "parent_division": "/api/v1/location/25561/",
+  "short_location": "San Miguel | Countries/B.Cerrado (San Miguel) | El Lago",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

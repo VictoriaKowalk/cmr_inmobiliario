@@ -1,0 +1,122 @@
+{
+    "divisions": [
+        {
+            "id": 25103,
+            "name": "Carumbe",
+            "resource_uri": "\/api\/v1\/location\/25103\/"
+        },
+        {
+            "id": 25104,
+            "name": "De Vicenso",
+            "resource_uri": "\/api\/v1\/location\/25104\/"
+        },
+        {
+            "id": 25105,
+            "name": "El Chelito",
+            "resource_uri": "\/api\/v1\/location\/25105\/"
+        },
+        {
+            "id": 25106,
+            "name": "El Palenque",
+            "resource_uri": "\/api\/v1\/location\/25106\/"
+        },
+        {
+            "id": 25107,
+            "name": "F.O.N.A.V.I",
+            "resource_uri": "\/api\/v1\/location\/25107\/"
+        },
+        {
+            "id": 25108,
+            "name": "L.Estrellas",
+            "resource_uri": "\/api\/v1\/location\/25108\/"
+        },
+        {
+            "id": 25109,
+            "name": "La Gloria",
+            "resource_uri": "\/api\/v1\/location\/25109\/"
+        },
+        {
+            "id": 25110,
+            "name": "La Morenita",
+            "resource_uri": "\/api\/v1\/location\/25110\/"
+        },
+        {
+            "id": 25111,
+            "name": "La Querencia",
+            "resource_uri": "\/api\/v1\/location\/25111\/"
+        },
+        {
+            "id": 25112,
+            "name": "La Tregua",
+            "resource_uri": "\/api\/v1\/location\/25112\/"
+        },
+        {
+            "id": 25113,
+            "name": "Los Abedules",
+            "resource_uri": "\/api\/v1\/location\/25113\/"
+        },
+        {
+            "id": 25114,
+            "name": "Mirasoles",
+            "resource_uri": "\/api\/v1\/location\/25114\/"
+        },
+        {
+            "id": 25115,
+            "name": "P.Alvear",
+            "resource_uri": "\/api\/v1\/location\/25115\/"
+        },
+        {
+            "id": 25116,
+            "name": "Pech",
+            "resource_uri": "\/api\/v1\/location\/25116\/"
+        },
+        {
+            "id": 25117,
+            "name": "Pque Alvear Iii",
+            "resource_uri": "\/api\/v1\/location\/25117\/"
+        },
+        {
+            "id": 25118,
+            "name": "Pque.Alvear Ii",
+            "resource_uri": "\/api\/v1\/location\/25118\/"
+        },
+        {
+            "id": 25119,
+            "name": "Pque.San Luis",
+            "resource_uri": "\/api\/v1\/location\/25119\/"
+        },
+        {
+            "id": 25120,
+            "name": "Res.Del Norte",
+            "resource_uri": "\/api\/v1\/location\/25120\/"
+        },
+        {
+            "id": 25121,
+            "name": "Rincon De Tort.",
+            "resource_uri": "\/api\/v1\/location\/25121\/"
+        },
+        {
+            "id": 25122,
+            "name": "Santa Monica",
+            "resource_uri": "\/api\/v1\/location\/25122\/"
+        },
+        {
+            "id": 25123,
+            "name": "Sol Y Verde",
+            "resource_uri": "\/api\/v1\/location\/25123\/"
+        },
+        {
+            "id": 25124,
+            "name": "Village",
+            "resource_uri": "\/api\/v1\/location\/25124\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas",
+    "id": 25102,
+    "name": "Tortuguitas",
+    "parent_division": "\/api\/v1\/location\/25072\/",
+    "short_location": "G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas",
+    "state": null,
+    "weight": 1305,
+    "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Infico (S.Mig.)",
+  "id": 25595,
+  "name": "Infico (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Infico (S.Mig.)",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

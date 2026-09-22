@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Canal B1 ",
+  "id": 82453,
+  "name": "Canal B1 ",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Canal B1 ",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

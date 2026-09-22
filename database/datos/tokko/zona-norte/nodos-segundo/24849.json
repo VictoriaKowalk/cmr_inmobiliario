@@ -1,0 +1,72 @@
+{
+  "divisions": [
+    {
+      "id": 82137,
+      "name": "Los Robles",
+      "resource_uri": "/api/v1/location/82137/"
+    },
+    {
+      "id": 82138,
+      "name": "Los Eucaliptus",
+      "resource_uri": "/api/v1/location/82138/"
+    },
+    {
+      "id": 82139,
+      "name": "Los Alamos",
+      "resource_uri": "/api/v1/location/82139/"
+    },
+    {
+      "id": 82140,
+      "name": "Las Lomas",
+      "resource_uri": "/api/v1/location/82140/"
+    },
+    {
+      "id": 82141,
+      "name": "Las Caballerizas",
+      "resource_uri": "/api/v1/location/82141/"
+    },
+    {
+      "id": 82142,
+      "name": "El Trebol",
+      "resource_uri": "/api/v1/location/82142/"
+    },
+    {
+      "id": 82143,
+      "name": "El Remanso",
+      "resource_uri": "/api/v1/location/82143/"
+    },
+    {
+      "id": 82144,
+      "name": "El Refugio",
+      "resource_uri": "/api/v1/location/82144/"
+    },
+    {
+      "id": 82145,
+      "name": "El Molino Sur",
+      "resource_uri": "/api/v1/location/82145/"
+    },
+    {
+      "id": 82146,
+      "name": "El Molino Norte ",
+      "resource_uri": "/api/v1/location/82146/"
+    },
+    {
+      "id": 82147,
+      "name": "El Molino Central",
+      "resource_uri": "/api/v1/location/82147/"
+    },
+    {
+      "id": 82148,
+      "name": "El Atardecer",
+      "resource_uri": "/api/v1/location/82148/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria",
+  "id": 24849,
+  "name": "Haras Santa Maria",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria",
+  "state": null,
+  "weight": 2049,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | El Manantial",
+  "id": 25387,
+  "name": "El Manantial",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | El Manantial",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

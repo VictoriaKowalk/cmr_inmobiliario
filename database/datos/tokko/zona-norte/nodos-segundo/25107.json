@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | F.O.N.A.V.I",
+  "id": 25107,
+  "name": "F.O.N.A.V.I",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | F.O.N.A.V.I",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

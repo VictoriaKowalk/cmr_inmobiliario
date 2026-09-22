@@ -1,0 +1,357 @@
+{
+    "divisions": [
+        {
+            "id": 24809,
+            "name": "Villanueva",
+            "resource_uri": "\/api\/v1\/location\/24809\/"
+        },
+        {
+            "id": 25622,
+            "name": "Albanueva",
+            "resource_uri": "\/api\/v1\/location\/25622\/"
+        },
+        {
+            "id": 25623,
+            "name": "Altamira",
+            "resource_uri": "\/api\/v1\/location\/25623\/"
+        },
+        {
+            "id": 25624,
+            "name": "Altos de Pacheco",
+            "resource_uri": "\/api\/v1\/location\/25624\/"
+        },
+        {
+            "id": 25625,
+            "name": "Ayres De Benavidez",
+            "resource_uri": "\/api\/v1\/location\/25625\/"
+        },
+        {
+            "id": 25626,
+            "name": "Barbarita",
+            "resource_uri": "\/api\/v1\/location\/25626\/"
+        },
+        {
+            "id": 25628,
+            "name": "Barrancas De San Jose",
+            "resource_uri": "\/api\/v1\/location\/25628\/"
+        },
+        {
+            "id": 25629,
+            "name": "Barrio Chico",
+            "resource_uri": "\/api\/v1\/location\/25629\/"
+        },
+        {
+            "id": 25630,
+            "name": "Barrio Parque Talar",
+            "resource_uri": "\/api\/v1\/location\/25630\/"
+        },
+        {
+            "id": 25631,
+            "name": "Benavidez Greens",
+            "resource_uri": "\/api\/v1\/location\/25631\/"
+        },
+        {
+            "id": 25632,
+            "name": "Boat Center",
+            "resource_uri": "\/api\/v1\/location\/25632\/"
+        },
+        {
+            "id": 25633,
+            "name": "Chingolo 102",
+            "resource_uri": "\/api\/v1\/location\/25633\/"
+        },
+        {
+            "id": 25634,
+            "name": "El Abra",
+            "resource_uri": "\/api\/v1\/location\/25634\/"
+        },
+        {
+            "id": 25636,
+            "name": "El Encuentro",
+            "resource_uri": "\/api\/v1\/location\/25636\/"
+        },
+        {
+            "id": 25638,
+            "name": "El Talar De Pacheco",
+            "resource_uri": "\/api\/v1\/location\/25638\/"
+        },
+        {
+            "id": 25639,
+            "name": "El Viejo Vivero",
+            "resource_uri": "\/api\/v1\/location\/25639\/"
+        },
+        {
+            "id": 25640,
+            "name": "Estancia Alvear",
+            "resource_uri": "\/api\/v1\/location\/25640\/"
+        },
+        {
+            "id": 25641,
+            "name": "Green Point",
+            "resource_uri": "\/api\/v1\/location\/25641\/"
+        },
+        {
+            "id": 25642,
+            "name": "Hacoaj",
+            "resource_uri": "\/api\/v1\/location\/25642\/"
+        },
+        {
+            "id": 25643,
+            "name": "Hindu Club",
+            "resource_uri": "\/api\/v1\/location\/25643\/"
+        },
+        {
+            "id": 25644,
+            "name": "Isla Del Este",
+            "resource_uri": "\/api\/v1\/location\/25644\/"
+        },
+        {
+            "id": 25645,
+            "name": "Isla Del Sol",
+            "resource_uri": "\/api\/v1\/location\/25645\/"
+        },
+        {
+            "id": 25646,
+            "name": "Isla Santa Monica",
+            "resource_uri": "\/api\/v1\/location\/25646\/"
+        },
+        {
+            "id": 25647,
+            "name": "La Arbolada",
+            "resource_uri": "\/api\/v1\/location\/25647\/"
+        },
+        {
+            "id": 25650,
+            "name": "La Escondida",
+            "resource_uri": "\/api\/v1\/location\/25650\/"
+        },
+        {
+            "id": 25653,
+            "name": "Laguna Del Sol",
+            "resource_uri": "\/api\/v1\/location\/25653\/"
+        },
+        {
+            "id": 25654,
+            "name": "Las Glorias",
+            "resource_uri": "\/api\/v1\/location\/25654\/"
+        },
+        {
+            "id": 25656,
+            "name": "Las Violetas",
+            "resource_uri": "\/api\/v1\/location\/25656\/"
+        },
+        {
+            "id": 25657,
+            "name": "Lomas Benavidez",
+            "resource_uri": "\/api\/v1\/location\/25657\/"
+        },
+        {
+            "id": 25660,
+            "name": "Los Olmos",
+            "resource_uri": "\/api\/v1\/location\/25660\/"
+        },
+        {
+            "id": 25663,
+            "name": "Milberg Central",
+            "resource_uri": "\/api\/v1\/location\/25663\/"
+        },
+        {
+            "id": 25665,
+            "name": "Newman Club",
+            "resource_uri": "\/api\/v1\/location\/25665\/"
+        },
+        {
+            "id": 25666,
+            "name": "Nordelta",
+            "resource_uri": "\/api\/v1\/location\/25666\/"
+        },
+        {
+            "id": 25682,
+            "name": "Pacheco Golf Club",
+            "resource_uri": "\/api\/v1\/location\/25682\/"
+        },
+        {
+            "id": 25683,
+            "name": "Pinar Del Tigre",
+            "resource_uri": "\/api\/v1\/location\/25683\/"
+        },
+        {
+            "id": 25684,
+            "name": "Rincon De La Costa",
+            "resource_uri": "\/api\/v1\/location\/25684\/"
+        },
+        {
+            "id": 25685,
+            "name": "Rocio Del Talar",
+            "resource_uri": "\/api\/v1\/location\/25685\/"
+        },
+        {
+            "id": 25692,
+            "name": "San Jacinto",
+            "resource_uri": "\/api\/v1\/location\/25692\/"
+        },
+        {
+            "id": 25693,
+            "name": "San Jorge",
+            "resource_uri": "\/api\/v1\/location\/25693\/"
+        },
+        {
+            "id": 25697,
+            "name": "Santa Barbara",
+            "resource_uri": "\/api\/v1\/location\/25697\/"
+        },
+        {
+            "id": 25700,
+            "name": "Santa Maria",
+            "resource_uri": "\/api\/v1\/location\/25700\/"
+        },
+        {
+            "id": 25701,
+            "name": "Santa Maria De Tigre",
+            "resource_uri": "\/api\/v1\/location\/25701\/"
+        },
+        {
+            "id": 25702,
+            "name": "Santa Marina",
+            "resource_uri": "\/api\/v1\/location\/25702\/"
+        },
+        {
+            "id": 25704,
+            "name": "Sol del Este",
+            "resource_uri": "\/api\/v1\/location\/25704\/"
+        },
+        {
+            "id": 25705,
+            "name": "Solares Del Talar",
+            "resource_uri": "\/api\/v1\/location\/25705\/"
+        },
+        {
+            "id": 25706,
+            "name": "Talar Chico",
+            "resource_uri": "\/api\/v1\/location\/25706\/"
+        },
+        {
+            "id": 25709,
+            "name": "Tigre Chico",
+            "resource_uri": "\/api\/v1\/location\/25709\/"
+        },
+        {
+            "id": 25710,
+            "name": "Tigre Joven",
+            "resource_uri": "\/api\/v1\/location\/25710\/"
+        },
+        {
+            "id": 25711,
+            "name": "Tres Horquetas",
+            "resource_uri": "\/api\/v1\/location\/25711\/"
+        },
+        {
+            "id": 25712,
+            "name": "Valle Claro",
+            "resource_uri": "\/api\/v1\/location\/25712\/"
+        },
+        {
+            "id": 25713,
+            "name": "Villa Bertha",
+            "resource_uri": "\/api\/v1\/location\/25713\/"
+        },
+        {
+            "id": 25714,
+            "name": "Villa Pacheco",
+            "resource_uri": "\/api\/v1\/location\/25714\/"
+        },
+        {
+            "id": 25716,
+            "name": "Vistas Del Golf",
+            "resource_uri": "\/api\/v1\/location\/25716\/"
+        },
+        {
+            "id": 51277,
+            "name": "Riviera Park",
+            "resource_uri": "\/api\/v1\/location\/51277\/"
+        },
+        {
+            "id": 51327,
+            "name": "Barrancas de Santa Maria",
+            "resource_uri": "\/api\/v1\/location\/51327\/"
+        },
+        {
+            "id": 51331,
+            "name": "Central Nuevo Tigre",
+            "resource_uri": "\/api\/v1\/location\/51331\/"
+        },
+        {
+            "id": 51427,
+            "name": "Vila Marina",
+            "resource_uri": "\/api\/v1\/location\/51427\/"
+        },
+        {
+            "id": 51428,
+            "name": "Vila Marina II",
+            "resource_uri": "\/api\/v1\/location\/51428\/"
+        },
+        {
+            "id": 51441,
+            "name": "Nordelta-Gc.Nordelta",
+            "resource_uri": "\/api\/v1\/location\/51441\/"
+        },
+        {
+            "id": 51824,
+            "name": "La Mora",
+            "resource_uri": "\/api\/v1\/location\/51824\/"
+        },
+        {
+            "id": 51837,
+            "name": "Villa Margarita",
+            "resource_uri": "\/api\/v1\/location\/51837\/"
+        },
+        {
+            "id": 52056,
+            "name": "El Canal ubicacion incorrecta",
+            "resource_uri": "\/api\/v1\/location\/52056\/"
+        },
+        {
+            "id": 80397,
+            "name": "Los Robles Village",
+            "resource_uri": "\/api\/v1\/location\/80397\/"
+        },
+        {
+            "id": 80461,
+            "name": "Los Naranjos",
+            "resource_uri": "\/api\/v1\/location\/80461\/"
+        },
+        {
+            "id": 82377,
+            "name": "Marinas H",
+            "resource_uri": "\/api\/v1\/location\/82377\/"
+        },
+        {
+            "id": 82612,
+            "name": "Alvear de Benavidez",
+            "resource_uri": "\/api\/v1\/location\/82612\/"
+        },
+        {
+            "id": 102487,
+            "name": "Altos del Encuentro",
+            "resource_uri": "\/api\/v1\/location\/102487\/"
+        },
+        {
+            "id": 240205,
+            "name": "El Palmar",
+            "resource_uri": "\/api\/v1\/location\/240205\/"
+        },
+        {
+            "id": 240206,
+            "name": "Home IV",
+            "resource_uri": "\/api\/v1\/location\/240206\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries\/B.Cerrado (Tigre)",
+    "id": 25621,
+    "name": "Countries\/B.Cerrado (Tigre)",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Countries\/B.Cerrado (Tigre)",
+    "state": null,
+    "weight": 585,
+    "zip_code": null
+}

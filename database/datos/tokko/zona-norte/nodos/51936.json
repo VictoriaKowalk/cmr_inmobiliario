@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Maquinista F. Savio Oeste",
+    "id": 51936,
+    "name": "Maquinista F. Savio Oeste",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Maquinista F. Savio Oeste",
+    "state": null,
+    "weight": 3,
+    "zip_code": null
+}

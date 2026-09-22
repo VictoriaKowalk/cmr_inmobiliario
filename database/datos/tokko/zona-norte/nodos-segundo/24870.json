@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Palmer's Cottage",
+  "id": 24870,
+  "name": "Palmer's Cottage",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Palmer's Cottage",
+  "state": null,
+  "weight": 144,
+  "zip_code": null
+}

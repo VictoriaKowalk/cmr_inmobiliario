@@ -1,0 +1,27 @@
+{
+  "divisions": [
+    {
+      "id": 80453,
+      "name": "Condominio Tortugas I",
+      "resource_uri": "/api/v1/location/80453/"
+    },
+    {
+      "id": 80454,
+      "name": "Condominio Tortugas II",
+      "resource_uri": "/api/v1/location/80454/"
+    },
+    {
+      "id": 80455,
+      "name": "Condominio Tortugas III",
+      "resource_uri": "/api/v1/location/80455/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Condominio Tortugas",
+  "id": 24833,
+  "name": "Condominio Tortugas",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Condominio Tortugas",
+  "state": null,
+  "weight": 20,
+  "zip_code": null
+}

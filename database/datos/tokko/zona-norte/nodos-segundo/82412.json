@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Zona Delta Escobar | Correntino",
+  "id": 82412,
+  "name": "Correntino",
+  "parent_division": "/api/v1/location/82383/",
+  "short_location": "Escobar | Zona Delta Escobar | Correntino",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

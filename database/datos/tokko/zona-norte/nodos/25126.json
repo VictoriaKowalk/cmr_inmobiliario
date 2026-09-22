@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Villa De Mayo",
+    "id": 25126,
+    "name": "Villa De Mayo",
+    "parent_division": "\/api\/v1\/location\/25072\/",
+    "short_location": "G.B.A. Zona Norte | Malvinas Argentinas | Villa De Mayo",
+    "state": null,
+    "weight": 347,
+    "zip_code": null
+}

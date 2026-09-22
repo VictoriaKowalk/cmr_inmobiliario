@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Las Cañas",
+  "id": 82448,
+  "name": "Las Cañas",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Las Cañas",
+  "state": null,
+  "weight": 7,
+  "zip_code": null
+}

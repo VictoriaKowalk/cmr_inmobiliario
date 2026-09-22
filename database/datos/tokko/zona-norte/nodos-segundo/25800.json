@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Parana De Las Palmas Tigre",
+  "id": 25800,
+  "name": "Parana De Las Palmas Tigre",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Parana De Las Palmas Tigre",
+  "state": null,
+  "weight": 44,
+  "zip_code": null
+}

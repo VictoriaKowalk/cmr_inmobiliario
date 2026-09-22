@@ -1,0 +1,177 @@
+{
+    "divisions": [
+        {
+            "id": 25358,
+            "name": "El Descanso I",
+            "resource_uri": "\/api\/v1\/location\/25358\/"
+        },
+        {
+            "id": 25359,
+            "name": "El Descanso Ii",
+            "resource_uri": "\/api\/v1\/location\/25359\/"
+        },
+        {
+            "id": 25361,
+            "name": "Los Palitos",
+            "resource_uri": "\/api\/v1\/location\/25361\/"
+        },
+        {
+            "id": 25362,
+            "name": "Los Ranchos",
+            "resource_uri": "\/api\/v1\/location\/25362\/"
+        },
+        {
+            "id": 25363,
+            "name": "Los Tilos",
+            "resource_uri": "\/api\/v1\/location\/25363\/"
+        },
+        {
+            "id": 25364,
+            "name": "Memorial",
+            "resource_uri": "\/api\/v1\/location\/25364\/"
+        },
+        {
+            "id": 25365,
+            "name": "Robles Del Monarca",
+            "resource_uri": "\/api\/v1\/location\/25365\/"
+        },
+        {
+            "id": 25366,
+            "name": "Santa Paula",
+            "resource_uri": "\/api\/v1\/location\/25366\/"
+        },
+        {
+            "id": 25367,
+            "name": "Sarmiento",
+            "resource_uri": "\/api\/v1\/location\/25367\/"
+        },
+        {
+            "id": 25368,
+            "name": "La Magdalena",
+            "resource_uri": "\/api\/v1\/location\/25368\/"
+        },
+        {
+            "id": 239353,
+            "name": "Azzurra Tortugas",
+            "resource_uri": "\/api\/v1\/location\/239353\/"
+        },
+        {
+            "id": 239357,
+            "name": "vilahaus",
+            "resource_uri": "\/api\/v1\/location\/239357\/"
+        },
+        {
+            "id": 240217,
+            "name": "Ayres Vila",
+            "resource_uri": "\/api\/v1\/location\/240217\/"
+        },
+        {
+            "id": 240218,
+            "name": "Terrazas de Ayres",
+            "resource_uri": "\/api\/v1\/location\/240218\/"
+        },
+        {
+            "id": 240219,
+            "name": "Skyglass 3",
+            "resource_uri": "\/api\/v1\/location\/240219\/"
+        },
+        {
+            "id": 240220,
+            "name": "Skyglass 2",
+            "resource_uri": "\/api\/v1\/location\/240220\/"
+        },
+        {
+            "id": 240221,
+            "name": "Bouquet",
+            "resource_uri": "\/api\/v1\/location\/240221\/"
+        },
+        {
+            "id": 240817,
+            "name": "Harmony Pilar",
+            "resource_uri": "\/api\/v1\/location\/240817\/"
+        },
+        {
+            "id": 240854,
+            "name": "Condominio La Esquina",
+            "resource_uri": "\/api\/v1\/location\/240854\/"
+        },
+        {
+            "id": 254228,
+            "name": "Office Park Quatro",
+            "resource_uri": "\/api\/v1\/location\/254228\/"
+        },
+        {
+            "id": 254475,
+            "name": "STUDIOS Work & Live",
+            "resource_uri": "\/api\/v1\/location\/254475\/"
+        },
+        {
+            "id": 254476,
+            "name": "Loft en Ayres Vila",
+            "resource_uri": "\/api\/v1\/location\/254476\/"
+        },
+        {
+            "id": 254533,
+            "name": "Cristaline",
+            "resource_uri": "\/api\/v1\/location\/254533\/"
+        },
+        {
+            "id": 254588,
+            "name": "Icon Arcos del Pilar",
+            "resource_uri": "\/api\/v1\/location\/254588\/"
+        },
+        {
+            "id": 254702,
+            "name": "Barrio Parque El Rocío",
+            "resource_uri": "\/api\/v1\/location\/254702\/"
+        },
+        {
+            "id": 255732,
+            "name": "Skyglass 1",
+            "resource_uri": "\/api\/v1\/location\/255732\/"
+        },
+        {
+            "id": 255734,
+            "name": "El Olivar",
+            "resource_uri": "\/api\/v1\/location\/255734\/"
+        },
+        {
+            "id": 255896,
+            "name": "La Herradura",
+            "resource_uri": "\/api\/v1\/location\/255896\/"
+        },
+        {
+            "id": 256023,
+            "name": "Office Park Plaza",
+            "resource_uri": "\/api\/v1\/location\/256023\/"
+        },
+        {
+            "id": 256438,
+            "name": "Nativo",
+            "resource_uri": "\/api\/v1\/location\/256438\/"
+        },
+        {
+            "id": 256443,
+            "name": "One Pilar",
+            "resource_uri": "\/api\/v1\/location\/256443\/"
+        },
+        {
+            "id": 256478,
+            "name": "Bosque Tortugas",
+            "resource_uri": "\/api\/v1\/location\/256478\/"
+        },
+        {
+            "id": 505134,
+            "name": "La Enramada",
+            "resource_uri": "\/api\/v1\/location\/505134\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti",
+    "id": 25357,
+    "name": "Manuel Alberti",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Manuel Alberti",
+    "state": null,
+    "weight": 402,
+    "zip_code": ""
+}

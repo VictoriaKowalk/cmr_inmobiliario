@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Coprovi",
+  "id": 24901,
+  "name": "Coprovi",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Coprovi",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

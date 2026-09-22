@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Santa Rosa",
+  "id": 25810,
+  "name": "Santa Rosa",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Santa Rosa",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

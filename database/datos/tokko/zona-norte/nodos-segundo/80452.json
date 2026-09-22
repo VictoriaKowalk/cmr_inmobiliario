@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Bosque Chico",
+  "id": 80452,
+  "name": "Bosque Chico",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Bosque Chico",
+  "state": null,
+  "weight": 76,
+  "zip_code": null
+}

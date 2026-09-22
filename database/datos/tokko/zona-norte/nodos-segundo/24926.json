@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Tabares",
+  "id": 24926,
+  "name": "Tabares",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Tabares",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

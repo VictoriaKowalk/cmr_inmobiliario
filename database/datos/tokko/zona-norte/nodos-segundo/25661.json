@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | Los Ombues",
+  "id": 25661,
+  "name": "Los Ombues",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | Los Ombues",
+  "state": null,
+  "weight": 149,
+  "zip_code": null
+}

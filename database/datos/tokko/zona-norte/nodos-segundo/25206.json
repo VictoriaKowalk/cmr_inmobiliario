@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | La Escondida",
+  "id": 25206,
+  "name": "La Escondida",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | La Escondida",
+  "state": null,
+  "weight": 138,
+  "zip_code": null
+}

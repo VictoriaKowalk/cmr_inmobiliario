@@ -1,0 +1,47 @@
+{
+    "divisions": [
+        {
+            "id": 25758,
+            "name": "B.Carupa",
+            "resource_uri": "\/api\/v1\/location\/25758\/"
+        },
+        {
+            "id": 25759,
+            "name": "Ciudad De Tigre",
+            "resource_uri": "\/api\/v1\/location\/25759\/"
+        },
+        {
+            "id": 25760,
+            "name": "Dique Lujan",
+            "resource_uri": "\/api\/v1\/location\/25760\/"
+        },
+        {
+            "id": 25762,
+            "name": "Tigre Residencial",
+            "resource_uri": "\/api\/v1\/location\/25762\/"
+        },
+        {
+            "id": 25763,
+            "name": "Troncos Del Talar",
+            "resource_uri": "\/api\/v1\/location\/25763\/"
+        },
+        {
+            "id": 51274,
+            "name": "Los Robles",
+            "resource_uri": "\/api\/v1\/location\/51274\/"
+        },
+        {
+            "id": 570293,
+            "name": "La Colina (Tigre)",
+            "resource_uri": "\/api\/v1\/location\/570293\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre",
+    "id": 25757,
+    "name": "Tigre",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Tigre",
+    "state": null,
+    "weight": 10566,
+    "zip_code": ""
+}

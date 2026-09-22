@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Oeste",
+  "id": 25455,
+  "name": "S.Fer.-Oeste",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Oeste",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

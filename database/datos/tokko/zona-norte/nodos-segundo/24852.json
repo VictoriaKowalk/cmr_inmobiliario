@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | La Aldea",
+  "id": 24852,
+  "name": "La Aldea",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | La Aldea",
+  "state": null,
+  "weight": 6,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Tortugas Garden",
+  "id": 25307,
+  "name": "Tortugas Garden",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Tortugas Garden",
+  "state": null,
+  "weight": 92,
+  "zip_code": null
+}

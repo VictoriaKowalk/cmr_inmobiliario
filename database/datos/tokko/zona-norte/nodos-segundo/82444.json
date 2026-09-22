@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Naranjo",
+  "id": 82444,
+  "name": "Naranjo",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Naranjo",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

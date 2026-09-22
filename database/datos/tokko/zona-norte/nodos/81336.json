@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Quartier",
+    "id": 81336,
+    "name": "Quartier",
+    "parent_division": "\/api\/v1\/location\/25436\/",
+    "short_location": "G.B.A. Zona Norte | San Fernando | Quartier",
+    "state": null,
+    "weight": 42,
+    "zip_code": ""
+}

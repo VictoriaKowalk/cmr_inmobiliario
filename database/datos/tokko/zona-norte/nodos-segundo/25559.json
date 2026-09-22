@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Villa Adelina | V.Ade.-P.Cisneros",
+  "id": 25559,
+  "name": "V.Ade.-P.Cisneros",
+  "parent_division": "/api/v1/location/25556/",
+  "short_location": "San Isidro | Villa Adelina | V.Ade.-P.Cisneros",
+  "state": null,
+  "weight": 56,
+  "zip_code": null
+}

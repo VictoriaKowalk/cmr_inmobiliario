@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Los Robles De Maschwitz",
+  "id": 24863,
+  "name": "Los Robles De Maschwitz",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Los Robles De Maschwitz",
+  "state": null,
+  "weight": 32,
+  "zip_code": null
+}

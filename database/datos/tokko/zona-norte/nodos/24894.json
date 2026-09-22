@@ -1,0 +1,177 @@
+{
+    "divisions": [
+        {
+            "id": 24895,
+            "name": "Atalaya",
+            "resource_uri": "\/api\/v1\/location\/24895\/"
+        },
+        {
+            "id": 24896,
+            "name": "Bardessono",
+            "resource_uri": "\/api\/v1\/location\/24896\/"
+        },
+        {
+            "id": 24897,
+            "name": "Beliera",
+            "resource_uri": "\/api\/v1\/location\/24897\/"
+        },
+        {
+            "id": 24898,
+            "name": "Bourdet",
+            "resource_uri": "\/api\/v1\/location\/24898\/"
+        },
+        {
+            "id": 24899,
+            "name": "Brazovora",
+            "resource_uri": "\/api\/v1\/location\/24899\/"
+        },
+        {
+            "id": 24900,
+            "name": "Cementerio (Escobar)",
+            "resource_uri": "\/api\/v1\/location\/24900\/"
+        },
+        {
+            "id": 24901,
+            "name": "Coprovi",
+            "resource_uri": "\/api\/v1\/location\/24901\/"
+        },
+        {
+            "id": 24902,
+            "name": "Donatelli",
+            "resource_uri": "\/api\/v1\/location\/24902\/"
+        },
+        {
+            "id": 24903,
+            "name": "El Candil",
+            "resource_uri": "\/api\/v1\/location\/24903\/"
+        },
+        {
+            "id": 24904,
+            "name": "Esc.-B.Belen",
+            "resource_uri": "\/api\/v1\/location\/24904\/"
+        },
+        {
+            "id": 24905,
+            "name": "Esc.-Centro",
+            "resource_uri": "\/api\/v1\/location\/24905\/"
+        },
+        {
+            "id": 24906,
+            "name": "Esc.-La Chechela",
+            "resource_uri": "\/api\/v1\/location\/24906\/"
+        },
+        {
+            "id": 24907,
+            "name": "Esc.-V.Alegre",
+            "resource_uri": "\/api\/v1\/location\/24907\/"
+        },
+        {
+            "id": 24908,
+            "name": "Esc.-V.Marconi",
+            "resource_uri": "\/api\/v1\/location\/24908\/"
+        },
+        {
+            "id": 24909,
+            "name": "Esc.-V.Saboya",
+            "resource_uri": "\/api\/v1\/location\/24909\/"
+        },
+        {
+            "id": 24910,
+            "name": "Esc.-V.Valier",
+            "resource_uri": "\/api\/v1\/location\/24910\/"
+        },
+        {
+            "id": 24911,
+            "name": "Fiesta De La Flor",
+            "resource_uri": "\/api\/v1\/location\/24911\/"
+        },
+        {
+            "id": 24913,
+            "name": "La Loma (Escobar)",
+            "resource_uri": "\/api\/v1\/location\/24913\/"
+        },
+        {
+            "id": 24914,
+            "name": "La Victoria (Escobar)",
+            "resource_uri": "\/api\/v1\/location\/24914\/"
+        },
+        {
+            "id": 24915,
+            "name": "Lambertucci",
+            "resource_uri": "\/api\/v1\/location\/24915\/"
+        },
+        {
+            "id": 24916,
+            "name": "Las Lomas",
+            "resource_uri": "\/api\/v1\/location\/24916\/"
+        },
+        {
+            "id": 24917,
+            "name": "Los Cerros",
+            "resource_uri": "\/api\/v1\/location\/24917\/"
+        },
+        {
+            "id": 24918,
+            "name": "Parana Las Palmas",
+            "resource_uri": "\/api\/v1\/location\/24918\/"
+        },
+        {
+            "id": 24919,
+            "name": "Paravi",
+            "resource_uri": "\/api\/v1\/location\/24919\/"
+        },
+        {
+            "id": 24920,
+            "name": "Parque Florida",
+            "resource_uri": "\/api\/v1\/location\/24920\/"
+        },
+        {
+            "id": 24921,
+            "name": "Prado Verde",
+            "resource_uri": "\/api\/v1\/location\/24921\/"
+        },
+        {
+            "id": 24922,
+            "name": "Provincias Unidas",
+            "resource_uri": "\/api\/v1\/location\/24922\/"
+        },
+        {
+            "id": 24923,
+            "name": "Rio Lujan",
+            "resource_uri": "\/api\/v1\/location\/24923\/"
+        },
+        {
+            "id": 24924,
+            "name": "San Luis",
+            "resource_uri": "\/api\/v1\/location\/24924\/"
+        },
+        {
+            "id": 24925,
+            "name": "Stone",
+            "resource_uri": "\/api\/v1\/location\/24925\/"
+        },
+        {
+            "id": 24926,
+            "name": "Tabares",
+            "resource_uri": "\/api\/v1\/location\/24926\/"
+        },
+        {
+            "id": 254713,
+            "name": "Naudir Delta",
+            "resource_uri": "\/api\/v1\/location\/254713\/"
+        },
+        {
+            "id": 571610,
+            "name": "El Portal de Belén",
+            "resource_uri": "\/api\/v1\/location\/571610\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar",
+    "id": 24894,
+    "name": "Belen De Escobar",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Belen De Escobar",
+    "state": null,
+    "weight": 2788,
+    "zip_code": null
+}

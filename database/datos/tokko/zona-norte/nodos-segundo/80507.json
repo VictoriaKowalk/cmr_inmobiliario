@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Virasoro Village",
+  "id": 80507,
+  "name": "Virasoro Village",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Virasoro Village",
+  "state": null,
+  "weight": 25,
+  "zip_code": null
+}

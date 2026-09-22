@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Farm Club",
+  "id": 25182,
+  "name": "Farm Club",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Farm Club",
+  "state": null,
+  "weight": 292,
+  "zip_code": null
+}

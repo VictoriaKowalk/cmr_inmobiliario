@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Loma Verde | Country Club Privado Loma Verde",
+  "id": 256038,
+  "name": "Country Club Privado Loma Verde",
+  "parent_division": "/api/v1/location/24958/",
+  "short_location": "Escobar | Loma Verde | Country Club Privado Loma Verde",
+  "state": "/api/v1/state/147/",
+  "weight": 0,
+  "zip_code": null
+}

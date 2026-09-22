@@ -1,0 +1,77 @@
+{
+    "divisions": [
+        {
+            "id": 25562,
+            "name": "Buenos Aires Golf",
+            "resource_uri": "\/api\/v1\/location\/25562\/"
+        },
+        {
+            "id": 25563,
+            "name": "Country Ranch",
+            "resource_uri": "\/api\/v1\/location\/25563\/"
+        },
+        {
+            "id": 25564,
+            "name": "El Lago",
+            "resource_uri": "\/api\/v1\/location\/25564\/"
+        },
+        {
+            "id": 25565,
+            "name": "El Pato Verde",
+            "resource_uri": "\/api\/v1\/location\/25565\/"
+        },
+        {
+            "id": 25566,
+            "name": "Estancia Benquerencia FC",
+            "resource_uri": "\/api\/v1\/location\/25566\/"
+        },
+        {
+            "id": 25567,
+            "name": "La Pradera De San Ignacio",
+            "resource_uri": "\/api\/v1\/location\/25567\/"
+        },
+        {
+            "id": 25568,
+            "name": "Las Acacias",
+            "resource_uri": "\/api\/v1\/location\/25568\/"
+        },
+        {
+            "id": 25569,
+            "name": "Los Fresnos (San Miguel)",
+            "resource_uri": "\/api\/v1\/location\/25569\/"
+        },
+        {
+            "id": 25570,
+            "name": "Los Platanos",
+            "resource_uri": "\/api\/v1\/location\/25570\/"
+        },
+        {
+            "id": 25571,
+            "name": "Macabi",
+            "resource_uri": "\/api\/v1\/location\/25571\/"
+        },
+        {
+            "id": 25572,
+            "name": "Portal Del Sol",
+            "resource_uri": "\/api\/v1\/location\/25572\/"
+        },
+        {
+            "id": 25573,
+            "name": "San Miguel De Ghiso",
+            "resource_uri": "\/api\/v1\/location\/25573\/"
+        },
+        {
+            "id": 25574,
+            "name": "Villa Victoria",
+            "resource_uri": "\/api\/v1\/location\/25574\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | Countries\/B.Cerrado (San Miguel)",
+    "id": 25561,
+    "name": "Countries\/B.Cerrado (San Miguel)",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | Countries\/B.Cerrado (San Miguel)",
+    "state": null,
+    "weight": 14,
+    "zip_code": null
+}

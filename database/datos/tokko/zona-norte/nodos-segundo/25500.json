@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Quince Robles",
+  "id": 25500,
+  "name": "Quince Robles",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Quince Robles",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

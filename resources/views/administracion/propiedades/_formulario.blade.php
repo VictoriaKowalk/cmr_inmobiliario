@@ -7,6 +7,7 @@
         'ubicacion_texto',
         $propiedad?->ubicacion?->nombre_completo ?? ''
     );
+    $ubicacionSeleccionada = old('ubicacion_id', $propiedad?->ubicacion_id);
     $caracteristicasSeleccionadas = collect(old(
         'caracteristicas',
         $propiedad?->caracteristicas
@@ -65,20 +66,47 @@
                    maxlength="180" required
                    class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
         </div>
-        <div class="relative sm:col-span-2"
+        <div class="relative z-[1000] sm:col-span-2"
              data-autocomplete-ubicacion
-             data-url="{{ route('administracion.ubicaciones.buscar') }}">
-            <label for="ubicacion_texto" class="mb-2 block text-sm font-medium">Ubicación</label>
+             data-url="{{ route('administracion.ubicaciones.buscar') }}"
+             data-url-crear="{{ route('administracion.ubicaciones.crear') }}">
+            <div class="mb-3 flex flex-wrap items-end justify-between gap-3 border-b border-neutral-200 pb-3">
+                <div>
+                    <h3 class="font-semibold">Ubicación comercial</h3>
+                    <p class="mt-1 text-sm text-neutral-600">Es la zona con la que se buscará y publicará la propiedad.</p>
+                </div>
+                <div class="text-right text-sm">
+                    <span class="block text-neutral-500">País</span>
+                    <span class="font-medium">Argentina</span>
+                </div>
+            </div>
+            <label for="ubicacion_texto" class="mb-2 block text-sm font-medium">Búsqueda rápida de barrio o ubicación</label>
             <input id="ubicacion_texto" name="ubicacion_texto"
                    value="{{ $ubicacionTexto }}"
                    autocomplete="off" required data-autocomplete-entrada
-                   placeholder="Escribí al menos dos caracteres y elegí una opción"
+                   placeholder="Ej.: Nordelta, Belgrano, Benavídez o Zona Norte"
                    class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
             <input type="hidden" name="ubicacion_id"
-                   value="{{ old('ubicacion_id', $propiedad?->ubicacion_id) }}"
+                   value="{{ $ubicacionSeleccionada }}"
                    data-autocomplete-id>
             <div data-autocomplete-resultados
                  class="absolute z-20 mt-1 hidden max-h-64 w-full overflow-y-auto border border-neutral-200 bg-white shadow-lg">
+            </div>
+            <div data-autocomplete-seleccion
+                 @class([
+                    'mt-3 border-l-4 border-emerald-600 bg-emerald-50 px-3 py-2 text-sm',
+                    'hidden' => ! $ubicacionSeleccionada,
+                 ])>
+                <p class="font-medium text-emerald-900">Ubicación elegida</p>
+                <p class="mt-1 text-emerald-800" data-autocomplete-ruta>{{ $ubicacionTexto }}</p>
+            </div>
+            <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+                <p class="text-neutral-600" data-autocomplete-ayuda>
+                    Buscá por barrio, subbarrio, localidad o zona y elegí la coincidencia correcta.
+                </p>
+                <a data-autocomplete-nueva-ubicacion
+                   class="hidden font-medium text-emerald-700 hover:text-emerald-900 hover:underline">
+                </a>
             </div>
         </div>
         <div class="sm:col-span-2"
@@ -87,14 +115,18 @@
              data-google-maps-key="{{ config('services.google_maps.key') }}"
              data-latitud-inicial="{{ old('latitud', $propiedad?->latitud) }}"
              data-longitud-inicial="{{ old('longitud', $propiedad?->longitud) }}">
-            <label for="direccion" class="mb-2 block text-sm font-medium">Dirección</label>
+            <div class="mb-3 border-b border-neutral-200 pb-3">
+                <h3 class="font-semibold">Dirección y mapa</h3>
+                <p class="mt-1 text-sm text-neutral-600">La dirección real y el pin son independientes de la ubicación comercial.</p>
+            </div>
+            <label for="direccion" class="mb-2 block text-sm font-medium">Dirección real</label>
             <div class="flex flex-col gap-3 lg:flex-row">
                 <input id="direccion" name="direccion"
                        value="{{ old('direccion', $propiedad?->direccion) }}"
                        maxlength="255"
                        autocomplete="off"
                        data-direccion-geocodificacion
-                       placeholder="Escribí la dirección, barrio o referencia"
+                       placeholder="Ej.: Avenida de los Lagos 120"
                        class="h-11 min-w-0 flex-1 border border-neutral-300 px-3">
                 <button type="button"
                         data-confirmar-geocodificacion
@@ -146,7 +178,7 @@
             <label class="mt-3 flex items-center gap-2 text-sm">
                 <input type="checkbox" name="mostrar_direccion" value="1"
                        @checked(old('mostrar_direccion', $propiedad?->mostrar_direccion))>
-                Mostrar dirección en la web pública
+                Mostrar esta dirección en la web pública
             </label>
         </div>
     </div>

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Parque Florida",
+  "id": 24920,
+  "name": "Parque Florida",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Parque Florida",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

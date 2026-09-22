@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Mart.-Vias/Santa Fe",
+  "id": 25535,
+  "name": "Mart.-Vias/Santa Fe",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Mart.-Vias/Santa Fe",
+  "state": null,
+  "weight": 919,
+  "zip_code": null
+}

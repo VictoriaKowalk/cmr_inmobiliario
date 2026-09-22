@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | El Jacaranda",
+  "id": 25637,
+  "name": "El Jacaranda",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | El Jacaranda",
+  "state": null,
+  "weight": 192,
+  "zip_code": null
+}

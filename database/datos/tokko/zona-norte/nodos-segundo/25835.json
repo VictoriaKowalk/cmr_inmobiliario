@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Munro | Munro-Oeste",
+  "id": 25835,
+  "name": "Munro-Oeste",
+  "parent_division": "/api/v1/location/25833/",
+  "short_location": "Vicente López | Munro | Munro-Oeste",
+  "state": null,
+  "weight": 135,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Cruz del Sauce",
+  "id": 82420,
+  "name": "Cruz del Sauce",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Cruz del Sauce",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

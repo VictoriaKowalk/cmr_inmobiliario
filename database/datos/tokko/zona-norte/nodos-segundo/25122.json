@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Santa Monica",
+  "id": 25122,
+  "name": "Santa Monica",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Santa Monica",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

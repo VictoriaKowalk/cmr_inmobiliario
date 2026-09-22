@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | La Lucila | La Lucila-Vias/Maipu",
+  "id": 25832,
+  "name": "La Lucila-Vias/Maipu",
+  "parent_division": "/api/v1/location/25829/",
+  "short_location": "Vicente López | La Lucila | La Lucila-Vias/Maipu",
+  "state": null,
+  "weight": 708,
+  "zip_code": null
+}

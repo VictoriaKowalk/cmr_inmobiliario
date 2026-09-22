@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | San Fernando | S.Fer.-Vias/Panam",
+  "id": 25460,
+  "name": "S.Fer.-Vias/Panam",
+  "parent_division": "/api/v1/location/25451/",
+  "short_location": "San Fernando | San Fernando | S.Fer.-Vias/Panam",
+  "state": null,
+  "weight": 105,
+  "zip_code": null
+}

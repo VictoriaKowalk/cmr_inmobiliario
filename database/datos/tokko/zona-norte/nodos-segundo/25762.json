@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre | Tigre Residencial",
+  "id": 25762,
+  "name": "Tigre Residencial",
+  "parent_division": "/api/v1/location/25757/",
+  "short_location": "Tigre | Tigre | Tigre Residencial",
+  "state": null,
+  "weight": 335,
+  "zip_code": null
+}

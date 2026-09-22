@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Torres de Tigre",
+    "id": 52042,
+    "name": "Torres de Tigre",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Torres de Tigre",
+    "state": null,
+    "weight": 70,
+    "zip_code": null
+}

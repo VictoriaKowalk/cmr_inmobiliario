@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Felicaria",
+  "id": 82550,
+  "name": "Felicaria",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Felicaria",
+  "state": null,
+  "weight": 26,
+  "zip_code": null
+}

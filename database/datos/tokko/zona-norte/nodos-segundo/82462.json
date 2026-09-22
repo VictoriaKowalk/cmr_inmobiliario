@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Gallo Fiambre",
+  "id": 82462,
+  "name": "Gallo Fiambre",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Gallo Fiambre",
+  "state": null,
+  "weight": 10,
+  "zip_code": null
+}

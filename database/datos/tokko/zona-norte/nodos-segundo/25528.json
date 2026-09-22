@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Boulogne | Boul.-B.Malvinas",
+  "id": 25528,
+  "name": "Boul.-B.Malvinas",
+  "parent_division": "/api/v1/location/25526/",
+  "short_location": "San Isidro | Boulogne | Boul.-B.Malvinas",
+  "state": null,
+  "weight": 178,
+  "zip_code": null
+}

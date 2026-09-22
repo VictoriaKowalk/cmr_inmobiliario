@@ -1,0 +1,37 @@
+{
+  "divisions": [
+    {
+      "id": 25649,
+      "name": "La Comarca",
+      "resource_uri": "/api/v1/location/25649/"
+    },
+    {
+      "id": 25707,
+      "name": "Talar Del Lago I",
+      "resource_uri": "/api/v1/location/25707/"
+    },
+    {
+      "id": 25708,
+      "name": "Talar Del Lago II",
+      "resource_uri": "/api/v1/location/25708/"
+    },
+    {
+      "id": 52009,
+      "name": "Bello Horizonte",
+      "resource_uri": "/api/v1/location/52009/"
+    },
+    {
+      "id": 253970,
+      "name": "Dos Eucaliptus",
+      "resource_uri": "/api/v1/location/253970/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Countries/B. Cerrado (General Pacheco)",
+  "id": 253343,
+  "name": "Countries/B. Cerrado (General Pacheco)",
+  "parent_division": "/api/v1/location/25741/",
+  "short_location": "Tigre | General Pacheco | Countries/B. Cerrado (General Pacheco)",
+  "state": null,
+  "weight": 24,
+  "zip_code": null
+}

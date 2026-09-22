@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | La Escondida",
+  "id": 25650,
+  "name": "La Escondida",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | La Escondida",
+  "state": null,
+  "weight": 265,
+  "zip_code": null
+}

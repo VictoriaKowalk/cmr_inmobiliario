@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Catedral",
+  "id": 25503,
+  "name": "San Isidro Catedral",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | San Isidro Catedral",
+  "state": null,
+  "weight": 39,
+  "zip_code": null
+}

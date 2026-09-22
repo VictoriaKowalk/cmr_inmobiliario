@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Zona Koch",
+  "id": 25345,
+  "name": "Zona Koch",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Zona Koch",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

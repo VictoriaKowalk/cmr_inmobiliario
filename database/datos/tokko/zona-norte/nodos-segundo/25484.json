@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Jardines De San Isidro",
+  "id": 25484,
+  "name": "Jardines De San Isidro",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Jardines De San Isidro",
+  "state": null,
+  "weight": 333,
+  "zip_code": null
+}

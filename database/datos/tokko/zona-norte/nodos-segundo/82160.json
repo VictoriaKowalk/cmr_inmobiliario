@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Presidente Derqui | San Pablo",
+  "id": 82160,
+  "name": "San Pablo",
+  "parent_division": "/api/v1/location/25421/",
+  "short_location": "Pilar | Presidente Derqui | San Pablo",
+  "state": null,
+  "weight": 222,
+  "zip_code": null
+}

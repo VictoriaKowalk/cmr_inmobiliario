@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Countries/B.Cerrado (Jose C Paz) | Barrio Parque Pero",
+  "id": 25041,
+  "name": "Barrio Parque Pero",
+  "parent_division": "/api/v1/location/25040/",
+  "short_location": "Jose Clemente Paz | Countries/B.Cerrado (Jose C Paz) | Barrio Parque Pero",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

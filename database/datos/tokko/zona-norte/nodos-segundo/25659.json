@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | Los Ceibos",
+  "id": 25659,
+  "name": "Los Ceibos",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | Los Ceibos",
+  "state": null,
+  "weight": 236,
+  "zip_code": null
+}

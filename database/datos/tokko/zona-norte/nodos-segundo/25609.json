@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Parque Jardin (S.Mig.)",
+  "id": 25609,
+  "name": "Parque Jardin (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Parque Jardin (S.Mig.)",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 24960,
+            "name": "Alto Verde",
+            "resource_uri": "\/api\/v1\/location\/24960\/"
+        },
+        {
+            "id": 24961,
+            "name": "Maq. Savio (Maq. Savio)",
+            "resource_uri": "\/api\/v1\/location\/24961\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Maquinista F Savio",
+    "id": 24959,
+    "name": "Maquinista F Savio",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Maquinista F Savio",
+    "state": null,
+    "weight": 101,
+    "zip_code": null
+}

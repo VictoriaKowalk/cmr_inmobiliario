@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | V.Florencia",
+  "id": 25340,
+  "name": "V.Florencia",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | V.Florencia",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

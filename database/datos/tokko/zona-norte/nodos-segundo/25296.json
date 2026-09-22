@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Segundas Colinas",
+  "id": 25296,
+  "name": "Segundas Colinas",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Segundas Colinas",
+  "state": null,
+  "weight": 26,
+  "zip_code": null
+}

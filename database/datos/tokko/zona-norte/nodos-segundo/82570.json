@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Paraná Miní",
+  "id": 82570,
+  "name": "Paraná Miní",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Paraná Miní",
+  "state": null,
+  "weight": 29,
+  "zip_code": null
+}

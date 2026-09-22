@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | HI 42.5",
+    "id": 82272,
+    "name": "HI 42.5",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | HI 42.5",
+    "state": null,
+    "weight": 65,
+    "zip_code": null
+}

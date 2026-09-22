@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | La Colina de la Horqueta",
+  "id": 25486,
+  "name": "La Colina de la Horqueta",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | La Colina de la Horqueta",
+  "state": null,
+  "weight": 26,
+  "zip_code": null
+}

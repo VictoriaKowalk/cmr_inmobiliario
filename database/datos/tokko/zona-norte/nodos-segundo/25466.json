@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Virreyes | Virr.-Estacion",
+  "id": 25466,
+  "name": "Virr.-Estacion",
+  "parent_division": "/api/v1/location/25465/",
+  "short_location": "San Fernando | Virreyes | Virr.-Estacion",
+  "state": null,
+  "weight": 98,
+  "zip_code": null
+}

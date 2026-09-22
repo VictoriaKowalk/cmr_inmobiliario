@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | S.Brigida",
+  "id": 25612,
+  "name": "S.Brigida",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | S.Brigida",
+  "state": null,
+  "weight": 21,
+  "zip_code": null
+}

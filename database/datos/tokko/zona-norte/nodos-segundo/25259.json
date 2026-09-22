@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Martindale C.C",
+  "id": 25259,
+  "name": "Martindale C.C",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Martindale C.C",
+  "state": null,
+  "weight": 949,
+  "zip_code": null
+}

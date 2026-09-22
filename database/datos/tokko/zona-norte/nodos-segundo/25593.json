@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | El Tato",
+  "id": 25593,
+  "name": "El Tato",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | El Tato",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 254027,
+            "name": "Bahía",
+            "resource_uri": "\/api\/v1\/location\/254027\/"
+        },
+        {
+            "id": 255680,
+            "name": "Terrazas de Santa María",
+            "resource_uri": "\/api\/v1\/location\/255680\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Dique Lujan",
+    "id": 25727,
+    "name": "Dique Lujan",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Dique Lujan",
+    "state": null,
+    "weight": 460,
+    "zip_code": null
+}

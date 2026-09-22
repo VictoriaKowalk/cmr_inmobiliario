@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Barrio Vicente López | V.Lopez-Vias/Maipu",
+  "id": 25848,
+  "name": "V.Lopez-Vias/Maipu",
+  "parent_division": "/api/v1/location/25846/",
+  "short_location": "Vicente López | Barrio Vicente López | V.Lopez-Vias/Maipu",
+  "state": null,
+  "weight": 659,
+  "zip_code": null
+}

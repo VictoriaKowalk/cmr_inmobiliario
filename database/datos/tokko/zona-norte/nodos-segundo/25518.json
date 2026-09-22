@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Acas.-Vias/Santa Fe",
+  "id": 25518,
+  "name": "Acas.-Vias/Santa Fe",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Acas.-Vias/Santa Fe",
+  "state": null,
+  "weight": 412,
+  "zip_code": null
+}

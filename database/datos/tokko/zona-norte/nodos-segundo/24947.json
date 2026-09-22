@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | La Graciela",
+  "id": 24947,
+  "name": "La Graciela",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | La Graciela",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

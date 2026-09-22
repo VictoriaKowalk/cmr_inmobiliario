@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | La Embajada",
+  "id": 25487,
+  "name": "La Embajada",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | La Embajada",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

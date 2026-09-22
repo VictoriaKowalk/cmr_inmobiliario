@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Boulogne | Barrio cerrado Los Patricios",
+  "id": 253658,
+  "name": "Barrio cerrado Los Patricios",
+  "parent_division": "/api/v1/location/25526/",
+  "short_location": "San Isidro | Boulogne | Barrio cerrado Los Patricios",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

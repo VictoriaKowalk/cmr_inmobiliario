@@ -1,0 +1,192 @@
+{
+    "divisions": [
+        {
+            "id": 25584,
+            "name": "Balsaretti",
+            "resource_uri": "\/api\/v1\/location\/25584\/"
+        },
+        {
+            "id": 25585,
+            "name": "Bello Horizonte",
+            "resource_uri": "\/api\/v1\/location\/25585\/"
+        },
+        {
+            "id": 25586,
+            "name": "Centro (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25586\/"
+        },
+        {
+            "id": 25587,
+            "name": "Colibri",
+            "resource_uri": "\/api\/v1\/location\/25587\/"
+        },
+        {
+            "id": 25588,
+            "name": "Constantini",
+            "resource_uri": "\/api\/v1\/location\/25588\/"
+        },
+        {
+            "id": 25589,
+            "name": "Cortijo Nuevo",
+            "resource_uri": "\/api\/v1\/location\/25589\/"
+        },
+        {
+            "id": 25590,
+            "name": "Cortijo Viejo",
+            "resource_uri": "\/api\/v1\/location\/25590\/"
+        },
+        {
+            "id": 25591,
+            "name": "Don Alfonso",
+            "resource_uri": "\/api\/v1\/location\/25591\/"
+        },
+        {
+            "id": 25592,
+            "name": "El Jagüel (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25592\/"
+        },
+        {
+            "id": 25593,
+            "name": "El Tato",
+            "resource_uri": "\/api\/v1\/location\/25593\/"
+        },
+        {
+            "id": 25594,
+            "name": "Gral. Belgrano (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25594\/"
+        },
+        {
+            "id": 25595,
+            "name": "Infico (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25595\/"
+        },
+        {
+            "id": 25596,
+            "name": "La Estrella",
+            "resource_uri": "\/api\/v1\/location\/25596\/"
+        },
+        {
+            "id": 25597,
+            "name": "La Guarida",
+            "resource_uri": "\/api\/v1\/location\/25597\/"
+        },
+        {
+            "id": 25598,
+            "name": "La Herradura",
+            "resource_uri": "\/api\/v1\/location\/25598\/"
+        },
+        {
+            "id": 25599,
+            "name": "La Perlita",
+            "resource_uri": "\/api\/v1\/location\/25599\/"
+        },
+        {
+            "id": 25600,
+            "name": "Las Palmas",
+            "resource_uri": "\/api\/v1\/location\/25600\/"
+        },
+        {
+            "id": 25601,
+            "name": "Los Cedros",
+            "resource_uri": "\/api\/v1\/location\/25601\/"
+        },
+        {
+            "id": 25602,
+            "name": "Los Eucaliptus (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25602\/"
+        },
+        {
+            "id": 25603,
+            "name": "Los Nogales (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25603\/"
+        },
+        {
+            "id": 25604,
+            "name": "Los Paraisos (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25604\/"
+        },
+        {
+            "id": 25605,
+            "name": "Los Pinos (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25605\/"
+        },
+        {
+            "id": 25606,
+            "name": "Ma. Rosa Mistica",
+            "resource_uri": "\/api\/v1\/location\/25606\/"
+        },
+        {
+            "id": 25607,
+            "name": "Manuelita",
+            "resource_uri": "\/api\/v1\/location\/25607\/"
+        },
+        {
+            "id": 25608,
+            "name": "Mitre (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25608\/"
+        },
+        {
+            "id": 25609,
+            "name": "Parque Jardin (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25609\/"
+        },
+        {
+            "id": 25610,
+            "name": "Parque La Gloria",
+            "resource_uri": "\/api\/v1\/location\/25610\/"
+        },
+        {
+            "id": 25611,
+            "name": "Parque San Miguel",
+            "resource_uri": "\/api\/v1\/location\/25611\/"
+        },
+        {
+            "id": 25612,
+            "name": "S.Brigida",
+            "resource_uri": "\/api\/v1\/location\/25612\/"
+        },
+        {
+            "id": 25613,
+            "name": "San Alfonso",
+            "resource_uri": "\/api\/v1\/location\/25613\/"
+        },
+        {
+            "id": 25614,
+            "name": "San Antonio",
+            "resource_uri": "\/api\/v1\/location\/25614\/"
+        },
+        {
+            "id": 25615,
+            "name": "San Atilio (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25615\/"
+        },
+        {
+            "id": 25616,
+            "name": "San Ignacio",
+            "resource_uri": "\/api\/v1\/location\/25616\/"
+        },
+        {
+            "id": 25617,
+            "name": "Sarmiento (S.Mig.)",
+            "resource_uri": "\/api\/v1\/location\/25617\/"
+        },
+        {
+            "id": 25618,
+            "name": "Sgto. Cabral",
+            "resource_uri": "\/api\/v1\/location\/25618\/"
+        },
+        {
+            "id": 25619,
+            "name": "Trujui",
+            "resource_uri": "\/api\/v1\/location\/25619\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel",
+    "id": 25583,
+    "name": "San Miguel",
+    "parent_division": "\/api\/v1\/location\/25560\/",
+    "short_location": "G.B.A. Zona Norte | San Miguel | San Miguel",
+    "state": null,
+    "weight": 3710,
+    "zip_code": null
+}

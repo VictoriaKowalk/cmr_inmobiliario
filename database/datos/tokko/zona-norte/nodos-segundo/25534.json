@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez | Mart.-Vias/Libert.",
+  "id": 25534,
+  "name": "Mart.-Vias/Libert.",
+  "parent_division": "/api/v1/location/25529/",
+  "short_location": "San Isidro | Martinez | Mart.-Vias/Libert.",
+  "state": null,
+  "weight": 728,
+  "zip_code": null
+}

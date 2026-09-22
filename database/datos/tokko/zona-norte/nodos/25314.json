@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Barrio San Alejo",
+    "id": 25314,
+    "name": "Barrio San Alejo",
+    "parent_division": "\/api\/v1\/location\/25127\/",
+    "short_location": "G.B.A. Zona Norte | Pilar | Barrio San Alejo",
+    "state": null,
+    "weight": 4,
+    "zip_code": null
+}

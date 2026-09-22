@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Las Brujas",
+  "id": 25492,
+  "name": "Las Brujas",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Las Brujas",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

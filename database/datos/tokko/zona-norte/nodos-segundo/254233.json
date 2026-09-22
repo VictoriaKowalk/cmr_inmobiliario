@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | San Fermín",
+  "id": 254233,
+  "name": "San Fermín",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | San Fermín",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

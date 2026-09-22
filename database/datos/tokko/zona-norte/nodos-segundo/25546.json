@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Las Lomas de San Isidro | Las Lomas-Santa Rita",
+  "id": 25546,
+  "name": "Las Lomas-Santa Rita",
+  "parent_division": "/api/v1/location/80472/",
+  "short_location": "San Isidro | Las Lomas de San Isidro | Las Lomas-Santa Rita",
+  "state": null,
+  "weight": 716,
+  "zip_code": null
+}

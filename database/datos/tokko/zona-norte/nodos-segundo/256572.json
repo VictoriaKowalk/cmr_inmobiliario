@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Garin | DECS Tortugas",
+  "id": 256572,
+  "name": "DECS Tortugas",
+  "parent_division": "/api/v1/location/24928/",
+  "short_location": "Escobar | Garin | DECS Tortugas",
+  "state": null,
+  "weight": 0,
+  "zip_code": ""
+}

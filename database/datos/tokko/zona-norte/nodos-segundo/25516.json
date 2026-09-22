@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Acas.-Santa Fe/Fleming",
+  "id": 25516,
+  "name": "Acas.-Santa Fe/Fleming",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Acas.-Santa Fe/Fleming",
+  "state": null,
+  "weight": 84,
+  "zip_code": null
+}

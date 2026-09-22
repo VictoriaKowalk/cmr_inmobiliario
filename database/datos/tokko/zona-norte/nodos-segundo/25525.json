@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Beccar | Beccar-Vias/Rolon",
+  "id": 25525,
+  "name": "Beccar-Vias/Rolon",
+  "parent_division": "/api/v1/location/25520/",
+  "short_location": "San Isidro | Beccar | Beccar-Vias/Rolon",
+  "state": null,
+  "weight": 306,
+  "zip_code": null
+}

@@ -1,0 +1,17 @@
+{
+    "divisions": [
+        {
+            "id": 25125,
+            "name": "Yei Pora",
+            "resource_uri": "\/api\/v1\/location\/25125\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Tortuguitas",
+    "id": 51834,
+    "name": "Tortuguitas",
+    "parent_division": "\/api\/v1\/location\/25039\/",
+    "short_location": "G.B.A. Zona Norte | Jose Clemente Paz | Tortuguitas",
+    "state": null,
+    "weight": 55,
+    "zip_code": null
+}

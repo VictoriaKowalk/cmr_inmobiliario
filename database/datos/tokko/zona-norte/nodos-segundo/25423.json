@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Presidente Derqui | La Alborada",
+  "id": 25423,
+  "name": "La Alborada",
+  "parent_division": "/api/v1/location/25421/",
+  "short_location": "Pilar | Presidente Derqui | La Alborada",
+  "state": null,
+  "weight": 58,
+  "zip_code": null
+}

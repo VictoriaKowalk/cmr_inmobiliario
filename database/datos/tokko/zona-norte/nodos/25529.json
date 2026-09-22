@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25530,
+            "name": "Mart.-B.Aleman",
+            "resource_uri": "\/api\/v1\/location\/25530\/"
+        },
+        {
+            "id": 25531,
+            "name": "Mart.-Fleming\/Panam.",
+            "resource_uri": "\/api\/v1\/location\/25531\/"
+        },
+        {
+            "id": 25532,
+            "name": "Mart.-Libert.\/Rio",
+            "resource_uri": "\/api\/v1\/location\/25532\/"
+        },
+        {
+            "id": 25533,
+            "name": "Mart.-Santa Fe\/Fleming",
+            "resource_uri": "\/api\/v1\/location\/25533\/"
+        },
+        {
+            "id": 25534,
+            "name": "Mart.-Vias\/Libert.",
+            "resource_uri": "\/api\/v1\/location\/25534\/"
+        },
+        {
+            "id": 25535,
+            "name": "Mart.-Vias\/Santa Fe",
+            "resource_uri": "\/api\/v1\/location\/25535\/"
+        },
+        {
+            "id": 81402,
+            "name": "Pasionaria Martínez",
+            "resource_uri": "\/api\/v1\/location\/81402\/"
+        },
+        {
+            "id": 210542,
+            "name": "Pasionaria San Isidro",
+            "resource_uri": "\/api\/v1\/location\/210542\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Martinez",
+    "id": 25529,
+    "name": "Martinez",
+    "parent_division": "\/api\/v1\/location\/25469\/",
+    "short_location": "G.B.A. Zona Norte | San Isidro | Martinez",
+    "state": null,
+    "weight": 11693,
+    "zip_code": null
+}

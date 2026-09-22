@@ -1,0 +1,37 @@
+{
+  "divisions": [
+    {
+      "id": 25040,
+      "name": "Countries/B.Cerrado (Jose C Paz)",
+      "resource_uri": "/api/v1/location/25040/"
+    },
+    {
+      "id": 25043,
+      "name": "Jose Clemente Paz",
+      "resource_uri": "/api/v1/location/25043/"
+    },
+    {
+      "id": 51834,
+      "name": "Tortuguitas",
+      "resource_uri": "/api/v1/location/51834/"
+    },
+    {
+      "id": 51888,
+      "name": "Corral del Sol",
+      "resource_uri": "/api/v1/location/51888/"
+    },
+    {
+      "id": 256567,
+      "name": "Del Viso",
+      "resource_uri": "/api/v1/location/256567/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz ",
+  "id": 25039,
+  "name": "Jose Clemente Paz",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz ",
+  "state": "/api/v1/state/147/",
+  "weight": 710,
+  "zip_code": ""
+}

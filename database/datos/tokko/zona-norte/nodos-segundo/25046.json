@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Jose Clemente Paz | Altos De J.C.Paz",
+  "id": 25046,
+  "name": "Altos De J.C.Paz",
+  "parent_division": "/api/v1/location/25043/",
+  "short_location": "Jose Clemente Paz | Jose Clemente Paz | Altos De J.C.Paz",
+  "state": null,
+  "weight": 12,
+  "zip_code": null
+}

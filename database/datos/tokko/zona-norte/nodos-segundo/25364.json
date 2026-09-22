@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | Memorial",
+  "id": 25364,
+  "name": "Memorial",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | Memorial",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

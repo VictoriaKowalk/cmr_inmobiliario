@@ -1,0 +1,67 @@
+{
+  "divisions": [
+    {
+      "id": 55592,
+      "name": "Acacias",
+      "resource_uri": "/api/v1/location/55592/"
+    },
+    {
+      "id": 55594,
+      "name": "Vistas",
+      "resource_uri": "/api/v1/location/55594/"
+    },
+    {
+      "id": 55595,
+      "name": "Marinas",
+      "resource_uri": "/api/v1/location/55595/"
+    },
+    {
+      "id": 55596,
+      "name": "Ceibos",
+      "resource_uri": "/api/v1/location/55596/"
+    },
+    {
+      "id": 55597,
+      "name": "Araucarias",
+      "resource_uri": "/api/v1/location/55597/"
+    },
+    {
+      "id": 55598,
+      "name": "Muelles",
+      "resource_uri": "/api/v1/location/55598/"
+    },
+    {
+      "id": 81967,
+      "name": "Costas",
+      "resource_uri": "/api/v1/location/81967/"
+    },
+    {
+      "id": 254135,
+      "name": "Riberas",
+      "resource_uri": "/api/v1/location/254135/"
+    },
+    {
+      "id": 254136,
+      "name": "Amarras",
+      "resource_uri": "/api/v1/location/254136/"
+    },
+    {
+      "id": 254137,
+      "name": "Residencias del Lago",
+      "resource_uri": "/api/v1/location/254137/"
+    },
+    {
+      "id": 254532,
+      "name": "Nativas",
+      "resource_uri": "/api/v1/location/254532/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Puertos del Lago",
+  "id": 24871,
+  "name": "Puertos del Lago",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Puertos del Lago",
+  "state": null,
+  "weight": 4452,
+  "zip_code": null
+}

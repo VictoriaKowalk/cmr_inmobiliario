@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Tortuguitas | Pque.San Luis",
+  "id": 25119,
+  "name": "Pque.San Luis",
+  "parent_division": "/api/v1/location/25102/",
+  "short_location": "Malvinas Argentinas | Tortuguitas | Pque.San Luis",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

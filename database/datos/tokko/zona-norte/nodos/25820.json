@@ -1,0 +1,52 @@
+{
+    "divisions": [
+        {
+            "id": 25821,
+            "name": "Florida Belgrano-Oeste",
+            "resource_uri": "\/api\/v1\/location\/25821\/"
+        },
+        {
+            "id": 25822,
+            "name": "Florida Mitre\/Este",
+            "resource_uri": "\/api\/v1\/location\/25822\/"
+        },
+        {
+            "id": 25823,
+            "name": "Florida-B.Platense",
+            "resource_uri": "\/api\/v1\/location\/25823\/"
+        },
+        {
+            "id": 25824,
+            "name": "Florida-B.Roca",
+            "resource_uri": "\/api\/v1\/location\/25824\/"
+        },
+        {
+            "id": 25825,
+            "name": "Florida-Cetrangolo",
+            "resource_uri": "\/api\/v1\/location\/25825\/"
+        },
+        {
+            "id": 25826,
+            "name": "Florida-J.B.Justo",
+            "resource_uri": "\/api\/v1\/location\/25826\/"
+        },
+        {
+            "id": 25827,
+            "name": "Florida-Padilla",
+            "resource_uri": "\/api\/v1\/location\/25827\/"
+        },
+        {
+            "id": 25828,
+            "name": "Florida Oeste",
+            "resource_uri": "\/api\/v1\/location\/25828\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Florida",
+    "id": 25820,
+    "name": "Florida",
+    "parent_division": "\/api\/v1\/location\/25818\/",
+    "short_location": "G.B.A. Zona Norte | Vicente López | Florida",
+    "state": null,
+    "weight": 6989,
+    "zip_code": null
+}

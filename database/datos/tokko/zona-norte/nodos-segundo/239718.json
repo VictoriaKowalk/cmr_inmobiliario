@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Villa Rosa | Altos de Campo Grande",
+  "id": 239718,
+  "name": "Altos de Campo Grande",
+  "parent_division": "/api/v1/location/25430/",
+  "short_location": "Pilar | Villa Rosa | Altos de Campo Grande",
+  "state": null,
+  "weight": 17,
+  "zip_code": null
+}

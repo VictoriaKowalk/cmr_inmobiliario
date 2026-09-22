@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | Lambare",
+  "id": 24949,
+  "name": "Lambare",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | Lambare",
+  "state": null,
+  "weight": 92,
+  "zip_code": null
+}

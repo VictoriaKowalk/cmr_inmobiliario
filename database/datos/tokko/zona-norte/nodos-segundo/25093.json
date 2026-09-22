@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Los Polvorines | El Sol (Los Polvorines)",
+  "id": 25093,
+  "name": "El Sol (Los Polvorines)",
+  "parent_division": "/api/v1/location/25089/",
+  "short_location": "Malvinas Argentinas | Los Polvorines | El Sol (Los Polvorines)",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

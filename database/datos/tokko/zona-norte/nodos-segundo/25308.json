@@ -1,0 +1,32 @@
+{
+  "divisions": [
+    {
+      "id": 254684,
+      "name": "La Josefina",
+      "resource_uri": "/api/v1/location/254684/"
+    },
+    {
+      "id": 256569,
+      "name": "Barrio Parque Pellegrini III",
+      "resource_uri": "/api/v1/location/256569/"
+    },
+    {
+      "id": 256570,
+      "name": "Barrio Parque Pellegrini I",
+      "resource_uri": "/api/v1/location/256570/"
+    },
+    {
+      "id": 256571,
+      "name": "Barrio Parque Pellegrini II",
+      "resource_uri": "/api/v1/location/256571/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Villa Rosa",
+  "id": 25308,
+  "name": "Villa Rosa",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Villa Rosa",
+  "state": null,
+  "weight": 133,
+  "zip_code": ""
+}

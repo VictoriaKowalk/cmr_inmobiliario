@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | San Ignacio",
+  "id": 51405,
+  "name": "San Ignacio",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | San Ignacio",
+  "state": null,
+  "weight": 4,
+  "zip_code": null
+}

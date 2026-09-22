@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | Grand Bourg | Estudiantes",
+  "id": 25084,
+  "name": "Estudiantes",
+  "parent_division": "/api/v1/location/25083/",
+  "short_location": "Malvinas Argentinas | Grand Bourg | Estudiantes",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

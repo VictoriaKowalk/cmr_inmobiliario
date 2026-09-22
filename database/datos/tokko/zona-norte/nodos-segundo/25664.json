@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Rincon de Milberg | Milberg Town",
+  "id": 25664,
+  "name": "Milberg Town",
+  "parent_division": "/api/v1/location/80474/",
+  "short_location": "Tigre | Rincon de Milberg | Milberg Town",
+  "state": null,
+  "weight": 96,
+  "zip_code": null
+}

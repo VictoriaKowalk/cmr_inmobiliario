@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Lago",
+  "id": 25274,
+  "name": "Pilar Del Lago",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Lago",
+  "state": null,
+  "weight": 372,
+  "zip_code": null
+}

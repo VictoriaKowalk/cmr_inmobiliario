@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Victoria | Vict.-B.Fate",
+  "id": 25463,
+  "name": "Vict.-B.Fate",
+  "parent_division": "/api/v1/location/25461/",
+  "short_location": "San Fernando | Victoria | Vict.-B.Fate",
+  "state": null,
+  "weight": 45,
+  "zip_code": null
+}

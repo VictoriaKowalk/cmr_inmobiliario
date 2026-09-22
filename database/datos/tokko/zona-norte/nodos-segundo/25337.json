@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | R.Vieja",
+  "id": 25337,
+  "name": "R.Vieja",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | R.Vieja",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

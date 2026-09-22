@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas | CUBA",
+    "id": 51892,
+    "name": "CUBA",
+    "parent_division": "\/api\/v1\/location\/25072\/",
+    "short_location": "G.B.A. Zona Norte | Malvinas Argentinas | CUBA",
+    "state": null,
+    "weight": 15,
+    "zip_code": null
+}

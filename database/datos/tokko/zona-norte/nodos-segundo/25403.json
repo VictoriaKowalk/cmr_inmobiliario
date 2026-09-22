@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | Pilar Centro",
+  "id": 25403,
+  "name": "Pilar Centro",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | Pilar Centro",
+  "state": null,
+  "weight": 281,
+  "zip_code": null
+}

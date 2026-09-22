@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Ingeniero Maschwitz | San Lorenzo",
+  "id": 24953,
+  "name": "San Lorenzo",
+  "parent_division": "/api/v1/location/24932/",
+  "short_location": "Escobar | Ingeniero Maschwitz | San Lorenzo",
+  "state": null,
+  "weight": 29,
+  "zip_code": null
+}

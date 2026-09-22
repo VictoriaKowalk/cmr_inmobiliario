@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manuel Alberti | vilahaus",
+  "id": 239357,
+  "name": "vilahaus",
+  "parent_division": "/api/v1/location/25357/",
+  "short_location": "Pilar | Manuel Alberti | vilahaus",
+  "state": null,
+  "weight": 93,
+  "zip_code": null
+}

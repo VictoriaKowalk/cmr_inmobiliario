@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Acassuso | Acas.-Libert./Solis",
+  "id": 25515,
+  "name": "Acas.-Libert./Solis",
+  "parent_division": "/api/v1/location/25511/",
+  "short_location": "San Isidro | Acassuso | Acas.-Libert./Solis",
+  "state": null,
+  "weight": 289,
+  "zip_code": null
+}

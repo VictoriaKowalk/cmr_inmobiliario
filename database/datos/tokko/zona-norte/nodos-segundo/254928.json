@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Presidente Derqui | San Pablo Chico",
+  "id": 254928,
+  "name": "San Pablo Chico",
+  "parent_division": "/api/v1/location/25421/",
+  "short_location": "Pilar | Presidente Derqui | San Pablo Chico",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

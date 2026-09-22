@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villa Pacheco",
+  "id": 25714,
+  "name": "Villa Pacheco",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Villa Pacheco",
+  "state": null,
+  "weight": 72,
+  "zip_code": null
+}

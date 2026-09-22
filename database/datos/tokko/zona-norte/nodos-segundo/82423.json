@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Zona Delta San Fernando | Chana",
+  "id": 82423,
+  "name": "Chana",
+  "parent_division": "/api/v1/location/25468/",
+  "short_location": "San Fernando | Zona Delta San Fernando | Chana",
+  "state": null,
+  "weight": 14,
+  "zip_code": null
+}

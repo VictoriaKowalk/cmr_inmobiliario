@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | Las Marias",
+  "id": 25494,
+  "name": "Las Marias",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | Las Marias",
+  "state": null,
+  "weight": 14,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Fernando | Countries/B.Cerrado (San Fernando) | Rincon Del Arca",
+  "id": 25447,
+  "name": "Rincon Del Arca",
+  "parent_division": "/api/v1/location/25437/",
+  "short_location": "San Fernando | Countries/B.Cerrado (San Fernando) | Rincon Del Arca",
+  "state": null,
+  "weight": 38,
+  "zip_code": null
+}

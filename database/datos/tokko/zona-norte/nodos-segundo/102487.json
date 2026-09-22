@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Altos del Encuentro",
+  "id": 102487,
+  "name": "Altos del Encuentro",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Altos del Encuentro",
+  "state": null,
+  "weight": 33,
+  "zip_code": null
+}

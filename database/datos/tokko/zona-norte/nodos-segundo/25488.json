@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | Countries/B.Cerrado (San Isidro) | La Merced",
+  "id": 25488,
+  "name": "La Merced",
+  "parent_division": "/api/v1/location/25470/",
+  "short_location": "San Isidro | Countries/B.Cerrado (San Isidro) | La Merced",
+  "state": null,
+  "weight": 52,
+  "zip_code": null
+}

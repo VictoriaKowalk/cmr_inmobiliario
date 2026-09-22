@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Del Viso | Las Beatrices",
+  "id": 55967,
+  "name": "Las Beatrices",
+  "parent_division": "/api/v1/location/25315/",
+  "short_location": "Pilar | Del Viso | Las Beatrices",
+  "state": null,
+  "weight": 14,
+  "zip_code": null
+}

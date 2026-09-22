@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | El Bosque",
+  "id": 25385,
+  "name": "El Bosque",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | El Bosque",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Baires",
+  "id": 25730,
+  "name": "Baires",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Baires",
+  "state": null,
+  "weight": 46,
+  "zip_code": null
+}

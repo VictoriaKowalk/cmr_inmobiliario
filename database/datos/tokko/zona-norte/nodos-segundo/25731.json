@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Balbastro",
+  "id": 25731,
+  "name": "Balbastro",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Balbastro",
+  "state": null,
+  "weight": 27,
+  "zip_code": null
+}

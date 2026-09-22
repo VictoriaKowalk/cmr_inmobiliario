@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Los Cerros",
+  "id": 24917,
+  "name": "Los Cerros",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Los Cerros",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,22 @@
+{
+    "divisions": [
+        {
+            "id": 253322,
+            "name": "San Sebastian",
+            "resource_uri": "\/api\/v1\/location\/253322\/"
+        },
+        {
+            "id": 256038,
+            "name": "Country Club Privado Loma Verde",
+            "resource_uri": "\/api\/v1\/location\/256038\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Loma Verde",
+    "id": 24958,
+    "name": "Loma Verde",
+    "parent_division": "\/api\/v1\/location\/24820\/",
+    "short_location": "G.B.A. Zona Norte | Escobar | Loma Verde",
+    "state": null,
+    "weight": 2380,
+    "zip_code": null
+}

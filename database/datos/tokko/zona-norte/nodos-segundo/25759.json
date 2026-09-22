@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre | Ciudad De Tigre",
+  "id": 25759,
+  "name": "Ciudad De Tigre",
+  "parent_division": "/api/v1/location/25757/",
+  "short_location": "Tigre | Tigre | Ciudad De Tigre",
+  "state": null,
+  "weight": 1851,
+  "zip_code": null
+}

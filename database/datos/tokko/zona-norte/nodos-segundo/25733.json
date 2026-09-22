@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Don Torcuato | Gutierrez",
+  "id": 25733,
+  "name": "Gutierrez",
+  "parent_division": "/api/v1/location/25728/",
+  "short_location": "Tigre | Don Torcuato | Gutierrez",
+  "state": null,
+  "weight": 9,
+  "zip_code": null
+}

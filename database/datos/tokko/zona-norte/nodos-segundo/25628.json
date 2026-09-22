@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Barrancas De San Jose",
+  "id": 25628,
+  "name": "Barrancas De San Jose",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Barrancas De San Jose",
+  "state": null,
+  "weight": 351,
+  "zip_code": null
+}

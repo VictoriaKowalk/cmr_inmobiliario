@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Vicente López | Barrio Vicente López | V.Lopez-Maipu/ Río",
+  "id": 102420,
+  "name": "V.Lopez-Maipu/ Río",
+  "parent_division": "/api/v1/location/25846/",
+  "short_location": "Vicente López | Barrio Vicente López | V.Lopez-Maipu/ Río",
+  "state": null,
+  "weight": 109,
+  "zip_code": null
+}

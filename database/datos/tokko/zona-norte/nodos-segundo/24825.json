@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Altos de Pacheco",
+  "id": 24825,
+  "name": "Altos de Pacheco",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Altos de Pacheco",
+  "state": null,
+  "weight": 18,
+  "zip_code": null
+}

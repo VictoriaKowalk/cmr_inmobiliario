@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Condominio Tortugas Green",
+  "id": 51420,
+  "name": "Condominio Tortugas Green",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Condominio Tortugas Green",
+  "state": null,
+  "weight": 22,
+  "zip_code": null
+}

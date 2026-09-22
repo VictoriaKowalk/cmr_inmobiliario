@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Punta Parana C.Nauti",
+  "id": 24875,
+  "name": "Punta Parana C.Nauti",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Punta Parana C.Nauti",
+  "state": null,
+  "weight": 2,
+  "zip_code": null
+}

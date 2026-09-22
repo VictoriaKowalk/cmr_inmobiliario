@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Palmares De Pilar",
+  "id": 25267,
+  "name": "Palmares De Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Palmares De Pilar",
+  "state": null,
+  "weight": 15,
+  "zip_code": null
+}

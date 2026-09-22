@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre | Espera",
+  "id": 25787,
+  "name": "Espera",
+  "parent_division": "/api/v1/location/25766/",
+  "short_location": "Tigre | Zona Delta Tigre | Espera",
+  "state": null,
+  "weight": 102,
+  "zip_code": null
+}

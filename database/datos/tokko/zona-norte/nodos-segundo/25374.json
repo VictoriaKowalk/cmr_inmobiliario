@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | 2 Rutas",
+  "id": 25374,
+  "name": "2 Rutas",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | 2 Rutas",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

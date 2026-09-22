@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | San Luis",
+  "id": 24924,
+  "name": "San Luis",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | San Luis",
+  "state": null,
+  "weight": 35,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Santa Clara VIP",
+    "id": 52037,
+    "name": "Santa Clara VIP",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Santa Clara VIP",
+    "state": null,
+    "weight": 20,
+    "zip_code": null
+}

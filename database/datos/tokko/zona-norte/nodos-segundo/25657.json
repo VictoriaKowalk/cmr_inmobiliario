@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Lomas Benavidez",
+  "id": 25657,
+  "name": "Lomas Benavidez",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Lomas Benavidez",
+  "state": null,
+  "weight": 235,
+  "zip_code": null
+}

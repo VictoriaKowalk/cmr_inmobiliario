@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Jardin Nautico De Escobar",
+  "id": 24850,
+  "name": "Jardin Nautico De Escobar",
+  "parent_division": "/api/v1/location/24821/",
+  "short_location": "Escobar | Countries/B.Cerrado (Escobar) | Jardin Nautico De Escobar",
+  "state": null,
+  "weight": 11,
+  "zip_code": null
+}

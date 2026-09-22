@@ -1,0 +1,437 @@
+{
+    "divisions": [
+        {
+            "id": 25767,
+            "name": "Carapachay",
+            "resource_uri": "\/api\/v1\/location\/25767\/"
+        },
+        {
+            "id": 25768,
+            "name": "Angostura",
+            "resource_uri": "\/api\/v1\/location\/25768\/"
+        },
+        {
+            "id": 25769,
+            "name": "Antequera",
+            "resource_uri": "\/api\/v1\/location\/25769\/"
+        },
+        {
+            "id": 25770,
+            "name": "Canal Arias",
+            "resource_uri": "\/api\/v1\/location\/25770\/"
+        },
+        {
+            "id": 25771,
+            "name": "Arroyon",
+            "resource_uri": "\/api\/v1\/location\/25771\/"
+        },
+        {
+            "id": 25772,
+            "name": "Banco",
+            "resource_uri": "\/api\/v1\/location\/25772\/"
+        },
+        {
+            "id": 25773,
+            "name": "Barca Grande",
+            "resource_uri": "\/api\/v1\/location\/25773\/"
+        },
+        {
+            "id": 25774,
+            "name": "Brazo Largo",
+            "resource_uri": "\/api\/v1\/location\/25774\/"
+        },
+        {
+            "id": 25775,
+            "name": "Canal 6",
+            "resource_uri": "\/api\/v1\/location\/25775\/"
+        },
+        {
+            "id": 25776,
+            "name": "Capitan",
+            "resource_uri": "\/api\/v1\/location\/25776\/"
+        },
+        {
+            "id": 25777,
+            "name": "Carabelas",
+            "resource_uri": "\/api\/v1\/location\/25777\/"
+        },
+        {
+            "id": 25778,
+            "name": "Caraguata",
+            "resource_uri": "\/api\/v1\/location\/25778\/"
+        },
+        {
+            "id": 25779,
+            "name": "Correntoso",
+            "resource_uri": "\/api\/v1\/location\/25779\/"
+        },
+        {
+            "id": 25780,
+            "name": "Cruz Colorada",
+            "resource_uri": "\/api\/v1\/location\/25780\/"
+        },
+        {
+            "id": 25781,
+            "name": "Cruz del Gambado",
+            "resource_uri": "\/api\/v1\/location\/25781\/"
+        },
+        {
+            "id": 25782,
+            "name": "Cruz del Gambado",
+            "resource_uri": "\/api\/v1\/location\/25782\/"
+        },
+        {
+            "id": 25783,
+            "name": "Curubica",
+            "resource_uri": "\/api\/v1\/location\/25783\/"
+        },
+        {
+            "id": 25784,
+            "name": "Canal del Este",
+            "resource_uri": "\/api\/v1\/location\/25784\/"
+        },
+        {
+            "id": 25785,
+            "name": "Desaguadero",
+            "resource_uri": "\/api\/v1\/location\/25785\/"
+        },
+        {
+            "id": 25786,
+            "name": "Dorado",
+            "resource_uri": "\/api\/v1\/location\/25786\/"
+        },
+        {
+            "id": 25787,
+            "name": "Espera",
+            "resource_uri": "\/api\/v1\/location\/25787\/"
+        },
+        {
+            "id": 25788,
+            "name": "Esperita",
+            "resource_uri": "\/api\/v1\/location\/25788\/"
+        },
+        {
+            "id": 25789,
+            "name": "Felicaria",
+            "resource_uri": "\/api\/v1\/location\/25789\/"
+        },
+        {
+            "id": 25790,
+            "name": "Gelvez",
+            "resource_uri": "\/api\/v1\/location\/25790\/"
+        },
+        {
+            "id": 25791,
+            "name": "Guayraca",
+            "resource_uri": "\/api\/v1\/location\/25791\/"
+        },
+        {
+            "id": 25792,
+            "name": "Laguna Herrera",
+            "resource_uri": "\/api\/v1\/location\/25792\/"
+        },
+        {
+            "id": 25793,
+            "name": " Canal Honda",
+            "resource_uri": "\/api\/v1\/location\/25793\/"
+        },
+        {
+            "id": 25794,
+            "name": "Irigoyen",
+            "resource_uri": "\/api\/v1\/location\/25794\/"
+        },
+        {
+            "id": 25795,
+            "name": "La Barquita",
+            "resource_uri": "\/api\/v1\/location\/25795\/"
+        },
+        {
+            "id": 25796,
+            "name": "Nuevo",
+            "resource_uri": "\/api\/v1\/location\/25796\/"
+        },
+        {
+            "id": 25797,
+            "name": "Canal Ortiz",
+            "resource_uri": "\/api\/v1\/location\/25797\/"
+        },
+        {
+            "id": 25798,
+            "name": "Pacifico",
+            "resource_uri": "\/api\/v1\/location\/25798\/"
+        },
+        {
+            "id": 25799,
+            "name": "Pajarito",
+            "resource_uri": "\/api\/v1\/location\/25799\/"
+        },
+        {
+            "id": 25800,
+            "name": "Parana De Las Palmas Tigre",
+            "resource_uri": "\/api\/v1\/location\/25800\/"
+        },
+        {
+            "id": 25801,
+            "name": "Parana Guazu",
+            "resource_uri": "\/api\/v1\/location\/25801\/"
+        },
+        {
+            "id": 25802,
+            "name": "Parana Mini",
+            "resource_uri": "\/api\/v1\/location\/25802\/"
+        },
+        {
+            "id": 25803,
+            "name": "Paranacito",
+            "resource_uri": "\/api\/v1\/location\/25803\/"
+        },
+        {
+            "id": 25804,
+            "name": "Paycarabi",
+            "resource_uri": "\/api\/v1\/location\/25804\/"
+        },
+        {
+            "id": 25805,
+            "name": "Lujan",
+            "resource_uri": "\/api\/v1\/location\/25805\/"
+        },
+        {
+            "id": 25806,
+            "name": "Sarmiento",
+            "resource_uri": "\/api\/v1\/location\/25806\/"
+        },
+        {
+            "id": 25807,
+            "name": "Canal Rompani",
+            "resource_uri": "\/api\/v1\/location\/25807\/"
+        },
+        {
+            "id": 25808,
+            "name": "San Antonio",
+            "resource_uri": "\/api\/v1\/location\/25808\/"
+        },
+        {
+            "id": 25809,
+            "name": "San Jorge",
+            "resource_uri": "\/api\/v1\/location\/25809\/"
+        },
+        {
+            "id": 25810,
+            "name": "Santa Rosa",
+            "resource_uri": "\/api\/v1\/location\/25810\/"
+        },
+        {
+            "id": 25811,
+            "name": "Tarariras",
+            "resource_uri": "\/api\/v1\/location\/25811\/"
+        },
+        {
+            "id": 25812,
+            "name": "Tiber",
+            "resource_uri": "\/api\/v1\/location\/25812\/"
+        },
+        {
+            "id": 25813,
+            "name": "Tiburon",
+            "resource_uri": "\/api\/v1\/location\/25813\/"
+        },
+        {
+            "id": 25814,
+            "name": "Toledo",
+            "resource_uri": "\/api\/v1\/location\/25814\/"
+        },
+        {
+            "id": 25815,
+            "name": "Toro",
+            "resource_uri": "\/api\/v1\/location\/25815\/"
+        },
+        {
+            "id": 25816,
+            "name": "Tres Sargentos",
+            "resource_uri": "\/api\/v1\/location\/25816\/"
+        },
+        {
+            "id": 25817,
+            "name": "Urion",
+            "resource_uri": "\/api\/v1\/location\/25817\/"
+        },
+        {
+            "id": 82449,
+            "name": "9 de Julio",
+            "resource_uri": "\/api\/v1\/location\/82449\/"
+        },
+        {
+            "id": 82450,
+            "name": "Albarracin",
+            "resource_uri": "\/api\/v1\/location\/82450\/"
+        },
+        {
+            "id": 82451,
+            "name": "Abra Vieja",
+            "resource_uri": "\/api\/v1\/location\/82451\/"
+        },
+        {
+            "id": 82452,
+            "name": "Boraso",
+            "resource_uri": "\/api\/v1\/location\/82452\/"
+        },
+        {
+            "id": 82453,
+            "name": "Canal B1 ",
+            "resource_uri": "\/api\/v1\/location\/82453\/"
+        },
+        {
+            "id": 82454,
+            "name": "Canal B2",
+            "resource_uri": "\/api\/v1\/location\/82454\/"
+        },
+        {
+            "id": 82455,
+            "name": "Canal 8",
+            "resource_uri": "\/api\/v1\/location\/82455\/"
+        },
+        {
+            "id": 82456,
+            "name": "Canal Buenos Aires",
+            "resource_uri": "\/api\/v1\/location\/82456\/"
+        },
+        {
+            "id": 82457,
+            "name": "Correa",
+            "resource_uri": "\/api\/v1\/location\/82457\/"
+        },
+        {
+            "id": 82458,
+            "name": "Casilda",
+            "resource_uri": "\/api\/v1\/location\/82458\/"
+        },
+        {
+            "id": 82459,
+            "name": "Doradito",
+            "resource_uri": "\/api\/v1\/location\/82459\/"
+        },
+        {
+            "id": 82460,
+            "name": "Canal Luciano",
+            "resource_uri": "\/api\/v1\/location\/82460\/"
+        },
+        {
+            "id": 82461,
+            "name": "Gaviotas",
+            "resource_uri": "\/api\/v1\/location\/82461\/"
+        },
+        {
+            "id": 82462,
+            "name": "Gallo Fiambre",
+            "resource_uri": "\/api\/v1\/location\/82462\/"
+        },
+        {
+            "id": 82463,
+            "name": "Gutierrez",
+            "resource_uri": "\/api\/v1\/location\/82463\/"
+        },
+        {
+            "id": 82464,
+            "name": "Hambrientos",
+            "resource_uri": "\/api\/v1\/location\/82464\/"
+        },
+        {
+            "id": 82465,
+            "name": "La Horca",
+            "resource_uri": "\/api\/v1\/location\/82465\/"
+        },
+        {
+            "id": 82466,
+            "name": "Las Casas",
+            "resource_uri": "\/api\/v1\/location\/82466\/"
+        },
+        {
+            "id": 82467,
+            "name": "Malvinas",
+            "resource_uri": "\/api\/v1\/location\/82467\/"
+        },
+        {
+            "id": 82468,
+            "name": "Pati",
+            "resource_uri": "\/api\/v1\/location\/82468\/"
+        },
+        {
+            "id": 82469,
+            "name": "Antequerita",
+            "resource_uri": "\/api\/v1\/location\/82469\/"
+        },
+        {
+            "id": 82470,
+            "name": "Rama Negra Chico",
+            "resource_uri": "\/api\/v1\/location\/82470\/"
+        },
+        {
+            "id": 82471,
+            "name": "Rama Negra",
+            "resource_uri": "\/api\/v1\/location\/82471\/"
+        },
+        {
+            "id": 82472,
+            "name": "Reyes",
+            "resource_uri": "\/api\/v1\/location\/82472\/"
+        },
+        {
+            "id": 82473,
+            "name": "Sabalos",
+            "resource_uri": "\/api\/v1\/location\/82473\/"
+        },
+        {
+            "id": 82474,
+            "name": "Primera Hermana",
+            "resource_uri": "\/api\/v1\/location\/82474\/"
+        },
+        {
+            "id": 82475,
+            "name": "Segunda Hermana",
+            "resource_uri": "\/api\/v1\/location\/82475\/"
+        },
+        {
+            "id": 82476,
+            "name": "Surubi",
+            "resource_uri": "\/api\/v1\/location\/82476\/"
+        },
+        {
+            "id": 82477,
+            "name": "Torito",
+            "resource_uri": "\/api\/v1\/location\/82477\/"
+        },
+        {
+            "id": 82478,
+            "name": "Capitan Viejo",
+            "resource_uri": "\/api\/v1\/location\/82478\/"
+        },
+        {
+            "id": 82479,
+            "name": "San Carlos",
+            "resource_uri": "\/api\/v1\/location\/82479\/"
+        },
+        {
+            "id": 82480,
+            "name": "Arroyo Chileno",
+            "resource_uri": "\/api\/v1\/location\/82480\/"
+        },
+        {
+            "id": 82481,
+            "name": "Arroyo Esmeralda",
+            "resource_uri": "\/api\/v1\/location\/82481\/"
+        },
+        {
+            "id": 82567,
+            "name": "Boraso",
+            "resource_uri": "\/api\/v1\/location\/82567\/"
+        }
+    ],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Zona Delta Tigre",
+    "id": 25766,
+    "name": "Zona Delta Tigre",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Zona Delta Tigre",
+    "state": null,
+    "weight": 629,
+    "zip_code": null
+}

@@ -1,0 +1,97 @@
+{
+  "divisions": [
+    {
+      "id": 25073,
+      "name": "Countries/B.Cerrado (Malvinas)",
+      "resource_uri": "/api/v1/location/25073/"
+    },
+    {
+      "id": 25083,
+      "name": "Grand Bourg",
+      "resource_uri": "/api/v1/location/25083/"
+    },
+    {
+      "id": 25088,
+      "name": "Ingeniero Adolfo Sourdeaux",
+      "resource_uri": "/api/v1/location/25088/"
+    },
+    {
+      "id": 25089,
+      "name": "Los Polvorines",
+      "resource_uri": "/api/v1/location/25089/"
+    },
+    {
+      "id": 25101,
+      "name": "Pablo Nogues",
+      "resource_uri": "/api/v1/location/25101/"
+    },
+    {
+      "id": 25102,
+      "name": "Tortuguitas",
+      "resource_uri": "/api/v1/location/25102/"
+    },
+    {
+      "id": 25126,
+      "name": "Villa De Mayo",
+      "resource_uri": "/api/v1/location/25126/"
+    },
+    {
+      "id": 51341,
+      "name": "El triangulo",
+      "resource_uri": "/api/v1/location/51341/"
+    },
+    {
+      "id": 51889,
+      "name": "Area de Promoción El Triángulo",
+      "resource_uri": "/api/v1/location/51889/"
+    },
+    {
+      "id": 51890,
+      "name": "Argentino Golf Club",
+      "resource_uri": "/api/v1/location/51890/"
+    },
+    {
+      "id": 51891,
+      "name": "Barrio Parque Pero",
+      "resource_uri": "/api/v1/location/51891/"
+    },
+    {
+      "id": 51892,
+      "name": "CUBA",
+      "resource_uri": "/api/v1/location/51892/"
+    },
+    {
+      "id": 51893,
+      "name": "El Florido Barrio Parque",
+      "resource_uri": "/api/v1/location/51893/"
+    },
+    {
+      "id": 51894,
+      "name": "Las Beatrices",
+      "resource_uri": "/api/v1/location/51894/"
+    },
+    {
+      "id": 51895,
+      "name": "Los Abedules I",
+      "resource_uri": "/api/v1/location/51895/"
+    },
+    {
+      "id": 51896,
+      "name": "Los Abedules II",
+      "resource_uri": "/api/v1/location/51896/"
+    },
+    {
+      "id": 255418,
+      "name": "Tierras Altas",
+      "resource_uri": "/api/v1/location/255418/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas ",
+  "id": 25072,
+  "name": "Malvinas Argentinas",
+  "parent_division": null,
+  "short_location": "Argentina | G.B.A. Zona Norte | Malvinas Argentinas ",
+  "state": "/api/v1/state/147/",
+  "weight": 585,
+  "zip_code": null
+}

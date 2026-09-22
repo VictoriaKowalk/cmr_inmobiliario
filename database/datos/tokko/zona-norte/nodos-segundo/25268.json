@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Palmas del Sol",
+  "id": 25268,
+  "name": "Palmas del Sol",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Palmas del Sol",
+  "state": null,
+  "weight": 208,
+  "zip_code": null
+}

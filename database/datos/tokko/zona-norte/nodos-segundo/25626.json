@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Barbarita",
+  "id": 25626,
+  "name": "Barbarita",
+  "parent_division": "/api/v1/location/25621/",
+  "short_location": "Tigre | Countries/B.Cerrado (Tigre) | Barbarita",
+  "state": null,
+  "weight": 1286,
+  "zip_code": null
+}

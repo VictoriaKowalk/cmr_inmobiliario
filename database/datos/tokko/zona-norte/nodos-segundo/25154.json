@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Casuarinas Del Pilar",
+  "id": 25154,
+  "name": "Casuarinas Del Pilar",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | Casuarinas Del Pilar",
+  "state": null,
+  "weight": 203,
+  "zip_code": null
+}

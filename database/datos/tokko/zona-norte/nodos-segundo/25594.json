@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Gral. Belgrano (S.Mig.)",
+  "id": 25594,
+  "name": "Gral. Belgrano (S.Mig.)",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Gral. Belgrano (S.Mig.)",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | San Francisco",
+  "id": 25290,
+  "name": "San Francisco",
+  "parent_division": "/api/v1/location/25128/",
+  "short_location": "Pilar | Countries/B.Cerrado (Pilar) | San Francisco",
+  "state": null,
+  "weight": 246,
+  "zip_code": null
+}

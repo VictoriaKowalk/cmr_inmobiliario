@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Miguel | San Miguel | Manuelita",
+  "id": 25607,
+  "name": "Manuelita",
+  "parent_division": "/api/v1/location/25583/",
+  "short_location": "San Miguel | San Miguel | Manuelita",
+  "state": null,
+  "weight": 3,
+  "zip_code": null
+}

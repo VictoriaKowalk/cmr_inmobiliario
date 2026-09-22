@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Pilar | La Calesa",
+  "id": 256397,
+  "name": "La Calesa",
+  "parent_division": "/api/v1/location/25373/",
+  "short_location": "Pilar | Pilar | La Calesa",
+  "state": null,
+  "weight": 0,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+    "divisions": [],
+    "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Nuevo Milberg",
+    "id": 52030,
+    "name": "Nuevo Milberg",
+    "parent_division": "\/api\/v1\/location\/25620\/",
+    "short_location": "G.B.A. Zona Norte | Tigre | Nuevo Milberg",
+    "state": null,
+    "weight": 20,
+    "zip_code": null
+}

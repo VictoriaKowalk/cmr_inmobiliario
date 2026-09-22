@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Jose Clemente Paz | Jose Clemente Paz | San Gabriel",
+  "id": 25063,
+  "name": "San Gabriel",
+  "parent_division": "/api/v1/location/25043/",
+  "short_location": "Jose Clemente Paz | Jose Clemente Paz | San Gabriel",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Belen De Escobar | Las Lomas",
+  "id": 24916,
+  "name": "Las Lomas",
+  "parent_division": "/api/v1/location/24894/",
+  "short_location": "Escobar | Belen De Escobar | Las Lomas",
+  "state": null,
+  "weight": 38,
+  "zip_code": null
+}

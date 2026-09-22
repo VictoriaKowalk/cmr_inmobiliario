@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | San Isidro | San Isidro | S.Isi.-Barrio Carreras",
+  "id": 25548,
+  "name": "S.Isi.-Barrio Carreras",
+  "parent_division": "/api/v1/location/25536/",
+  "short_location": "San Isidro | San Isidro | S.Isi.-Barrio Carreras",
+  "state": null,
+  "weight": 96,
+  "zip_code": null
+}
