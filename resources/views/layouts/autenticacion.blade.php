@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="theme-color" content="#10121a">
+    <meta name="theme-color" content="#0b4fb4">
     <title>@yield('titulo', 'Administración') | {{ config('app.name') }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -12,8 +12,8 @@
     <main class="auth-shell">
         <section class="auth-showcase" aria-label="Presentación del sistema">
             <div class="auth-brand">
-                <strong>NODDO</strong>
-                <small>CRM inmobiliario</small>
+                <img src="{{ asset('images/logo-noddo.png') }}" alt="NODDO">
+                <small>ADMINISTRAR.SIMPLE</small>
             </div>
 
             <div class="auth-showcase-content">
@@ -29,8 +29,8 @@
 
         <section class="auth-form-area">
             <div class="auth-mobile-brand">
-                <strong>NODDO</strong>
-                <small>CRM inmobiliario</small>
+                <img src="{{ asset('images/logo-noddo.png') }}" alt="NODDO">
+                <small>ADMINISTRAR.SIMPLE</small>
             </div>
             <div class="auth-form-card">
                 @yield('contenido')

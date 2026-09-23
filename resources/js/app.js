@@ -1,5 +1,73 @@
 import './bootstrap';
 
+document.querySelectorAll('[data-tipo-propiedad]').forEach((selector) => {
+    const contenedorTerreno = selector.closest('form')?.querySelector('[data-superficie-terreno]');
+    const entradaTerreno = contenedorTerreno?.querySelector('input');
+
+    if (!contenedorTerreno || !entradaTerreno) return;
+
+    const actualizarSuperficieTerreno = () => {
+        const opcion = selector.options[selector.selectedIndex];
+        const mostrar = opcion?.dataset.admiteSuperficieTerreno === 'true';
+        contenedorTerreno.classList.toggle('hidden', !mostrar);
+        entradaTerreno.disabled = !mostrar;
+    };
+
+    actualizarSuperficieTerreno();
+    selector.addEventListener('change', actualizarSuperficieTerreno);
+});
+
+document.querySelectorAll('[data-dashboard-period]').forEach((formulario) => {
+    const desde = formulario.querySelector('[name="desde"]');
+    const hasta = formulario.querySelector('[name="hasta"]');
+    const aplicarBoton = formulario.querySelector('.dashboard-period__apply');
+    const atajos = [...formulario.querySelectorAll('[data-dashboard-period-shortcut]')];
+    const fechaLocal = (fecha) => {
+        const anio = fecha.getFullYear();
+        const mes = String(fecha.getMonth() + 1).padStart(2, '0');
+        const dia = String(fecha.getDate()).padStart(2, '0');
+        return `${anio}-${mes}-${dia}`;
+    };
+    const rangoAtajo = (atajo) => {
+        const hoy = new Date();
+        const inicio = new Date(hoy);
+        inicio.setDate(hoy.getDate() - (Number(atajo) - 1));
+        return { desde: fechaLocal(inicio), hasta: fechaLocal(hoy) };
+    };
+    const actualizarEstadoAtajos = () => {
+        const activo = atajos.find((boton) => {
+            const rango = rangoAtajo(boton.dataset.dashboardPeriodShortcut);
+            return rango.desde === desde?.value && rango.hasta === hasta?.value;
+        });
+        atajos.forEach((boton) => boton.classList.toggle('is-active', boton === activo));
+        formulario.classList.toggle('is-custom-period', !activo);
+    };
+    const marcarCambioManual = () => {
+        aplicarBoton.disabled = !(desde?.value && hasta?.value && desde.value <= hasta.value);
+        atajos.forEach((boton) => boton.classList.remove('is-active'));
+        formulario.classList.add('is-custom-period');
+    };
+    const aplicarAutomaticamente = () => {
+        if (desde?.value && hasta?.value && desde.value <= hasta.value) formulario.requestSubmit();
+    };
+
+    actualizarEstadoAtajos();
+    desde?.addEventListener('input', marcarCambioManual);
+    hasta?.addEventListener('input', marcarCambioManual);
+    desde?.addEventListener('change', aplicarAutomaticamente);
+    hasta?.addEventListener('change', aplicarAutomaticamente);
+    atajos.forEach((boton) => {
+        boton.addEventListener('click', () => {
+            const rango = rangoAtajo(boton.dataset.dashboardPeriodShortcut);
+            desde.value = rango.desde;
+            hasta.value = rango.hasta;
+            atajos.forEach((item) => item.classList.toggle('is-active', item === boton));
+            formulario.classList.remove('is-custom-period');
+            formulario.requestSubmit();
+        });
+    });
+});
+
 document.querySelectorAll('[data-password-toggle]').forEach((boton) => {
     const entrada = boton.parentElement?.querySelector('[data-password-input]');
 
@@ -144,7 +212,7 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
         }
 
         if (ayuda) {
-            ayuda.textContent = 'Buscá por barrio, subbarrio, localidad o zona y elegí la coincidencia correcta.';
+            ayuda.textContent = 'Buscá por partido, localidad, barrio o subbarrio y elegí la coincidencia correcta.';
         }
 
         if (seleccion) {
@@ -212,7 +280,9 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
                 nombre.className = 'block text-sm font-medium text-neutral-900';
                 nombre.textContent = ubicacion.nombre_mostrado;
                 ruta.className = 'mt-1 block text-sm text-neutral-600';
-                ruta.textContent = ubicacion.ruta_mostrada;
+                ruta.textContent = [ubicacion.ruta_mostrada, ubicacion.tipo]
+                    .filter(Boolean)
+                    .join(' · ');
                 boton.append(nombre, ruta);
                 boton.addEventListener('click', () => {
                     mostrarSeleccion(ubicacion);

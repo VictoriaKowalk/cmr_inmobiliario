@@ -4,9 +4,8 @@
 
 @section('contenido')
     <header class="auth-form-heading">
-        <span>Panel administrativo</span>
         <h2>Bienvenido</h2>
-        <p>Ingresá tus credenciales para acceder al CRM.</p>
+        <p>Ingresá tus credenciales para acceder.</p>
     </header>
 
     @if (session('estado'))

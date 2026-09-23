@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="theme-color" content="#11131c">
+    <meta name="theme-color" content="#0b4fb4">
     <title>@yield('titulo', 'Panel') | {{ config('app.name') }}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -45,7 +45,7 @@
         <aside class="admin-sidebar" data-sidebar>
             <div class="admin-brand">
                 <a href="{{ route('administracion.dashboard') }}" class="admin-brand__mark" aria-label="Ir al dashboard">
-                    @if ($empresaPanel?->logoUrl())<img src="{{ $empresaPanel->logoUrl() }}" alt="Logo de {{ $empresaPanel->nombre_comercial }}">@else{{ $empresaPanel?->iniciales() ?: 'HS' }}@endif
+                    <img src="{{ asset('images/logo-noddo.png') }}" alt="NODDO">
                 </a>
                 <button type="button" class="admin-icon-button ml-auto lg:hidden" data-sidebar-close aria-label="Cerrar menú">
                     <svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
@@ -117,7 +117,7 @@
                 @endif
 
                 @unless (request()->routeIs('administracion.dashboard') || request()->routeIs('administracion.cuenta.editar'))
-                    <a href="{{ route('administracion.cuenta.editar') }}" class="admin-back-company">← Mi empresa</a>
+                    <a href="{{ route('administracion.dashboard') }}" class="admin-back-company">← Dashboard</a>
                 @endunless
 
                 @yield('contenido')

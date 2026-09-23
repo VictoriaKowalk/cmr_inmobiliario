@@ -43,16 +43,21 @@
         <div>
             <label class="mb-2 block text-sm font-medium">Código interno</label>
             <div class="flex h-11 items-center border border-neutral-200 bg-neutral-100 px-3 font-semibold text-neutral-700">
-                {{ $propiedad?->codigo_interno ?? 'Se asignará automáticamente al guardar' }}
+                @if ($propiedad?->codigo_interno)
+                    {{ $propiedad->codigo_interno }}
+                @else
+                    <span class="text-sm font-medium text-neutral-500">Se asignará automáticamente al guardar</span>
+                @endif
             </div>
         </div>
         <div>
             <label for="tipo_propiedad_id" class="mb-2 block text-sm font-medium">Tipo de propiedad</label>
-            <select id="tipo_propiedad_id" name="tipo_propiedad_id" required
+            <select id="tipo_propiedad_id" name="tipo_propiedad_id" required data-tipo-propiedad
                     class="h-11 w-full border border-neutral-300 bg-white px-3">
                 <option value="">Seleccionar</option>
                 @foreach ($tiposPropiedad as $tipoPropiedad)
                     <option value="{{ $tipoPropiedad->id }}"
+                        data-admite-superficie-terreno="{{ in_array($tipoPropiedad->nombre, ['Terreno', 'Terreno comercial', 'Terreno industrial', 'Terreno en condominio', 'Casa', 'Quinta', 'Campo', 'Chacra', 'Finca', 'Hacienda', 'Haras', 'Galpon', 'Nave Industrial', 'Bodega', 'Hotel', 'Edificio Comercial', 'Villa', 'Isla'], true) ? 'true' : 'false' }}"
                         @selected((string) old('tipo_propiedad_id', $propiedad?->tipo_propiedad_id) === (string) $tipoPropiedad->id)>
                         {{ $tipoPropiedad->nombre }}
                     </option>
@@ -66,25 +71,16 @@
                    maxlength="180" required
                    class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
         </div>
-        <div class="relative z-[1000] sm:col-span-2"
+        <div class="relative z-20 sm:col-span-2"
              data-autocomplete-ubicacion
              data-url="{{ route('administracion.ubicaciones.buscar') }}"
              data-url-crear="{{ route('administracion.ubicaciones.crear') }}">
-            <div class="mb-3 flex flex-wrap items-end justify-between gap-3 border-b border-neutral-200 pb-3">
-                <div>
-                    <h3 class="font-semibold">Ubicación comercial</h3>
-                    <p class="mt-1 text-sm text-neutral-600">Es la zona con la que se buscará y publicará la propiedad.</p>
-                </div>
-                <div class="text-right text-sm">
-                    <span class="block text-neutral-500">País</span>
-                    <span class="font-medium">Argentina</span>
-                </div>
-            </div>
-            <label for="ubicacion_texto" class="mb-2 block text-sm font-medium">Búsqueda rápida de barrio o ubicación</label>
+            <h3 class="mb-3 font-semibold">Ubicación</h3>
+            <label for="ubicacion_texto" class="mb-2 block text-sm font-medium">Búsqueda rápida de barrio</label>
             <input id="ubicacion_texto" name="ubicacion_texto"
                    value="{{ $ubicacionTexto }}"
                    autocomplete="off" required data-autocomplete-entrada
-                   placeholder="Ej.: Nordelta, Belgrano, Benavídez o Zona Norte"
+                   placeholder="Ej.: San Fernando, Nordelta o Belgrano"
                    class="h-11 w-full border border-neutral-300 px-3 outline-none focus:border-emerald-700">
             <input type="hidden" name="ubicacion_id"
                    value="{{ $ubicacionSeleccionada }}"
@@ -102,7 +98,7 @@
             </div>
             <div class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
                 <p class="text-neutral-600" data-autocomplete-ayuda>
-                    Buscá por barrio, subbarrio, localidad o zona y elegí la coincidencia correcta.
+                    Buscá por partido, localidad, barrio o subbarrio y elegí la coincidencia correcta.
                 </p>
                 <a data-autocomplete-nueva-ubicacion
                    class="hidden font-medium text-emerald-700 hover:text-emerald-900 hover:underline">
@@ -115,10 +111,6 @@
              data-google-maps-key="{{ config('services.google_maps.key') }}"
              data-latitud-inicial="{{ old('latitud', $propiedad?->latitud) }}"
              data-longitud-inicial="{{ old('longitud', $propiedad?->longitud) }}">
-            <div class="mb-3 border-b border-neutral-200 pb-3">
-                <h3 class="font-semibold">Dirección y mapa</h3>
-                <p class="mt-1 text-sm text-neutral-600">La dirección real y el pin son independientes de la ubicación comercial.</p>
-            </div>
             <label for="direccion" class="mb-2 block text-sm font-medium">Dirección real</label>
             <div class="flex flex-col gap-3 lg:flex-row">
                 <input id="direccion" name="direccion"
@@ -146,6 +138,7 @@
             <input type="hidden" name="ubicacion_confirmada"
                    value="{{ old('ubicacion_confirmada', $propiedad?->ubicacion_confirmada) ? '1' : '0' }}"
                    data-ubicacion-confirmada>
+            <h3 class="mt-5 font-semibold">Mapa</h3>
             <p class="mt-2 text-sm text-neutral-600" data-estado-geocodificacion>
                 @if (old('latitud', $propiedad?->latitud) && old('longitud', $propiedad?->longitud))
                     Coordenadas cargadas. Podés ajustar el pin si hace falta.
@@ -293,7 +286,7 @@
             'superficie_descubierta' => 'Superficie descubierta',
             'superficie_terreno' => 'Superficie de terreno',
         ] as $campo => $etiqueta)
-            <div>
+            <div @if ($campo === 'superficie_terreno') data-superficie-terreno @endif>
                 <label for="{{ $campo }}" class="mb-2 block text-sm font-medium">{{ $etiqueta }}</label>
                 <input id="{{ $campo }}" name="{{ $campo }}" type="number" min="0" step="0.01"
                        value="{{ old($campo, $propiedad?->{$campo}) }}"
@@ -422,9 +415,6 @@
 
 <section class="border border-neutral-200 bg-white p-5 sm:p-6">
     <h2 class="text-lg font-semibold">Servicios</h2>
-    <p class="mt-1 text-sm text-neutral-600">
-        Marcá los servicios disponibles en la propiedad.
-    </p>
     <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         @foreach ($servicios as $servicio)
             <label class="flex min-h-10 items-center gap-3 text-sm">
@@ -441,9 +431,6 @@
 
 <section class="border border-neutral-200 bg-white p-5 sm:p-6">
     <h2 class="text-lg font-semibold">Ambientes y espacios</h2>
-    <p class="mt-1 text-sm text-neutral-600">
-        Seleccioná los ambientes que forman parte de la propiedad.
-    </p>
     <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         @foreach ($ambientesCaracteristicas as $ambienteCaracteristica)
             <label class="flex min-h-10 items-center gap-3 text-sm">
@@ -459,7 +446,7 @@
 </section>
 
 <section class="border border-neutral-200 bg-white p-5 sm:p-6">
-    <h2 class="text-lg font-semibold">Descripción y detalles</h2>
+    <h2 class="text-lg font-semibold">Descripción</h2>
     <div class="mt-5 space-y-5">
         <div>
             <label for="descripcion_corta" class="mb-2 block text-sm font-medium">Descripción corta</label>

@@ -3,24 +3,28 @@
 @section('titulo', 'Nueva propiedad')
 
 @section('contenido')
-    <div class="mb-6">
-        <p class="text-sm font-medium text-emerald-700">Propiedades</p>
-        <h1 class="mt-1 text-2xl font-semibold">Nueva propiedad</h1>
-        <p class="mt-1 text-sm text-neutral-600">Completá los datos y activá al menos una operación.</p>
-    </div>
+    <header class="property-create-heading">
+        <div>
+            <p class="dashboard-eyebrow">Propiedades</p>
+            <h1>Nueva propiedad</h1>
+            <p>Completá los datos principales y definí cómo querés comercializarla.</p>
+        </div>
+        <span>Los campos obligatorios están marcados con *</span>
+    </header>
 
     <form method="POST"
           action="{{ route('administracion.propiedades.guardar') }}"
           enctype="multipart/form-data"
-          class="space-y-6">
+          class="property-create-form space-y-6">
         @csrf
+        <div class="property-create-container">
         @include('administracion.propiedades._formulario', [
             'propiedad' => null,
             'textoBoton' => 'Crear propiedad',
             'mostrarAcciones' => false,
         ])
 
-        <section class="border border-neutral-200 bg-white p-5 sm:p-6">
+        <section class="property-media-section border border-neutral-200 bg-white p-5 sm:p-6">
             <h2 class="text-lg font-semibold">Fotos</h2>
             <p class="mt-1 text-sm text-neutral-600">
                 Podés cargar hasta 20 fotos JPG, PNG o WebP, de hasta 10 MB cada una
@@ -52,7 +56,7 @@
             </div>
         </section>
 
-        <section class="border border-neutral-200 bg-white p-5 sm:p-6">
+        <section class="property-media-section border border-neutral-200 bg-white p-5 sm:p-6">
             <h2 class="text-lg font-semibold">Video</h2>
             <p class="mt-1 text-sm text-neutral-600">
                 Si tenés un recorrido de la propiedad, podés agregar su enlace de YouTube.
@@ -90,15 +94,16 @@
             </div>
         @enderror
 
-        <div class="flex flex-wrap gap-3">
+        <div class="property-create-actions">
             <button type="submit"
-                    class="inline-flex h-11 items-center bg-emerald-700 px-5 text-sm font-semibold text-white hover:bg-emerald-800">
+                    class="property-create-actions__submit">
                 Crear propiedad
             </button>
             <a href="{{ route('administracion.propiedades.listar') }}"
-               class="inline-flex h-11 items-center px-4 text-sm font-medium text-neutral-600">
+               class="property-create-actions__cancel">
                 Cancelar
             </a>
+        </div>
         </div>
     </form>
 @endsection

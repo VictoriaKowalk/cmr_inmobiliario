@@ -1,5 +1,5 @@
-<section class="mb-8">
-    <div class="mb-4 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+<section class="mb-8 dashboard-commercial-analysis">
+    <div class="mb-4 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between dashboard-commercial-analysis__summary">
         <div>
             <p class="text-sm font-medium text-emerald-700">Inteligencia comercial</p>
             <h2 class="mt-1 text-xl font-semibold">Indicadores del período</h2>
@@ -12,7 +12,7 @@
         </form>
     </div>
 
-    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
+    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-5 dashboard-commercial-analysis__metrics">
         <article class="border border-neutral-200 bg-white p-5 shadow-sm"><p class="text-sm text-neutral-600">Contactos recibidos</p><p class="mt-2 text-3xl font-semibold">{{ $contactosPeriodo }}</p><p class="mt-2 text-xs text-neutral-500">{{ $consultasPeriodo }} consultas · {{ $tasacionesPeriodo }} tasaciones</p></article>
         <article class="border border-neutral-200 bg-white p-5 shadow-sm"><p class="text-sm text-neutral-600">Primera respuesta</p><p class="mt-2 text-3xl font-semibold">{{ $promedioPrimeraRespuestaMinutos === null ? '—' : ($promedioPrimeraRespuestaMinutos < 60 ? $promedioPrimeraRespuestaMinutos.' min' : number_format($promedioPrimeraRespuestaMinutos / 60, 1, ',', '.').' h') }}</p><p class="mt-2 text-xs text-neutral-500">Promedio hasta marcar como contactada</p></article>
         <article class="border border-neutral-200 bg-white p-5 shadow-sm"><p class="text-sm text-neutral-600">Consulta → visita</p><p class="mt-2 text-3xl font-semibold">{{ number_format($conversionConsultaVisita, 1, ',', '.') }}%</p><p class="mt-2 text-xs text-neutral-500">{{ $visitasPeriodo }} visitas en el período</p></article>

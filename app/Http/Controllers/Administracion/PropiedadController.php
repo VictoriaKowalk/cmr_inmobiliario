@@ -32,6 +32,7 @@ class PropiedadController extends Controller
         $busqueda = trim((string) $solicitud->query('buscar'));
         $tipoOperacion = $solicitud->query('tipo_operacion');
         $estado = $solicitud->query('estado');
+        $orden = $solicitud->query('orden', 'recientes');
         $revision = $solicitud->query('revision', 'todas');
         $visibilidad = $solicitud->query('visibilidad', 'activas');
 
@@ -44,6 +45,8 @@ class PropiedadController extends Controller
                 'imagenPortada',
                 'caracteristicas',
             ])
+            ->withCount('consultas')
+            ->withMin('operaciones', 'precio')
             ->when($visibilidad === 'eliminadas', fn ($query) => $query->onlyTrashed())
             ->when(
                 $busqueda !== '',
@@ -111,13 +114,17 @@ class PropiedadController extends Controller
                 $revision === 'destacadas',
                 fn ($query) => $query->destacadas()
             )
-            ->latest();
+            ->when($orden === 'actualizadas', fn ($query) => $query->orderByDesc('updated_at'))
+            ->when($orden === 'precio', fn ($query) => $query->orderBy('operaciones_min_precio'))
+            ->when($orden === 'consultas', fn ($query) => $query->orderByDesc('consultas_count'))
+            ->when(! in_array($orden, ['actualizadas', 'precio', 'consultas'], true), fn ($query) => $query->latest());
 
         return view('administracion.propiedades.listar', [
             'propiedades' => $consulta->paginate(12)->withQueryString(),
             'busqueda' => $busqueda,
             'tipoOperacionSeleccionado' => $tipoOperacion,
             'estadoSeleccionado' => $estado,
+            'orden' => $orden,
             'revision' => $revision,
             'visibilidad' => $visibilidad,
             'tiposOperacion' => TipoOperacion::cases(),

@@ -5,18 +5,17 @@
 @section('contenido')
     <div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-            <p class="text-sm font-medium text-emerald-700">Administración</p>
-            <h1 class="mt-1 text-2xl font-semibold">Propiedades</h1>
+            <h1 class="properties-page__title">Propiedades</h1>
             <p class="mt-1 text-sm text-neutral-600">Gestioná inmuebles y sus operaciones comerciales.</p>
         </div>
         <a href="{{ route('administracion.propiedades.crear') }}"
-           class="inline-flex h-11 items-center justify-center bg-emerald-700 px-4 text-sm font-semibold text-white hover:bg-emerald-800">
+           class="dashboard-secondary-action properties-create-action">
             Nueva propiedad
         </a>
     </div>
 
     <form method="GET"
-          class="mb-5 grid gap-3 border border-neutral-200 bg-white p-4 shadow-sm md:grid-cols-2 xl:grid-cols-[minmax(220px,1fr)_170px_160px_190px_150px_auto]">
+          class="properties-filters">
         <div>
             <label for="buscar" class="mb-1 block text-xs font-medium text-neutral-600">Buscar</label>
             <input id="buscar" name="buscar" value="{{ $busqueda }}"
@@ -51,34 +50,25 @@
                 @endforeach
             </select>
         </div>
-        <div>
-            <label for="visibilidad" class="mb-1 block text-xs font-medium text-neutral-600">Registros</label>
-            <select id="visibilidad" name="visibilidad"
-                    class="h-10 w-full border border-neutral-300 bg-white px-3 text-sm">
-                <option value="activas" @selected($visibilidad === 'activas')>Activas</option>
-                <option value="eliminadas" @selected($visibilidad === 'eliminadas')>Eliminadas</option>
-            </select>
-        </div>
-        <div>
-            <label for="revision" class="mb-1 block text-xs font-medium text-neutral-600">Revisión</label>
-            <select id="revision" name="revision"
-                    class="h-10 w-full border border-neutral-300 bg-white px-3 text-sm">
-                <option value="todas" @selected($revision === 'todas')>Todas</option>
-                <option value="sin_imagen" @selected($revision === 'sin_imagen')>Publicadas sin imagen</option>
-                <option value="sin_portada" @selected($revision === 'sin_portada')>Publicadas sin portada</option>
-                <option value="sin_precio" @selected($revision === 'sin_precio')>Publicadas sin precio</option>
-                <option value="sin_operacion_publicada" @selected($revision === 'sin_operacion_publicada')>Sin operación publicada</option>
-                <option value="destacadas" @selected($revision === 'destacadas')>Destacadas</option>
-            </select>
-        </div>
-        <div class="flex items-end gap-2">
-            <button class="h-10 bg-neutral-900 px-4 text-sm font-semibold text-white">Filtrar</button>
+        <div class="properties-filters__actions">
+            <button class="properties-filter-submit">Filtrar</button>
             <a href="{{ route('administracion.propiedades.listar') }}"
-               class="inline-flex h-10 items-center px-2 text-sm text-neutral-600">Limpiar</a>
+               class="properties-filter-clear">Limpiar</a>
         </div>
     </form>
 
-    <div class="overflow-hidden border border-neutral-200 bg-white shadow-sm">
+    <div class="properties-list-heading">
+        <p>Mostrando {{ $propiedades->count() }} de {{ $propiedades->total() }} propiedades</p>
+        <label for="orden">Ordenar por
+            <select id="orden" onchange="window.location.href=this.value">
+                @foreach (['recientes' => 'Más recientes', 'actualizadas' => 'Última actualización', 'precio' => 'Precio', 'consultas' => 'Más consultas'] as $valor => $etiqueta)
+                    <option value="{{ route('administracion.propiedades.listar', array_merge(request()->query(), ['orden' => $valor])) }}" @selected($orden === $valor)>{{ $etiqueta }}</option>
+                @endforeach
+            </select>
+        </label>
+    </div>
+
+    <div class="properties-results overflow-hidden border border-neutral-200 bg-white shadow-sm">
         <div class="overflow-x-auto">
             <table class="w-full min-w-[980px] text-left text-sm">
                 <thead class="border-b border-neutral-200 bg-neutral-50 text-xs uppercase text-neutral-500">

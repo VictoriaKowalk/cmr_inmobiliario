@@ -71,25 +71,53 @@ class UbicacionController extends Controller
             ->where('activa', true)
             ->where(fn ($q) => $q->where('nombre_completo', 'like', "%{$texto}%")->orWhere('nombre', 'like', "%{$texto}%"))
             ->orderBy('nombre_completo')
-            ->limit(50)
             ->get(['id', 'ubicacion_padre_id', 'tipo_ubicacion_id', 'nombre', 'nombre_normalizado', 'nombre_completo']);
 
-        $ubicacionesComerciales = $coincidencias->filter(
-            fn (Ubicacion $ubicacion) => in_array(
-                $ubicacion->tipoUbicacion?->codigo,
-                ['zona_comercial', 'localidad', 'barrio', 'subbarrio'],
-                true
-            )
-        );
+        $nivelesAdministrativos = Ubicacion::query()
+            ->with(['tipoUbicacion:id,codigo,nombre', 'padre:id,nombre,nombre_normalizado'])
+            ->where('activa', true)
+            ->whereHas('tipoUbicacion', fn ($tipos) => $tipos->whereIn('codigo', [
+                'partido', 'municipio', 'departamento', 'comuna', 'zona_comercial', 'localidad',
+            ]))
+            ->where(fn ($q) => $q->where('nombre_completo', 'like', "%{$texto}%")->orWhere('nombre', 'like', "%{$texto}%"))
+            ->get(['id', 'ubicacion_padre_id', 'tipo_ubicacion_id', 'nombre', 'nombre_normalizado', 'nombre_completo']);
 
-        $visibles = $ubicacionesComerciales->isNotEmpty()
-            ? $ubicacionesComerciales
-            : $coincidencias
-                ->groupBy(fn (Ubicacion $ubicacion) => $this->claveAdministrativa($ubicacion))
-                ->map(fn ($grupo) => $grupo
-                    ->sortBy(fn (Ubicacion $ubicacion) => $this->prioridadAdministrativa($ubicacion))
-                    ->first())
-                ->values();
+        // Una propiedad puede publicarse en cualquier nivel geográfico. No se
+        // descartan partidos, municipios ni localidades cuando también existen barrios.
+        $visibles = $coincidencias->concat($nivelesAdministrativos)->unique('id')->sort(function (Ubicacion $primera, Ubicacion $segunda) use ($texto): int {
+            $normalizar = fn (string $valor): string => mb_strtolower(trim($valor));
+            $textoNormalizado = $normalizar($texto);
+            $coincidenciaExactaPrimera = $normalizar($primera->nombre) === $textoNormalizado ? 0 : 1;
+            $coincidenciaExactaSegunda = $normalizar($segunda->nombre) === $textoNormalizado ? 0 : 1;
+
+            if ($coincidenciaExactaPrimera !== $coincidenciaExactaSegunda) {
+                return $coincidenciaExactaPrimera <=> $coincidenciaExactaSegunda;
+            }
+
+            $prioridad = fn (Ubicacion $ubicacion): int => match ($ubicacion->tipoUbicacion?->codigo) {
+                'partido' => 1,
+                'municipio' => 2,
+                'departamento', 'comuna' => 3,
+                'zona_comercial', 'localidad' => 4,
+                'barrio' => 5,
+                'subbarrio' => 6,
+                default => 7,
+            };
+
+            $prioridades = [$prioridad($primera), $prioridad($segunda)];
+            if ($prioridades[0] !== $prioridades[1]) return $prioridades[0] <=> $prioridades[1];
+
+            $profundidadPrimera = substr_count($primera->nombre_completo, '|');
+            $profundidadSegunda = substr_count($segunda->nombre_completo, '|');
+
+            return [$profundidadPrimera, $primera->nombre] <=> [$profundidadSegunda, $segunda->nombre];
+        })->groupBy(function (Ubicacion $ubicacion): string {
+            $partes = array_map('trim', explode('|', $ubicacion->nombre_completo));
+            $provincia = $partes[1] ?? '';
+            $nombre = preg_replace('/^(Partido|Municipio|Departamento|Comuna) de /iu', '', $ubicacion->nombre) ?: $ubicacion->nombre;
+
+            return mb_strtolower($provincia.'|'.$nombre);
+        })->map(fn ($grupo) => $grupo->first())->values();
 
         return response()->json($visibles
             ->map(fn (Ubicacion $ubicacion) => [
@@ -97,10 +125,10 @@ class UbicacionController extends Controller
                 'nombre' => $ubicacion->nombre,
                 'nombre_completo' => $ubicacion->nombre_completo,
                 'nombre_mostrado' => $this->nombreParaSelector($ubicacion),
+                'tipo' => $ubicacion->tipoUbicacion?->nombre,
                 'ruta_mostrada' => $this->rutaParaSelector($ubicacion),
                 'ruta_completa_mostrada' => $this->rutaCompletaParaSelector($ubicacion),
             ])
-            ->sortBy('nombre_mostrado')
             ->take(10)
             ->values());
     }
