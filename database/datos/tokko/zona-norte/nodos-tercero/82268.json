@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | Casas del Este",
+  "id": 82268,
+  "name": "Casas del Este",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | Casas del Este",
+  "state": null,
+  "weight": 45,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares) | Barrio El Aljibe",
+  "id": 102381,
+  "name": "Barrio El Aljibe",
+  "parent_division": "/api/v1/location/253293/",
+  "short_location": "Manzanares | Countries/B.Cerrado (Manzanares) | Barrio El Aljibe",
+  "state": null,
+  "weight": 323,
+  "zip_code": null
+}

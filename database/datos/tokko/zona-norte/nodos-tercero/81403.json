@@ -1,0 +1,32 @@
+{
+  "divisions": [
+    {
+      "id": 51332,
+      "name": "Enyoi",
+      "resource_uri": "/api/v1/location/51332/"
+    },
+    {
+      "id": 51849,
+      "name": "La Mansa",
+      "resource_uri": "/api/v1/location/51849/"
+    },
+    {
+      "id": 55991,
+      "name": "Acqua",
+      "resource_uri": "/api/v1/location/55991/"
+    },
+    {
+      "id": 80393,
+      "name": "Qbay Golf",
+      "resource_uri": "/api/v1/location/80393/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf",
+  "id": 81403,
+  "name": "Islas del Golf",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Islas del Golf",
+  "state": null,
+  "weight": 95,
+  "zip_code": null
+}

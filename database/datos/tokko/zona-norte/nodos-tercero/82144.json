@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | El Refugio",
+  "id": 82144,
+  "name": "El Refugio",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | El Refugio",
+  "state": null,
+  "weight": 30,
+  "zip_code": null
+}

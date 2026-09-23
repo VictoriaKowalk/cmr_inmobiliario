@@ -1,0 +1,72 @@
+{
+  "divisions": [
+    {
+      "id": 51303,
+      "name": "Terrazas de la Bahia I",
+      "resource_uri": "/api/v1/location/51303/"
+    },
+    {
+      "id": 51304,
+      "name": "Wyndham Hotel",
+      "resource_uri": "/api/v1/location/51304/"
+    },
+    {
+      "id": 51306,
+      "name": "Vista Bahia",
+      "resource_uri": "/api/v1/location/51306/"
+    },
+    {
+      "id": 51307,
+      "name": "El Reflejo",
+      "resource_uri": "/api/v1/location/51307/"
+    },
+    {
+      "id": 51308,
+      "name": "Miradores de la Bahia",
+      "resource_uri": "/api/v1/location/51308/"
+    },
+    {
+      "id": 51309,
+      "name": "Marinas del Canal",
+      "resource_uri": "/api/v1/location/51309/"
+    },
+    {
+      "id": 51320,
+      "name": "Terrazas de la Bahia II",
+      "resource_uri": "/api/v1/location/51320/"
+    },
+    {
+      "id": 51326,
+      "name": "Ribera",
+      "resource_uri": "/api/v1/location/51326/"
+    },
+    {
+      "id": 51328,
+      "name": "Bahia Grande Amarras",
+      "resource_uri": "/api/v1/location/51328/"
+    },
+    {
+      "id": 81423,
+      "name": "Estudio de la Bahia",
+      "resource_uri": "/api/v1/location/81423/"
+    },
+    {
+      "id": 81914,
+      "name": "Wyndham Condominios",
+      "resource_uri": "/api/v1/location/81914/"
+    },
+    {
+      "id": 505133,
+      "name": "Lofts de la Bahía",
+      "resource_uri": "/api/v1/location/505133/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande",
+  "id": 51300,
+  "name": "Bahia Grande",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Bahia Grande",
+  "state": null,
+  "weight": 2058,
+  "zip_code": ""
+}

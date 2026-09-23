@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | San Eduardo",
+  "id": 81252,
+  "name": "San Eduardo",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | San Eduardo",
+  "state": null,
+  "weight": 879,
+  "zip_code": null
+}

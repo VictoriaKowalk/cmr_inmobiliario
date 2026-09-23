@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | Los Alamos",
+  "id": 82139,
+  "name": "Los Alamos",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | Los Alamos",
+  "state": null,
+  "weight": 6,
+  "zip_code": null
+}

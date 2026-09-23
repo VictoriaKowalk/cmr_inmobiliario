@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Quartier",
+  "id": 51276,
+  "name": "Quartier",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Quartier",
+  "state": null,
+  "weight": 732,
+  "zip_code": null
+}

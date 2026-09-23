@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Marco",
+  "id": 51264,
+  "name": "San Marco",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Marco",
+  "state": null,
+  "weight": 1960,
+  "zip_code": null
+}

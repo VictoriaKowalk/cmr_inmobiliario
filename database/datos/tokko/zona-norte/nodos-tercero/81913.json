@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Tilos",
+  "id": 81913,
+  "name": "Los Tilos",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Los Tilos",
+  "state": null,
+  "weight": 55,
+  "zip_code": null
+}

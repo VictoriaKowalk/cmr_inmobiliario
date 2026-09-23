@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Solares del Portezuelo",
+  "id": 82378,
+  "name": "Solares del Portezuelo",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Solares del Portezuelo",
+  "state": null,
+  "weight": 102,
+  "zip_code": ""
+}

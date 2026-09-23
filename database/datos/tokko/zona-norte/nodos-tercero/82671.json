@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | Bahia",
+  "id": 82671,
+  "name": "Bahia",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | Bahia",
+  "state": null,
+  "weight": 33,
+  "zip_code": null
+}

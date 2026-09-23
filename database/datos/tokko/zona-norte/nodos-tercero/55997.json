@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Plaza del Sendero",
+  "id": 55997,
+  "name": "Plaza del Sendero",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Plaza del Sendero",
+  "state": null,
+  "weight": 125,
+  "zip_code": null
+}

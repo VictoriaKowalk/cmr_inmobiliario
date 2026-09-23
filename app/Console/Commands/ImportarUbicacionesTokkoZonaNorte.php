@@ -84,7 +84,7 @@ class ImportarUbicacionesTokkoZonaNorte extends Command
     {
         $codigos = array_flip($tipos);
         $lineas = ['-- Ubicaciones de Zona Norte importadas desde Tokko.', '-- Ejecutar después de crear_base_cmr_inmobiliario.sql.'];
-        $ubicaciones = Ubicacion::query()->with('padre')->where('origen', 'tokko')->orderBy('nombre_completo')->get();
+        $ubicaciones = Ubicacion::query()->with('padre')->whereIn('origen', ['georef', 'tokko', 'semilla'])->orderBy('nombre_completo')->get();
         foreach ($ubicaciones as $ubicacion) {
             if ($ubicacion->padre === null) continue;
             $escapar = fn (string $texto) => str_replace("'", "''", $texto);
@@ -93,7 +93,10 @@ class ImportarUbicacionesTokkoZonaNorte extends Command
             $nombre = $escapar($ubicacion->nombre);
             $normalizado = $escapar($ubicacion->nombre_normalizado);
             $completo = $escapar($ubicacion->nombre_completo);
-            $lineas[] = "INSERT INTO ubicaciones (ubicacion_padre_id,tipo_ubicacion_id,nombre,nombre_normalizado,origen,pais,nombre_completo,activa,created_at,updated_at) SELECT padre.id,tipo.id,'{$nombre}','{$normalizado}','tokko','Argentina','{$completo}',1,NOW(),NOW() FROM ubicaciones padre JOIN tipos_ubicacion tipo WHERE padre.nombre_completo='{$padre}' AND tipo.codigo='{$tipo}' AND NOT EXISTS (SELECT 1 FROM ubicaciones existente WHERE existente.nombre_completo='{$completo}');";
+            $origen = $escapar($ubicacion->origen);
+            $idTokko = $ubicacion->id_tokko === null ? 'NULL' : (int) $ubicacion->id_tokko;
+            $rutaTokko = $ubicacion->ruta_tokko === null ? 'NULL' : "'".$escapar($ubicacion->ruta_tokko)."'";
+            $lineas[] = "INSERT INTO ubicaciones (ubicacion_padre_id,tipo_ubicacion_id,nombre,nombre_normalizado,origen,id_tokko,ruta_tokko,pais,nombre_completo,activa,created_at,updated_at) SELECT padre.id,tipo.id,'{$nombre}','{$normalizado}','{$origen}',{$idTokko},{$rutaTokko},'Argentina','{$completo}',1,NOW(),NOW() FROM ubicaciones padre JOIN tipos_ubicacion tipo WHERE padre.nombre_completo='{$padre}' AND tipo.codigo='{$tipo}' AND NOT EXISTS (SELECT 1 FROM ubicaciones existente WHERE existente.nombre_completo='{$completo}');";
         }
         file_put_contents(database_path('sql/ubicaciones_zona_norte_tokko.sql'), implode(PHP_EOL, $lineas).PHP_EOL);
         $this->info('SQL manual generado: database/sql/ubicaciones_zona_norte_tokko.sql');

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | El Canal",
+  "id": 210560,
+  "name": "El Canal",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | El Canal",
+  "state": null,
+  "weight": 2584,
+  "zip_code": null
+}

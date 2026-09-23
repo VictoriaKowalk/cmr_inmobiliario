@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Countries/B. Cerrado (General Pacheco) | Dos Eucaliptus",
+  "id": 253970,
+  "name": "Dos Eucaliptus",
+  "parent_division": "/api/v1/location/253343/",
+  "short_location": "General Pacheco | Countries/B. Cerrado (General Pacheco) | Dos Eucaliptus",
+  "state": null,
+  "weight": 1,
+  "zip_code": null
+}

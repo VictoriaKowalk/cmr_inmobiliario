@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares) | Estacion",
+  "id": 25370,
+  "name": "Estacion",
+  "parent_division": "/api/v1/location/253293/",
+  "short_location": "Manzanares | Countries/B.Cerrado (Manzanares) | Estacion",
+  "state": null,
+  "weight": 5,
+  "zip_code": null
+}

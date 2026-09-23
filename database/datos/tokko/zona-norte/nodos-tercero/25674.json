@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Las Caletas",
+  "id": 25674,
+  "name": "Las Caletas",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Las Caletas",
+  "state": null,
+  "weight": 687,
+  "zip_code": null
+}

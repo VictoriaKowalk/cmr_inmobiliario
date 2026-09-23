@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | Las Lomas",
+  "id": 82140,
+  "name": "Las Lomas",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | Las Lomas",
+  "state": null,
+  "weight": 153,
+  "zip_code": null
+}

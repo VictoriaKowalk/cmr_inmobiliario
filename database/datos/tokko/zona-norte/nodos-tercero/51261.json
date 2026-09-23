@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Gabriel",
+  "id": 51261,
+  "name": "San Gabriel",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Gabriel",
+  "state": null,
+  "weight": 4738,
+  "zip_code": null
+}

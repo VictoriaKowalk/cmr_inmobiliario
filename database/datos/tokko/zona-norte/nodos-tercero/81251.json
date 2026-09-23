@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Guadalupe",
+  "id": 81251,
+  "name": "Santa Guadalupe",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Guadalupe",
+  "state": null,
+  "weight": 2022,
+  "zip_code": null
+}

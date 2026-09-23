@@ -1,0 +1,22 @@
+{
+  "divisions": [
+    {
+      "id": 80737,
+      "name": "Acqua Rio",
+      "resource_uri": "/api/v1/location/80737/"
+    },
+    {
+      "id": 80738,
+      "name": "Ribera",
+      "resource_uri": "/api/v1/location/80738/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Islas del Canal",
+  "id": 51256,
+  "name": "Islas del Canal",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Islas del Canal",
+  "state": null,
+  "weight": 748,
+  "zip_code": null
+}

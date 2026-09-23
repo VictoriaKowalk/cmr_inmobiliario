@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Countries/B. Cerrado (General Pacheco) | La Comarca",
+  "id": 25649,
+  "name": "La Comarca",
+  "parent_division": "/api/v1/location/253343/",
+  "short_location": "General Pacheco | Countries/B. Cerrado (General Pacheco) | La Comarca",
+  "state": null,
+  "weight": 1802,
+  "zip_code": ""
+}

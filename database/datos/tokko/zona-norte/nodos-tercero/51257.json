@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Las Tipas",
+  "id": 51257,
+  "name": "Las Tipas",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Las Tipas",
+  "state": null,
+  "weight": 3880,
+  "zip_code": null
+}

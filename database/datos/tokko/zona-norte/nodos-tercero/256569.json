@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Villa Rosa | Barrio Parque Pellegrini III",
+  "id": 256569,
+  "name": "Barrio Parque Pellegrini III",
+  "parent_division": "/api/v1/location/25308/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Villa Rosa | Barrio Parque Pellegrini III",
+  "state": null,
+  "weight": 0,
+  "zip_code": ""
+}

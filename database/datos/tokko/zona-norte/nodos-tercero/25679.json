@@ -1,0 +1,62 @@
+{
+  "divisions": [
+    {
+      "id": 51310,
+      "name": "Plaza Portezuelo",
+      "resource_uri": "/api/v1/location/51310/"
+    },
+    {
+      "id": 51311,
+      "name": "Solares del Portezuelo",
+      "resource_uri": "/api/v1/location/51311/"
+    },
+    {
+      "id": 51312,
+      "name": "Praia",
+      "resource_uri": "/api/v1/location/51312/"
+    },
+    {
+      "id": 51313,
+      "name": "Marinas del Portezuelo",
+      "resource_uri": "/api/v1/location/51313/"
+    },
+    {
+      "id": 51314,
+      "name": "El Faro",
+      "resource_uri": "/api/v1/location/51314/"
+    },
+    {
+      "id": 51322,
+      "name": "Boulevard Portezuelo",
+      "resource_uri": "/api/v1/location/51322/"
+    },
+    {
+      "id": 51323,
+      "name": "Homes I",
+      "resource_uri": "/api/v1/location/51323/"
+    },
+    {
+      "id": 51324,
+      "name": "Condominios de la Bahia",
+      "resource_uri": "/api/v1/location/51324/"
+    },
+    {
+      "id": 51325,
+      "name": "Casas del Sol",
+      "resource_uri": "/api/v1/location/51325/"
+    },
+    {
+      "id": 55990,
+      "name": "Casas del Lago",
+      "resource_uri": "/api/v1/location/55990/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo",
+  "id": 25679,
+  "name": "Portezuelo",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Portezuelo",
+  "state": null,
+  "weight": 2795,
+  "zip_code": null
+}

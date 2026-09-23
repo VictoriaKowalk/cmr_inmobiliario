@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Sauces",
+  "id": 25677,
+  "name": "Los Sauces",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Los Sauces",
+  "state": null,
+  "weight": 1547,
+  "zip_code": null
+}

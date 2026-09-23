@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Tigre | Dique Lujan | Casas de Santa María",
+  "id": 253656,
+  "name": "Casas de Santa María",
+  "parent_division": "/api/v1/location/25760/",
+  "short_location": "Tigre | Dique Lujan | Casas de Santa María",
+  "state": null,
+  "weight": 33,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | La Alameda",
+  "id": 25672,
+  "name": "La Alameda",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | La Alameda",
+  "state": null,
+  "weight": 1188,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | General Pacheco | Countries/B. Cerrado (General Pacheco) | Bello Horizonte",
+  "id": 52009,
+  "name": "Bello Horizonte",
+  "parent_division": "/api/v1/location/253343/",
+  "short_location": "General Pacheco | Countries/B. Cerrado (General Pacheco) | Bello Horizonte",
+  "state": null,
+  "weight": 35,
+  "zip_code": null
+}

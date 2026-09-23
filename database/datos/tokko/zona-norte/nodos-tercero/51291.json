@@ -1,0 +1,57 @@
+{
+  "divisions": [
+    {
+      "id": 51292,
+      "name": "Zaduh",
+      "resource_uri": "/api/v1/location/51292/"
+    },
+    {
+      "id": 51293,
+      "name": "Blue Nordelta",
+      "resource_uri": "/api/v1/location/51293/"
+    },
+    {
+      "id": 51294,
+      "name": "Espigon 13",
+      "resource_uri": "/api/v1/location/51294/"
+    },
+    {
+      "id": 51295,
+      "name": "Qbay Rio",
+      "resource_uri": "/api/v1/location/51295/"
+    },
+    {
+      "id": 56033,
+      "name": "Delta 8",
+      "resource_uri": "/api/v1/location/56033/"
+    },
+    {
+      "id": 80785,
+      "name": "Espigon 12",
+      "resource_uri": "/api/v1/location/80785/"
+    },
+    {
+      "id": 82372,
+      "name": "Hanami park",
+      "resource_uri": "/api/v1/location/82372/"
+    },
+    {
+      "id": 82690,
+      "name": "The Kiri",
+      "resource_uri": "/api/v1/location/82690/"
+    },
+    {
+      "id": 253675,
+      "name": "Vilago ",
+      "resource_uri": "/api/v1/location/253675/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido",
+  "id": 51291,
+  "name": "Puerto Escondido",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Puerto Escondido",
+  "state": null,
+  "weight": 2113,
+  "zip_code": null
+}

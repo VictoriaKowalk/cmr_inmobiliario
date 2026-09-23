@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | Los Robles",
+  "id": 82137,
+  "name": "Los Robles",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | Los Robles",
+  "state": null,
+  "weight": 245,
+  "zip_code": null
+}

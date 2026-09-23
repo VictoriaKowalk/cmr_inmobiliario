@@ -1,0 +1,42 @@
+{
+  "divisions": [
+    {
+      "id": 51286,
+      "name": "Quartier Nordelta",
+      "resource_uri": "/api/v1/location/51286/"
+    },
+    {
+      "id": 51287,
+      "name": "Puerta Norte",
+      "resource_uri": "/api/v1/location/51287/"
+    },
+    {
+      "id": 51288,
+      "name": "Vientos del Delta",
+      "resource_uri": "/api/v1/location/51288/"
+    },
+    {
+      "id": 51289,
+      "name": "North Coral Plaza",
+      "resource_uri": "/api/v1/location/51289/"
+    },
+    {
+      "id": 51290,
+      "name": "Antares",
+      "resource_uri": "/api/v1/location/51290/"
+    },
+    {
+      "id": 51826,
+      "name": "Chateau Del Portal",
+      "resource_uri": "/api/v1/location/51826/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Portal",
+  "id": 51255,
+  "name": "El Portal",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | El Portal",
+  "state": null,
+  "weight": 745,
+  "zip_code": null
+}

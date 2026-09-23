@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Lucia",
+  "id": 82262,
+  "name": "Santa Lucia",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Lucia",
+  "state": null,
+  "weight": 333,
+  "zip_code": null
+}

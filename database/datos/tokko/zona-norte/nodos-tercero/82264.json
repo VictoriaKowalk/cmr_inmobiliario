@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | San Ramon",
+  "id": 82264,
+  "name": "San Ramon",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | San Ramon",
+  "state": null,
+  "weight": 940,
+  "zip_code": null
+}

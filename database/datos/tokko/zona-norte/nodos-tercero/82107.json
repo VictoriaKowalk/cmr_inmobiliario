@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Centro Comercial",
+  "id": 82107,
+  "name": "Centro Comercial",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Centro Comercial",
+  "state": null,
+  "weight": 92,
+  "zip_code": ""
+}

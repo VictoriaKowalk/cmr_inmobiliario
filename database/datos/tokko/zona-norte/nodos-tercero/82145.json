@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | El Molino Sur",
+  "id": 82145,
+  "name": "El Molino Sur",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | El Molino Sur",
+  "state": null,
+  "weight": 298,
+  "zip_code": null
+}

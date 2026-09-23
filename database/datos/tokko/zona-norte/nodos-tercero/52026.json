@@ -1,0 +1,27 @@
+{
+  "divisions": [
+    {
+      "id": 51301,
+      "name": "Paseo de la Bahia - Studios I",
+      "resource_uri": "/api/v1/location/51301/"
+    },
+    {
+      "id": 51302,
+      "name": "Paseo de la Bahia - Studios II",
+      "resource_uri": "/api/v1/location/51302/"
+    },
+    {
+      "id": 55601,
+      "name": "Estudios del Intercontinental",
+      "resource_uri": "/api/v1/location/55601/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia",
+  "id": 52026,
+  "name": "Nordelta Paseo de la Bahia",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Nordelta Paseo de la Bahia",
+  "state": null,
+  "weight": 89,
+  "zip_code": null
+}

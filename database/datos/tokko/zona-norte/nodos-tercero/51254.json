@@ -1,0 +1,57 @@
+{
+  "divisions": [
+    {
+      "id": 51278,
+      "name": "Homes II",
+      "resource_uri": "/api/v1/location/51278/"
+    },
+    {
+      "id": 51279,
+      "name": "Homes III",
+      "resource_uri": "/api/v1/location/51279/"
+    },
+    {
+      "id": 51280,
+      "name": "Insignia Nordelta",
+      "resource_uri": "/api/v1/location/51280/"
+    },
+    {
+      "id": 51281,
+      "name": "Chateau del Palmar",
+      "resource_uri": "/api/v1/location/51281/"
+    },
+    {
+      "id": 51282,
+      "name": "Zerena",
+      "resource_uri": "/api/v1/location/51282/"
+    },
+    {
+      "id": 51283,
+      "name": "Posadas Nordelta",
+      "resource_uri": "/api/v1/location/51283/"
+    },
+    {
+      "id": 51284,
+      "name": "Infinity Residences",
+      "resource_uri": "/api/v1/location/51284/"
+    },
+    {
+      "id": 51285,
+      "name": "Del Lago Condominium",
+      "resource_uri": "/api/v1/location/51285/"
+    },
+    {
+      "id": 253280,
+      "name": "Jardines del Palmar",
+      "resource_uri": "/api/v1/location/253280/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Palmar",
+  "id": 51254,
+  "name": "El Palmar",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | El Palmar",
+  "state": null,
+  "weight": 2559,
+  "zip_code": null
+}

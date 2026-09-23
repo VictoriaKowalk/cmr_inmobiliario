@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Pedro",
+  "id": 82677,
+  "name": "San Pedro",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Pedro",
+  "state": null,
+  "weight": 87,
+  "zip_code": null
+}

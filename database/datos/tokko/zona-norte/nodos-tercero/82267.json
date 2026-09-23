@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | Los Jazmines",
+  "id": 82267,
+  "name": "Los Jazmines",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | Los Jazmines",
+  "state": null,
+  "weight": 377,
+  "zip_code": null
+}

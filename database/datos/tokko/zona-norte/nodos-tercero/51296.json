@@ -1,0 +1,27 @@
+{
+  "divisions": [
+    {
+      "id": 51297,
+      "name": "Panorama",
+      "resource_uri": "/api/v1/location/51297/"
+    },
+    {
+      "id": 51298,
+      "name": "Casas del Sendero",
+      "resource_uri": "/api/v1/location/51298/"
+    },
+    {
+      "id": 51299,
+      "name": "Lago del Sendero",
+      "resource_uri": "/api/v1/location/51299/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Sendero",
+  "id": 51296,
+  "name": "Sendero",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Sendero",
+  "state": null,
+  "weight": 1458,
+  "zip_code": null
+}

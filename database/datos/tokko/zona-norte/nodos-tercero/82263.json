@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Elena ",
+  "id": 82263,
+  "name": "Santa Elena ",
+  "parent_division": "/api/v1/location/25273/",
+  "short_location": "Countries/B.Cerrado (Pilar) | Pilar Del Este | Santa Elena ",
+  "state": null,
+  "weight": 1400,
+  "zip_code": null
+}

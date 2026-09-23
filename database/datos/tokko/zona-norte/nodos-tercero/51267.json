@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | Santa Teresa",
+  "id": 51267,
+  "name": "Santa Teresa",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | Santa Teresa",
+  "state": null,
+  "weight": 1738,
+  "zip_code": null
+}

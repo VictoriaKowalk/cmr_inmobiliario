@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | Casas de San Patricio",
+  "id": 80473,
+  "name": "Casas de San Patricio",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | Casas de San Patricio",
+  "state": null,
+  "weight": 124,
+  "zip_code": null
+}

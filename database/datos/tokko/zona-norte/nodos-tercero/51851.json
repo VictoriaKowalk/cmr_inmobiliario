@@ -1,0 +1,22 @@
+{
+  "divisions": [
+    {
+      "id": 82373,
+      "name": "Las Piedras ",
+      "resource_uri": "/api/v1/location/82373/"
+    },
+    {
+      "id": 82374,
+      "name": "La Balconada",
+      "resource_uri": "/api/v1/location/82374/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Los Castaños",
+  "id": 51851,
+  "name": "Los Castaños",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Los Castaños",
+  "state": null,
+  "weight": 5510,
+  "zip_code": null
+}

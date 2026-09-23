@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Puertos del Lago | Araucarias",
+  "id": 55597,
+  "name": "Araucarias",
+  "parent_division": "/api/v1/location/24871/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Puertos del Lago | Araucarias",
+  "state": null,
+  "weight": 1594,
+  "zip_code": null
+}

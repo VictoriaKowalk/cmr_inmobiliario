@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares) | Club de Campo San Francisco",
+  "id": 253295,
+  "name": "Club de Campo San Francisco",
+  "parent_division": "/api/v1/location/253293/",
+  "short_location": "Manzanares | Countries/B.Cerrado (Manzanares) | Club de Campo San Francisco",
+  "state": null,
+  "weight": 17,
+  "zip_code": null
+}

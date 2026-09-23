@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Andres",
+  "id": 25687,
+  "name": "San Andres",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Andres",
+  "state": null,
+  "weight": 232,
+  "zip_code": null
+}

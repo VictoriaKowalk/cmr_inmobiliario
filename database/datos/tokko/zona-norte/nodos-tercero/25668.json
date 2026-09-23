@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | Cabos del Lago",
+  "id": 25668,
+  "name": "Cabos del Lago",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | Cabos del Lago",
+  "state": null,
+  "weight": 1273,
+  "zip_code": null
+}

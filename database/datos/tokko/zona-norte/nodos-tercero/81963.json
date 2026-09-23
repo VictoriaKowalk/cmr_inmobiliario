@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares) | Santa Clara",
+  "id": 81963,
+  "name": "Santa Clara",
+  "parent_division": "/api/v1/location/253293/",
+  "short_location": "Manzanares | Countries/B.Cerrado (Manzanares) | Santa Clara",
+  "state": null,
+  "weight": 40,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Benito",
+  "id": 51265,
+  "name": "San Benito",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Benito",
+  "state": null,
+  "weight": 2322,
+  "zip_code": null
+}

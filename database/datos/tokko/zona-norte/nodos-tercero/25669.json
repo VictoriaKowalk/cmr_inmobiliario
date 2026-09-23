@@ -1,0 +1,22 @@
+{
+  "divisions": [
+    {
+      "id": 51333,
+      "name": "El Golf",
+      "resource_uri": "/api/v1/location/51333/"
+    },
+    {
+      "id": 52023,
+      "name": "Golf Club",
+      "resource_uri": "/api/v1/location/52023/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Golf",
+  "id": 25669,
+  "name": "El Golf",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | El Golf",
+  "state": null,
+  "weight": 3480,
+  "zip_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Escobar | Countries/B.Cerrado (Escobar) | Haras Santa Maria | Las Caballerizas",
+  "id": 82141,
+  "name": "Las Caballerizas",
+  "parent_division": "/api/v1/location/24849/",
+  "short_location": "Countries/B.Cerrado (Escobar) | Haras Santa Maria | Las Caballerizas",
+  "state": null,
+  "weight": 96,
+  "zip_code": null
+}

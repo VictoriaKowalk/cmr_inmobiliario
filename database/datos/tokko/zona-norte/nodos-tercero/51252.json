@@ -1,0 +1,17 @@
+{
+  "divisions": [
+    {
+      "id": 51495,
+      "name": "Marinas del Yacht",
+      "resource_uri": "/api/v1/location/51495/"
+    }
+  ],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Nordelta | El Yacht",
+  "id": 51252,
+  "name": "El Yacht",
+  "parent_division": "/api/v1/location/25666/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Nordelta | El Yacht",
+  "state": null,
+  "weight": 2205,
+  "zip_code": ""
+}

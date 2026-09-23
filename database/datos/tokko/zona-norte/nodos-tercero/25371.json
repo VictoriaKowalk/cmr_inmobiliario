@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Pilar | Manzanares | Countries/B.Cerrado (Manzanares) | La Ranita",
+  "id": 25371,
+  "name": "La Ranita",
+  "parent_division": "/api/v1/location/253293/",
+  "short_location": "Manzanares | Countries/B.Cerrado (Manzanares) | La Ranita",
+  "state": null,
+  "weight": 129,
+  "zip_code": null
+}

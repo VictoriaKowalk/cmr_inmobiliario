@@ -19,6 +19,8 @@ class Ubicacion extends Model
         'nombre',
         'nombre_normalizado',
         'codigo_georef',
+        'id_tokko',
+        'ruta_tokko',
         'origen',
         'pais',
         'zona',

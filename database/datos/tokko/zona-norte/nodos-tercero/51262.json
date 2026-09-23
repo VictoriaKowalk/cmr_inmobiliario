@@ -1,0 +1,11 @@
+{
+  "divisions": [],
+  "full_location": "Argentina | G.B.A. Zona Norte | Tigre | Countries/B.Cerrado (Tigre) | Villanueva | San Francisco",
+  "id": 51262,
+  "name": "San Francisco",
+  "parent_division": "/api/v1/location/24809/",
+  "short_location": "Countries/B.Cerrado (Tigre) | Villanueva | San Francisco",
+  "state": null,
+  "weight": 4315,
+  "zip_code": null
+}
