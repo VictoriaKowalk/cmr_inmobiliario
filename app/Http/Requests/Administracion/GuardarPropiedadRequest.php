@@ -9,6 +9,7 @@ use App\Enums\TipoOperacion;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Validator;
+use App\Services\ServicioCoberturaUbicaciones;
 
 class GuardarPropiedadRequest extends FormRequest
 {
@@ -297,6 +298,29 @@ class GuardarPropiedadRequest extends FormRequest
             'expensas' => $expensas,
             'operaciones' => $operaciones,
         ]);
+    }
+
+    public function withValidator(Validator $validador): void
+    {
+        $validador->after(function (Validator $validador): void {
+            if ($validador->errors()->has('ubicacion_id') || ! $this->filled('ubicacion_id')) {
+                return;
+            }
+
+            $propiedad = $this->route('propiedad');
+            $ubicacionId = $this->integer('ubicacion_id');
+
+            if ($propiedad && $propiedad->ubicacion_id === $ubicacionId) {
+                return;
+            }
+
+            if (! app(ServicioCoberturaUbicaciones::class)->incluye($ubicacionId)) {
+                $validador->errors()->add(
+                    'ubicacion_id',
+                    'La ubicación seleccionada está fuera de tus zonas de trabajo.'
+                );
+            }
+        });
     }
 
     private function esUrlYoutubeValida(string $url): bool

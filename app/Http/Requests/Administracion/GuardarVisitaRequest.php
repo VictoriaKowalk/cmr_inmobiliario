@@ -3,8 +3,11 @@
 namespace App\Http\Requests\Administracion;
 
 use App\Enums\EstadoVisita;
+use App\Models\Propiedad;
+use App\Services\ServicioCoberturaUbicaciones;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\Validator;
 
 class GuardarVisitaRequest extends FormRequest
 {
@@ -32,5 +35,23 @@ class GuardarVisitaRequest extends FormRequest
             'lugar' => ['nullable', 'string', 'max:255'],
             'observaciones' => ['nullable', 'string', 'max:5000'],
         ];
+    }
+
+    public function withValidator(Validator $validador): void
+    {
+        $validador->after(function (Validator $validador): void {
+            if ($validador->errors()->has('propiedad_id') || ! $this->filled('propiedad_id')) {
+                return;
+            }
+
+            $propiedad = Propiedad::query()
+                ->whereKey($this->integer('propiedad_id'))
+                ->whereHas('ubicacion', fn ($ubicaciones) => app(ServicioCoberturaUbicaciones::class)->aplicarCobertura($ubicaciones))
+                ->exists();
+
+            if (! $propiedad) {
+                $validador->errors()->add('propiedad_id', 'La propiedad seleccionada está fuera de tus zonas de trabajo.');
+            }
+        });
     }
 }

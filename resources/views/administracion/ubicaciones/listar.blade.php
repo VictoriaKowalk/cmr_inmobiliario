@@ -1,14 +1,58 @@
 @extends('layouts.administracion')
 @section('titulo', 'Ubicaciones')
 @section('contenido')
-<div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-    <div><p class="text-sm font-medium text-emerald-700">Configuración</p><h1 class="mt-1 text-2xl font-semibold">Ubicaciones</h1><p class="mt-1 text-sm text-neutral-600">Navegá el árbol territorial y agregá niveles personalizados.</p></div>
-    <a href="{{ route('administracion.ubicaciones.crear', ['padre' => $padre?->id]) }}" class="inline-flex h-11 items-center justify-center bg-emerald-700 px-4 text-sm font-semibold text-white hover:bg-emerald-800">Agregar ubicación</a>
-</div>
-<div class="mb-5 border border-neutral-200 bg-white p-4 text-sm">
-    <a href="{{ route('administracion.ubicaciones.listar') }}" class="text-emerald-700 hover:underline">Argentina</a>
-    @if($padre) <span class="mx-2 text-neutral-400">/</span><span class="font-medium">{{ $padre->nombre_completo }}</span> @endif
-</div>
-<form method="GET" class="mb-5 flex gap-2"><input name="buscar" value="{{ $busqueda }}" placeholder="Buscar por nombre o ruta" class="h-10 min-w-0 flex-1 border border-neutral-300 px-3"><button class="h-10 bg-neutral-900 px-4 text-sm font-semibold text-white">Buscar</button>@if($busqueda)<a href="{{ route('administracion.ubicaciones.listar', ['padre'=>$padre?->id]) }}" class="px-3 py-2 text-sm">Limpiar</a>@endif</form>
-<div class="overflow-hidden border border-neutral-200 bg-white"><table class="w-full text-left text-sm"><thead class="bg-neutral-50 text-xs uppercase text-neutral-500"><tr><th class="px-5 py-3">Ubicación</th><th class="px-5 py-3">Tipo</th><th class="px-5 py-3">Origen</th><th class="px-5 py-3">Acciones</th></tr></thead><tbody class="divide-y divide-neutral-100">@forelse($ubicaciones as $ubicacion)<tr><td class="px-5 py-4"><a href="{{ route('administracion.ubicaciones.listar', ['padre'=>$ubicacion->id]) }}" class="font-medium text-emerald-700 hover:underline">{{ $ubicacion->nombre }}</a><p class="mt-1 text-xs text-neutral-500">{{ $ubicacion->nombre_completo }}</p></td><td class="px-5 py-4">{{ $ubicacion->tipoUbicacion?->nombre }}</td><td class="px-5 py-4">{{ ucfirst($ubicacion->origen) }}</td><td class="px-5 py-4"><a class="text-emerald-700" href="{{ route('administracion.ubicaciones.editar',$ubicacion) }}">Editar</a> <a class="ml-3 text-neutral-700" href="{{ route('administracion.ubicaciones.listar',['padre'=>$ubicacion->id]) }}">Ver hijos ({{ $ubicacion->hijos_count }})</a></td></tr>@empty<tr><td colspan="4" class="px-5 py-10 text-center text-neutral-500">No hay ubicaciones en este nivel.</td></tr>@endforelse</tbody></table>@if($ubicaciones->hasPages())<div class="p-4">{{ $ubicaciones->links() }}</div>@endif</div>
+    <header class="locations-heading">
+        <div>
+            <p class="locations-heading__eyebrow">Configuración</p>
+            <h1>Ubicaciones</h1>
+            <p>Organizá las ubicaciones que usás para clasificar y publicar tus propiedades.</p>
+        </div>
+        <div class="locations-heading__actions">
+            <a href="{{ route('administracion.ubicaciones.zonas-de-trabajo') }}" class="locations-coverage-action">Zonas de trabajo</a>
+            <a href="{{ route('administracion.ubicaciones.crear', ['padre' => $padre?->id]) }}" class="locations-create-action">Agregar ubicación</a>
+        </div>
+    </header>
+
+    <nav class="locations-breadcrumb" aria-label="Zonas de trabajo y ruta de ubicaciones">
+        @if($zonasTrabajo->isNotEmpty())
+            <span>{{ $zonasTrabajo->count() === 1 ? 'Tu zona de trabajo es' : 'Tus zonas de trabajo son' }}</span>
+            <strong>{{ $zonasTrabajo->pluck('nombre')->implode(' - ') }}</strong>
+        @else
+            <span>Definí tus zonas de trabajo para limitar las ubicaciones disponibles.</span>
+        @endif
+        @if($padre)<span aria-hidden="true">/</span><strong>{{ $padre->nombre_completo }}</strong>@endif
+    </nav>
+
+    <section class="locations-list-card">
+        <header class="locations-list-card__header">
+            <div>
+                <h2>{{ $padre ? 'Ubicaciones dentro de '.$padre->nombre : ($zonasTrabajo->isNotEmpty() ? 'Ubicaciones de tus zonas de trabajo' : 'Ubicaciones principales') }}</h2>
+                <p>{{ $padre ? 'Ubicaciones contenidas en esta zona.' : ($zonasTrabajo->isNotEmpty() ? 'Mostramos todas las ubicaciones incluidas en tus zonas de trabajo.' : 'Elegí una ubicación para navegar sus niveles inferiores.') }}</p>
+            </div>
+            <p class="locations-list-card__count">{{ $ubicaciones->total() }} {{ $ubicaciones->total() === 1 ? 'ubicación' : 'ubicaciones' }}</p>
+        </header>
+
+        <form method="GET" class="locations-search-form">
+            @if($padre)<input type="hidden" name="padre" value="{{ $padre->id }}">@endif
+            <label class="locations-search">
+                <span>Buscar en esta ubicación</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+                <input name="buscar" value="{{ $busqueda }}" placeholder="Buscar por nombre o ruta" aria-label="Buscar por nombre o ruta">
+            </label>
+            <div class="locations-search-actions"><button>Buscar</button>@if($busqueda)<a href="{{ route('administracion.ubicaciones.listar', ['padre'=>$padre?->id]) }}">Limpiar</a>@endif</div>
+        </form>
+
+        <div class="locations-table-wrap"><table class="locations-table">
+            <thead><tr><th>Ubicación</th><th>Tipo</th><th class="text-right">Acciones</th></tr></thead>
+            <tbody class="divide-y divide-neutral-100">@forelse($ubicaciones as $ubicacion)<tr>
+                <td>
+                    <span class="locations-name">{{ $ubicacion->nombre }}</span>
+                    <p>{{ $ubicacion->nombre_completo }}</p>
+                </td>
+                <td><span class="locations-type">{{ $ubicacion->tipoUbicacion?->nombre }}</span></td>
+                <td class="text-right"><div class="locations-row-actions"><a href="{{ route('administracion.ubicaciones.editar',$ubicacion) }}">Editar</a></div></td>
+            </tr>@empty<tr><td colspan="3" class="locations-empty">No hay ubicaciones en este nivel.</td></tr>@endforelse</tbody>
+        </table></div>
+        @if($ubicaciones->hasPages())<footer class="locations-pagination">{{ $ubicaciones->links() }}</footer>@endif
+    </section>
 @endsection

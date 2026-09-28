@@ -21,22 +21,21 @@
             'caracteristicas' => '<path d="m12 3 2.2 4.5L19 8.2l-3.5 3.4.8 4.8-4.3-2.3-4.3 2.3.8-4.8L5 8.2l4.8-.7L12 3Z"/>',
             'usuarios' => '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/>',
             'cuenta' => '<path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-5h6v5M9 10h.01M15 10h.01"/>',
+            'configuracion' => '<path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-4V21a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3 14H2.8v-4H3a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1a1.7 1.7 0 0 0 1.9.3A1.7 1.7 0 0 0 10 3V2.8h4V3a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v4H21a1.7 1.7 0 0 0-1.6 1Z"/>',
         ];
         $navegacionPrincipal = [
             ['Dashboard', 'administracion.dashboard', 'administracion.dashboard', 'dashboard'],
             ['Propiedades', 'administracion.propiedades.listar', 'administracion.propiedades.*', 'propiedades'],
-            ['Oportunidades', 'administracion.contactos.listar', ['administracion.contactos.*', 'administracion.consultas.*', 'administracion.tasaciones.*'], 'contactos'],
+            ['Consultas', 'administracion.contactos.listar', ['administracion.contactos.*', 'administracion.consultas.*', 'administracion.tasaciones.*'], 'contactos'],
             ['Agenda', 'administracion.visitas.listar', 'administracion.visitas.*', 'visitas'],
+        ];
+        $navegacionEmpresa = [
+            ['Mi empresa', 'administracion.cuenta.editar', ['administracion.cuenta.*', 'administracion.empresa.*', 'administracion.usuarios.*'], 'cuenta'],
         ];
         $navegacionConfiguracion = [];
         if (auth()->user()->puedeSupervisar()) {
-            $navegacionConfiguracion = [
-                ['Tipos de propiedad', 'administracion.tipos-propiedad.listar', 'administracion.tipos-propiedad.*', 'tipos'],
-                ['Ubicaciones', 'administracion.ubicaciones.listar', 'administracion.ubicaciones.*', 'ubicaciones'],
-                ['Características', 'administracion.caracteristicas.listar', 'administracion.caracteristicas.*', 'caracteristicas'],
-            ];
+            $navegacionConfiguracion = [['Configuración', 'administracion.configuracion', ['administracion.configuracion', 'administracion.tipos-propiedad.*', 'administracion.ubicaciones.*', 'administracion.caracteristicas.*'], 'configuracion']];
         }
-        $navegacionConfiguracion[] = ['Mi empresa', 'administracion.cuenta.editar', ['administracion.cuenta.*', 'administracion.empresa.*', 'administracion.usuarios.*'], 'cuenta'];
     @endphp
 
     <div class="admin-shell" data-admin-shell>
@@ -53,7 +52,6 @@
             </div>
 
             <nav class="admin-nav" aria-label="Navegación principal">
-                <p class="admin-nav__label">Principal</p>
                 @foreach ($navegacionPrincipal as [$etiqueta, $ruta, $patron, $icono])
                     @php $activo = is_array($patron) ? request()->routeIs(...$patron) : request()->routeIs($patron); @endphp
                     <a href="{{ route($ruta) }}" @class(['admin-nav__link', 'is-active' => $activo]) @if($activo) aria-current="page" @endif>
@@ -62,14 +60,22 @@
                     </a>
                 @endforeach
 
-                <p class="admin-nav__label mt-7">Configuración</p>
-                @foreach ($navegacionConfiguracion as [$etiqueta, $ruta, $patron, $icono])
+                @foreach ($navegacionEmpresa as [$etiqueta, $ruta, $patron, $icono])
                     @php $activo = is_array($patron) ? request()->routeIs(...$patron) : request()->routeIs($patron); @endphp
                     <a href="{{ route($ruta) }}" @class(['admin-nav__link', 'is-active' => $activo]) @if($activo) aria-current="page" @endif>
                         <svg viewBox="0 0 24 24" aria-hidden="true">{!! $iconos[$icono] !!}</svg>
                         <span>{{ $etiqueta }}</span>
                     </a>
                 @endforeach
+                @if (count($navegacionConfiguracion))
+                    @foreach ($navegacionConfiguracion as [$etiqueta, $ruta, $patron, $icono])
+                        @php $activo = is_array($patron) ? request()->routeIs(...$patron) : request()->routeIs($patron); @endphp
+                        <a href="{{ route($ruta) }}" @class(['admin-nav__link', 'is-active' => $activo]) @if($activo) aria-current="page" @endif>
+                            <svg viewBox="0 0 24 24" aria-hidden="true">{!! $iconos[$icono] !!}</svg>
+                            <span>{{ $etiqueta }}</span>
+                        </a>
+                    @endforeach
+                @endif
             </nav>
 
             <div class="admin-user-card">
@@ -117,7 +123,14 @@
                 @endif
 
                 @unless (request()->routeIs('administracion.dashboard') || request()->routeIs('administracion.cuenta.editar'))
-                    <a href="{{ route('administracion.dashboard') }}" class="admin-back-company">← Dashboard</a>
+                    @php
+                        $volverAConfiguracion = request()->routeIs(
+                            'administracion.tipos-propiedad.*',
+                            'administracion.ubicaciones.*',
+                            'administracion.caracteristicas.*'
+                        );
+                    @endphp
+                    <a href="{{ route($volverAConfiguracion ? 'administracion.configuracion' : 'administracion.dashboard') }}" class="admin-back-company">← {{ $volverAConfiguracion ? 'Configuración' : 'Dashboard' }}</a>
                 @endunless
 
                 @yield('contenido')

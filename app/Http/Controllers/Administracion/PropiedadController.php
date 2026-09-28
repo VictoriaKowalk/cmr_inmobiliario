@@ -15,8 +15,10 @@ use App\Models\OperacionPropiedad;
 use App\Models\Propiedad;
 use App\Models\TipoPropiedad;
 use App\Services\ServicioImagenesPropiedad;
+use App\Services\ServicioCoberturaUbicaciones;
 use App\Services\ServicioPropiedades;
 use App\Services\ServicioVideosPropiedad;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -27,7 +29,10 @@ use Throwable;
 
 class PropiedadController extends Controller
 {
-    public function listar(Request $solicitud): View
+    public function listar(
+        Request $solicitud,
+        ServicioCoberturaUbicaciones $cobertura
+    ): View
     {
         $busqueda = trim((string) $solicitud->query('buscar'));
         $tipoOperacion = $solicitud->query('tipo_operacion');
@@ -47,6 +52,7 @@ class PropiedadController extends Controller
             ])
             ->withCount('consultas')
             ->withMin('operaciones', 'precio')
+            ->whereHas('ubicacion', fn ($ubicaciones) => $cobertura->aplicarCobertura($ubicaciones))
             ->when($visibilidad === 'eliminadas', fn ($query) => $query->onlyTrashed())
             ->when(
                 $busqueda !== '',
@@ -212,6 +218,31 @@ class PropiedadController extends Controller
                 'caracteristicas',
             ]),
         ]);
+    }
+
+    public function imprimir(Propiedad $propiedad): View
+    {
+        return view('administracion.propiedades.ficha-imprimible', $this->datosFichaImprimible($propiedad));
+    }
+
+    public function descargarPdf(Propiedad $propiedad)
+    {
+        $datos = $this->datosFichaImprimible($propiedad);
+        $nombre = 'ficha-'.str($propiedad->codigo_interno ?: $propiedad->id)->slug('-').'.pdf';
+
+        return Pdf::loadView('administracion.propiedades.ficha-imprimible', [...$datos, 'esPdf' => true])
+            ->setPaper('a4')
+            ->download($nombre);
+    }
+
+    private function datosFichaImprimible(Propiedad $propiedad): array
+    {
+        $propiedad->load(['tipoPropiedad', 'ubicacion', 'operaciones', 'imagenes', 'caracteristicas']);
+
+        return [
+            'propiedad' => $propiedad,
+            'esPdf' => false,
+        ];
     }
 
     public function editar(Propiedad $propiedad): View

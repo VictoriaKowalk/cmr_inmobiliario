@@ -1,8 +1,8 @@
 @extends('layouts.administracion')
 @section('titulo', 'Editar característica')
 @section('contenido')
-    <div class="mb-6"><h1 class="text-2xl font-semibold">Editar característica</h1></div>
-    <form method="POST" action="{{ route('administracion.caracteristicas.actualizar', $caracteristica) }}" class="max-w-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+    <header class="features-form-heading"><a href="{{ route('administracion.caracteristicas.listar') }}">← Características</a><h1>Editar característica</h1><p>Actualizá el nombre o la categoría de esta opción.</p></header>
+    <form method="POST" action="{{ route('administracion.caracteristicas.actualizar', $caracteristica) }}" class="features-form-card">
         @csrf @method('PUT')
         @include('administracion.caracteristicas._formulario', ['caracteristica' => $caracteristica, 'textoBoton' => 'Guardar cambios'])
     </form>

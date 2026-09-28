@@ -53,6 +53,10 @@ Route::prefix('administracion')
             ->middleware('rol:administrador')
             ->name('empresa.actualizar');
 
+        Route::view('/configuracion', 'administracion.configuracion')
+            ->middleware('rol:administrador,supervisor')
+            ->name('configuracion');
+
         Route::prefix('consultas')
             ->name('consultas.')
             ->group(function (): void {
@@ -106,6 +110,10 @@ Route::prefix('administracion')
                     ->name('crear');
                 Route::post('/', [PropiedadController::class, 'guardar'])
                     ->name('guardar');
+                Route::get('/{propiedad}/imprimir', [PropiedadController::class, 'imprimir'])
+                    ->name('imprimir');
+                Route::get('/{propiedad}/pdf', [PropiedadController::class, 'descargarPdf'])
+                    ->name('pdf');
                 Route::get('/{propiedad}', [PropiedadController::class, 'mostrar'])
                     ->name('mostrar');
                 Route::get('/{propiedad}/editar', [
@@ -186,6 +194,12 @@ Route::prefix('administracion')
                     ->name('listar');
                 Route::get('/buscar', [UbicacionController::class, 'buscar'])
                     ->name('buscar');
+                Route::get('/zonas-de-trabajo', [UbicacionController::class, 'zonasDeTrabajo'])
+                    ->name('zonas-de-trabajo');
+                Route::post('/zonas-de-trabajo', [UbicacionController::class, 'guardarZonaDeTrabajo'])
+                    ->name('zonas-de-trabajo.guardar');
+                Route::delete('/zonas-de-trabajo/{ubicacion}', [UbicacionController::class, 'eliminarZonaDeTrabajo'])
+                    ->name('zonas-de-trabajo.eliminar');
                 Route::get('/crear', [UbicacionController::class, 'crear'])
                     ->name('crear');
                 Route::post('/', [UbicacionController::class, 'guardar'])

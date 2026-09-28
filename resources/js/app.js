@@ -17,6 +17,52 @@ document.querySelectorAll('[data-tipo-propiedad]').forEach((selector) => {
     selector.addEventListener('change', actualizarSuperficieTerreno);
 });
 
+document.querySelectorAll('[data-property-type-select]').forEach((contenedor) => {
+    const selector = contenedor.querySelector('[data-tipo-propiedad]');
+    const disparador = contenedor.querySelector('[data-property-type-trigger]');
+    const menu = contenedor.querySelector('[data-property-type-menu]');
+    const etiqueta = contenedor.querySelector('[data-property-type-label]');
+
+    if (!selector || !disparador || !menu || !etiqueta) return;
+
+    const cerrar = () => {
+        menu.hidden = true;
+        disparador.setAttribute('aria-expanded', 'false');
+    };
+
+    disparador.addEventListener('click', () => {
+        const abierto = menu.hidden === false;
+        document.querySelectorAll('[data-property-type-menu]').forEach((otroMenu) => {
+            otroMenu.hidden = true;
+        });
+        document.querySelectorAll('[data-property-type-trigger]').forEach((otroDisparador) => {
+            otroDisparador.setAttribute('aria-expanded', 'false');
+        });
+        menu.hidden = abierto;
+        disparador.setAttribute('aria-expanded', abierto ? 'false' : 'true');
+    });
+
+    menu.querySelectorAll('[data-property-type-option]').forEach((opcion) => {
+        opcion.addEventListener('click', () => {
+            selector.value = opcion.dataset.value;
+            etiqueta.textContent = opcion.dataset.label;
+            menu.querySelectorAll('[data-property-type-option]').forEach((otraOpcion) => {
+                otraOpcion.setAttribute('aria-selected', String(otraOpcion === opcion));
+            });
+            selector.dispatchEvent(new Event('change', { bubbles: true }));
+            cerrar();
+        });
+    });
+
+    document.addEventListener('click', (evento) => {
+        if (!contenedor.contains(evento.target)) cerrar();
+    });
+
+    document.addEventListener('keydown', (evento) => {
+        if (evento.key === 'Escape') cerrar();
+    });
+});
+
 document.querySelectorAll('[data-dashboard-period]').forEach((formulario) => {
     const desde = formulario.querySelector('[name="desde"]');
     const hasta = formulario.querySelector('[name="hasta"]');
@@ -195,6 +241,8 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
     const enlaceNuevaUbicacion = contenedor.querySelector('[data-autocomplete-nueva-ubicacion]');
     const seleccion = contenedor.querySelector('[data-autocomplete-seleccion]');
     const rutaSeleccionada = contenedor.querySelector('[data-autocomplete-ruta]');
+    const ayudaInicial = contenedor.dataset.autocompleteAyudaInicial;
+    const ayudaSeleccion = contenedor.dataset.autocompleteAyudaSeleccion;
     let temporizador;
 
     const cerrarResultados = () => {
@@ -212,7 +260,7 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
         }
 
         if (ayuda) {
-            ayuda.textContent = 'Buscá por partido, localidad, barrio o subbarrio y elegí la coincidencia correcta.';
+            ayuda.textContent = ayudaInicial ?? 'Buscá por partido, localidad, barrio o subbarrio y elegí la coincidencia correcta.';
         }
 
         if (seleccion) {
@@ -231,7 +279,7 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
         cerrarResultados();
 
         if (ayuda) {
-            ayuda.textContent = 'La propiedad quedará vinculada a esta ubicación comercial.';
+            ayuda.textContent = ayudaSeleccion ?? 'La propiedad quedará vinculada a esta ubicación comercial.';
         }
 
         if (seleccion && rutaSeleccionada) {
@@ -258,7 +306,9 @@ document.querySelectorAll('[data-autocomplete-ubicacion]').forEach((contenedor) 
         }
 
         temporizador = setTimeout(async () => {
-            const respuesta = await fetch(`${url}?buscar=${encodeURIComponent(texto)}`, {
+            const endpoint = new URL(url, window.location.origin);
+            endpoint.searchParams.set('buscar', texto);
+            const respuesta = await fetch(endpoint, {
                 headers: { Accept: 'application/json' },
             });
             const ubicaciones = await respuesta.json();
@@ -311,6 +361,31 @@ document.querySelectorAll('[data-operacion]').forEach((contenedor) => {
 
     casilla.addEventListener('change', actualizar);
     actualizar();
+});
+
+document.querySelectorAll('[data-operation-editor]').forEach((formulario) => {
+    const guardar = formulario.querySelector('[data-operation-save]');
+    if (!guardar) return;
+
+    guardar.disabled = true;
+    formulario.addEventListener('input', () => { guardar.disabled = false; });
+    formulario.addEventListener('change', () => { guardar.disabled = false; });
+});
+
+document.querySelectorAll('[data-property-gallery]').forEach((galeria) => {
+    const principal = galeria.querySelector('[data-property-gallery-main]');
+    const dialogo = galeria.querySelector('[data-property-gallery-dialog]');
+
+    galeria.querySelectorAll('[data-property-gallery-thumb]').forEach((boton) => {
+        boton.addEventListener('click', () => {
+            principal.src = boton.dataset.imageUrl;
+            principal.alt = boton.dataset.imageAlt;
+            galeria.querySelectorAll('[data-property-gallery-thumb]').forEach((item) => item.classList.toggle('is-active', item === boton));
+        });
+    });
+
+    galeria.querySelector('[data-property-gallery-open]')?.addEventListener('click', () => dialogo?.showModal());
+    galeria.querySelector('[data-property-gallery-close]')?.addEventListener('click', () => dialogo?.close());
 });
 
 document.querySelectorAll('[data-precio-miles]').forEach((entrada) => {

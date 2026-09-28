@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Administracion\ActualizarContraseniaRequest;
 use App\Models\Caracteristica;
 use App\Models\Consulta;
+use App\Models\Empresa;
 use App\Models\Propiedad;
 use App\Models\Tasacion;
 use App\Models\TipoPropiedad;
@@ -28,6 +29,9 @@ class CuentaController extends Controller
         ];
 
         return view('administracion.cuenta.editar', [
+            'empresa' => Empresa::query()->firstOrCreate([], [
+                'nombre_comercial' => config('app.name'),
+            ]),
             'administradoresActivos' => Usuario::query()->where('activo', true)->count(),
             'propiedadesTotales' => Propiedad::query()->count(),
             'tiposPropiedadActivos' => TipoPropiedad::query()->where('activo', true)->count(),

@@ -24,6 +24,10 @@
             ?->firstWhere('categoria', \App\Enums\CategoriaCaracteristica::CARTEL)
             ?->id ?? 0
     );
+    $tipoPropiedadSeleccionado = $tiposPropiedad->firstWhere(
+        'id',
+        (int) old('tipo_propiedad_id', $propiedad?->tipo_propiedad_id)
+    );
 @endphp
 
 @if ($errors->any())
@@ -50,10 +54,9 @@
                 @endif
             </div>
         </div>
-        <div>
+        <div class="property-type-select" data-property-type-select>
             <label for="tipo_propiedad_id" class="mb-2 block text-sm font-medium">Tipo de propiedad</label>
-            <select id="tipo_propiedad_id" name="tipo_propiedad_id" required data-tipo-propiedad
-                    class="h-11 w-full border border-neutral-300 bg-white px-3">
+            <select id="tipo_propiedad_id" name="tipo_propiedad_id" required data-tipo-propiedad class="sr-only">
                 <option value="">Seleccionar</option>
                 @foreach ($tiposPropiedad as $tipoPropiedad)
                     <option value="{{ $tipoPropiedad->id }}"
@@ -63,6 +66,21 @@
                     </option>
                 @endforeach
             </select>
+            <button type="button" class="property-type-select__trigger" aria-haspopup="listbox"
+                    aria-expanded="false" data-property-type-trigger>
+                <span data-property-type-label>{{ $tipoPropiedadSeleccionado?->nombre ?? 'Seleccionar' }}</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 7 5 5 5-5" /></svg>
+            </button>
+            <div class="property-type-select__menu" role="listbox" hidden data-property-type-menu>
+                @foreach ($tiposPropiedad as $tipoPropiedad)
+                    <button type="button" role="option"
+                            aria-selected="{{ $tipoPropiedadSeleccionado?->id === $tipoPropiedad->id ? 'true' : 'false' }}"
+                            data-property-type-option data-value="{{ $tipoPropiedad->id }}"
+                            data-label="{{ $tipoPropiedad->nombre }}">
+                        {{ $tipoPropiedad->nombre }}
+                    </button>
+                @endforeach
+            </div>
         </div>
         <div class="sm:col-span-2">
             <label for="titulo" class="mb-2 block text-sm font-medium">Título</label>
@@ -177,7 +195,7 @@
     </div>
 </section>
 
-<section class="border border-neutral-200 bg-white p-5 sm:p-6">
+<section id="operaciones" class="border border-neutral-200 bg-white p-5 sm:p-6">
     <h2 class="text-lg font-semibold">Operaciones</h2>
     <p class="mt-1 text-sm text-neutral-600">Activá una o varias opciones comerciales.</p>
     <div class="mt-5 grid gap-4 xl:grid-cols-3">

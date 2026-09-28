@@ -1,9 +1,9 @@
 @extends('layouts.administracion')
 @section('titulo', 'Editar usuario')
 @section('contenido')
-    <div class="mb-6"><h1 class="text-2xl font-semibold">Editar usuario</h1><p class="mt-1 text-sm text-neutral-600">Actualizá sus datos, contraseña y estado de acceso.</p></div>
-    <div class="max-w-3xl space-y-5">
-        <form method="POST" action="{{ route('administracion.usuarios.actualizar', $usuario) }}" class="border border-neutral-200 bg-white p-6 shadow-sm">
+    <header class="users-form-heading"><a href="{{ route('administracion.usuarios.listar') }}">← Usuarios y equipo</a><h1>Editar usuario</h1><p>Actualizá sus datos, contraseña y estado de acceso.</p></header>
+    <div class="users-form-stack">
+        <form method="POST" action="{{ route('administracion.usuarios.actualizar', $usuario) }}" class="users-form-card">
             @csrf @method('PUT')
             @include('administracion.usuarios._formulario', ['usuario' => $usuario, 'textoBoton' => 'Guardar cambios'])
         </form>

@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Storage;
 
 class Empresa extends Model
@@ -23,6 +24,13 @@ class Empresa extends Model
         return $this->logo_ruta
             ? Storage::disk('public')->url($this->logo_ruta)
             : null;
+    }
+
+    public function zonasCobertura(): BelongsToMany
+    {
+        return $this->belongsToMany(Ubicacion::class, 'empresa_zonas_cobertura')
+            ->withTimestamps()
+            ->orderBy('nombre_completo');
     }
 
     public function iniciales(): string

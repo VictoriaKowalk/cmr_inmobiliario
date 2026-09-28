@@ -13,6 +13,7 @@ use App\Models\Propiedad;
 use App\Models\Tasacion;
 use App\Models\Usuario;
 use App\Models\Visita;
+use App\Services\ServicioCoberturaUbicaciones;
 use Carbon\Carbon;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -22,7 +23,10 @@ use Illuminate\View\View;
 
 class VisitaController extends Controller
 {
-    public function listar(Request $request): View
+    public function listar(
+        Request $request,
+        ServicioCoberturaUbicaciones $cobertura
+    ): View
     {
         $desde = Carbon::parse($request->query('desde', now()->startOfMonth()->toDateString()))->startOfDay();
         $hasta = Carbon::parse($request->query('hasta', now()->endOfMonth()->toDateString()))->endOfDay();
@@ -31,6 +35,8 @@ class VisitaController extends Controller
 
         $visitas = Visita::query()
             ->with(['propiedad', 'asesor'])
+            ->whereHas('propiedad', fn ($propiedades) => $propiedades
+                ->whereHas('ubicacion', fn ($ubicaciones) => $cobertura->aplicarCobertura($ubicaciones)))
             ->whereBetween('inicio', [$desde, $hasta])
             ->when($request->user()->esAsesor(), fn ($query) => $query
                 ->where('asesor_id', $request->user()->id))
@@ -51,7 +57,10 @@ class VisitaController extends Controller
         ]);
     }
 
-    public function crear(Request $request): View
+    public function crear(
+        Request $request,
+        ServicioCoberturaUbicaciones $cobertura
+    ): View
     {
         $consulta = $request->integer('consulta')
             ? Consulta::query()->find($request->integer('consulta'))
@@ -67,7 +76,10 @@ class VisitaController extends Controller
         return view('administracion.visitas.crear', [
             'consulta' => $consulta,
             'tasacion' => $tasacion,
-            'propiedades' => Propiedad::query()->orderBy('titulo')->get(),
+            'propiedades' => Propiedad::query()
+                ->whereHas('ubicacion', fn ($ubicaciones) => $cobertura->aplicarCobertura($ubicaciones))
+                ->orderBy('titulo')
+                ->get(),
             'responsables' => $this->responsables(),
             'estadosVisita' => [EstadoVisita::PENDIENTE, EstadoVisita::CONFIRMADA],
         ]);
