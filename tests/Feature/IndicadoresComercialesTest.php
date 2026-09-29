@@ -82,7 +82,7 @@ class IndicadoresComercialesTest extends TestCase
             ->assertSee('Propiedades publicadas')
             ->assertSee('Contactos sin asignar')
             ->assertSee('Visitas de hoy')
-            ->assertSee('Próximas visitas');
+            ->assertSee('Hoy y próximas visitas');
     }
 
     private function crearPropiedad(): Propiedad

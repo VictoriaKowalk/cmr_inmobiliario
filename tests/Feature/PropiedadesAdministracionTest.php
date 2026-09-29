@@ -85,9 +85,12 @@ class PropiedadesAdministracionTest extends TestCase
         $datos = $this->datos([
             $this->operacion('venta', 'USD', 150000, 'publicada'),
         ]);
+        $imagenPng = base64_decode(
+            'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWP4z8DwHwAFgAI/ScLXXQAAAABJRU5ErkJggg=='
+        );
         $datos['imagenes'] = [
-            UploadedFile::fake()->image('frente.jpg'),
-            UploadedFile::fake()->image('living.png'),
+            UploadedFile::fake()->createWithContent('frente.png', $imagenPng),
+            UploadedFile::fake()->createWithContent('living.png', $imagenPng),
         ];
         $datos['video_titulo'] = 'Recorrido virtual';
         $datos['youtube_url'] = 'https://www.youtube.com/watch?v=abcdefghijk';

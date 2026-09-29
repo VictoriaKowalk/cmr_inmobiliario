@@ -18,7 +18,7 @@ class RolesPermisosTest extends TestCase
         $this->actingAs($administrador)
             ->get(route('administracion.usuarios.permisos'))
             ->assertOk()
-            ->assertSee('ROLES Y PERMISOS')
+            ->assertSee('Roles y permisos')
             ->assertSee('Supervisor')
             ->assertSee('Asesor');
     }

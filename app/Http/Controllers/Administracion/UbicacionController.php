@@ -251,22 +251,6 @@ class UbicacionController extends Controller
         return $partes->implode(' | ');
     }
 
-    private function claveAdministrativa(Ubicacion $ubicacion): string
-    {
-        return mb_strtolower($this->rutaParaSelector($ubicacion).'|'.$ubicacion->nombre);
-    }
-
-    private function prioridadAdministrativa(Ubicacion $ubicacion): int
-    {
-        return match ($ubicacion->tipoUbicacion?->codigo) {
-            'municipio' => 1,
-            'partido' => 2,
-            'departamento' => 3,
-            'comuna' => 4,
-            default => 5,
-        };
-    }
-
     private function tiposPermitidos(?Ubicacion $padre)
     {
         if (! $padre) return TipoUbicacion::query()->where('codigo', 'pais')->get();

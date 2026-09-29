@@ -54,9 +54,9 @@ class UbicacionesPanelTest extends TestCase
             ->assertOk()
             ->assertJsonCount(2)
             ->assertJsonFragment([
-                'nombre_mostrado' => 'San Fernando (Centro)',
-                'ruta_mostrada' => 'Buenos Aires | San Fernando',
-                'ruta_completa_mostrada' => 'Argentina | Buenos Aires | San Fernando | San Fernando (Centro)',
+                'nombre_mostrado' => 'San Fernando',
+                'ruta_mostrada' => 'Buenos Aires',
+                'ruta_completa_mostrada' => 'Argentina | Buenos Aires | San Fernando',
             ])
             ->assertJsonFragment([
                 'nombre_mostrado' => 'Victoria',
