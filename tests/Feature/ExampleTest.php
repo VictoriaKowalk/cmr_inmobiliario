@@ -7,10 +7,11 @@ use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function test_la_raiz_redirige_al_panel_administrativo(): void
+    public function test_la_raiz_muestra_el_sitio_publico(): void
     {
         $this->get('/')
-            ->assertRedirect('/administracion');
+            ->assertOk()
+            ->assertSee('Tu inmobiliaria');
     }
 
     public function test_el_login_administrativo_es_publico(): void

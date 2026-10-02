@@ -1,0 +1,143 @@
+/* NAV */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* CONTENEDOR */
+.nav-container {
+    max-width: 1800px;
+    margin: auto;
+
+    height: 80px;
+    padding: 0 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* LOGO */
+.nav-logo img {
+    height: 78px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* MENÚ */
+.nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
+/* LINKS */
+.nav-link {
+    position: relative;
+
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.45);
+
+    padding-bottom: 6px;
+}
+
+/* Hover elegante */
+.nav-link:hover {
+    color: #000;
+}
+
+/* Subrayado animado */
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 0;
+    height: 1px;
+    background: black;
+
+    transition: width 0.35s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Activo */
+.nav-link.active {
+    color: #000;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* HAMBURGUESA */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    width: 24px;
+    height: 2px;
+    background: black;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+
+    .nav-container {
+        padding: 12px 20px;
+    }
+
+    .nav-logo img {
+        height: 50px;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 260px;
+        height: 100vh;
+
+        background: white;
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 100px 30px;
+        gap: 28px;
+
+        transition: 0.4s ease;
+    }
+
+    .nav-menu.open {
+        right: 0;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}

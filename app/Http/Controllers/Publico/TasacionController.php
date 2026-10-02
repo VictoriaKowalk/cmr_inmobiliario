@@ -16,7 +16,7 @@ class TasacionController extends Controller
 {
     public function crear(): View
     {
-        return view('publico.tasaciones.crear', [
+        return view('web-publica.temas.inmobiliaria.tasaciones', [
             'tiposPropiedad' => TipoPropiedad::query()
                 ->where('activo', true)
                 ->orderBy('nombre')

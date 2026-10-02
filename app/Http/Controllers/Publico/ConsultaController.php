@@ -17,7 +17,7 @@ class ConsultaController extends Controller
 {
     public function crearGeneral(): View
     {
-        return view('publico.consultas.crear');
+        return view('web-publica.temas.inmobiliaria.contacto');
     }
 
     public function guardarGeneral(

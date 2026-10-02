@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><base href="{{ url('/temas/inmobiliaria') }}/">
+  <title>Tasación - Tu inmobiliaria</title>
+  <link rel="stylesheet" href="assets/index-BzbH-icu.css"><link rel="stylesheet" href="assets/custom.css"><link rel="stylesheet" href="assets/footer.css"><link rel="stylesheet" href="assets/nav.css"><link rel="stylesheet" href="assets/tasaciones.css"><link rel="stylesheet" href="assets/noddo-preview.css"><script defer src="assets/noddo-preview.js"></script>
+</head><body>
+<nav class="nav"><div class="nav-container"><a href="index.html" class="nav-logo"><img src="assets/marca.svg" alt="Tu inmobiliaria"></a><button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú"><span></span><span></span><span></span></button><div class="nav-menu" id="navMenu"><a href="index.html" class="nav-link">HOME</a><a href="listado.html" class="nav-link">PROPIEDADES</a><a href="nosotros.html" class="nav-link">NOSOTROS</a><a href="tasaciones.html" class="nav-link active">TASACIONES</a><a href="contacto.html" class="nav-link">CONTACTO</a></div></div></nav>
+
+<main class="valuation">
+  <section class="valuation-hero"><div class="valuation-container valuation-hero__grid"><div><p class="valuation-kicker">TASACIÓN DE PROPIEDADES</p><h1>Conocé el valor de tu propiedad.</h1><p>Solicitá una tasación y recibí el acompañamiento que necesitás para tomar una decisión informada.</p><a class="valuation-link" href="#solicitud">Solicitar tasación <span aria-hidden="true">↓</span></a></div><figure><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85" alt="Propiedad residencial" loading="eager"></figure></div></section>
+
+  <section class="valuation-steps"><div class="valuation-container"><div class="valuation-heading"><p class="valuation-kicker">UN PROCESO CLARO</p><h2>Así trabajamos la tasación.</h2></div><ol><li><span>01</span><div><h3>Contanos sobre la propiedad</h3><p>Dejanos sus datos básicos para entender mejor tu consulta.</p></div></li><li><span>02</span><div><h3>Coordinamos el próximo paso</h3><p>Nos comunicamos con vos para ampliar la información o acordar una visita.</p></div></li><li><span>03</span><div><h3>Analizamos el mercado</h3><p>Evaluamos la propiedad en relación con su ubicación y las condiciones actuales del mercado.</p></div></li></ol></div></section>
+
+  <section class="valuation-form-section" id="solicitud"><div class="valuation-container valuation-form-layout"><div class="valuation-form-copy"><p class="valuation-kicker">SOLICITAR TASACIÓN</p><h2>Empecemos por conocerte.</h2><p>Completá los datos y nos comunicaremos para continuar. Podés dejarnos un email, un teléfono o ambos.</p><ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="m5 12 4 4L19 6"/></svg>Atención personalizada</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="m5 12 4 4L19 6"/></svg>Información clara durante el proceso</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="m5 12 4 4L19 6"/></svg>Sin compromiso</li></ul></div>
+    <div class="valuation-form-card">
+      @if (session('estado'))<div class="valuation-alert" role="status">{{ session('estado') }}</div>@endif
+      <form method="POST" action="{{ route('publico.tasaciones.guardar') }}" novalidate>@csrf
+        <div class="valuation-trap" aria-hidden="true"><label for="sitio_web">Sitio web</label><input id="sitio_web" name="sitio_web" tabindex="-1" autocomplete="off"></div>
+        <div class="valuation-fields"><label>Nombre completo<input name="nombre" value="{{ old('nombre') }}" autocomplete="name" required></label><label>Email<input type="email" name="email" value="{{ old('email') }}" autocomplete="email"></label><label>Teléfono<input type="tel" name="telefono" value="{{ old('telefono') }}" autocomplete="tel"></label><label>Tipo de propiedad<select name="tipo_propiedad_id"><option value="">Seleccioná un tipo</option>@foreach ($tiposPropiedad as $tipo)<option value="{{ $tipo->id }}" @selected(old('tipo_propiedad_id') == $tipo->id)>{{ $tipo->nombre }}</option>@endforeach</select></label><label class="valuation-field--wide">Localidad o barrio<input name="ubicacion_texto" value="{{ old('ubicacion_texto') }}" placeholder="Ej.: San Isidro" required></label><label class="valuation-field--wide">Dirección <span>Opcional</span><input name="direccion" value="{{ old('direccion') }}" placeholder="Ej.: Av. del Libertador 1234"></label><label class="valuation-field--wide">Comentarios <span>Opcional</span><textarea name="mensaje" rows="4" placeholder="Contanos cualquier detalle que consideres importante">{{ old('mensaje') }}</textarea></label></div>
+        @if ($errors->any())<div class="valuation-errors" role="alert"><p>Revisá los datos ingresados:</p><ul>@foreach ($errors->all() as $error)<li>{{ $error }}</li>@endforeach</ul></div>@endif
+        <button type="submit">ENVIAR SOLICITUD <span aria-hidden="true">→</span></button><p class="valuation-privacy">Al enviar, aceptás que nos comuniquemos con vos para continuar con tu solicitud.</p>
+      </form>
+    </div>
+  </div></section>
+</main>
+@include('web-publica.temas.inmobiliaria.partials.footer')
+<script>document.getElementById('navToggle')?.addEventListener('click',()=>document.getElementById('navMenu')?.classList.toggle('open'));</script>
+</body></html>
